@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Animal.cs" />
     <Compile Include="Telas\FrmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
