@@ -23,3 +23,6 @@ E:\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmCadastroCliente.resources
 D:\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
 D:\MariosPet\MariosPet\obj\Debug\MariosPet.exe
 D:\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
+C:\Users\Leonardo\Source\Repos\MarioPet3\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
+C:\Users\Leonardo\Source\Repos\MarioPet3\MariosPet\MariosPet\obj\Debug\MariosPet.exe
+C:\Users\Leonardo\Source\Repos\MarioPet3\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
