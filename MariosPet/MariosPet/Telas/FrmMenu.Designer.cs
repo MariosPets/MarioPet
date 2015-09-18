@@ -463,8 +463,9 @@
             this.relatóriosToolStripMenuItem});
             this.clientesToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientesToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
+            this.clientesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("clientesToolStripMenuItem.Image")));
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(89, 22);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // cadastroToolStripMenuItem
@@ -551,8 +552,9 @@
             this.laboratóriosToolStripMenuItem,
             this.medicamentosToolStripMenuItem});
             this.clínicaToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
+            this.clínicaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("clínicaToolStripMenuItem.Image")));
             this.clínicaToolStripMenuItem.Name = "clínicaToolStripMenuItem";
-            this.clínicaToolStripMenuItem.Size = new System.Drawing.Size(75, 22);
+            this.clínicaToolStripMenuItem.Size = new System.Drawing.Size(91, 22);
             this.clínicaToolStripMenuItem.Text = "Clínica";
             // 
             // fichaClínicaToolStripMenuItem
