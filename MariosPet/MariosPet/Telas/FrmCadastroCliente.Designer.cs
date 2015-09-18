@@ -362,7 +362,7 @@
             this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mstCPF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.mstCPF.Location = new System.Drawing.Point(156, 110);
-            this.mstCPF.Mask = "000.000.000.-00";
+            this.mstCPF.Mask = "000.000.000-00";
             this.mstCPF.Name = "mstCPF";
             this.mstCPF.Size = new System.Drawing.Size(170, 27);
             this.mstCPF.TabIndex = 12;
