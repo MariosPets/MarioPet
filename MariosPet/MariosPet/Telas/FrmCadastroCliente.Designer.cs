@@ -247,7 +247,7 @@
             // 
             this.lblRG.AutoSize = true;
             this.lblRG.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRG.Location = new System.Drawing.Point(355, 113);
+            this.lblRG.Location = new System.Drawing.Point(394, 113);
             this.lblRG.Name = "lblRG";
             this.lblRG.Size = new System.Drawing.Size(47, 23);
             this.lblRG.TabIndex = 2;
@@ -302,7 +302,7 @@
             // mstRG
             // 
             this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstRG.Location = new System.Drawing.Point(418, 110);
+            this.mstRG.Location = new System.Drawing.Point(457, 110);
             this.mstRG.Mask = "00.000.000-0";
             this.mstRG.Name = "mstRG";
             this.mstRG.Size = new System.Drawing.Size(170, 27);
@@ -311,7 +311,7 @@
             // mstCPF
             // 
             this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstCPF.Location = new System.Drawing.Point(117, 110);
+            this.mstCPF.Location = new System.Drawing.Point(156, 110);
             this.mstCPF.Mask = "000.000.000.-00";
             this.mstCPF.Name = "mstCPF";
             this.mstCPF.Size = new System.Drawing.Size(170, 27);
@@ -320,7 +320,7 @@
             // txtTelefone
             // 
             this.txtTelefone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(117, 203);
+            this.txtTelefone.Location = new System.Drawing.Point(156, 203);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone.TabIndex = 11;
@@ -328,7 +328,7 @@
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(117, 161);
+            this.txtEmail.Location = new System.Drawing.Point(156, 161);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(487, 27);
             this.txtEmail.TabIndex = 10;
@@ -336,7 +336,7 @@
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(117, 39);
+            this.txtNome.Location = new System.Drawing.Point(156, 39);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(487, 27);
             this.txtNome.TabIndex = 7;
@@ -344,7 +344,7 @@
             // btmFone
             // 
             this.btmFone.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmFone.Location = new System.Drawing.Point(315, 203);
+            this.btmFone.Location = new System.Drawing.Point(354, 203);
             this.btmFone.Name = "btmFone";
             this.btmFone.Size = new System.Drawing.Size(70, 23);
             this.btmFone.TabIndex = 6;
@@ -374,11 +374,12 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(117, 73);
-            this.maskedTextBox1.Mask = "000.000.000.-00";
+            this.maskedTextBox1.Location = new System.Drawing.Point(156, 73);
+            this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
             this.maskedTextBox1.TabIndex = 15;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // label1
             // 
@@ -386,9 +387,9 @@
             this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(6, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 23);
+            this.label1.Size = new System.Drawing.Size(137, 23);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Data :";
+            this.label1.Text = "Nascimento :";
             // 
             // FrmCadastroCliente
             // 
