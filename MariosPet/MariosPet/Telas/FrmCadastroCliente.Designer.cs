@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCadastroCliente));
             this.btmLimpar = new System.Windows.Forms.Button();
-            this.btmCancelar = new System.Windows.Forms.Button();
+            this.btmVoltar = new System.Windows.Forms.Button();
             this.btmSalvar = new System.Windows.Forms.Button();
             this.cmbUF = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.lblUF = new System.Windows.Forms.Label();
             this.lblCEP = new System.Windows.Forms.Label();
             this.txtCidade = new System.Windows.Forms.TextBox();
@@ -59,7 +61,6 @@
             this.btmFone = new System.Windows.Forms.Button();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -67,40 +68,50 @@
             // btmLimpar
             // 
             this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmLimpar.Location = new System.Drawing.Point(513, 706);
+            this.btmLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmLimpar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmLimpar.BackgroundImage")));
+            this.btmLimpar.FlatAppearance.BorderSize = 0;
+            this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmLimpar.Location = new System.Drawing.Point(538, 696);
             this.btmLimpar.Name = "btmLimpar";
-            this.btmLimpar.Size = new System.Drawing.Size(85, 26);
+            this.btmLimpar.Size = new System.Drawing.Size(117, 44);
             this.btmLimpar.TabIndex = 9;
-            this.btmLimpar.Text = "Limpar";
-            this.btmLimpar.UseVisualStyleBackColor = true;
+            this.btmLimpar.UseVisualStyleBackColor = false;
             // 
-            // btmCancelar
+            // btmVoltar
             // 
-            this.btmCancelar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmCancelar.Location = new System.Drawing.Point(627, 706);
-            this.btmCancelar.Name = "btmCancelar";
-            this.btmCancelar.Size = new System.Drawing.Size(85, 26);
-            this.btmCancelar.TabIndex = 8;
-            this.btmCancelar.Text = "Cancelar";
-            this.btmCancelar.UseVisualStyleBackColor = true;
+            this.btmVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btmVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmVoltar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmVoltar.BackgroundImage")));
+            this.btmVoltar.FlatAppearance.BorderSize = 0;
+            this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmVoltar.Location = new System.Drawing.Point(340, 697);
+            this.btmVoltar.Name = "btmVoltar";
+            this.btmVoltar.Size = new System.Drawing.Size(116, 44);
+            this.btmVoltar.TabIndex = 8;
+            this.btmVoltar.UseVisualStyleBackColor = false;
             // 
             // btmSalvar
             // 
             this.btmSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmSalvar.Location = new System.Drawing.Point(747, 706);
+            this.btmSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmSalvar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmSalvar.BackgroundImage")));
+            this.btmSalvar.FlatAppearance.BorderSize = 0;
+            this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmSalvar.Location = new System.Drawing.Point(736, 698);
             this.btmSalvar.Name = "btmSalvar";
-            this.btmSalvar.Size = new System.Drawing.Size(85, 26);
+            this.btmSalvar.Size = new System.Drawing.Size(117, 42);
             this.btmSalvar.TabIndex = 7;
-            this.btmSalvar.Text = "Salvar";
-            this.btmSalvar.UseVisualStyleBackColor = true;
+            this.btmSalvar.UseVisualStyleBackColor = false;
             // 
             // cmbUF
             // 
             this.cmbUF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbUF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.cmbUF.FormattingEnabled = true;
-            this.cmbUF.Location = new System.Drawing.Point(457, 190);
+            this.cmbUF.Location = new System.Drawing.Point(473, 187);
             this.cmbUF.Name = "cmbUF";
-            this.cmbUF.Size = new System.Drawing.Size(158, 26);
+            this.cmbUF.Size = new System.Drawing.Size(171, 26);
             this.cmbUF.TabIndex = 22;
             this.cmbUF.Text = "---Selecione---";
             // 
@@ -108,6 +119,8 @@
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox2.BackgroundImage")));
+            this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox2.Controls.Add(this.maskedTextBox2);
             this.groupBox2.Controls.Add(this.cmbUF);
             this.groupBox2.Controls.Add(this.lblUF);
@@ -122,20 +135,29 @@
             this.groupBox2.Controls.Add(this.lblComplemento);
             this.groupBox2.Controls.Add(this.txtRua);
             this.groupBox2.Controls.Add(this.lblRua);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.groupBox2.Location = new System.Drawing.Point(243, 381);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(717, 310);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Endereço";
+            this.groupBox2.Text = "   Endereço";
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.maskedTextBox2.Location = new System.Drawing.Point(473, 138);
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
+            this.maskedTextBox2.TabIndex = 23;
             // 
             // lblUF
             // 
             this.lblUF.AutoSize = true;
             this.lblUF.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUF.Location = new System.Drawing.Point(380, 190);
+            this.lblUF.Location = new System.Drawing.Point(412, 190);
             this.lblUF.Name = "lblUF";
             this.lblUF.Size = new System.Drawing.Size(43, 23);
             this.lblUF.TabIndex = 20;
@@ -145,7 +167,7 @@
             // 
             this.lblCEP.AutoSize = true;
             this.lblCEP.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCEP.Location = new System.Drawing.Point(372, 142);
+            this.lblCEP.Location = new System.Drawing.Point(400, 142);
             this.lblCEP.Name = "lblCEP";
             this.lblCEP.Size = new System.Drawing.Size(55, 23);
             this.lblCEP.TabIndex = 18;
@@ -153,9 +175,11 @@
             // 
             // txtCidade
             // 
+            this.txtCidade.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtCidade.Location = new System.Drawing.Point(156, 185);
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(195, 35);
+            this.txtCidade.Size = new System.Drawing.Size(195, 27);
             this.txtCidade.TabIndex = 17;
             // 
             // lblCidade
@@ -170,9 +194,11 @@
             // 
             // txtBairro
             // 
+            this.txtBairro.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBairro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtBairro.Location = new System.Drawing.Point(156, 137);
             this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(195, 35);
+            this.txtBairro.Size = new System.Drawing.Size(195, 27);
             this.txtBairro.TabIndex = 15;
             // 
             // lblBairro
@@ -187,9 +213,11 @@
             // 
             // txtNumero
             // 
+            this.txtNumero.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtNumero.Location = new System.Drawing.Point(156, 90);
             this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(81, 35);
+            this.txtNumero.Size = new System.Drawing.Size(81, 27);
             this.txtNumero.TabIndex = 13;
             // 
             // lblNumero
@@ -204,16 +232,18 @@
             // 
             // txtComplemento
             // 
-            this.txtComplemento.Location = new System.Drawing.Point(457, 95);
+            this.txtComplemento.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComplemento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtComplemento.Location = new System.Drawing.Point(473, 97);
             this.txtComplemento.Name = "txtComplemento";
-            this.txtComplemento.Size = new System.Drawing.Size(159, 35);
+            this.txtComplemento.Size = new System.Drawing.Size(170, 27);
             this.txtComplemento.TabIndex = 11;
             // 
             // lblComplemento
             // 
             this.lblComplemento.AutoSize = true;
             this.lblComplemento.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComplemento.Location = new System.Drawing.Point(276, 97);
+            this.lblComplemento.Location = new System.Drawing.Point(304, 101);
             this.lblComplemento.Name = "lblComplemento";
             this.lblComplemento.Size = new System.Drawing.Size(151, 23);
             this.lblComplemento.TabIndex = 10;
@@ -221,9 +251,11 @@
             // 
             // txtRua
             // 
+            this.txtRua.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtRua.Location = new System.Drawing.Point(156, 44);
             this.txtRua.Name = "txtRua";
-            this.txtRua.Size = new System.Drawing.Size(488, 35);
+            this.txtRua.Size = new System.Drawing.Size(488, 27);
             this.txtRua.TabIndex = 9;
             // 
             // lblRua
@@ -240,7 +272,7 @@
             // 
             this.lblRG.AutoSize = true;
             this.lblRG.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRG.Location = new System.Drawing.Point(394, 113);
+            this.lblRG.Location = new System.Drawing.Point(408, 113);
             this.lblRG.Name = "lblRG";
             this.lblRG.Size = new System.Drawing.Size(47, 23);
             this.lblRG.TabIndex = 2;
@@ -270,6 +302,8 @@
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox1.Controls.Add(this.maskedTextBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.mstRG);
@@ -283,18 +317,19 @@
             this.groupBox1.Controls.Add(this.lblRG);
             this.groupBox1.Controls.Add(this.lblCpf);
             this.groupBox1.Controls.Add(this.lblNome);
-            this.groupBox1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.groupBox1.Location = new System.Drawing.Point(243, 104);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(717, 251);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Dados Pessoais";
+            this.groupBox1.Text = "   Dados Pessoais";
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.maskedTextBox1.Location = new System.Drawing.Point(156, 73);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
@@ -314,8 +349,9 @@
             // 
             // mstRG
             // 
-            this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstRG.Location = new System.Drawing.Point(457, 110);
+            this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstRG.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstRG.Location = new System.Drawing.Point(473, 109);
             this.mstRG.Mask = "00.000.000-0";
             this.mstRG.Name = "mstRG";
             this.mstRG.Size = new System.Drawing.Size(170, 27);
@@ -323,7 +359,8 @@
             // 
             // mstCPF
             // 
-            this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstCPF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.mstCPF.Location = new System.Drawing.Point(156, 110);
             this.mstCPF.Mask = "000.000.000.-00";
             this.mstCPF.Name = "mstCPF";
@@ -332,7 +369,8 @@
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtTelefone.Location = new System.Drawing.Point(156, 203);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(170, 27);
@@ -340,7 +378,8 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtEmail.Location = new System.Drawing.Point(156, 161);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(487, 27);
@@ -348,7 +387,8 @@
             // 
             // txtNome
             // 
-            this.txtNome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtNome.Location = new System.Drawing.Point(156, 39);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(487, 27);
@@ -356,13 +396,17 @@
             // 
             // btmFone
             // 
+            this.btmFone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmFone.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmFone.BackgroundImage")));
+            this.btmFone.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btmFone.FlatAppearance.BorderSize = 0;
+            this.btmFone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmFone.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmFone.Location = new System.Drawing.Point(354, 203);
+            this.btmFone.Location = new System.Drawing.Point(312, 191);
             this.btmFone.Name = "btmFone";
-            this.btmFone.Size = new System.Drawing.Size(100, 42);
+            this.btmFone.Size = new System.Drawing.Size(89, 51);
             this.btmFone.TabIndex = 6;
-            this.btmFone.Text = "Mais";
-            this.btmFone.UseVisualStyleBackColor = true;
+            this.btmFone.UseVisualStyleBackColor = false;
             // 
             // lblTelefone
             // 
@@ -384,21 +428,14 @@
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "E-mail:";
             // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(457, 137);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(158, 35);
-            this.maskedTextBox2.TabIndex = 23;
-            // 
             // FrmCadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1114, 741);
             this.Controls.Add(this.btmLimpar);
-            this.Controls.Add(this.btmCancelar);
+            this.Controls.Add(this.btmVoltar);
             this.Controls.Add(this.btmSalvar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -417,7 +454,7 @@
         #endregion
 
         private System.Windows.Forms.Button btmLimpar;
-        private System.Windows.Forms.Button btmCancelar;
+        private System.Windows.Forms.Button btmVoltar;
         private System.Windows.Forms.Button btmSalvar;
         private System.Windows.Forms.ComboBox cmbUF;
         private System.Windows.Forms.GroupBox groupBox2;
