@@ -463,10 +463,9 @@
             this.relatóriosToolStripMenuItem});
             this.clientesToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientesToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
-            this.clientesToolStripMenuItem.Image = global::MariosPet.Properties.Resources.PATA_5;
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.clientesToolStripMenuItem.Text = "Clientes";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(95, 22);
+            this.clientesToolStripMenuItem.Text = "Clientes.";
             // 
             // cadastroToolStripMenuItem
             // 
@@ -552,9 +551,8 @@
             this.laboratóriosToolStripMenuItem,
             this.medicamentosToolStripMenuItem});
             this.clínicaToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
-            this.clínicaToolStripMenuItem.Image = global::MariosPet.Properties.Resources.PATA_5;
             this.clínicaToolStripMenuItem.Name = "clínicaToolStripMenuItem";
-            this.clínicaToolStripMenuItem.Size = new System.Drawing.Size(91, 22);
+            this.clínicaToolStripMenuItem.Size = new System.Drawing.Size(75, 22);
             this.clínicaToolStripMenuItem.Text = "Clínica";
             // 
             // fichaClínicaToolStripMenuItem
@@ -773,7 +771,6 @@
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button2.AutoSize = true;
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.button2.BackgroundImage = global::MariosPet.Properties.Resources.BOTAO_SAIR;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
@@ -791,7 +788,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.BackgroundImage = global::MariosPet.Properties.Resources.Logo_pet___Copia__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1339, 718);
             this.Controls.Add(this.button2);
