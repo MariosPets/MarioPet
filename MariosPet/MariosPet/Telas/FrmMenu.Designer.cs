@@ -464,8 +464,8 @@
             this.clientesToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientesToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(95, 22);
-            this.clientesToolStripMenuItem.Text = "Clientes.";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(89, 22);
+            this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // cadastroToolStripMenuItem
             // 
