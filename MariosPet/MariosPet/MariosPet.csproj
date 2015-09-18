@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Animal.cs" />
+    <Compile Include="Crud\CrudAgendamento.cs" />
+    <Compile Include="Crud\CrudAnimal.cs" />
+    <Compile Include="Crud\CrudAtendimento.cs" />
+    <Compile Include="Crud\CrudAutorizacao.cs" />
     <Compile Include="Telas\FrmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,9 +118,7 @@
   <ItemGroup>
     <None Include="Resources\BOTAO ENTRAR.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Crud\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
