@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Animal.cs" />
+    <Compile Include="Classes\ConexaoPadrao.cs" />
     <Compile Include="Crud\CrudAgendamento.cs" />
     <Compile Include="Crud\CrudAnimal.cs" />
     <Compile Include="Crud\CrudAtendimento.cs" />
