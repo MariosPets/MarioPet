@@ -15,7 +15,6 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
             {
 
-
                 string sql = "insert into EXAME (ID_EXAME, ID_ANIMAL, DATA_EXAME, EXAME, ID_VETERINARIO, ID_LABORATORIO) values(?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
