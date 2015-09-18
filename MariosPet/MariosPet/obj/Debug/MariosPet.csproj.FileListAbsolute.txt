@@ -38,3 +38,6 @@ C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\De
 C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.FrmLogin.resources
 C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmMenu.resources
 C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.csproj.GenerateResource.Cache
+C:\Users\Tsunemoto\Source\Repos\MarioPet2\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
+C:\Users\Tsunemoto\Source\Repos\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.exe
+C:\Users\Tsunemoto\Source\Repos\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
