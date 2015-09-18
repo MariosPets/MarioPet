@@ -47,3 +47,6 @@ C:\Users\Olivia S\Source\Repos\MarioPet4\MariosPet\MariosPet\obj\Debug\MariosPet
 C:\Users\Olivia S\Source\Repos\MarioPet4\MariosPet\MariosPet\obj\Debug\MariosPet.FrmLogin.resources
 C:\Users\Olivia S\Source\Repos\MarioPet4\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmMenu.resources
 C:\Users\Olivia S\Source\Repos\MarioPet4\MariosPet\MariosPet\obj\Debug\MariosPet.csproj.GenerateResource.Cache
+C:\Users\Leonardo\Source\Repos\MarioPet5\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
+C:\Users\Leonardo\Source\Repos\MarioPet5\MariosPet\MariosPet\obj\Debug\MariosPet.exe
+C:\Users\Leonardo\Source\Repos\MarioPet5\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
