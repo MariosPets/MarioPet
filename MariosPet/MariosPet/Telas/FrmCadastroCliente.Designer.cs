@@ -65,7 +65,7 @@
             // btmLimpar
             // 
             this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmLimpar.Location = new System.Drawing.Point(282, 489);
+            this.btmLimpar.Location = new System.Drawing.Point(443, 600);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(85, 26);
             this.btmLimpar.TabIndex = 9;
@@ -75,7 +75,7 @@
             // btmCancelar
             // 
             this.btmCancelar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmCancelar.Location = new System.Drawing.Point(396, 489);
+            this.btmCancelar.Location = new System.Drawing.Point(557, 600);
             this.btmCancelar.Name = "btmCancelar";
             this.btmCancelar.Size = new System.Drawing.Size(85, 26);
             this.btmCancelar.TabIndex = 8;
@@ -85,7 +85,7 @@
             // btmSalvar
             // 
             this.btmSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmSalvar.Location = new System.Drawing.Point(516, 489);
+            this.btmSalvar.Location = new System.Drawing.Point(677, 600);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(85, 26);
             this.btmSalvar.TabIndex = 7;
@@ -122,7 +122,7 @@
             this.groupBox2.Controls.Add(this.lblRua);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox2.Location = new System.Drawing.Point(12, 237);
+            this.groupBox2.Location = new System.Drawing.Point(173, 292);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(624, 232);
             this.groupBox2.TabIndex = 6;
@@ -288,7 +288,7 @@
             this.groupBox1.Controls.Add(this.lblNome);
             this.groupBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(173, 67);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(624, 212);
             this.groupBox1.TabIndex = 5;
@@ -365,7 +365,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.ClientSize = new System.Drawing.Size(653, 524);
+            this.ClientSize = new System.Drawing.Size(975, 635);
             this.Controls.Add(this.btmLimpar);
             this.Controls.Add(this.btmCancelar);
             this.Controls.Add(this.btmSalvar);
