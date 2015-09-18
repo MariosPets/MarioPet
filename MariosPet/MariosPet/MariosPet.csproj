@@ -47,17 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Animal.cs" />
+    <Compile Include="Crud\CrudAgendamento.cs" />
+    <Compile Include="Crud\CrudAnimal.cs" />
+    <Compile Include="Crud\CrudAtendimento.cs" />
+    <Compile Include="Crud\CrudAutorizacao.cs" />
+    <Compile Include="Crud\CrudCliente.cs" />
     <Compile Include="Telas\FrmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Telas\FrmCadastroCliente.Designer.cs">
       <DependentUpon>FrmCadastroCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Telas\FrmFornecedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Telas\FrmFornecedor.Designer.cs">
-      <DependentUpon>FrmFornecedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\FrmInicio.cs">
       <SubType>Form</SubType>
@@ -81,9 +80,6 @@
     </Compile>
     <EmbeddedResource Include="Telas\FrmCadastroCliente.resx">
       <DependentUpon>FrmCadastroCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Telas\FrmFornecedor.resx">
-      <DependentUpon>FrmFornecedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>
@@ -118,38 +114,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo_pet - Copia %282%29.png" />
+    <None Include="Crud\Resources\Logo_pet - Copia %282%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BOTAO ENTRAR.png" />
+    <None Include="Crud\Resources\BOTAO ENTRAR.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Crud\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BOTAO ABRIR LR.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BOTAO SAIR.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BOTAO ENTRAR LR.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PATA 5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PATA 4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pata marrom e verde.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PATA 8.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PATA 2.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
