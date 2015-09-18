@@ -63,6 +63,16 @@ namespace MariosPet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BOTAO_ABRIR_LR {
+            get {
+                object obj = ResourceManager.GetObject("BOTAO ABRIR LR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BOTAO_ENTRAR {
             get {
                 object obj = ResourceManager.GetObject("BOTAO ENTRAR", resourceCulture);
@@ -73,9 +83,79 @@ namespace MariosPet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BOTAO_ENTRAR_LR {
+            get {
+                object obj = ResourceManager.GetObject("BOTAO ENTRAR LR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BOTAO_SAIR {
+            get {
+                object obj = ResourceManager.GetObject("BOTAO SAIR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_pet___Copia__2_ {
             get {
                 object obj = ResourceManager.GetObject("Logo_pet - Copia (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PATA_2 {
+            get {
+                object obj = ResourceManager.GetObject("PATA 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PATA_4 {
+            get {
+                object obj = ResourceManager.GetObject("PATA 4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PATA_5 {
+            get {
+                object obj = ResourceManager.GetObject("PATA 5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PATA_8 {
+            get {
+                object obj = ResourceManager.GetObject("PATA 8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pata_marrom_e_verde {
+            get {
+                object obj = ResourceManager.GetObject("pata marrom e verde", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
