@@ -50,14 +50,16 @@
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.mstRG = new System.Windows.Forms.MaskedTextBox();
+            this.mstCPF = new System.Windows.Forms.MaskedTextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.btmFone = new System.Windows.Forms.Button();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.mstCPF = new System.Windows.Forms.MaskedTextBox();
-            this.mstRG = new System.Windows.Forms.MaskedTextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -122,9 +124,9 @@
             this.groupBox2.Controls.Add(this.lblRua);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox2.Location = new System.Drawing.Point(243, 371);
+            this.groupBox2.Location = new System.Drawing.Point(243, 381);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(708, 294);
+            this.groupBox2.Size = new System.Drawing.Size(717, 310);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Endereço";
@@ -245,7 +247,7 @@
             // 
             this.lblRG.AutoSize = true;
             this.lblRG.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRG.Location = new System.Drawing.Point(357, 78);
+            this.lblRG.Location = new System.Drawing.Point(355, 113);
             this.lblRG.Name = "lblRG";
             this.lblRG.Size = new System.Drawing.Size(47, 23);
             this.lblRG.TabIndex = 2;
@@ -255,7 +257,7 @@
             // 
             this.lblCpf.AutoSize = true;
             this.lblCpf.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCpf.Location = new System.Drawing.Point(8, 78);
+            this.lblCpf.Location = new System.Drawing.Point(6, 113);
             this.lblCpf.Name = "lblCpf";
             this.lblCpf.Size = new System.Drawing.Size(53, 23);
             this.lblCpf.TabIndex = 1;
@@ -265,7 +267,7 @@
             // 
             this.lblNome.AutoSize = true;
             this.lblNome.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(8, 36);
+            this.lblNome.Location = new System.Drawing.Point(6, 39);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(74, 23);
             this.lblNome.TabIndex = 0;
@@ -275,6 +277,8 @@
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBox1.Controls.Add(this.maskedTextBox1);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.mstRG);
             this.groupBox1.Controls.Add(this.mstCPF);
             this.groupBox1.Controls.Add(this.txtTelefone);
@@ -295,10 +299,36 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados Pessoais";
             // 
+            // mstRG
+            // 
+            this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstRG.Location = new System.Drawing.Point(418, 110);
+            this.mstRG.Mask = "00.000.000-0";
+            this.mstRG.Name = "mstRG";
+            this.mstRG.Size = new System.Drawing.Size(170, 27);
+            this.mstRG.TabIndex = 13;
+            // 
+            // mstCPF
+            // 
+            this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstCPF.Location = new System.Drawing.Point(117, 110);
+            this.mstCPF.Mask = "000.000.000.-00";
+            this.mstCPF.Name = "mstCPF";
+            this.mstCPF.Size = new System.Drawing.Size(170, 27);
+            this.mstCPF.TabIndex = 12;
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(117, 203);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone.TabIndex = 11;
+            // 
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(119, 126);
+            this.txtEmail.Location = new System.Drawing.Point(117, 161);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(487, 27);
             this.txtEmail.TabIndex = 10;
@@ -306,7 +336,7 @@
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(119, 36);
+            this.txtNome.Location = new System.Drawing.Point(117, 39);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(487, 27);
             this.txtNome.TabIndex = 7;
@@ -314,7 +344,7 @@
             // btmFone
             // 
             this.btmFone.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmFone.Location = new System.Drawing.Point(317, 168);
+            this.btmFone.Location = new System.Drawing.Point(315, 203);
             this.btmFone.Name = "btmFone";
             this.btmFone.Size = new System.Drawing.Size(70, 23);
             this.btmFone.TabIndex = 6;
@@ -325,7 +355,7 @@
             // 
             this.lblTelefone.AutoSize = true;
             this.lblTelefone.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefone.Location = new System.Drawing.Point(8, 168);
+            this.lblTelefone.Location = new System.Drawing.Point(6, 203);
             this.lblTelefone.Name = "lblTelefone";
             this.lblTelefone.Size = new System.Drawing.Size(99, 23);
             this.lblTelefone.TabIndex = 5;
@@ -335,37 +365,30 @@
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(8, 126);
+            this.lblEmail.Location = new System.Drawing.Point(6, 161);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(81, 23);
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "E-mail:";
             // 
-            // mstCPF
+            // maskedTextBox1
             // 
-            this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstCPF.Location = new System.Drawing.Point(119, 75);
-            this.mstCPF.Mask = "000.000.000.-00";
-            this.mstCPF.Name = "mstCPF";
-            this.mstCPF.Size = new System.Drawing.Size(170, 27);
-            this.mstCPF.TabIndex = 12;
+            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.Location = new System.Drawing.Point(117, 73);
+            this.maskedTextBox1.Mask = "000.000.000.-00";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
+            this.maskedTextBox1.TabIndex = 15;
             // 
-            // mstRG
+            // label1
             // 
-            this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstRG.Location = new System.Drawing.Point(420, 75);
-            this.mstRG.Mask = "00.000.000-0";
-            this.mstRG.Name = "mstRG";
-            this.mstRG.Size = new System.Drawing.Size(170, 27);
-            this.mstRG.TabIndex = 13;
-            // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(119, 168);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone.TabIndex = 11;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 76);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 23);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Data :";
             // 
             // FrmCadastroCliente
             // 
@@ -422,5 +445,7 @@
         private System.Windows.Forms.MaskedTextBox mstRG;
         private System.Windows.Forms.MaskedTextBox mstCPF;
         private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
