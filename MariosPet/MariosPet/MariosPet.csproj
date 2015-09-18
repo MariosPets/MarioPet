@@ -51,6 +51,7 @@
     <Compile Include="Crud\CrudAnimal.cs" />
     <Compile Include="Crud\CrudAtendimento.cs" />
     <Compile Include="Crud\CrudAutorizacao.cs" />
+    <Compile Include="Crud\CrudCliente.cs" />
     <Compile Include="Telas\FrmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,10 +114,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo_pet - Copia %282%29.png" />
+    <None Include="Crud\Resources\Logo_pet - Copia %282%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BOTAO ENTRAR.png" />
+    <None Include="Crud\Resources\BOTAO ENTRAR.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
