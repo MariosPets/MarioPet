@@ -117,35 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PATA 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PATA 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BOTAO ENTRAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BOTAO ENTRAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo_pet - Copia (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo_pet - Copia (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BOTAO ENTRAR LR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BOTAO ENTRAR LR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BOTAO SAIR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BOTAO SAIR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BOTAO ABRIR LR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BOTAO ABRIR LR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PATA 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PATA 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pata marrom e verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pata marrom e verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PATA 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PATA 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PATA 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PATA 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
