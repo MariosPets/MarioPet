@@ -269,9 +269,9 @@
             this.lblNome.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNome.Location = new System.Drawing.Point(6, 39);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(74, 23);
+            this.lblNome.Size = new System.Drawing.Size(86, 23);
             this.lblNome.TabIndex = 0;
-            this.lblNome.Text = "Nome:";
+            this.lblNome.Text = "Nome4:";
             // 
             // groupBox1
             // 
