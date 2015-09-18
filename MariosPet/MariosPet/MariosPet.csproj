@@ -54,6 +54,7 @@
     <Compile Include="Crud\CrudCliente.cs" />
     <Compile Include="Crud\CrudEmail.cs" />
     <Compile Include="Crud\CrudEndereco.cs" />
+    <Compile Include="Crud\CrudExame.cs" />
     <Compile Include="Telas\FrmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
