@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCadastroCliente));
             this.btmLimpar = new System.Windows.Forms.Button();
             this.btmCancelar = new System.Windows.Forms.Button();
             this.btmSalvar = new System.Windows.Forms.Button();
@@ -344,12 +343,12 @@
             // 
             // btmFone
             // 
-            this.btmFone.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmFone.BackgroundImage")));
             this.btmFone.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btmFone.Location = new System.Drawing.Point(354, 203);
             this.btmFone.Name = "btmFone";
             this.btmFone.Size = new System.Drawing.Size(100, 42);
             this.btmFone.TabIndex = 6;
+            this.btmFone.Text = "Mais";
             this.btmFone.UseVisualStyleBackColor = true;
             // 
             // lblTelefone
