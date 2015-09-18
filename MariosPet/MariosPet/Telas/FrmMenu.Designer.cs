@@ -778,7 +778,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.button2.Location = new System.Drawing.Point(12, 643);
+            this.button2.Location = new System.Drawing.Point(12, 654);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 45);
             this.button2.TabIndex = 4;
@@ -792,7 +792,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1339, 718);
+            this.ClientSize = new System.Drawing.Size(1339, 741);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
