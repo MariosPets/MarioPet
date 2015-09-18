@@ -50,6 +50,8 @@
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.mstRG = new System.Windows.Forms.MaskedTextBox();
             this.mstCPF = new System.Windows.Forms.MaskedTextBox();
             this.txtTelefone = new System.Windows.Forms.TextBox();
@@ -58,8 +60,6 @@
             this.btmFone = new System.Windows.Forms.Button();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -299,6 +299,26 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados Pessoais";
             // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.Location = new System.Drawing.Point(156, 73);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
+            this.maskedTextBox1.TabIndex = 15;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 76);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(130, 23);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Nascimento:";
+            // 
             // mstRG
             // 
             this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -370,26 +390,6 @@
             this.lblEmail.Size = new System.Drawing.Size(81, 23);
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "E-mail:";
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(156, 73);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
-            this.maskedTextBox1.TabIndex = 15;
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 76);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 23);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Nascimento 2:";
             // 
             // FrmCadastroCliente
             // 
