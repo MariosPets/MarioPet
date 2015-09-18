@@ -65,7 +65,7 @@
             // btmLimpar
             // 
             this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmLimpar.Location = new System.Drawing.Point(411, 489);
+            this.btmLimpar.Location = new System.Drawing.Point(513, 667);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(85, 26);
             this.btmLimpar.TabIndex = 9;
@@ -75,7 +75,7 @@
             // btmCancelar
             // 
             this.btmCancelar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmCancelar.Location = new System.Drawing.Point(525, 489);
+            this.btmCancelar.Location = new System.Drawing.Point(627, 667);
             this.btmCancelar.Name = "btmCancelar";
             this.btmCancelar.Size = new System.Drawing.Size(85, 26);
             this.btmCancelar.TabIndex = 8;
@@ -85,7 +85,7 @@
             // btmSalvar
             // 
             this.btmSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmSalvar.Location = new System.Drawing.Point(645, 489);
+            this.btmSalvar.Location = new System.Drawing.Point(747, 667);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(85, 26);
             this.btmSalvar.TabIndex = 7;
@@ -122,9 +122,9 @@
             this.groupBox2.Controls.Add(this.lblRua);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox2.Location = new System.Drawing.Point(141, 237);
+            this.groupBox2.Location = new System.Drawing.Point(243, 352);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(624, 232);
+            this.groupBox2.Size = new System.Drawing.Size(708, 294);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Endereço";
@@ -244,30 +244,30 @@
             // lblRG
             // 
             this.lblRG.AutoSize = true;
-            this.lblRG.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRG.Location = new System.Drawing.Point(256, 69);
+            this.lblRG.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRG.Location = new System.Drawing.Point(308, 78);
             this.lblRG.Name = "lblRG";
-            this.lblRG.Size = new System.Drawing.Size(31, 16);
+            this.lblRG.Size = new System.Drawing.Size(47, 23);
             this.lblRG.TabIndex = 2;
             this.lblRG.Text = "RG:";
             // 
             // lblCpf
             // 
             this.lblCpf.AutoSize = true;
-            this.lblCpf.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCpf.Location = new System.Drawing.Point(7, 69);
+            this.lblCpf.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCpf.Location = new System.Drawing.Point(8, 78);
             this.lblCpf.Name = "lblCpf";
-            this.lblCpf.Size = new System.Drawing.Size(39, 16);
+            this.lblCpf.Size = new System.Drawing.Size(53, 23);
             this.lblCpf.TabIndex = 1;
             this.lblCpf.Text = "CPF:";
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(7, 27);
+            this.lblNome.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(8, 36);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(50, 16);
+            this.lblNome.Size = new System.Drawing.Size(74, 23);
             this.lblNome.TabIndex = 0;
             this.lblNome.Text = "Nome:";
             // 
@@ -286,54 +286,54 @@
             this.groupBox1.Controls.Add(this.lblRG);
             this.groupBox1.Controls.Add(this.lblCpf);
             this.groupBox1.Controls.Add(this.lblNome);
-            this.groupBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox1.Location = new System.Drawing.Point(141, 12);
+            this.groupBox1.Location = new System.Drawing.Point(243, 85);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(624, 212);
+            this.groupBox1.Size = new System.Drawing.Size(717, 251);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados Pessoais";
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Location = new System.Drawing.Point(102, 159);
+            this.txtTelefone.Location = new System.Drawing.Point(103, 168);
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(131, 27);
+            this.txtTelefone.Size = new System.Drawing.Size(131, 33);
             this.txtTelefone.TabIndex = 11;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(102, 117);
+            this.txtEmail.Location = new System.Drawing.Point(103, 126);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(322, 27);
+            this.txtEmail.Size = new System.Drawing.Size(322, 33);
             this.txtEmail.TabIndex = 10;
             // 
             // txtRG
             // 
-            this.txtRG.Location = new System.Drawing.Point(302, 69);
+            this.txtRG.Location = new System.Drawing.Point(407, 78);
             this.txtRG.Name = "txtRG";
-            this.txtRG.Size = new System.Drawing.Size(131, 27);
+            this.txtRG.Size = new System.Drawing.Size(183, 33);
             this.txtRG.TabIndex = 9;
             // 
             // txtCPF
             // 
-            this.txtCPF.Location = new System.Drawing.Point(102, 69);
+            this.txtCPF.Location = new System.Drawing.Point(103, 78);
             this.txtCPF.Name = "txtCPF";
-            this.txtCPF.Size = new System.Drawing.Size(131, 27);
+            this.txtCPF.Size = new System.Drawing.Size(131, 33);
             this.txtCPF.TabIndex = 8;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(102, 27);
+            this.txtNome.Location = new System.Drawing.Point(103, 36);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(331, 27);
+            this.txtNome.Size = new System.Drawing.Size(487, 33);
             this.txtNome.TabIndex = 7;
             // 
             // btmFone
             // 
             this.btmFone.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmFone.Location = new System.Drawing.Point(239, 163);
+            this.btmFone.Location = new System.Drawing.Point(240, 172);
             this.btmFone.Name = "btmFone";
             this.btmFone.Size = new System.Drawing.Size(70, 23);
             this.btmFone.TabIndex = 6;
@@ -343,20 +343,20 @@
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefone.Location = new System.Drawing.Point(7, 159);
+            this.lblTelefone.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefone.Location = new System.Drawing.Point(8, 168);
             this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(70, 16);
+            this.lblTelefone.Size = new System.Drawing.Size(99, 23);
             this.lblTelefone.TabIndex = 5;
             this.lblTelefone.Text = "Telefone:";
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(7, 117);
+            this.lblEmail.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Location = new System.Drawing.Point(8, 126);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(54, 16);
+            this.lblEmail.Size = new System.Drawing.Size(81, 23);
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "E-mail:";
             // 
@@ -365,7 +365,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.ClientSize = new System.Drawing.Size(910, 524);
+            this.ClientSize = new System.Drawing.Size(1114, 702);
             this.Controls.Add(this.btmLimpar);
             this.Controls.Add(this.btmCancelar);
             this.Controls.Add(this.btmSalvar);
