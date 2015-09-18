@@ -12,6 +12,7 @@ namespace MariosPet.Crud
     {
         public void inserirCliente(Cliente cliente)
         {
+
             using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
             {
                 string sql = "insert into CLIENTE (ID_CLIENTE, ID_PESSOA) values(?,?)";
