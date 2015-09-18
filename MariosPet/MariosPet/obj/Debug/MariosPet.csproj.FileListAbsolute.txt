@@ -29,3 +29,12 @@ C:\Users\Leonardo\Source\Repos\MarioPet3\MariosPet\MariosPet\obj\Debug\MariosPet
 C:\Users\Tsunemoto\Source\Repos\MarioPet\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
 C:\Users\Tsunemoto\Source\Repos\MarioPet\MariosPet\MariosPet\obj\Debug\MariosPet.exe
 C:\Users\Tsunemoto\Source\Repos\MarioPet\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.exe
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.csprojResolveAssemblyReference.cache
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmCadastroCliente.resources
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.FrmInicio.resources
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.FrmLogin.resources
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmMenu.resources
+C:\Users\Jéssica Kelly\Desktop\Marios_Pets\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.csproj.GenerateResource.Cache

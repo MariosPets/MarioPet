@@ -703,7 +703,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
+            AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.BackgroundImage = global::MariosPet.Properties.Resources.Logo_pet___Copia__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
