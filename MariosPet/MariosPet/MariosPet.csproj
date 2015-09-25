@@ -70,11 +70,29 @@
     <Compile Include="Crud\CrudVacina.cs" />
     <Compile Include="Crud\CrudVermifugo.cs" />
     <Compile Include="Crud\CrudVeterinario.cs" />
+    <Compile Include="Telas\FrmAnimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmAnimal.Designer.cs">
+      <DependentUpon>FrmAnimal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\FrmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Telas\FrmCadastroCliente.Designer.cs">
       <DependentUpon>FrmCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\FrmFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmFornecedor.Designer.cs">
+      <DependentUpon>FrmFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\FrmFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmFuncionario.Designer.cs">
+      <DependentUpon>FrmFuncionario.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\FrmInicio.cs">
       <SubType>Form</SubType>
@@ -95,6 +113,18 @@
     </Compile>
     <Compile Include="Telas\FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\FrmProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmProduto.Designer.cs">
+      <DependentUpon>FrmProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\FrmRemedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmRemedio.Designer.cs">
+      <DependentUpon>FrmRemedio.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Telas\FrmCadastroCliente.resx">
       <DependentUpon>FrmCadastroCliente.cs</DependentUpon>

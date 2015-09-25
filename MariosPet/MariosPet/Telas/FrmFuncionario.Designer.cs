@@ -1,6 +1,6 @@
 ﻿namespace MariosPet.Telas
 {
-    partial class FrmFornecedor
+    partial class FrmFuncionario
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "FrmFornecedor";
+            this.Text = "FrmFuncionario";
         }
 
         #endregion
