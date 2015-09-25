@@ -63,8 +63,10 @@
             this.cmbTipoFuncionario = new System.Windows.Forms.ComboBox();
             this.txtLogin = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtConfirmacaoSenha = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -395,9 +397,12 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox3.BackgroundImage = global::MariosPet.Properties.Resources.PATA_2;
             this.groupBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox3.Controls.Add(this.textBox1);
+            this.groupBox3.Controls.Add(this.txtConfirmacaoSenha);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.txtSenha);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.txtLogin);
             this.groupBox3.Controls.Add(this.label2);
@@ -407,7 +412,7 @@
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.groupBox3.Location = new System.Drawing.Point(239, 576);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(717, 140);
+            this.groupBox3.Size = new System.Drawing.Size(717, 165);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "   Dados de Acesso";
@@ -452,24 +457,44 @@
             this.label2.TabIndex = 25;
             this.label2.Text = "Login:";
             // 
-            // textBox1
+            // txtSenha
             // 
-            this.textBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textBox1.Location = new System.Drawing.Point(223, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 27);
-            this.textBox1.TabIndex = 28;
+            this.txtSenha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtSenha.Location = new System.Drawing.Point(223, 101);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(170, 27);
+            this.txtSenha.TabIndex = 28;
+            this.txtSenha.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 101);
+            this.label3.Location = new System.Drawing.Point(6, 100);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 23);
             this.label3.TabIndex = 27;
             this.label3.Text = "Senha:";
+            // 
+            // txtConfirmacaoSenha
+            // 
+            this.txtConfirmacaoSenha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmacaoSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtConfirmacaoSenha.Location = new System.Drawing.Point(223, 134);
+            this.txtConfirmacaoSenha.Name = "txtConfirmacaoSenha";
+            this.txtConfirmacaoSenha.Size = new System.Drawing.Size(170, 27);
+            this.txtConfirmacaoSenha.TabIndex = 30;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(6, 133);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(180, 23);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Confirmar Senha:";
             // 
             // FrmFuncionario
             // 
@@ -526,10 +551,12 @@
         private System.Windows.Forms.Label lblRua;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label lblTipoFuncionario;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtLogin;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmbTipoFuncionario;
+        private System.Windows.Forms.TextBox txtConfirmacaoSenha;
+        private System.Windows.Forms.Label label4;
     }
 }
