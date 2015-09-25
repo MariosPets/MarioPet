@@ -8,5 +8,8 @@ namespace MariosPet.Classes
 {
     class Veterinario
     {
+        private int id_veterinario { get; set; }
+        private int id_funcionario { get; set; }
+        private int crmv_veterinario { get; set; }
     }
 }
