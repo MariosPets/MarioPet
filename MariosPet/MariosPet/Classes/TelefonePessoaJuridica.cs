@@ -8,5 +8,8 @@ namespace MariosPet.Classes
 {
     class TelefonePessoaJuridica
     {
+        private int id_telefone_pessoa_juridica { get; set; }
+        private int id_pessoa_juridica { get; set; }
+        private int telefone_pessoa_juridica { get; set; }
     }
 }
