@@ -13,5 +13,6 @@ namespace MariosPet.Classes
         private DateTime hora_agendamento { get; set; }
         private int id_funcionario { get; set; }
         private string atendido { get; set; }
+
     }
 }
