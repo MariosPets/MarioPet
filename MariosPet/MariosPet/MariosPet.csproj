@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Agendamento.cs" />
     <Compile Include="Classes\Animal.cs" />
     <Compile Include="Classes\ConexaoPadrao.cs" />
     <Compile Include="Crud\CrudAgendamento.cs" />
