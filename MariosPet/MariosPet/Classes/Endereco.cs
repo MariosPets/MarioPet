@@ -8,5 +8,13 @@ namespace MariosPet.Classes
 {
     class Endereco
     {
+        private int id_endereco { get; set; }
+        private string rua { get; set; }
+        private int numero { get; set; }
+        private string complemento { get; set; }
+        private string bairro { get; set; }
+        private string cidade { get; set; }
+        private string uf { get; set; }
+        private int cep { get; set; }
     }
 }
