@@ -75,7 +75,7 @@
             // groupBox1
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox1.BackgroundImage = global::MariosPet.Properties.Resources.PATA_2;
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox1.Controls.Add(this.maskedTextBox1);
             this.groupBox1.Controls.Add(this.label1);
@@ -235,7 +235,7 @@
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox2.BackgroundImage = global::MariosPet.Properties.Resources.PATA_8;
+            this.groupBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox2.BackgroundImage")));
             this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox2.Controls.Add(this.maskedTextBox2);
             this.groupBox2.Controls.Add(this.cmbUF);
@@ -398,7 +398,7 @@
             // groupBox3
             // 
             this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox3.BackgroundImage = global::MariosPet.Properties.Resources.PATA_2;
+            this.groupBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox3.BackgroundImage")));
             this.groupBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox3.Controls.Add(this.txtConfirmacaoSenha);
             this.groupBox3.Controls.Add(this.label4);
