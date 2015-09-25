@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFuncionario));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -59,14 +58,14 @@
             this.txtRua = new System.Windows.Forms.TextBox();
             this.lblRua = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.lblTipoFuncionario = new System.Windows.Forms.Label();
-            this.cmbTipoFuncionario = new System.Windows.Forms.ComboBox();
-            this.txtLogin = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.txtConfirmacaoSenha = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtLogin = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmbTipoFuncionario = new System.Windows.Forms.ComboBox();
+            this.lblTipoFuncionario = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -75,7 +74,7 @@
             // groupBox1
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
+            this.groupBox1.BackgroundImage = global::MariosPet.Properties.Resources.PATA_2;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox1.Controls.Add(this.maskedTextBox1);
             this.groupBox1.Controls.Add(this.label1);
@@ -170,7 +169,6 @@
             // btmFone
             // 
             this.btmFone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmFone.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmFone.BackgroundImage")));
             this.btmFone.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btmFone.FlatAppearance.BorderSize = 0;
             this.btmFone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -235,7 +233,6 @@
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox2.BackgroundImage")));
             this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox2.Controls.Add(this.maskedTextBox2);
             this.groupBox2.Controls.Add(this.cmbUF);
@@ -398,7 +395,6 @@
             // groupBox3
             // 
             this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox3.BackgroundImage")));
             this.groupBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox3.Controls.Add(this.txtConfirmacaoSenha);
             this.groupBox3.Controls.Add(this.label4);
@@ -417,45 +413,24 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "   Dados de Acesso";
             // 
-            // lblTipoFuncionario
+            // txtConfirmacaoSenha
             // 
-            this.lblTipoFuncionario.AutoSize = true;
-            this.lblTipoFuncionario.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoFuncionario.Location = new System.Drawing.Point(6, 36);
-            this.lblTipoFuncionario.Name = "lblTipoFuncionario";
-            this.lblTipoFuncionario.Size = new System.Drawing.Size(210, 23);
-            this.lblTipoFuncionario.TabIndex = 21;
-            this.lblTipoFuncionario.Text = "Tipo de Funcionario:";
+            this.txtConfirmacaoSenha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmacaoSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtConfirmacaoSenha.Location = new System.Drawing.Point(223, 134);
+            this.txtConfirmacaoSenha.Name = "txtConfirmacaoSenha";
+            this.txtConfirmacaoSenha.Size = new System.Drawing.Size(170, 27);
+            this.txtConfirmacaoSenha.TabIndex = 30;
             // 
-            // cmbTipoFuncionario
+            // label4
             // 
-            this.cmbTipoFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbTipoFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.cmbTipoFuncionario.FormattingEnabled = true;
-            this.cmbTipoFuncionario.Location = new System.Drawing.Point(222, 36);
-            this.cmbTipoFuncionario.Name = "cmbTipoFuncionario";
-            this.cmbTipoFuncionario.Size = new System.Drawing.Size(171, 26);
-            this.cmbTipoFuncionario.TabIndex = 23;
-            this.cmbTipoFuncionario.Text = "---Selecione---";
-            // 
-            // txtLogin
-            // 
-            this.txtLogin.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtLogin.Location = new System.Drawing.Point(222, 68);
-            this.txtLogin.Name = "txtLogin";
-            this.txtLogin.Size = new System.Drawing.Size(170, 27);
-            this.txtLogin.TabIndex = 26;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 68);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 23);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "Login:";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(6, 133);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(180, 23);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Confirmar Senha:";
             // 
             // txtSenha
             // 
@@ -477,24 +452,45 @@
             this.label3.TabIndex = 27;
             this.label3.Text = "Senha:";
             // 
-            // txtConfirmacaoSenha
+            // txtLogin
             // 
-            this.txtConfirmacaoSenha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmacaoSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtConfirmacaoSenha.Location = new System.Drawing.Point(223, 134);
-            this.txtConfirmacaoSenha.Name = "txtConfirmacaoSenha";
-            this.txtConfirmacaoSenha.Size = new System.Drawing.Size(170, 27);
-            this.txtConfirmacaoSenha.TabIndex = 30;
+            this.txtLogin.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtLogin.Location = new System.Drawing.Point(222, 68);
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Size = new System.Drawing.Size(170, 27);
+            this.txtLogin.TabIndex = 26;
             // 
-            // label4
+            // label2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 133);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(180, 23);
-            this.label4.TabIndex = 29;
-            this.label4.Text = "Confirmar Senha:";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(6, 68);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 23);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Login:";
+            // 
+            // cmbTipoFuncionario
+            // 
+            this.cmbTipoFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTipoFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.cmbTipoFuncionario.FormattingEnabled = true;
+            this.cmbTipoFuncionario.Location = new System.Drawing.Point(222, 36);
+            this.cmbTipoFuncionario.Name = "cmbTipoFuncionario";
+            this.cmbTipoFuncionario.Size = new System.Drawing.Size(171, 26);
+            this.cmbTipoFuncionario.TabIndex = 23;
+            this.cmbTipoFuncionario.Text = "---Selecione---";
+            // 
+            // lblTipoFuncionario
+            // 
+            this.lblTipoFuncionario.AutoSize = true;
+            this.lblTipoFuncionario.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipoFuncionario.Location = new System.Drawing.Point(6, 36);
+            this.lblTipoFuncionario.Name = "lblTipoFuncionario";
+            this.lblTipoFuncionario.Size = new System.Drawing.Size(210, 23);
+            this.lblTipoFuncionario.TabIndex = 21;
+            this.lblTipoFuncionario.Text = "Tipo de Funcionario:";
             // 
             // FrmFuncionario
             // 
