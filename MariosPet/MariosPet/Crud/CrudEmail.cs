@@ -10,9 +10,9 @@ namespace MariosPet.Crud
 {
     class CrudEmail
     {
-        public void inserirEmail(Email email)
+        public void inserirEmail(Classes.Email email)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = Classes.ConexaoPadrao.createConnection())
             {
 
                 string sql = "insert into EMAIL (ID_EMAIL, EMAIL, ID_PESSOA) values(?,?,?)";
