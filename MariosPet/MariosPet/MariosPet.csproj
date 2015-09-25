@@ -48,7 +48,27 @@
   <ItemGroup>
     <Compile Include="Classes\Agendamento.cs" />
     <Compile Include="Classes\Animal.cs" />
+    <Compile Include="Classes\Atendimento.cs" />
+    <Compile Include="Classes\Atualizacao.cs" />
+    <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\ConexaoPadrao.cs" />
+    <Compile Include="Classes\Email.cs" />
+    <Compile Include="Classes\Endereco.cs" />
+    <Compile Include="Classes\Exame.cs" />
+    <Compile Include="Classes\FichaClinica.cs" />
+    <Compile Include="Classes\Fornecedor.cs" />
+    <Compile Include="Classes\Foto.cs" />
+    <Compile Include="Classes\Funcionario.cs" />
+    <Compile Include="Classes\MedicamentoFichaClinica.cs" />
+    <Compile Include="Classes\Pessoa.cs" />
+    <Compile Include="Classes\PessoaJuridica.cs" />
+    <Compile Include="Classes\Prontuario.cs" />
+    <Compile Include="Classes\Servico.cs" />
+    <Compile Include="Classes\TelefonePessoa.cs" />
+    <Compile Include="Classes\TelefonePessoaJuridica.cs" />
+    <Compile Include="Classes\Vacina.cs" />
+    <Compile Include="Classes\Vermifugo.cs" />
+    <Compile Include="Classes\Veterinario.cs" />
     <Compile Include="Crud\CrudAgendamento.cs" />
     <Compile Include="Crud\CrudAnimal.cs" />
     <Compile Include="Crud\CrudAtendimento.cs" />
