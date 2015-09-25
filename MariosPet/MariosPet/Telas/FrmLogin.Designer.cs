@@ -29,152 +29,141 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.lblSenha = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.grpBox = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnEntrar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.tiplogin = new System.Windows.Forms.ToolTip(this.components);
-            this.grpBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.buttonEntrar = new System.Windows.Forms.Button();
+            this.buttonSair = new System.Windows.Forms.Button();
+            this.grpLogin = new System.Windows.Forms.GroupBox();
+            this.textSenha = new System.Windows.Forms.TextBox();
+            this.labelSenha = new System.Windows.Forms.Label();
+            this.labelUsuario = new System.Windows.Forms.Label();
+            this.textUsuario = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.toolTipLogin = new System.Windows.Forms.ToolTip(this.components);
+            this.grpLogin.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblUsuario
+            // buttonEntrar
             // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(66, 53);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(70, 18);
-            this.lblUsuario.TabIndex = 0;
-            this.lblUsuario.Text = "Usuário";
+            this.buttonEntrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.buttonEntrar.BackgroundImage = global::MariosPet.Properties.Resources.BOTAO_ENTRAR1;
+            this.buttonEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonEntrar.FlatAppearance.BorderSize = 0;
+            this.buttonEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEntrar.Location = new System.Drawing.Point(566, 325);
+            this.buttonEntrar.Name = "buttonEntrar";
+            this.buttonEntrar.Size = new System.Drawing.Size(117, 48);
+            this.buttonEntrar.TabIndex = 4;
+            this.toolTipLogin.SetToolTip(this.buttonEntrar, "Entrar no sistema");
+            this.buttonEntrar.UseVisualStyleBackColor = false;
             // 
-            // lblSenha
+            // buttonSair
             // 
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.Location = new System.Drawing.Point(78, 99);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(58, 18);
-            this.lblSenha.TabIndex = 1;
-            this.lblSenha.Text = "Senha";
+            this.buttonSair.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.buttonSair.BackgroundImage = global::MariosPet.Properties.Resources.BOTAO_SAIR_LR;
+            this.buttonSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonSair.FlatAppearance.BorderSize = 0;
+            this.buttonSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSair.Location = new System.Drawing.Point(301, 325);
+            this.buttonSair.Name = "buttonSair";
+            this.buttonSair.Size = new System.Drawing.Size(123, 48);
+            this.buttonSair.TabIndex = 3;
+            this.toolTipLogin.SetToolTip(this.buttonSair, "Sair do sistema");
+            this.buttonSair.UseVisualStyleBackColor = false;
             // 
-            // txtUsuario
+            // grpLogin
             // 
-            this.txtUsuario.AccessibleDescription = "teste";
-            this.txtUsuario.AccessibleRole = System.Windows.Forms.AccessibleRole.HelpBalloon;
-            this.txtUsuario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtUsuario.Location = new System.Drawing.Point(154, 50);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(171, 27);
-            this.txtUsuario.TabIndex = 2;
-            this.tiplogin.SetToolTip(this.txtUsuario, "Insira o Login");
+            this.grpLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.grpLogin.BackgroundImage = global::MariosPet.Properties.Resources.PATA_2;
+            this.grpLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.grpLogin.Controls.Add(this.textSenha);
+            this.grpLogin.Controls.Add(this.labelSenha);
+            this.grpLogin.Controls.Add(this.labelUsuario);
+            this.grpLogin.Controls.Add(this.textUsuario);
+            this.grpLogin.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.grpLogin.Location = new System.Drawing.Point(301, 107);
+            this.grpLogin.Name = "grpLogin";
+            this.grpLogin.Size = new System.Drawing.Size(382, 199);
+            this.grpLogin.TabIndex = 1;
+            this.grpLogin.TabStop = false;
+            this.grpLogin.Text = "   Login";
             // 
-            // txtSenha
+            // textSenha
             // 
-            this.txtSenha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtSenha.Location = new System.Drawing.Point(154, 90);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(171, 27);
-            this.txtSenha.TabIndex = 3;
-            this.tiplogin.SetToolTip(this.txtSenha, "Insira a Senha");
+            this.textSenha.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.textSenha.Location = new System.Drawing.Point(142, 124);
+            this.textSenha.MaxLength = 20;
+            this.textSenha.Name = "textSenha";
+            this.textSenha.PasswordChar = '•';
+            this.textSenha.Size = new System.Drawing.Size(186, 31);
+            this.textSenha.TabIndex = 5;
+            this.toolTipLogin.SetToolTip(this.textSenha, "Insira a Senha");
             // 
-            // grpBox
+            // labelSenha
             // 
-            this.grpBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.grpBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.grpBox.Controls.Add(this.txtSenha);
-            this.grpBox.Controls.Add(this.txtUsuario);
-            this.grpBox.Controls.Add(this.lblSenha);
-            this.grpBox.Controls.Add(this.lblUsuario);
-            this.grpBox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.grpBox.Location = new System.Drawing.Point(255, 97);
-            this.grpBox.Name = "grpBox";
-            this.grpBox.Size = new System.Drawing.Size(388, 155);
-            this.grpBox.TabIndex = 1;
-            this.grpBox.TabStop = false;
-            this.grpBox.Text = "Mario\'s Pet";
+            this.labelSenha.AutoSize = true;
+            this.labelSenha.Font = new System.Drawing.Font("Verdana", 16F);
+            this.labelSenha.Location = new System.Drawing.Point(55, 129);
+            this.labelSenha.Name = "labelSenha";
+            this.labelSenha.Size = new System.Drawing.Size(81, 26);
+            this.labelSenha.TabIndex = 4;
+            this.labelSenha.Text = "Senha";
             // 
-            // button2
+            // labelUsuario
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.button2.Image = global::MariosPet.Properties.Resources.BOTAO_SAIR;
-            this.button2.Location = new System.Drawing.Point(255, 269);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 45);
-            this.button2.TabIndex = 3;
-            this.tiplogin.SetToolTip(this.button2, "Sair do sistema");
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.labelUsuario.AutoSize = true;
+            this.labelUsuario.Font = new System.Drawing.Font("Verdana", 16F);
+            this.labelUsuario.Location = new System.Drawing.Point(42, 63);
+            this.labelUsuario.Name = "labelUsuario";
+            this.labelUsuario.Size = new System.Drawing.Size(94, 26);
+            this.labelUsuario.TabIndex = 3;
+            this.labelUsuario.Text = "Usuário";
             // 
-            // btnEntrar
+            // textUsuario
             // 
-            this.btnEntrar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btnEntrar.BackgroundImage = global::MariosPet.Properties.Resources.BOTAO_ENTRAR_LR;
-            this.btnEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnEntrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEntrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btnEntrar.Location = new System.Drawing.Point(510, 269);
-            this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(133, 45);
-            this.btnEntrar.TabIndex = 2;
-            this.tiplogin.SetToolTip(this.btnEntrar, "Entrar no sistema");
-            this.btnEntrar.UseVisualStyleBackColor = false;
-            this.btnEntrar.Click += new System.EventHandler(this.button1_Click);
+            this.textUsuario.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.textUsuario.Location = new System.Drawing.Point(142, 58);
+            this.textUsuario.MaxLength = 20;
+            this.textUsuario.Name = "textUsuario";
+            this.textUsuario.Size = new System.Drawing.Size(186, 31);
+            this.textUsuario.TabIndex = 2;
+            this.toolTipLogin.SetToolTip(this.textUsuario, "Insira o Login");
             // 
-            // pictureBox1
+            // pictureBox2
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(35, 81);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 194);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.BackgroundImage = global::MariosPet.Properties.Resources.Logo_pet___Copia__2_;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(62, 91);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(224, 215);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
-            // tiplogin
+            // toolTipLogin
             // 
-            this.tiplogin.AutomaticDelay = 100;
-            this.tiplogin.IsBalloon = true;
-            this.tiplogin.ShowAlways = true;
+            this.toolTipLogin.AutomaticDelay = 100;
+            this.toolTipLogin.IsBalloon = true;
+            this.toolTipLogin.ShowAlways = true;
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(688, 337);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnEntrar);
-            this.Controls.Add(this.grpBox);
-            this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.ClientSize = new System.Drawing.Size(727, 435);
+            this.Controls.Add(this.buttonEntrar);
+            this.Controls.Add(this.buttonSair);
+            this.Controls.Add(this.grpLogin);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "FrmLogin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Mario\'s Pet - Login";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.grpBox.ResumeLayout(false);
-            this.grpBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.grpLogin.ResumeLayout(false);
+            this.grpLogin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -189,5 +178,14 @@
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ToolTip tiplogin;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.GroupBox grpLogin;
+        private System.Windows.Forms.TextBox textSenha;
+        private System.Windows.Forms.Label labelSenha;
+        private System.Windows.Forms.Label labelUsuario;
+        private System.Windows.Forms.TextBox textUsuario;
+        private System.Windows.Forms.Button buttonSair;
+        private System.Windows.Forms.Button buttonEntrar;
+        private System.Windows.Forms.ToolTip toolTipLogin;
     }
 }
