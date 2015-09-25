@@ -56,6 +56,19 @@
     <Compile Include="Crud\CrudEmail.cs" />
     <Compile Include="Crud\CrudEndereco.cs" />
     <Compile Include="Crud\CrudExame.cs" />
+    <Compile Include="Crud\CrudFichaClinica.cs" />
+    <Compile Include="Crud\CrudFornecedor.cs" />
+    <Compile Include="Crud\CrudFoto.cs" />
+    <Compile Include="Crud\CrudFuncionario.cs" />
+    <Compile Include="Crud\CrudPessoa.cs" />
+    <Compile Include="Crud\CrudPessoaJuridica.cs" />
+    <Compile Include="Crud\CrudProntuario.cs" />
+    <Compile Include="Crud\CrudServico.cs" />
+    <Compile Include="Crud\CrudTelefonePessoa.cs" />
+    <Compile Include="Crud\CrudTelefonePessoaJuridica.cs" />
+    <Compile Include="Crud\CrudVacina.cs" />
+    <Compile Include="Crud\CrudVermifugo.cs" />
+    <Compile Include="Crud\CrudVeterinario.cs" />
     <Compile Include="Telas\FrmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
