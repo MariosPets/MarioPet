@@ -9,7 +9,7 @@ namespace MariosPet.Classes
     class MedicamentoFichaClinica
     {
         private int id { get; set; }
-        private int id_ficha_clinica { get; set; }
-        private int id_medicamento { get; set; }
+        private int idFichaClinica { get; set; }
+        private int idMedicamento { get; set; }
     }
 }
