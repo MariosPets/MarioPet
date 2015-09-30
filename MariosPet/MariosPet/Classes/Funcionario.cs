@@ -8,9 +8,9 @@ namespace MariosPet.Classes
 {
     class Funcionario
     {
-        private int id_funcionario { get; set; }
-        private int id_pessoa { get; set; }
-        private string tipo_funcionario { get; set; }
+        private int id { get; set; }
+        private int idPessoa { get; set; }
+        private string tipo { get; set; }
         private string login { get; set; }
         private string senha { get; set; }
     }
