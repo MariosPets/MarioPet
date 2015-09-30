@@ -8,8 +8,8 @@ namespace MariosPet.Classes
 {
     class Prontuario
     {
-        private int id_prontuario { get; set; }
-        private int id_animal { get; set; }
+        private int id { get; set; }
+        private int idAnimal { get; set; }
         private string prontuario { get; set; }
     }
 }
