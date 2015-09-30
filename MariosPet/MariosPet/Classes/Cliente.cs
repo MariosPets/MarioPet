@@ -8,7 +8,7 @@ namespace MariosPet.Classes
 {
     class Cliente
     {
-        private int id_cliente { get; set; }
-        private int id_pessoa { get; set; }
+        private int id { get; set; }
+        private int idPessoa { get; set; }
     }
 }
