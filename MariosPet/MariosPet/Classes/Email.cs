@@ -8,7 +8,7 @@ namespace MariosPet.Classes
 {
     class Email
     {
-        private int id_email { get; set; }
+        private int id { get; set; }
         private int id_pessoa { get; set; }
         private string email { get; set; }
     }
