@@ -8,13 +8,19 @@ namespace MariosPet.Classes
 {
     class Animal
     {
-        private int id_animal { get; set; }
-        private string nome_animal { get; set; }
-        private int id_cliente { get; set; }
-        private string raca_porte { get; set; }
-        private string sexo { get; set; }
-        private string pelagem_cor { get; set; }
+        private int id { get; set; }
+        private string nome { get; set; }
+        private int idCliente { get; set; }
+        private string racaPorte { get; set; }
+
+        /// <summary>
+        /// Sexo do animal:
+        /// true - feminino
+        /// false - masculino
+        /// </summary>
+        private bool sexo { get; set; }
+        private string pelagemCor { get; set; }
         private DateTime nascimento { get; set; }
-        private int id_veterinario { get; set; }
+        private int idVeterinario { get; set; }
     }
 }
