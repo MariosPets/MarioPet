@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -12,15 +13,15 @@ namespace MariosPet.Crud
     {
         public void inserirTelefonePessoaJuridica(TelefonePessoa telefonepessoajuridica)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into TELEFONE_PESSOA_JURIDICA (ID_TELEFONE_PESSOA_JURIDICA, ID_PESSOA_JURIDICA, TELEFONE_PESSOA_JURIDICA) values(?,?,?)";
+                string sql = "insert into TELEFONE_PESSOA_JURIDICA (ID, ID_PESSOA_JURIDICA, TELEFONE) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_TELEFONE_PESSOA_JURIDICA", telefonepessoajuridica.id_telefone_pessoa_juridica);
+                command.Parameters.AddWithValue("@ID", telefonepessoajuridica.id_telefone_pessoa_juridica);
                 command.Parameters.AddWithValue("@ID_PESSOA_JURIDICA", telefonepessoajuridica.id_pessoa_juridica);
-                command.Parameters.AddWithValue("@TELEFONE_PESSOA_JURIDICA", telefonepessoajuridica.telefone_pessoa_juridica);
+                command.Parameters.AddWithValue("@TELEFONE", telefonepessoajuridica.telefone_pessoa_juridica);
 
 
                 conexao.Open();
@@ -31,7 +32,7 @@ namespace MariosPet.Crud
         public DataTable consultaTelefonePessoaJuridica(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -43,14 +44,14 @@ namespace MariosPet.Crud
 
         public void alteraTelefonePessoaJuridica(TelefonePessoaJuridica telefonepessoajuridica)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update TELEFONE_PESSOA_JURIDICA set ID_PESSOA_JURIDICA = ?, TELEFONE_PESSOA_JURIDICA = ? where ID_TELEFONE_PESSOA_JURIDICA = ?";
+                string sql = "update TELEFONE_PESSOA_JURIDICA set ID_PESSOA_JURIDICA = ?, TELEFONE = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_PESSOA_JURIDICA", telefonepessoajuridica.id_pessoa_juridica);
-                command.Parameters.AddWithValue("@TELEFONE_PESSOA_JURIDICA", telefonepessoajuridica.telefone_pessoa_juridica);
-                command.Parameters.AddWithValue("@ID_TELEFONE_PESSOA_JURIDICA", telefonepessoajuridica.id_telefone_pessoa_juridica);
+                command.Parameters.AddWithValue("@TELEFONE", telefonepessoajuridica.telefone_pessoa_juridica);
+                command.Parameters.AddWithValue("@ID", telefonepessoajuridica.id_telefone_pessoa_juridica);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -59,14 +60,14 @@ namespace MariosPet.Crud
 
         public void excluiTelefonePessoaJuridica(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "delete TELEFONE_PESSOA_JURIDICA where ID_TELEFONE_PESSOA_JURIDICA = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
+                OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_TELEFONE_PESSOA_JURIDICA", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
