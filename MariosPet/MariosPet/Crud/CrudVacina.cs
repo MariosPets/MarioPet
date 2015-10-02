@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -12,13 +13,14 @@ namespace MariosPet.Crud
     {
         public void inserirVacina(Vacina vacina)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into VACINA (DATA_VACINA, ID_ANIMAL, ID_MEDICAMENTO) values(?,?,?)";
+                string sql = "insert into VACINA (ID, DATA, ID_ANIMAL, ID_MEDICAMENTO) values(?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@DATA_VACINA", vacina.data_vacina);
+                command.Parameters.AddWithValue("@ID", vacina.id);
+                command.Parameters.AddWithValue("@DATA", vacina.data_vacina);
                 command.Parameters.AddWithValue("@ID_ANIMAL", vacina.id_animal);
                 command.Parameters.AddWithValue("@ID_MEDICAMENTO", vacina.id_medicamento);
 
@@ -31,7 +33,7 @@ namespace MariosPet.Crud
         public DataTable consultaVacina(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -43,11 +45,12 @@ namespace MariosPet.Crud
 
         public void alteraVacina(Vacina vacina)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update VACINA set ID_ANIMAL = ?, ID_MEDICAMENTO = ? where DATA_VACINA = ?";
+                string sql = "update VACINA set ID_ANIMAL = ?, ID_MEDICAMENTO = ?, DATA = ?, where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
+                command.Parameters.AddWithValue("@ID", vacina.id);
                 command.Parameters.AddWithValue("@ID_ANIMAL", vacina.id_animal);
                 command.Parameters.AddWithValue("@ID_MEDICAMENTO", vacina.id_medicamento);
                 command.Parameters.AddWithValue("@DATA_VACINA", vacina.data_vacina);
@@ -59,14 +62,14 @@ namespace MariosPet.Crud
 
         public void excluiVacina(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete VACINA where DATA_VACINA = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
+                string sql = "delete VACINA where ID = ?";
+                OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@DATA_VACINA", codigo);
+                command.Parameters.AddWithValue("@ID", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
