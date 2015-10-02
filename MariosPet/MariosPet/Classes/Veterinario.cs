@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MariosPet.Classes
 {
-    class Veterinario
+    class Veterinario: Pessoa
     {
         private int id_veterinario { get; set; }
         private int id_funcionario { get; set; }
