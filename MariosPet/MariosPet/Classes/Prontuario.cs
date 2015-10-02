@@ -8,8 +8,12 @@ namespace MariosPet.Classes
 {
     class Prontuario
     {
+        #region Atributos
+
         private int id { get; set; }
         private int idAnimal { get; set; }
         private string prontuario { get; set; }
+
+        #region
     }
 }

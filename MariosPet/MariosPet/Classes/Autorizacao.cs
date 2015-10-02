@@ -9,8 +9,12 @@ namespace MariosPet.Classes
 {
     class Autorizacao
     {
-        private int id { get; set; }
-        private int idAnimal { get; set; }
-        private Image autorizacao { get; set; }
+        #region Atributos
+
+        public int id { get; set; }
+        public int idAnimal { get; set; }
+        public Image autorizacao { get; set; }
+
+        #region
     }
 }

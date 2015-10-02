@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace MariosPet.Classes
 {
-    class Funcionario
+    class Funcionario: Pessoa
     {
-        private int id { get; set; }
-        private int idPessoa { get; set; }
-        private string tipo { get; set; }
-        private string login { get; set; }
-        private string senha { get; set; }
+        #region Atributos
+
+        public string tipo { get; set; }
+        public string login { get; set; }
+        public string senha { get; set; }
+
+        #endregion
     }
 }

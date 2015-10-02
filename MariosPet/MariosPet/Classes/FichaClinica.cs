@@ -8,14 +8,18 @@ namespace MariosPet.Classes
 {
     class FichaClinica
     {
-        private int id { get; set; }
-        private int idAnimal { get; set; }
-        private int idVeterinario { get; set; }
-        private DateTime data { get; set; }
-        private string historicoClinico { get; set; }
-        private string sintomas { get; set; }
-        private string sistemasAcometidos { get; set; }
-        private string examesComplementares { get; set; }
-        private string prescricao { get; set; }
+        #region Atributos
+
+        public int id { get; set; }
+        public int idAnimal { get; set; }
+        public int idVeterinario { get; set; }
+        public DateTime data { get; set; }
+        public string historicoClinico { get; set; }
+        public string sintomas { get; set; }
+        public string sistemasAcometidos { get; set; }
+        public string examesComplementares { get; set; }
+        public string prescricao { get; set; }
+
+        #endregion
     }
 }

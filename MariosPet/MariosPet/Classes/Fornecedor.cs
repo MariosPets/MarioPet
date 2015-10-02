@@ -8,7 +8,11 @@ namespace MariosPet.Classes
 {
     class Fornecedor: PessoaJuridica
     {
-        private string ramoAtividade { get; set; }
-        private string nomeContato { get; set; }
+        #region Atributos
+
+        public string ramoAtividade { get; set; }
+        public string nomeContato { get; set; }
+
+        #endregion
     }
 }

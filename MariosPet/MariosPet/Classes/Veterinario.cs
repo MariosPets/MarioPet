@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace MariosPet.Classes
 {
-    class Veterinario: Pessoa
+    class Veterinario: Funcionario
     {
-        private int id_veterinario { get; set; }
-        private int id_funcionario { get; set; }
-        private int crmv_veterinario { get; set; }
+        #region Atributos
+
+        public int crmv { get; set; }
+
+        #endregion
     }
 }

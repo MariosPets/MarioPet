@@ -8,11 +8,15 @@ namespace MariosPet.Classes
 {
     class Servico
     {
-        private int id { get; set; }
-        private int idAnimal { get; set; }
-        private int idFuncionario { get; set; }
-        private string tipo { get; set; }
-        private DateTime hora_entrada { get; set; }
-        private DateTime hora_saida { get; set; }
+        #region Atributos
+
+        public int id { get; set; }
+        public int idAnimal { get; set; }
+        public int idFuncionario { get; set; }
+        public string tipo { get; set; }
+        public DateTime hora_entrada { get; set; }
+        public DateTime hora_saida { get; set; }
+
+        #endregion
     }
 }

@@ -8,10 +8,14 @@ namespace MariosPet.Classes
 {
     class Agendamento
     {
-        private int id { get; set; }
-        private int idAnimal { get; set; }
-        private int idFuncionario { get; set; }
-        private DateTime hora { get; set; }        
-        private bool atendido { get; set; }
+        #region Atributos
+
+        public int id { get; set; }
+        public int idAnimal { get; set; }
+        public int idFuncionario { get; set; }
+        public DateTime hora { get; set; }        
+        public bool atendido { get; set; }
+
+        #endregion
     }
 }
