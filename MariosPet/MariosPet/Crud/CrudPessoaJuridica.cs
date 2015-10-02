@@ -46,13 +46,14 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update PESSOA_JURIDICA set ID = ?, DENOMINACAO_SOCIAL = ?, CNPJ = ?, where ID_ENDERECO = ?";
+                string sql = "update PESSOA_JURIDICA set DENOMINACAO_SOCIAL = ?, CNPJ = ?, ID_ENDERECO = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", pessoajuridica.id);
+                
                 command.Parameters.AddWithValue("@DENOMINACAO_SOCIAL", pessoajuridica.denominacaoSocial);
                 command.Parameters.AddWithValue("@CNPJ", pessoajuridica.cnpj);
                 command.Parameters.AddWithValue("@ID_ENDERECO", pessoajuridica.idEndereco);
+                command.Parameters.AddWithValue("@ID", pessoajuridica.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
