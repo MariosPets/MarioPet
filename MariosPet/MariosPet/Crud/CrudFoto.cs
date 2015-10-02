@@ -63,10 +63,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete FOTO where ID_FOTO = ?";
+                string sql = "delete FOTO where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_FOTO", codigo);
+                command.Parameters.AddWithValue("@ID", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
