@@ -11,18 +11,17 @@ namespace MariosPet.Crud
 {
     class CrudCliente: CrudPessoa
     {
-        public override void inserirCliente(Cliente cliente)
+        public void inserirPessoa(Cliente cliente)
         {
+            inserirPessoa(cliente);
+            cliente.id = Convert.ToInt32(consultaPessoa("select top 1 ID from PESSOA order by ID desc").Rows[0][0].ToString());
 
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
-            {
-                base.inserirPessoa(new Pessoa(cliente.id, cliente.nome, cliente.cpf, cliente.rg, cliente.nascimento, cliente.id_endereco));
-
-                string sql = "insert into CLIENTE (ID_CLIENTE, ID_PESSOA) values(?,?)";
+            {                
+                string sql = "insert into CLIENTE (ID) values(?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_CLIENTE", cliente.id_cliente);
-                command.Parameters.AddWithValue("@ID_PESSOA", cliente.id_pessoa);
+                command.Parameters.AddWithValue("@ID", cliente.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -32,7 +31,7 @@ namespace MariosPet.Crud
         public DataTable consultaCliente(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -44,8 +43,13 @@ namespace MariosPet.Crud
 
         public void alteraVeterinario(Cliente cliente)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            alteraPessoa(cliente);
+
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
+                
+                /*
+                 * 
                 string sql = "update CLIENTE set ID_CLIENTE = ?, ID_PESSOA = ? where ID_CLIENTE = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
@@ -55,12 +59,15 @@ namespace MariosPet.Crud
 
                 conexao.Open();
                 command.ExecuteNonQuery();
+                 */
             }
         }
 
         public void excluiCliente(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            excluiPessoa(codigo);
+
+            /*using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
             {
                 string sql = "delete CLIENTE where ID_CLIENTE = ?";
                 OdbcCommand command = new OdbcCommand(sql, connection);
@@ -69,7 +76,7 @@ namespace MariosPet.Crud
 
                 connection.Open();
                 command.ExecuteNonQuery();
-            }
+            }*/
         }
     }
 }
