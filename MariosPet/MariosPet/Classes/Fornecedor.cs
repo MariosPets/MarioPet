@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace MariosPet.Classes
 {
-    class Fornecedor
+    class Fornecedor: PessoaJuridica
     {
-        private int id { get; set; }
-        private int idPessoaJuridica { get; set; }
         private string ramoAtividade { get; set; }
         private string nomeContato { get; set; }
     }
