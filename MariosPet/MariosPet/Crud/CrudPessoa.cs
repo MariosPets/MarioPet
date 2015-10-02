@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -12,13 +13,13 @@ namespace MariosPet.Crud
     {
         public void inserirVermifugo(Pessoa pessoa)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
                 string sql = "insert into PESSOA (ID_PESSOA, NOME, CPF, RG, NASCIMENTO, ID_ENDERECO) values(?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_PESSOA", pessoa.id_pessoa);
+                command.Parameters.AddWithValue("@ID_PESSOA", pessoa.id);
                 command.Parameters.AddWithValue("@NOME", pessoa.nome);
                 command.Parameters.AddWithValue("@CPF", pessoa.cpf);
                 command.Parameters.AddWithValue("@RG", pessoa.rg);
