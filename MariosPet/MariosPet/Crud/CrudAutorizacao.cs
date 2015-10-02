@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -12,13 +13,13 @@ namespace MariosPet.Crud
     {
         public void inserirAutorizacao(Autorizacao autorizacao)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into AUTORIZACAO (ID_AUTORIZACAO, ID_ANIMAL, AUTORIZACAO) values(?,?,?)";
+                string sql = "insert into AUTORIZACAO (ID, ID_ANIMAL, AUTORIZACAO) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_AUTORIZACAO", autorizacao.id_autorizacao);
+                command.Parameters.AddWithValue("@ID", autorizacao.id_autorizacao);
                 command.Parameters.AddWithValue("@ID_ANIMAL", autorizacao.id_animal);
                 command.Parameters.AddWithValue("@AUTORIZACAO", autorizacao.autorizacao);
 
@@ -31,7 +32,7 @@ namespace MariosPet.Crud
         public DataTable consultaAutorizacao(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -43,14 +44,14 @@ namespace MariosPet.Crud
 
         public void alteraAutorizacao(Autorizacao autorizacao)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update AUTORIZACAO set ID_ANIMAL = ?, AUTORIZACAO = ? where ID_AUTORIZACAO = ?";
+                string sql = "update AUTORIZACAO set ID_ANIMAL = ?, AUTORIZACAO = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_ANIMAL", autorizacao.id_animal);
                 command.Parameters.AddWithValue("@AUTORIZACAO", autorizacao.autorizacao);
-                command.Parameters.AddWithValue("@ID_AUTORIZACAO", autorizacao.id_autorizacao);
+                command.Parameters.AddWithValue("@ID", autorizacao.id_autorizacao);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -59,14 +60,14 @@ namespace MariosPet.Crud
 
         public void excluiAutorizacao(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "delete AUTORIZACAO where ID_AUTORIZACAO = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
+                OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_AUTORIZACAO", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
