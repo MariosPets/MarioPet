@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -13,7 +14,7 @@ namespace MariosPet.Crud
         public void inserirCliente(Cliente cliente)
         {
 
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "insert into CLIENTE (ID_CLIENTE, ID_PESSOA) values(?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
