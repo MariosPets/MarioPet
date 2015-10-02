@@ -8,11 +8,15 @@ namespace MariosPet.Classes
 {
     class Pessoa
     {
-        private int id { get; set; }
-        private string nome { get; set; }
-        private string cpf { get; set; }
-        private string rg { get; set; }
-        private DateTime nascimento { get; set; }
-        private int idEndereco { get; set; }
+        #region Atributos
+
+        public int id { get; set; }
+        public string nome { get; set; }
+        public string cpf { get; set; }
+        public string rg { get; set; }
+        public DateTime nascimento { get; set; }
+        public int idEndereco { get; set; }
+
+        #endregion
     }
 }

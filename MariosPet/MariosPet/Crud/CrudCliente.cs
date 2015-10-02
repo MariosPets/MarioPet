@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -8,13 +9,15 @@ using System.Threading.Tasks;
 
 namespace MariosPet.Crud
 {
-    class CrudCliente
+    class CrudCliente: CrudPessoa
     {
-        public void inserirCliente(Cliente cliente)
+        public override void inserirCliente(Cliente cliente)
         {
 
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
+                base.inserirPessoa(new Pessoa(cliente.id, cliente.nome, cliente.cpf, cliente.rg, cliente.nascimento, cliente.id_endereco));
+
                 string sql = "insert into CLIENTE (ID_CLIENTE, ID_PESSOA) values(?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 

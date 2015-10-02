@@ -8,9 +8,13 @@ namespace MariosPet.Classes
 {
     class PessoaJuridica
     {
-        private int id { get; set; }
-        private string denominacaoSocial { get; set; }
-        private string cnpj { get; set; }
-        private int idEndereco { get; set; }
+        #region Atributos
+
+        public int id { get; set; }
+        public string denominacaoSocial { get; set; }
+        public string cnpj { get; set; }
+        public int idEndereco { get; set; }
+
+        #endregion
     }
 }

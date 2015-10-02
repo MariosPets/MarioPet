@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace MariosPet.Classes
 {
-    class Cliente
-    {
-        private int id { get; set; }
-        private int idPessoa { get; set; }
+    class Cliente: Pessoa
+    {        
     }
 }
