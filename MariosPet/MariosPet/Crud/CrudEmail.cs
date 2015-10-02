@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -12,13 +13,13 @@ namespace MariosPet.Crud
     {
         public void inserirEmail(Classes.Email email)
         {
-            using (OdbcConnection conexao = Classes.ConexaoPadrao.createConnection())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into EMAIL (ID_EMAIL, EMAIL, ID_PESSOA) values(?,?,?)";
+                string sql = "insert into EMAIL (ID, EMAIL, ID_PESSOA) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_EMAIL", email.id_email);
+                command.Parameters.AddWithValue("@ID", email.id_email);
                 command.Parameters.AddWithValue("@EMAIL", email.email);
                 command.Parameters.AddWithValue("@ID_PESSOA", email.id_pessoa);
 
@@ -30,7 +31,7 @@ namespace MariosPet.Crud
         public DataTable consultaVermifugo(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -42,14 +43,14 @@ namespace MariosPet.Crud
 
         public void alteraEmail(Email email)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update EMAIL set EMAIL = ?, ID_PESSOA = ? where ID_EMAIL = ?";
+                string sql = "update EMAIL set EMAIL = ?, ID_PESSOA = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@EMAIL", email.email);
                 command.Parameters.AddWithValue("@ID_PESSOA", email.id_pessoa);
-                command.Parameters.AddWithValue("@ID_EMAIL", email.id_email);
+                command.Parameters.AddWithValue("@ID", email.id_email);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -58,14 +59,14 @@ namespace MariosPet.Crud
 
         public void excluiEmail(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "delete EMAIL where ID_EMAIL = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
+                OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_EMAIL", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
