@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -12,13 +13,13 @@ namespace MariosPet.Crud
     {
         public void inserirFoto(Foto foto)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into FOTO (ID_FOTO, FOTO, ID_ANIMAL) values(?,?,?)";
+                string sql = "insert into FOTO (ID, FOTO, ID_ANIMAL) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_FOTO", foto.id_foto);
+                command.Parameters.AddWithValue("@ID", foto.id_foto);
                 command.Parameters.AddWithValue("@FOTO", foto.foto);
                 command.Parameters.AddWithValue("@ID_ANIMAL", foto.id_animal);
 
@@ -31,7 +32,7 @@ namespace MariosPet.Crud
         public DataTable consultaFoto(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -43,14 +44,14 @@ namespace MariosPet.Crud
 
         public void alteraFoto(Foto foto)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update FOTO set ID_ANIMAL = ?, FOTO = ? where ID_FOTO = ?";
+                string sql = "update FOTO set ID_ANIMAL = ?, FOTO = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_ANIMAL", foto.id_animal);
                 command.Parameters.AddWithValue("@FOTO", foto.foto);
-                command.Parameters.AddWithValue("@ID_FOTO", foto.id_foto);
+                command.Parameters.AddWithValue("@ID", foto.id_foto);
 
 
                 conexao.Open();
@@ -60,14 +61,14 @@ namespace MariosPet.Crud
 
         public void excluiFoto(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "delete FOTO where ID_FOTO = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
+                OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_FOTO", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
