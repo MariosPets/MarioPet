@@ -59,7 +59,7 @@ namespace MariosPet.Crud
             }
         }
 
-        public void excluiCliente(int codigo)
+        public void excluiPessoaJuridica(int codigo)
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
