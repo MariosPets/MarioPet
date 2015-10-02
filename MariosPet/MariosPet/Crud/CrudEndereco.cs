@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -12,13 +13,13 @@ namespace MariosPet.Crud
     {
         public void inserirEndereco(Endereco endereco)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into ENDERECO (ID_ENDERECO, RUA, NUMERO, COMPLEMENTO, BAIRRO, CIDADE, UF, CEP) values(?,?,?,?,?,?,?,?)";
+                string sql = "insert into ENDERECO (ID, RUA, NUMERO, COMPLEMENTO, BAIRRO, CIDADE, UF, CEP) values(?,?,?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_ENDERECO", endereco.id_endereco);
+                command.Parameters.AddWithValue("@ID", endereco.id_endereco);
                 command.Parameters.AddWithValue("@RUA", endereco.rua);
                 command.Parameters.AddWithValue("@NUMERO", endereco.numero);
                 command.Parameters.AddWithValue("@COMPLEMENTO", endereco.complemento);
@@ -35,7 +36,7 @@ namespace MariosPet.Crud
         public DataTable consultaEndereco(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -47,9 +48,9 @@ namespace MariosPet.Crud
 
         public void alteraEndereco(Endereco endereco)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update ENDERECO set RUA = ?, NUMERO = ?, COMPLEMENTO = ?, BAIRRO = ?, CIDADE = ?, UF = ?, CEP = ? where ID_ENDERECO = ?";
+                string sql = "update ENDERECO set RUA = ?, NUMERO = ?, COMPLEMENTO = ?, BAIRRO = ?, CIDADE = ?, UF = ?, CEP = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@RUA", endereco.rua);
@@ -59,7 +60,7 @@ namespace MariosPet.Crud
                 command.Parameters.AddWithValue("@CIDADE", endereco.cidade);
                 command.Parameters.AddWithValue("@UF", endereco.uf);
                 command.Parameters.AddWithValue("@CEP", endereco.cep);
-                command.Parameters.AddWithValue("@ID_ENDERECO", endereco.id_endereco);
+                command.Parameters.AddWithValue("@ID", endereco.id_endereco);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -68,14 +69,14 @@ namespace MariosPet.Crud
 
         public void excluiEndereco(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "delete ENDERECO where ID_ENDERECO = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
+                OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_ENDERECO", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
