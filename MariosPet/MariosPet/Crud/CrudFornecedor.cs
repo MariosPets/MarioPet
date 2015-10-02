@@ -9,20 +9,22 @@ using System.Threading.Tasks;
 
 namespace MariosPet.Crud
 {
-    class CrudFornecedor
+    class CrudFornecedor: CrudPessoaJuridica
     {
         public void inserirFornecedor(Fornecedor fornecedor)
         {
+            inserirPessoaJuridica(fornecedor);
+            fornecedor.id = Convert.ToInt32(consultaPessoaJuridica("select top 1 ID from PESSOA_JURIDICA order by ID desc").Rows[0][0].ToString());
+
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into FORNECEDOR (ID, ID_PESSOA_JURIDICA, RAMO_ATIVIDADE, NOME_CONTATO) values(?,?,?,?)";
+                string sql = "insert into FORNECEDOR (ID_PESSOA_JURIDICA, RAMO_ATIVIDADE, NOME_CONTATO) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", fornecedor.id_fornecedor);
-                command.Parameters.AddWithValue("@ID_PESSOA_JURIDICA", fornecedor.id_pessoa_juridica);
-                command.Parameters.AddWithValue("@RAMO_ATIVIDADE", fornecedor.ramo_atividade);
-                command.Parameters.AddWithValue("@NOME_CONTATO", fornecedor.contato_fornecedor);
+                command.Parameters.AddWithValue("@ID_PESSOA_JURIDICA", fornecedor.id);
+                command.Parameters.AddWithValue("@RAMO_ATIVIDADE", fornecedor.ramoAtividade);
+                command.Parameters.AddWithValue("@CONTATO_FORNECEDOR", fornecedor.nomeContato);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -44,15 +46,15 @@ namespace MariosPet.Crud
 
         public void alteraFornecedor(Fornecedor fornecedor)
         {
+            alteraPessoaJuridica(fornecedor);
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update FORNECEDOR set ID_PESSOA_JURIDICA = ?, RAMO_ATIVIDADE = ?, NOME_CONTATO = ? where ID = ?";
+                string sql = "update FORNECEDOR set RAMO_ATIVIDADE = ?, NOME_CONTATO = ? where ID_PESSOA_JURIDICA = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_PESSOA_JURIDICA", fornecedor.id_pessoa_juridica);
-                command.Parameters.AddWithValue("@RAMO_ATIVIDADE", fornecedor.ramo_atividade);
-                command.Parameters.AddWithValue("@NOME_CONTATO", fornecedor.contato_fornecedor);
-                command.Parameters.AddWithValue("@ID", fornecedor.id_fornecedor);
+                command.Parameters.AddWithValue("@RAMO_ATIVIDADE", fornecedor.ramoAtividade);
+                command.Parameters.AddWithValue("@CONTATO_FORNECEDOR", fornecedor.nomeContato);
+                command.Parameters.AddWithValue("@ID_PESSOA_JURIDICA", fornecedor.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -61,12 +63,14 @@ namespace MariosPet.Crud
 
         public void excluiFornecedor(int codigo)
         {
+            excluiPessoaJuridica(codigo);
+
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete FORNECEDOR where ID_FORNECEDOR = ?";
+                string sql = "delete FORNECEDOR where ID_PESSOA_JURIDICA = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_FORNECEDOR", codigo);
+                command.Parameters.AddWithValue("@ID_PESSOA_JURIDICA", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
