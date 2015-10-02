@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCadastroCliente));
             this.btmLimpar = new System.Windows.Forms.Button();
             this.btmVoltar = new System.Windows.Forms.Button();
@@ -61,6 +62,7 @@
             this.btmFone = new System.Windows.Forms.Button();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
+            this.toolTipCliente = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -76,6 +78,7 @@
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
             this.btmLimpar.TabIndex = 9;
+            this.toolTipCliente.SetToolTip(this.btmLimpar, "Limpar os Campos");
             this.btmLimpar.UseVisualStyleBackColor = false;
             // 
             // btmVoltar
@@ -89,6 +92,7 @@
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
             this.btmVoltar.TabIndex = 8;
+            this.toolTipCliente.SetToolTip(this.btmVoltar, "Voltar ao Menu");
             this.btmVoltar.UseVisualStyleBackColor = false;
             // 
             // btmSalvar
@@ -102,6 +106,7 @@
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(117, 42);
             this.btmSalvar.TabIndex = 7;
+            this.toolTipCliente.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
             // cmbUF
@@ -109,11 +114,40 @@
             this.cmbUF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbUF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.cmbUF.FormattingEnabled = true;
+            this.cmbUF.Items.AddRange(new object[] {
+            "Acre (AC)",
+            "Alagoas (AL)",
+            "Amapá (AP)",
+            "Amazonas (AM)",
+            "Bahia (BA)",
+            "Ceará (CE)",
+            "Distrito Federal (DF)",
+            "Espírito Santo (ES)",
+            "Goiás (GO)",
+            "Maranhão (MA)",
+            "Mato Grosso (MT)",
+            "Mato Grosso do Sul (MS)",
+            "Minas Gerais (MG)",
+            "Pará (PA) ",
+            "Paraíba (PB)",
+            "Paraná (PR)",
+            "Pernambuco (PE)",
+            "Piauí (PI)",
+            "Rio de Janeiro (RJ)",
+            "Rio Grande do Norte (RN)",
+            "Rio Grande do Sul (RS)",
+            "Rondônia (RO)",
+            "Roraima (RR)",
+            "Santa Catarina (SC)",
+            "São Paulo (SP)",
+            "Sergipe (SE)",
+            "Tocantins (TO)"});
             this.cmbUF.Location = new System.Drawing.Point(473, 187);
             this.cmbUF.Name = "cmbUF";
             this.cmbUF.Size = new System.Drawing.Size(171, 26);
             this.cmbUF.TabIndex = 22;
             this.cmbUF.Text = "---Selecione---";
+            this.toolTipCliente.SetToolTip(this.cmbUF, "Selecione o Estado");
             // 
             // groupBox2
             // 
@@ -152,6 +186,7 @@
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
             this.maskedTextBox2.TabIndex = 23;
+            this.toolTipCliente.SetToolTip(this.maskedTextBox2, "Insira o CEP");
             // 
             // lblUF
             // 
@@ -181,6 +216,7 @@
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(195, 27);
             this.txtCidade.TabIndex = 17;
+            this.toolTipCliente.SetToolTip(this.txtCidade, "Insira o nome da Cidade");
             // 
             // lblCidade
             // 
@@ -200,6 +236,7 @@
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(195, 27);
             this.txtBairro.TabIndex = 15;
+            this.toolTipCliente.SetToolTip(this.txtBairro, "Insira o Nome do Bairro");
             // 
             // lblBairro
             // 
@@ -219,6 +256,7 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(81, 27);
             this.txtNumero.TabIndex = 13;
+            this.toolTipCliente.SetToolTip(this.txtNumero, "Insira o Número da Residência");
             // 
             // lblNumero
             // 
@@ -238,6 +276,7 @@
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(170, 27);
             this.txtComplemento.TabIndex = 11;
+            this.toolTipCliente.SetToolTip(this.txtComplemento, "Insira o Complemento");
             // 
             // lblComplemento
             // 
@@ -257,6 +296,7 @@
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(488, 27);
             this.txtRua.TabIndex = 9;
+            this.toolTipCliente.SetToolTip(this.txtRua, "Insira o nome da Rua");
             // 
             // lblRua
             // 
@@ -335,6 +375,7 @@
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
             this.maskedTextBox1.TabIndex = 15;
+            this.toolTipCliente.SetToolTip(this.maskedTextBox1, "Insira a Data de Nascimento");
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // label1
@@ -356,6 +397,7 @@
             this.mstRG.Name = "mstRG";
             this.mstRG.Size = new System.Drawing.Size(170, 27);
             this.mstRG.TabIndex = 13;
+            this.toolTipCliente.SetToolTip(this.mstRG, "Insira o RG");
             // 
             // mstCPF
             // 
@@ -366,6 +408,7 @@
             this.mstCPF.Name = "mstCPF";
             this.mstCPF.Size = new System.Drawing.Size(170, 27);
             this.mstCPF.TabIndex = 12;
+            this.toolTipCliente.SetToolTip(this.mstCPF, "Insira o CPF");
             // 
             // txtTelefone
             // 
@@ -375,6 +418,7 @@
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone.TabIndex = 11;
+            this.toolTipCliente.SetToolTip(this.txtTelefone, "Insira o número do Telefone");
             // 
             // txtEmail
             // 
@@ -384,6 +428,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(487, 27);
             this.txtEmail.TabIndex = 10;
+            this.toolTipCliente.SetToolTip(this.txtEmail, "Insira o E-mail");
             // 
             // txtNome
             // 
@@ -393,6 +438,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(487, 27);
             this.txtNome.TabIndex = 7;
+            this.toolTipCliente.SetToolTip(this.txtNome, "Insira o nome do Cliente");
             // 
             // btmFone
             // 
@@ -406,6 +452,7 @@
             this.btmFone.Name = "btmFone";
             this.btmFone.Size = new System.Drawing.Size(89, 51);
             this.btmFone.TabIndex = 6;
+            this.toolTipCliente.SetToolTip(this.btmFone, "Adicionar mais um número para Contato");
             this.btmFone.UseVisualStyleBackColor = false;
             // 
             // lblTelefone
@@ -427,6 +474,12 @@
             this.lblEmail.Size = new System.Drawing.Size(81, 23);
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "E-mail:";
+            // 
+            // toolTipCliente
+            // 
+            this.toolTipCliente.AutomaticDelay = 100;
+            this.toolTipCliente.IsBalloon = true;
+            this.toolTipCliente.StripAmpersands = true;
             // 
             // FrmCadastroCliente
             // 
@@ -486,5 +539,6 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.ToolTip toolTipCliente;
     }
 }

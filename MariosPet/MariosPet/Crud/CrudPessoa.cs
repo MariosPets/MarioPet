@@ -11,20 +11,20 @@ namespace MariosPet.Crud
 {
     class CrudPessoa
     {
-        public void inserirVermifugo(Pessoa pessoa)
+        public void inserirPessoa(Pessoa pessoa)
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into PESSOA (ID_PESSOA, NOME, CPF, RG, NASCIMENTO, ID_ENDERECO) values(?,?,?,?,?,?)";
+                string sql = "insert into PESSOA (ID, NOME, CPF, RG, NASCIMENTO, ID_ENDERECO) values(?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_PESSOA", pessoa.id);
+                command.Parameters.AddWithValue("@ID", pessoa.id);
                 command.Parameters.AddWithValue("@NOME", pessoa.nome);
                 command.Parameters.AddWithValue("@CPF", pessoa.cpf);
                 command.Parameters.AddWithValue("@RG", pessoa.rg);
                 command.Parameters.AddWithValue("@NASCIMENTO", pessoa.nascimento);
-                command.Parameters.AddWithValue("@ID_ENDERECO", pessoa.id_endereco);
+                command.Parameters.AddWithValue("@ID_ENDERECO", pessoa.idEndereco);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -34,7 +34,7 @@ namespace MariosPet.Crud
         public DataTable consultaPessoa(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -46,17 +46,17 @@ namespace MariosPet.Crud
 
         public void alteraPessoa(Pessoa pessoa)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update PESSOA set NOME = ?, CPF = ?, RG = ?, NASCIMENTO = ?, ID_ENDERECO, where ID_PESSOA = ?";
+                string sql = "update PESSOA set NOME = ?, CPF = ?, RG = ?, NASCIMENTO = ?, ID_ENDERECO, where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@NOME", pessoa.nome);
                 command.Parameters.AddWithValue("@CPF", pessoa.cpf);
                 command.Parameters.AddWithValue("@RG", pessoa.rg);
                 command.Parameters.AddWithValue("@NASCIMENTO", pessoa.nascimento);
-                command.Parameters.AddWithValue("@ID_ENDERECO", pessoa.id_endereco);
-                command.Parameters.AddWithValue("@ID_PESSOA", pessoa.id_pessoa);
+                command.Parameters.AddWithValue("@ID_ENDERECO", pessoa.idEndereco);
+                command.Parameters.AddWithValue("@ID", pessoa.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -65,14 +65,14 @@ namespace MariosPet.Crud
 
         public void excluiPessoa(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete PESSOA where ID_PESSOA = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
+                string sql = "delete PESSOA where ID = ?";
+                OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_PESSOA", codigo);
+                command.Parameters.AddWithValue("@ID", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
