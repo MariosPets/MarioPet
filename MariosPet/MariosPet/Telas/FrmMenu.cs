@@ -22,5 +22,17 @@ namespace MariosPet.Telas
             Telas.FrmCadastroCliente cadcli = new FrmCadastroCliente();
             cadcli.Show();
         }
+
+        private void cadastroToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmAnimal animal = new FrmAnimal();
+            animal.Show();
+        }
+
+        private void cadastroToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            FrmFornecedor fornecedor = new FrmFornecedor();
+            fornecedor.Show();
+        }
     }
 }
