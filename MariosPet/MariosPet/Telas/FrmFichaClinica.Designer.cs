@@ -239,9 +239,9 @@
             this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(6, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 23);
+            this.label1.Size = new System.Drawing.Size(183, 23);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Histórico Clinico:";
+            this.label1.Text = "Histórico Clinico:.";
             // 
             // FrmFichaClinica
             // 
