@@ -16,5 +16,15 @@ namespace MariosPet.Telas
         {
             InitializeComponent();
         }
+
+        private void lblRG_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mstCPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
