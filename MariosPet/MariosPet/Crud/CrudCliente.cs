@@ -18,10 +18,10 @@ namespace MariosPet.Crud
 
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {                
-                string sql = "insert into CLIENTE (ID) values(?)";
+                string sql = "insert into CLIENTE (ID_PESSOA) values(?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", cliente.id);
+                command.Parameters.AddWithValue("@ID_PESSOA", cliente.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
