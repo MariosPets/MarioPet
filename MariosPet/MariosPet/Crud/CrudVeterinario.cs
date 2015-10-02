@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Odbc;
@@ -12,13 +13,13 @@ namespace MariosPet.Crud
     {
         public void inserirVeterinario(Veterinario veterinario)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into VETERINARIO (ID_VETERINARIO, ID_FUNCIONARIO, CRMV_VETERINARIO) values(?,?, ?)";
+                string sql = "insert into VETERINARIO (ID, ID_FUNCIONARIO, CRMV_VETERINARIO) values(?,?, ?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_VETERINARIO", veterinario.id_veterinario);
+                command.Parameters.AddWithValue("@ID", veterinario.id);
                 command.Parameters.AddWithValue("@ID_FUNCIONARIO", veterinario.id_funcionario);
                 command.Parameters.AddWithValue("@CRMV_VETERINARIO", veterinario.crmv_veterinario);
 
@@ -30,7 +31,7 @@ namespace MariosPet.Crud
         public DataTable consultaVeterinario(string sql)
         {
             DataTable tabela = new DataTable();
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 conexao.Open();
                 OdbcDataAdapter data = new OdbcDataAdapter(sql, conexao);
@@ -42,12 +43,12 @@ namespace MariosPet.Crud
 
         public void alteraVeterinario(Veterinario veterinario)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update VETERINARIO set ID_FUNCIONARIO = ?, CRMV_VETERINARIO = ? where ID_VETERINARIO = ?";
+                string sql = "update VETERINARIO set ID = ?, CRMV_VETERINARIO = ? where ID_VETERINARIO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_FUNCIONARIO", veterinario.id_funcionario);
+                command.Parameters.AddWithValue("@ID", veterinario.id);
                 command.Parameters.AddWithValue("@CRMV_VETERINARIO", veterinario.crmv_veterinario);
                 command.Parameters.AddWithValue("@ID_VETERINARIO", veterinario.id_veterinario);
 
@@ -58,14 +59,14 @@ namespace MariosPet.Crud
 
         public void excluiVeterinario(int codigo)
         {
-            using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "delete VETERINARIO where ID_VETERINARIO = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
+                OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_VETERINARIO", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
