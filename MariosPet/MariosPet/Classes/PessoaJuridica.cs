@@ -11,7 +11,7 @@ namespace MariosPet.Classes
         #region Atributos
 
         public int id { get; set; }
-        public string denominacaoSocial { get; set; }
+        public string razaoSocial { get; set; }
         public string cnpj { get; set; }
         public int idEndereco { get; set; }
         public string email1 { get; set; }
