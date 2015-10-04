@@ -8,20 +8,24 @@ namespace MariosPet.Classes
 {
     class Produto
     {
-        private int id { get; set; }
-        private string descricao { get; set; }
-        private string setor { get; set; }
-        private int idFornecedor { get; set; }
-        private string fabricante { get; set; }
-        private DateTime vencimento { get; set; }
-        private int quantidade { get; set; }
-        private string unidade { get; set; }
-        private double valorCusto { get; set; }
-        private double valorVenda { get; set; }
-        private double lucro { get; set; }
-        private string tributacao { get; set; }
-        private int minimoEmEstoque { get; set; }
-        private int maximoEmEstoque { get; set; }
-        private string codigoBarras { get; set; }
+        #region Atributos
+
+        public int id { get; set; }
+        public string descricao { get; set; }
+        public string setor { get; set; }
+        public int idFornecedor { get; set; }
+        public string fabricante { get; set; }
+        public DateTime vencimento { get; set; }
+        public int quantidade { get; set; }
+        public string unidade { get; set; }
+        public double valorCusto { get; set; }
+        public double valorVenda { get; set; }
+        public double lucro { get; set; }
+        public string tributacao { get; set; }
+        public int minimoEmEstoque { get; set; }
+        public int maximoEmEstoque { get; set; }
+        public string codigoBarras { get; set; }
+
+        #endregion
     }
 }

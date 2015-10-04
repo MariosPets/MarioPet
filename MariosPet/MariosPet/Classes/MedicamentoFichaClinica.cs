@@ -8,8 +8,12 @@ namespace MariosPet.Classes
 {
     class MedicamentoFichaClinica
     {
-        private int id { get; set; }
-        private int idFichaClinica { get; set; }
-        private int idMedicamento { get; set; }
+        #region Atributos
+
+        public int id { get; set; }
+        public int idFichaClinica { get; set; }
+        public int idMedicamento { get; set; }
+
+        #endregion
     }
 }

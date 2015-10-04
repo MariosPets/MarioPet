@@ -48,11 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Agendamento.cs" />
+    <Compile Include="Classes\Anamnese.cs" />
     <Compile Include="Classes\Animal.cs" />
     <Compile Include="Classes\Autorizacao.cs" />
     <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\ConexaoPadrao.cs" />
-    <Compile Include="Classes\Email.cs" />
     <Compile Include="Classes\Endereco.cs" />
     <Compile Include="Classes\Exame.cs" />
     <Compile Include="Classes\FichaClinica.cs" />
@@ -64,8 +64,7 @@
     <Compile Include="Classes\Pessoa.cs" />
     <Compile Include="Classes\PessoaJuridica.cs" />
     <Compile Include="Classes\Produto.cs" />
-    <Compile Include="Classes\TelefonePessoa.cs" />
-    <Compile Include="Classes\TelefonePessoaJuridica.cs" />
+    <Compile Include="Classes\Servico.cs" />
     <Compile Include="Classes\Vacina.cs" />
     <Compile Include="Classes\Vermifugo.cs" />
     <Compile Include="Classes\Veterinario.cs" />
@@ -73,7 +72,6 @@
     <Compile Include="Crud\CrudAnimal.cs" />
     <Compile Include="Crud\CrudAutorizacao.cs" />
     <Compile Include="Crud\CrudCliente.cs" />
-    <Compile Include="Crud\CrudEmail.cs" />
     <Compile Include="Crud\CrudEndereco.cs" />
     <Compile Include="Crud\CrudExame.cs" />
     <Compile Include="Crud\CrudFichaClinica.cs" />
@@ -82,8 +80,6 @@
     <Compile Include="Crud\CrudFuncionario.cs" />
     <Compile Include="Crud\CrudPessoa.cs" />
     <Compile Include="Crud\CrudPessoaJuridica.cs" />
-    <Compile Include="Crud\CrudTelefonePessoa.cs" />
-    <Compile Include="Crud\CrudTelefonePessoaJuridica.cs" />
     <Compile Include="Crud\CrudVacina.cs" />
     <Compile Include="Crud\CrudVermifugo.cs" />
     <Compile Include="Crud\CrudVeterinario.cs" />

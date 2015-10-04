@@ -11,7 +11,7 @@ namespace MariosPet.Classes
         #region Atributos
 
         public int id { get; set; }
-        public int idAnimal { get; set; }
+        public int idCliente { get; set; }
         public int idFuncionario { get; set; }
         public DateTime hora { get; set; }        
         public bool atendido { get; set; }
