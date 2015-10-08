@@ -18,17 +18,16 @@ namespace MariosPet.Crud
 
 
 
-                string sql = "insert into EXAME (ID, ID_ANIMAL, DATA, EXAME, ID_VETERINARIO, ID_LABORATORIO) values(?,?,?,?,?,?)";
+                string sql = "insert into EXAME (ID, ID_ANIMAL, ID_VETERINARIO, ID_LABORATORIO, DATA, EXAME) values(?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", exame.id_exame);
-                command.Parameters.AddWithValue("@ID_ANIMAL", exame.id_animal);
-                command.Parameters.AddWithValue("@DATA", exame.data_exame);
-                command.Parameters.AddWithValue("@EXAME", exame.exame);
-                command.Parameters.AddWithValue("@ID_VETERINARIO", exame.id_veterinario);
-                command.Parameters.AddWithValue("@ID_LABORATORIO", exame.id_laboratorio);
-
-
+                command.Parameters.AddWithValue("@ID", exame.id);
+                command.Parameters.AddWithValue("@ID_ANIMAL", exame.idAnimal);
+                command.Parameters.AddWithValue("@ID_VETERINARIO", exame.idVeterinario);
+                command.Parameters.AddWithValue("@ID_LABORATORIO", exame.idLaboratorio);
+                command.Parameters.AddWithValue("@DATA", exame.data);
+                command.Parameters.AddWithValue("@EXAME", exame.exame);              
+                
                 conexao.Open();
                 command.ExecuteNonQuery();
             }
@@ -51,15 +50,15 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update EXAME set ID_ANIMAL = ?, DATA = ?, EXAME = ?, ID_VETERINARIO = ?, ID_LABORATORIO = ? where ID = ?";
+                string sql = "update EXAME set ID_ANIMAL = ?, ID_VETERINARIO = ?, ID_LABORATORIO = ?, DATA = ?, EXAME = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_ANIMAL", exame.id_animal);
-                command.Parameters.AddWithValue("@DATA", exame.data_exame);
+                command.Parameters.AddWithValue("@ID_ANIMAL", exame.idAnimal);                     
+                command.Parameters.AddWithValue("@ID_VETERINARIO", exame.idVeterinario);
+                command.Parameters.AddWithValue("@ID_LABORATORIO", exame.idLaboratorio);
+                command.Parameters.AddWithValue("@DATA", exame.data);
                 command.Parameters.AddWithValue("@EXAME", exame.exame);
-                command.Parameters.AddWithValue("@ID_VETERINARIO", exame.id_veterinario);
-                command.Parameters.AddWithValue("@ID_LABORATORIO", exame.id_laboratorio);
-                command.Parameters.AddWithValue("@ID", exame.id_exame);
+                command.Parameters.AddWithValue("@ID", exame.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -70,10 +69,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete EXAME where ID_EXAME = ?";
+                string sql = "delete EXAME where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_EXAME", codigo);
+                command.Parameters.AddWithValue("@ID", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
