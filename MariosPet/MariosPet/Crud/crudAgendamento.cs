@@ -16,13 +16,13 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into AGENDAMENTO (ID, ID_ANIMAL, HORA, ID_FUNCIONARIO, ATENDIDO) values(?,?,?,?,?)";
+                string sql = "insert into AGENDAMENTO (ID, ID_CLIENTE, ID_FUNCIONARIO, HORA, ATENDIDO) values(?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", agendamento.id_agendamento);
-                command.Parameters.AddWithValue("@ID_ANIMAL", agendamento.id_animal);
-                command.Parameters.AddWithValue("@HORA", agendamento.hora_agendamento);
-                command.Parameters.AddWithValue("@ID_FUNCIONARIO", agendamento.id_funcionario);
+                command.Parameters.AddWithValue("@ID", agendamento.id);
+                command.Parameters.AddWithValue("@ID_CLIENTE", agendamento.idCliente);                
+                command.Parameters.AddWithValue("@ID_FUNCIONARIO", agendamento.idFuncionario);
+                command.Parameters.AddWithValue("@HORA", agendamento.hora);
                 command.Parameters.AddWithValue("@ATENDIDO", agendamento.atendido);
 
                 conexao.Open();
@@ -47,14 +47,14 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update AGENDAMENTO set ID_ANIMAL = ?, HORA = ?, ID_FUNCIONARIO = ?, ATENDIDO = ? where ID = ?";
+                string sql = "update AGENDAMENTO set ID_CLIENTE = ?, ID_FUNCIONARIO = ?, HORA = ?, ATENDIDO = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_ANIMAL", agendamento.id_animal);
-                command.Parameters.AddWithValue("@HORA", agendamento.hora_agendamento);
-                command.Parameters.AddWithValue("@ID_FUNCIONARIO", agendamento.id_funcionario);
+                command.Parameters.AddWithValue("@ID_CLIENTE", agendamento.idCliente);                
+                command.Parameters.AddWithValue("@ID_FUNCIONARIO", agendamento.idFuncionario);
+                command.Parameters.AddWithValue("@HORA", agendamento.hora);
                 command.Parameters.AddWithValue("@ATENDIDO", agendamento.atendido);
-                command.Parameters.AddWithValue("@ID", agendamento.id_agendamento);
+                command.Parameters.AddWithValue("@ID", agendamento.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
