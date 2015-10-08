@@ -19,14 +19,14 @@ namespace MariosPet.Crud
                 string sql = "insert into ANIMAL (ID, NOME, ID_CLIENTE, RACA_PORTE, SEXO, PELAGEM_COR, NASCIMENTO, ID_VETERINARIO ) values(?,?,?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", animal.id_animal);
-                command.Parameters.AddWithValue("@NOME", animal.nome_animal);
-                command.Parameters.AddWithValue("@ID_CLIENTE", animal.id_cliente);
-                command.Parameters.AddWithValue("@RACA_PORTE", animal.raca_porte);
+                command.Parameters.AddWithValue("@ID", animal.id);
+                command.Parameters.AddWithValue("@NOME", animal.nome);
+                command.Parameters.AddWithValue("@ID_CLIENTE", animal.idCliente);
+                command.Parameters.AddWithValue("@RACA_PORTE", animal.racaPorte);
                 command.Parameters.AddWithValue("@SEXO", animal.sexo);
-                command.Parameters.AddWithValue("@PELAGEM_COR", animal.pelagem_cor);
+                command.Parameters.AddWithValue("@PELAGEM_COR", animal.pelagemCor);
                 command.Parameters.AddWithValue("@NASCIMENTO", animal.nascimento);
-                command.Parameters.AddWithValue("@ID_VETERINARIO", animal.id_veterinario);
+                command.Parameters.AddWithValue("@ID_VETERINARIO", animal.idVeterinario);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -53,14 +53,14 @@ namespace MariosPet.Crud
                 string sql = "update ANIMAL set NOME = ?, ID_CLIENTE = ?, RACA_PORTE = ?, SEXO = ?, PELAGEM_COR = ?, NASCIMENTO = ?, ID_VETERINARIO = ?,  where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@NOME", animal.nome_animal);
-                command.Parameters.AddWithValue("@ID_CLIENTE", animal.id_cliente);
-                command.Parameters.AddWithValue("@RACA_PORTE", animal.raca_porte);
+                command.Parameters.AddWithValue("@NOME", animal.nome);
+                command.Parameters.AddWithValue("@ID_CLIENTE", animal.idCliente);
+                command.Parameters.AddWithValue("@RACA_PORTE", animal.racaPorte);
                 command.Parameters.AddWithValue("@SEXO", animal.sexo);
-                command.Parameters.AddWithValue("@PELAGEM_COR", animal.pelagem_cor);
+                command.Parameters.AddWithValue("@PELAGEM_COR", animal.pelagemCor);
                 command.Parameters.AddWithValue("@NASCIMENTO", animal.nascimento);
-                command.Parameters.AddWithValue("@ID_VETERINARIO", animal.id_veterinario);
-                command.Parameters.AddWithValue("@ID", animal.id_animal);
+                command.Parameters.AddWithValue("@ID_VETERINARIO", animal.idVeterinario);
+                command.Parameters.AddWithValue("@ID", animal.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -74,7 +74,7 @@ namespace MariosPet.Crud
                 string sql = "delete ANIMAL where ID_ANIMAL = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_ANIMAL", codigo);
+                command.Parameters.AddWithValue("@ID", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
