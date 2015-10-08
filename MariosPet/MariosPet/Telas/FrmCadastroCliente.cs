@@ -16,5 +16,10 @@ namespace MariosPet.Telas
         {
             InitializeComponent();
         }
+
+        private void lblTelefone_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
