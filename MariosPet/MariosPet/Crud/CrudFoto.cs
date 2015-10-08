@@ -16,13 +16,12 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into FOTO (ID, FOTO, ID_ANIMAL) values(?,?,?)";
+                string sql = "insert into FOTO (ID, ID_ANIMAL, FOTO) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", foto.id_foto);
+                command.Parameters.AddWithValue("@ID", foto.id);
+                command.Parameters.AddWithValue("@ID_ANIMAL", foto.idAnimal);
                 command.Parameters.AddWithValue("@FOTO", foto.foto);
-                command.Parameters.AddWithValue("@ID_ANIMAL", foto.id_animal);
-
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -49,9 +48,9 @@ namespace MariosPet.Crud
                 string sql = "update FOTO set ID_ANIMAL = ?, FOTO = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_ANIMAL", foto.id_animal);
+                command.Parameters.AddWithValue("@ID_ANIMAL", foto.idAnimal);
                 command.Parameters.AddWithValue("@FOTO", foto.foto);
-                command.Parameters.AddWithValue("@ID", foto.id_foto);
+                command.Parameters.AddWithValue("@ID", foto.id);
 
 
                 conexao.Open();
