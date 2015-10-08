@@ -8,9 +8,9 @@ namespace MariosPet.Classes
 {
     class Vacina
     {
-        private int id { get; set; }
-        private int idAnimal { get; set; }
-        private int idMedicamento { get; set; }
-        private DateTime data { get; set; }
+        public int id { get; set; }
+        public int idAnimal { get; set; }
+        public int idMedicamento { get; set; }
+        public DateTime data { get; set; }
     }
 }
