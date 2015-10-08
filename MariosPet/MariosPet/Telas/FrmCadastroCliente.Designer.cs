@@ -62,9 +62,9 @@
             this.lblTelefone1 = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.toolTipCliente = new System.Windows.Forms.ToolTip(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTelefone2 = new System.Windows.Forms.TextBox();
             this.lblTelefone2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTelefone3 = new System.Windows.Forms.TextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -347,9 +347,9 @@
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtTelefone3);
             this.groupBox1.Controls.Add(this.lblTelefone);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtTelefone2);
             this.groupBox1.Controls.Add(this.lblTelefone2);
             this.groupBox1.Controls.Add(this.maskedTextBox1);
             this.groupBox1.Controls.Add(this.label1);
@@ -473,15 +473,15 @@
             this.toolTipCliente.IsBalloon = true;
             this.toolTipCliente.StripAmpersands = true;
             // 
-            // textBox1
+            // txtTelefone2
             // 
-            this.textBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textBox1.Location = new System.Drawing.Point(473, 209);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 27);
-            this.textBox1.TabIndex = 17;
-            this.toolTipCliente.SetToolTip(this.textBox1, "Insira o número do Telefone");
+            this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone2.Location = new System.Drawing.Point(473, 209);
+            this.txtTelefone2.Name = "txtTelefone2";
+            this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone2.TabIndex = 17;
+            this.toolTipCliente.SetToolTip(this.txtTelefone2, "Insira o número do Telefone");
             // 
             // lblTelefone2
             // 
@@ -493,15 +493,15 @@
             this.lblTelefone2.TabIndex = 16;
             this.lblTelefone2.Text = "Telefone:";
             // 
-            // textBox2
+            // txtTelefone3
             // 
-            this.textBox2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textBox2.Location = new System.Drawing.Point(156, 252);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(170, 27);
-            this.textBox2.TabIndex = 19;
-            this.toolTipCliente.SetToolTip(this.textBox2, "Insira o número do Telefone");
+            this.txtTelefone3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone3.Location = new System.Drawing.Point(156, 252);
+            this.txtTelefone3.Name = "txtTelefone3";
+            this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone3.TabIndex = 19;
+            this.toolTipCliente.SetToolTip(this.txtTelefone3, "Insira o número do Telefone");
             // 
             // lblTelefone
             // 
@@ -571,9 +571,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.ToolTip toolTipCliente;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTelefone2;
         private System.Windows.Forms.Label lblTelefone2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTelefone3;
         private System.Windows.Forms.Label lblTelefone;
     }
 }
