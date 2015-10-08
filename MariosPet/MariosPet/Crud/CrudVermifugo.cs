@@ -16,15 +16,15 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into VERMIFUGO (ID, ID_ANIMAL, DATA_INICIO, DATA_FIM, ID_MEDICAMENTO) values(?,?,?,?,?)";
+                string sql = "insert into VERMIFUGO (ID, ID_ANIMAL, ID_MEDICAMENTO, DATA_INICIO, DATA_FIM) values(?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID", vermifugo.id);
-                command.Parameters.AddWithValue("@ID_ANIMAL", vermifugo.id_animal);
-                command.Parameters.AddWithValue("@DATA_INICIO", vermifugo.data_inicio_vermifugo);
-                command.Parameters.AddWithValue("@DATA_FIM", vermifugo.data_fim_vermifugo);
-                command.Parameters.AddWithValue("@ID_MEDICAMENTO", vermifugo.id_medicamento);
-
+                command.Parameters.AddWithValue("@ID_ANIMAL", vermifugo.idAnimal);
+                command.Parameters.AddWithValue("@ID_MEDICAMENTO", vermifugo.idMedicamento);
+                command.Parameters.AddWithValue("@DATA_INICIO", vermifugo.dataInicio);
+                command.Parameters.AddWithValue("@DATA_FIM", vermifugo.dataFim);
+                
                 conexao.Open();
                 command.ExecuteNonQuery();
             }
@@ -47,14 +47,14 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update VERMIFUGO set DATA_INICIO = ?, DATA_FIM = ?, ID_MEDICAMENTO = ?, ID_ANIMAL, where ID = ?";
+                string sql = "update VERMIFUGO set ID_ANIMAL = ?, ID_MEDICAMENTO = ?, DATA_INICIO = ?, DATA_FIM = ? where ID = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
+                command.Parameters.AddWithValue("@ID_ANIMAL", vermifugo.idAnimal);
+                command.Parameters.AddWithValue("@ID_MEDICAMENTO", vermifugo.idMedicamento);
+                command.Parameters.AddWithValue("@DATA_INICIO", vermifugo.dataInicio);
+                command.Parameters.AddWithValue("@DATA_FIM", vermifugo.dataFim);           
                 command.Parameters.AddWithValue("@ID", vermifugo.id);
-                command.Parameters.AddWithValue("@DATA_INICIO", vermifugo.data_inicio);
-                command.Parameters.AddWithValue("@DATA_FIM", vermifugo.data_fim);
-                command.Parameters.AddWithValue("@ID_MEDICAMENTO", vermifugo.id_medicamento);
-                command.Parameters.AddWithValue("@ID_ANIMAL", vermifugo.id_animal);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
