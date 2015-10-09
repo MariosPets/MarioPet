@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtTelefone3 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtTelefone2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.mstRG = new System.Windows.Forms.MaskedTextBox();
@@ -65,10 +69,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cmbTipoFuncionario = new System.Windows.Forms.ComboBox();
             this.lblTipoFuncionario = new System.Windows.Forms.Label();
-            this.txtTelefone2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtTelefone3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -97,12 +97,50 @@
             this.groupBox1.Controls.Add(this.lblNome);
             this.groupBox1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox1.Location = new System.Drawing.Point(244, 12);
+            this.groupBox1.Location = new System.Drawing.Point(261, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(717, 281);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   Dados Pessoais";
+            // 
+            // txtTelefone3
+            // 
+            this.txtTelefone3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone3.Location = new System.Drawing.Point(156, 248);
+            this.txtTelefone3.Name = "txtTelefone3";
+            this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone3.TabIndex = 32;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 248);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(99, 23);
+            this.label6.TabIndex = 31;
+            this.label6.Text = "Telefone:";
+            // 
+            // txtTelefone2
+            // 
+            this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone2.Location = new System.Drawing.Point(473, 206);
+            this.txtTelefone2.Name = "txtTelefone2";
+            this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone2.TabIndex = 30;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(356, 206);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(99, 23);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Telefone:";
             // 
             // maskedTextBox1
             // 
@@ -243,7 +281,7 @@
             this.groupBox2.Controls.Add(this.lblRua);
             this.groupBox2.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox2.Location = new System.Drawing.Point(244, 299);
+            this.groupBox2.Location = new System.Drawing.Point(261, 299);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(717, 255);
             this.groupBox2.TabIndex = 7;
@@ -399,12 +437,13 @@
             this.groupBox3.Controls.Add(this.lblTipoFuncionario);
             this.groupBox3.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox3.Location = new System.Drawing.Point(239, 576);
+            this.groupBox3.Location = new System.Drawing.Point(256, 576);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(717, 165);
+            this.groupBox3.Size = new System.Drawing.Size(722, 165);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "   Dados de Acesso";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // txtConfirmacaoSenha
             // 
@@ -485,50 +524,12 @@
             this.lblTipoFuncionario.TabIndex = 21;
             this.lblTipoFuncionario.Text = "Tipo de Funcionario:";
             // 
-            // txtTelefone2
-            // 
-            this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone2.Location = new System.Drawing.Point(473, 206);
-            this.txtTelefone2.Name = "txtTelefone2";
-            this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone2.TabIndex = 30;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(356, 206);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 23);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "Telefone:";
-            // 
-            // txtTelefone3
-            // 
-            this.txtTelefone3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone3.Location = new System.Drawing.Point(156, 248);
-            this.txtTelefone3.Name = "txtTelefone3";
-            this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone3.TabIndex = 32;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 248);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 23);
-            this.label6.TabIndex = 31;
-            this.label6.Text = "Telefone:";
-            // 
             // FrmFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1261, 741);
+            this.ClientSize = new System.Drawing.Size(1295, 741);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
