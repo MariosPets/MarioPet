@@ -59,6 +59,7 @@
     <Compile Include="Classes\Fornecedor.cs" />
     <Compile Include="Classes\Foto.cs" />
     <Compile Include="Classes\Funcionario.cs" />
+    <Compile Include="Classes\Laboratorio.cs" />
     <Compile Include="Classes\Medicamento.cs" />
     <Compile Include="Classes\MedicamentoFichaClinica.cs" />
     <Compile Include="Classes\Pessoa.cs" />
