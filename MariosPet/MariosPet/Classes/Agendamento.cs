@@ -13,6 +13,7 @@ namespace MariosPet.Classes
         public int id { get; set; }
         public int idCliente { get; set; }
         public int idFuncionario { get; set; }
+        public int idServico { get; set; }
         public DateTime hora { get; set; }        
         public bool atendido { get; set; }
 

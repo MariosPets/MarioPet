@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtTelefone3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -69,6 +70,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cmbTipoFuncionario = new System.Windows.Forms.ComboBox();
             this.lblTipoFuncionario = new System.Windows.Forms.Label();
+            this.toolTipFuncionario = new System.Windows.Forms.ToolTip(this.components);
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -112,6 +117,7 @@
             this.txtTelefone3.Name = "txtTelefone3";
             this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone3.TabIndex = 32;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefone3, "Insira o Telefone para Contato");
             // 
             // label6
             // 
@@ -131,6 +137,7 @@
             this.txtTelefone2.Name = "txtTelefone2";
             this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone2.TabIndex = 30;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefone2, "Insira o Telefone para Contato");
             // 
             // label5
             // 
@@ -151,6 +158,7 @@
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
             this.maskedTextBox1.TabIndex = 28;
+            this.toolTipFuncionario.SetToolTip(this.maskedTextBox1, "Insira a Data de Nascimento");
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // label1
@@ -172,6 +180,7 @@
             this.mstRG.Name = "mstRG";
             this.mstRG.Size = new System.Drawing.Size(170, 27);
             this.mstRG.TabIndex = 26;
+            this.toolTipFuncionario.SetToolTip(this.mstRG, "Insira o RG");
             // 
             // mstCPF
             // 
@@ -182,6 +191,7 @@
             this.mstCPF.Name = "mstCPF";
             this.mstCPF.Size = new System.Drawing.Size(170, 27);
             this.mstCPF.TabIndex = 25;
+            this.toolTipFuncionario.SetToolTip(this.mstCPF, "Insira o CPF");
             // 
             // txtTelefone
             // 
@@ -191,6 +201,7 @@
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone.TabIndex = 24;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefone, "Insira o Telefone para Contato");
             // 
             // txtEmail
             // 
@@ -200,6 +211,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(487, 27);
             this.txtEmail.TabIndex = 23;
+            this.toolTipFuncionario.SetToolTip(this.txtEmail, "Insira o E-mail");
             // 
             // txtNome
             // 
@@ -209,6 +221,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(487, 27);
             this.txtNome.TabIndex = 22;
+            this.toolTipFuncionario.SetToolTip(this.txtNome, "Insira o Nome do Funcionário");
             // 
             // lblTelefone
             // 
@@ -296,6 +309,7 @@
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
             this.maskedTextBox2.TabIndex = 23;
+            this.toolTipFuncionario.SetToolTip(this.maskedTextBox2, "Insira o CEP");
             // 
             // cmbUF
             // 
@@ -307,6 +321,7 @@
             this.cmbUF.Size = new System.Drawing.Size(171, 26);
             this.cmbUF.TabIndex = 22;
             this.cmbUF.Text = "---Selecione---";
+            this.toolTipFuncionario.SetToolTip(this.cmbUF, "Selecione a UF");
             // 
             // lblUF
             // 
@@ -336,6 +351,7 @@
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(195, 27);
             this.txtCidade.TabIndex = 17;
+            this.toolTipFuncionario.SetToolTip(this.txtCidade, "Insira a Cidade");
             // 
             // lblCidade
             // 
@@ -355,6 +371,7 @@
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(195, 27);
             this.txtBairro.TabIndex = 15;
+            this.toolTipFuncionario.SetToolTip(this.txtBairro, "Insira o Bairro");
             // 
             // lblBairro
             // 
@@ -374,6 +391,7 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(81, 27);
             this.txtNumero.TabIndex = 13;
+            this.toolTipFuncionario.SetToolTip(this.txtNumero, "Insira o Número da Residência");
             // 
             // lblNumero
             // 
@@ -393,6 +411,7 @@
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(170, 27);
             this.txtComplemento.TabIndex = 11;
+            this.toolTipFuncionario.SetToolTip(this.txtComplemento, "Insira o Complemento");
             // 
             // lblComplemento
             // 
@@ -412,6 +431,7 @@
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(488, 27);
             this.txtRua.TabIndex = 9;
+            this.toolTipFuncionario.SetToolTip(this.txtRua, "Insira o Nome da Rua");
             // 
             // lblRua
             // 
@@ -453,6 +473,7 @@
             this.txtConfirmacaoSenha.Name = "txtConfirmacaoSenha";
             this.txtConfirmacaoSenha.Size = new System.Drawing.Size(170, 27);
             this.txtConfirmacaoSenha.TabIndex = 30;
+            this.toolTipFuncionario.SetToolTip(this.txtConfirmacaoSenha, "Insira a Senha novamente");
             // 
             // label4
             // 
@@ -472,6 +493,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(170, 27);
             this.txtSenha.TabIndex = 28;
+            this.toolTipFuncionario.SetToolTip(this.txtSenha, "Insira a Senha");
             this.txtSenha.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
@@ -492,6 +514,7 @@
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(170, 27);
             this.txtLogin.TabIndex = 26;
+            this.toolTipFuncionario.SetToolTip(this.txtLogin, "Insira o Login");
             // 
             // label2
             // 
@@ -513,6 +536,7 @@
             this.cmbTipoFuncionario.Size = new System.Drawing.Size(171, 26);
             this.cmbTipoFuncionario.TabIndex = 23;
             this.cmbTipoFuncionario.Text = "---Selecione---";
+            this.toolTipFuncionario.SetToolTip(this.cmbTipoFuncionario, "Selecione o Tipo de Funcionário");
             // 
             // lblTipoFuncionario
             // 
@@ -524,12 +548,54 @@
             this.lblTipoFuncionario.TabIndex = 21;
             this.lblTipoFuncionario.Text = "Tipo de Funcionario:";
             // 
+            // toolTipFuncionario
+            // 
+            this.toolTipFuncionario.AutomaticDelay = 100;
+            this.toolTipFuncionario.IsBalloon = true;
+            this.toolTipFuncionario.StripAmpersands = true;
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnLimpar.Location = new System.Drawing.Point(84, 76);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpar.TabIndex = 9;
+            this.btnLimpar.Text = "Limpar";
+            this.toolTipFuncionario.SetToolTip(this.btnLimpar, "Limpar campos");
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnVoltar.Location = new System.Drawing.Point(3, 76);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnVoltar.TabIndex = 10;
+            this.btnVoltar.Text = "Voltar";
+            this.toolTipFuncionario.SetToolTip(this.btnVoltar, "Voltar ao Menu");
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnSalvar.Location = new System.Drawing.Point(180, 76);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(75, 23);
+            this.btnSalvar.TabIndex = 11;
+            this.btnSalvar.Text = "Salvar";
+            this.toolTipFuncionario.SetToolTip(this.btnSalvar, "Salvar as Informações");
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            // 
             // FrmFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1295, 741);
+            this.Controls.Add(this.btnSalvar);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -589,5 +655,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtTelefone2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ToolTip toolTipFuncionario;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.Button btnSalvar;
     }
 }
