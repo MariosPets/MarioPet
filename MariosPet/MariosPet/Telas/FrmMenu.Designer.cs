@@ -94,6 +94,7 @@
             this.parceladoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button2 = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.prontuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -592,7 +593,8 @@
             this.solicitaçãoDeExamesToolStripMenuItem,
             this.toolStripMenuItem2,
             this.laboratóriosToolStripMenuItem,
-            this.medicamentosToolStripMenuItem});
+            this.medicamentosToolStripMenuItem,
+            this.prontuárioToolStripMenuItem});
             this.clínicaToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
             this.clínicaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("clínicaToolStripMenuItem.Image")));
             this.clínicaToolStripMenuItem.Name = "clínicaToolStripMenuItem";
@@ -855,6 +857,16 @@
             this.toolTip1.IsBalloon = true;
             this.toolTip1.StripAmpersands = true;
             // 
+            // prontuárioToolStripMenuItem
+            // 
+            this.prontuárioToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
+            this.prontuárioToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prontuárioToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.prontuárioToolStripMenuItem.Image = global::MariosPet.Properties.Resources.PATA_8;
+            this.prontuárioToolStripMenuItem.Name = "prontuárioToolStripMenuItem";
+            this.prontuárioToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.prontuárioToolStripMenuItem.Text = "Prontuário";
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -943,5 +955,6 @@
         private System.Windows.Forms.ToolStripMenuItem parceladoToolStripMenuItem;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolStripMenuItem prontuárioToolStripMenuItem;
     }
 }
