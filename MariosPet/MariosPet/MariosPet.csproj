@@ -130,6 +130,12 @@
     <Compile Include="Telas\FrmInicio.Designer.cs">
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\FrmLaboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmLaboratorio.Designer.cs">
+      <DependentUpon>FrmLaboratorio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,12 @@
     <Compile Include="Telas\FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\FrmPesquisaLaboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmPesquisaLaboratorio.Designer.cs">
+      <DependentUpon>FrmPesquisaLaboratorio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\FrmProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +167,12 @@
     </Compile>
     <Compile Include="Telas\FrmRemedio.Designer.cs">
       <DependentUpon>FrmRemedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\FrmServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmServico.Designer.cs">
+      <DependentUpon>FrmServico.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Telas\FrmAgenda.resx">
       <DependentUpon>FrmAgenda.cs</DependentUpon>

@@ -65,3 +65,6 @@ G:\Documentos\FATEC\2015\Laboratório de Engenharia de Software\Projeto\MariosPe
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet2\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.exe
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet2\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
+C:\Users\Jéssica Kelly\Source\Repos\MarioPet4\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
+C:\Users\Jéssica Kelly\Source\Repos\MarioPet4\MariosPet\MariosPet\obj\Debug\MariosPet.exe
+C:\Users\Jéssica Kelly\Source\Repos\MarioPet4\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
