@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.mstCNPJ = new System.Windows.Forms.MaskedTextBox();
             this.txtTelefone1 = new System.Windows.Forms.TextBox();
-            this.txtNomeF = new System.Windows.Forms.TextBox();
+            this.txtNomeLaboratorio = new System.Windows.Forms.TextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
@@ -75,7 +75,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.mstCNPJ);
             this.groupBox1.Controls.Add(this.txtTelefone1);
-            this.groupBox1.Controls.Add(this.txtNomeF);
+            this.groupBox1.Controls.Add(this.txtNomeLaboratorio);
             this.groupBox1.Controls.Add(this.lblTelefone);
             this.groupBox1.Controls.Add(this.lblCpf);
             this.groupBox1.Controls.Add(this.lblNome);
@@ -126,14 +126,14 @@
             this.txtTelefone1.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone1.TabIndex = 24;
             // 
-            // txtNomeF
+            // txtNomeLaboratorio
             // 
-            this.txtNomeF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtNomeF.Location = new System.Drawing.Point(226, 36);
-            this.txtNomeF.Name = "txtNomeF";
-            this.txtNomeF.Size = new System.Drawing.Size(469, 27);
-            this.txtNomeF.TabIndex = 22;
+            this.txtNomeLaboratorio.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeLaboratorio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtNomeLaboratorio.Location = new System.Drawing.Point(226, 36);
+            this.txtNomeLaboratorio.Name = "txtNomeLaboratorio";
+            this.txtNomeLaboratorio.Size = new System.Drawing.Size(469, 27);
+            this.txtNomeLaboratorio.TabIndex = 22;
             // 
             // lblTelefone
             // 
@@ -430,7 +430,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox mstCNPJ;
         private System.Windows.Forms.TextBox txtTelefone1;
-        private System.Windows.Forms.TextBox txtNomeF;
+        private System.Windows.Forms.TextBox txtNomeLaboratorio;
         private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblNome;
