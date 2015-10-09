@@ -16,10 +16,10 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into ENDERECO (ID, RUA, NUMERO, COMPLEMENTO, BAIRRO, CIDADE, UF, CEP) values(?,?,?,?,?,?,?,?)";
+                string sql = "insert into ENDERECO (ID_ENDERECO, RUA, NUMERO, COMPLEMENTO, BAIRRO, CIDADE, UF, CEP) values(?,?,?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", endereco.id);
+                command.Parameters.AddWithValue("@ID_ENDERECO", endereco.id);
                 command.Parameters.AddWithValue("@RUA", endereco.rua);
                 command.Parameters.AddWithValue("@NUMERO", endereco.numero);
                 command.Parameters.AddWithValue("@COMPLEMENTO", endereco.complemento);
@@ -50,7 +50,7 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update ENDERECO set RUA = ?, NUMERO = ?, COMPLEMENTO = ?, BAIRRO = ?, CIDADE = ?, UF = ?, CEP = ? where ID = ?";
+                string sql = "update ENDERECO set RUA = ?, NUMERO = ?, COMPLEMENTO = ?, BAIRRO = ?, CIDADE = ?, UF = ?, CEP = ? where ID_ENDERECO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@RUA", endereco.rua);
@@ -60,7 +60,7 @@ namespace MariosPet.Crud
                 command.Parameters.AddWithValue("@CIDADE", endereco.cidade);
                 command.Parameters.AddWithValue("@UF", endereco.uf);
                 command.Parameters.AddWithValue("@CEP", endereco.cep);
-                command.Parameters.AddWithValue("@ID", endereco.id);
+                command.Parameters.AddWithValue("@ID_ENDERECO", endereco.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -71,10 +71,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete ENDERECO where ID = ?";
+                string sql = "delete ENDERECO where ID_ENDERECO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_ENDERECO", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();

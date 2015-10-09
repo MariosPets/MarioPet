@@ -46,14 +46,14 @@
             // 
             this.buttonEntrar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.buttonEntrar.BackgroundImage = global::MariosPet.Properties.Resources.BOTAO_ENTRAR1;
             this.buttonEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonEntrar.FlatAppearance.BorderSize = 0;
             this.buttonEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEntrar.Location = new System.Drawing.Point(566, 325);
             this.buttonEntrar.Name = "buttonEntrar";
             this.buttonEntrar.Size = new System.Drawing.Size(117, 48);
-            this.buttonEntrar.TabIndex = 4;
+            this.buttonEntrar.TabIndex = 2;
+            this.buttonEntrar.Text = "Entrar";
             this.toolTipLogin.SetToolTip(this.buttonEntrar, "Entrar no sistema");
             this.buttonEntrar.UseVisualStyleBackColor = false;
             // 
@@ -61,14 +61,14 @@
             // 
             this.buttonSair.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.buttonSair.BackgroundImage = global::MariosPet.Properties.Resources.BOTAO_SAIR_LR;
             this.buttonSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonSair.FlatAppearance.BorderSize = 0;
             this.buttonSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSair.Location = new System.Drawing.Point(301, 325);
             this.buttonSair.Name = "buttonSair";
             this.buttonSair.Size = new System.Drawing.Size(123, 48);
-            this.buttonSair.TabIndex = 3;
+            this.buttonSair.TabIndex = 1;
+            this.buttonSair.Text = "Sair";
             this.toolTipLogin.SetToolTip(this.buttonSair, "Sair do sistema");
             this.buttonSair.UseVisualStyleBackColor = false;
             // 
@@ -99,7 +99,7 @@
             this.textSenha.Name = "textSenha";
             this.textSenha.PasswordChar = '•';
             this.textSenha.Size = new System.Drawing.Size(186, 31);
-            this.textSenha.TabIndex = 5;
+            this.textSenha.TabIndex = 1;
             this.toolTipLogin.SetToolTip(this.textSenha, "Insira a Senha");
             // 
             // labelSenha
@@ -130,7 +130,7 @@
             this.textUsuario.MaxLength = 20;
             this.textUsuario.Name = "textUsuario";
             this.textUsuario.Size = new System.Drawing.Size(186, 31);
-            this.textUsuario.TabIndex = 2;
+            this.textUsuario.TabIndex = 0;
             this.toolTipLogin.SetToolTip(this.textUsuario, "Insira o Login");
             // 
             // pictureBox2
