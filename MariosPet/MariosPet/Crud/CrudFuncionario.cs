@@ -14,7 +14,7 @@ namespace MariosPet.Crud
         public void inserirFornecedor(Funcionario funcionario)
         {
             inserirPessoa(funcionario);
-            funcionario.id = Convert.ToInt32(consultaPessoa("select top 1 ID from PESSOA order by ID desc").Rows[0][0].ToString());
+            funcionario.id = Convert.ToInt32(consultaPessoa("select top 1 ID_PESSOA from PESSOA order by ID_PESSOA desc").Rows[0][0].ToString());
 
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
@@ -51,14 +51,14 @@ namespace MariosPet.Crud
 
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update FUNCIONARIO set TIPO = ?, LOGIN = ?, SENHA = ? where ID = ?";
+                string sql = "update FUNCIONARIO set TIPO = ?, APELIDO = ?, SENHA = ? where ID_PESSOA = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 
                 command.Parameters.AddWithValue("@TIPO_FUNCIONARIO", funcionario.tipo);
-                command.Parameters.AddWithValue("@LOGIN", funcionario.login);
+                command.Parameters.AddWithValue("@APELIDO", funcionario.apelido);
                 command.Parameters.AddWithValue("@SENHA", funcionario.senha);
-                command.Parameters.AddWithValue("@ID", funcionario.id);
+                command.Parameters.AddWithValue("@ID_PESSOA", funcionario.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -69,12 +69,12 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete FUNCIONARIO where ID_FUNCIONARIO = ?";
+                string sql = "delete FUNCIONARIO where ID_PESSOA = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_FUNCIONARIO", codigo);
+                command.Parameters.AddWithValue("@ID_PESSOA", codigo);
 
-                connection.Open();
+                conexao.Open();
                 command.ExecuteNonQuery();
             }
         }
