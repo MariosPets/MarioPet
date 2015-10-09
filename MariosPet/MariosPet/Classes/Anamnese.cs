@@ -16,9 +16,9 @@ namespace MariosPet.Classes
         public string doencas { get; set; }
         public string tratamentos { get; set; }
         public string sistemaDigestorio { get; set; }
-        public string sistemaCardiorespiratorio { get; set; }
-        public string sistemaGenitourinario { get; set; }
-        public string sistemaNervosolocomotor { get; set; }
+        public string sistemaCardioRespiratorio { get; set; }
+        public string sistemaGenitoUrinario { get; set; }
+        public string sistemaNervosoLocomotor { get; set; }
         public string pelesAnexos { get; set; }
         public string manejo { get; set; }
 
