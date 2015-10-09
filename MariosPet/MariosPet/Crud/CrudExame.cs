@@ -18,10 +18,10 @@ namespace MariosPet.Crud
 
 
 
-                string sql = "insert into EXAME (ID, ID_ANIMAL, ID_VETERINARIO, ID_LABORATORIO, DATA, EXAME) values(?,?,?,?,?,?)";
+                string sql = "insert into EXAME (ID_EXAME, ID_ANIMAL, ID_VETERINARIO, ID_LABORATORIO, DATA, EXAME) values(?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", exame.id);
+                command.Parameters.AddWithValue("@ID_EXAME", exame.id);
                 command.Parameters.AddWithValue("@ID_ANIMAL", exame.idAnimal);
                 command.Parameters.AddWithValue("@ID_VETERINARIO", exame.idVeterinario);
                 command.Parameters.AddWithValue("@ID_LABORATORIO", exame.idLaboratorio);
@@ -50,7 +50,7 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update EXAME set ID_ANIMAL = ?, ID_VETERINARIO = ?, ID_LABORATORIO = ?, DATA = ?, EXAME = ? where ID = ?";
+                string sql = "update EXAME set ID_ANIMAL = ?, ID_VETERINARIO = ?, ID_LABORATORIO = ?, DATA = ?, EXAME = ? where ID_EXAME = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_ANIMAL", exame.idAnimal);                     
@@ -58,7 +58,7 @@ namespace MariosPet.Crud
                 command.Parameters.AddWithValue("@ID_LABORATORIO", exame.idLaboratorio);
                 command.Parameters.AddWithValue("@DATA", exame.data);
                 command.Parameters.AddWithValue("@EXAME", exame.exame);
-                command.Parameters.AddWithValue("@ID", exame.id);
+                command.Parameters.AddWithValue("@ID_EXAME", exame.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -69,10 +69,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete EXAME where ID = ?";
+                string sql = "delete EXAME where ID_EXAME = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_EXAME", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
