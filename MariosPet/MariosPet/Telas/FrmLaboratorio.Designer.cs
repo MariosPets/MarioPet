@@ -290,7 +290,7 @@
             this.cmbUF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbUF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.cmbUF.FormattingEnabled = true;
-            this.cmbUF.Location = new System.Drawing.Point(473, 187);
+            this.cmbUF.Location = new System.Drawing.Point(473, 185);
             this.cmbUF.Name = "cmbUF";
             this.cmbUF.Size = new System.Drawing.Size(171, 26);
             this.cmbUF.TabIndex = 22;

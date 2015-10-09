@@ -16,10 +16,10 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into AUTORIZACAO (ID, ID_ANIMAL, AUTORIZACAO) values(?,?,?)";
+                string sql = "insert into AUTORIZACAO (ID_AUTORIZACAO, ID_ANIMAL, AUTORIZACAO) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", autorizacao.id);
+                command.Parameters.AddWithValue("@ID_AUTORIZACAO", autorizacao.id);
                 command.Parameters.AddWithValue("@ID_ANIMAL", autorizacao.idAnimal);
                 command.Parameters.AddWithValue("@AUTORIZACAO", autorizacao.autorizacao);
 
@@ -46,12 +46,12 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update AUTORIZACAO set ID_ANIMAL = ?, AUTORIZACAO = ? where ID = ?";
+                string sql = "update AUTORIZACAO set ID_ANIMAL = ?, AUTORIZACAO = ? where ID_AUTORIZACAO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_ANIMAL", autorizacao.idAnimal);
                 command.Parameters.AddWithValue("@AUTORIZACAO", autorizacao.autorizacao);
-                command.Parameters.AddWithValue("@ID", autorizacao.id);
+                command.Parameters.AddWithValue("@ID_AUTORIZACAO", autorizacao.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -62,10 +62,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete AUTORIZACAO where ID = ?";
+                string sql = "delete AUTORIZACAO where ID_ANIMAL = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_ANIMAL", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();

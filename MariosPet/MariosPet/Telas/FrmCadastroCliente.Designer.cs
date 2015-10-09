@@ -52,6 +52,10 @@
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtTelefone3 = new System.Windows.Forms.TextBox();
+            this.lblTelefone = new System.Windows.Forms.Label();
+            this.txtTelefone2 = new System.Windows.Forms.TextBox();
+            this.lblTelefone2 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.mstRG = new System.Windows.Forms.MaskedTextBox();
@@ -62,10 +66,6 @@
             this.lblTelefone1 = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.toolTipCliente = new System.Windows.Forms.ToolTip(this.components);
-            this.txtTelefone2 = new System.Windows.Forms.TextBox();
-            this.lblTelefone2 = new System.Windows.Forms.Label();
-            this.txtTelefone3 = new System.Windows.Forms.TextBox();
-            this.lblTelefone = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -80,7 +80,7 @@
             this.btmLimpar.Location = new System.Drawing.Point(538, 696);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
-            this.btmLimpar.TabIndex = 9;
+            this.btmLimpar.TabIndex = 3;
             this.toolTipCliente.SetToolTip(this.btmLimpar, "Limpar os Campos");
             this.btmLimpar.UseVisualStyleBackColor = false;
             // 
@@ -94,7 +94,7 @@
             this.btmVoltar.Location = new System.Drawing.Point(340, 697);
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
-            this.btmVoltar.TabIndex = 8;
+            this.btmVoltar.TabIndex = 2;
             this.toolTipCliente.SetToolTip(this.btmVoltar, "Voltar ao Menu");
             this.btmVoltar.UseVisualStyleBackColor = false;
             // 
@@ -108,7 +108,7 @@
             this.btmSalvar.Location = new System.Drawing.Point(736, 698);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(117, 42);
-            this.btmSalvar.TabIndex = 7;
+            this.btmSalvar.TabIndex = 4;
             this.toolTipCliente.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
@@ -148,7 +148,7 @@
             this.cmbUF.Location = new System.Drawing.Point(473, 187);
             this.cmbUF.Name = "cmbUF";
             this.cmbUF.Size = new System.Drawing.Size(171, 26);
-            this.cmbUF.TabIndex = 22;
+            this.cmbUF.TabIndex = 6;
             this.cmbUF.Text = "---Selecione---";
             this.toolTipCliente.SetToolTip(this.cmbUF, "Selecione o Estado");
             // 
@@ -177,7 +177,7 @@
             this.groupBox2.Location = new System.Drawing.Point(243, 353);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(717, 310);
-            this.groupBox2.TabIndex = 6;
+            this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "   Endereço";
             // 
@@ -188,7 +188,7 @@
             this.maskedTextBox2.Location = new System.Drawing.Point(473, 138);
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
-            this.maskedTextBox2.TabIndex = 23;
+            this.maskedTextBox2.TabIndex = 4;
             this.toolTipCliente.SetToolTip(this.maskedTextBox2, "Insira o CEP");
             // 
             // lblUF
@@ -218,7 +218,7 @@
             this.txtCidade.Location = new System.Drawing.Point(156, 185);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(195, 27);
-            this.txtCidade.TabIndex = 17;
+            this.txtCidade.TabIndex = 5;
             this.toolTipCliente.SetToolTip(this.txtCidade, "Insira o nome da Cidade");
             // 
             // lblCidade
@@ -238,7 +238,7 @@
             this.txtBairro.Location = new System.Drawing.Point(156, 137);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(195, 27);
-            this.txtBairro.TabIndex = 15;
+            this.txtBairro.TabIndex = 3;
             this.toolTipCliente.SetToolTip(this.txtBairro, "Insira o Nome do Bairro");
             // 
             // lblBairro
@@ -258,7 +258,7 @@
             this.txtNumero.Location = new System.Drawing.Point(156, 90);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(81, 27);
-            this.txtNumero.TabIndex = 13;
+            this.txtNumero.TabIndex = 1;
             this.toolTipCliente.SetToolTip(this.txtNumero, "Insira o Número da Residência");
             // 
             // lblNumero
@@ -278,7 +278,7 @@
             this.txtComplemento.Location = new System.Drawing.Point(473, 97);
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(170, 27);
-            this.txtComplemento.TabIndex = 11;
+            this.txtComplemento.TabIndex = 2;
             this.toolTipCliente.SetToolTip(this.txtComplemento, "Insira o Complemento");
             // 
             // lblComplemento
@@ -298,7 +298,7 @@
             this.txtRua.Location = new System.Drawing.Point(156, 44);
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(488, 27);
-            this.txtRua.TabIndex = 9;
+            this.txtRua.TabIndex = 0;
             this.toolTipCliente.SetToolTip(this.txtRua, "Insira o nome da Rua");
             // 
             // lblRua
@@ -368,9 +368,49 @@
             this.groupBox1.Location = new System.Drawing.Point(243, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(717, 312);
-            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   Dados Pessoais";
+            // 
+            // txtTelefone3
+            // 
+            this.txtTelefone3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone3.Location = new System.Drawing.Point(156, 252);
+            this.txtTelefone3.Name = "txtTelefone3";
+            this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone3.TabIndex = 7;
+            this.toolTipCliente.SetToolTip(this.txtTelefone3, "Insira o número do Telefone");
+            // 
+            // lblTelefone
+            // 
+            this.lblTelefone.AutoSize = true;
+            this.lblTelefone.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefone.Location = new System.Drawing.Point(6, 252);
+            this.lblTelefone.Name = "lblTelefone";
+            this.lblTelefone.Size = new System.Drawing.Size(99, 23);
+            this.lblTelefone.TabIndex = 18;
+            this.lblTelefone.Text = "Telefone:";
+            // 
+            // txtTelefone2
+            // 
+            this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone2.Location = new System.Drawing.Point(473, 209);
+            this.txtTelefone2.Name = "txtTelefone2";
+            this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone2.TabIndex = 6;
+            this.toolTipCliente.SetToolTip(this.txtTelefone2, "Insira o número do Telefone");
+            // 
+            // lblTelefone2
+            // 
+            this.lblTelefone2.AutoSize = true;
+            this.lblTelefone2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefone2.Location = new System.Drawing.Point(356, 209);
+            this.lblTelefone2.Name = "lblTelefone2";
+            this.lblTelefone2.Size = new System.Drawing.Size(99, 23);
+            this.lblTelefone2.TabIndex = 16;
+            this.lblTelefone2.Text = "Telefone:";
             // 
             // maskedTextBox1
             // 
@@ -380,7 +420,7 @@
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
-            this.maskedTextBox1.TabIndex = 15;
+            this.maskedTextBox1.TabIndex = 1;
             this.toolTipCliente.SetToolTip(this.maskedTextBox1, "Insira a Data de Nascimento");
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
@@ -402,7 +442,7 @@
             this.mstRG.Mask = "00.000.000-0";
             this.mstRG.Name = "mstRG";
             this.mstRG.Size = new System.Drawing.Size(170, 27);
-            this.mstRG.TabIndex = 13;
+            this.mstRG.TabIndex = 3;
             this.toolTipCliente.SetToolTip(this.mstRG, "Insira o RG");
             // 
             // mstCPF
@@ -413,7 +453,7 @@
             this.mstCPF.Mask = "000.000.000-00";
             this.mstCPF.Name = "mstCPF";
             this.mstCPF.Size = new System.Drawing.Size(170, 27);
-            this.mstCPF.TabIndex = 12;
+            this.mstCPF.TabIndex = 2;
             this.toolTipCliente.SetToolTip(this.mstCPF, "Insira o CPF");
             // 
             // txtTelefone
@@ -423,7 +463,7 @@
             this.txtTelefone.Location = new System.Drawing.Point(156, 209);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone.TabIndex = 11;
+            this.txtTelefone.TabIndex = 5;
             this.toolTipCliente.SetToolTip(this.txtTelefone, "Insira o número do Telefone");
             // 
             // txtEmail
@@ -433,7 +473,7 @@
             this.txtEmail.Location = new System.Drawing.Point(156, 167);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(487, 27);
-            this.txtEmail.TabIndex = 10;
+            this.txtEmail.TabIndex = 4;
             this.toolTipCliente.SetToolTip(this.txtEmail, "Insira o E-mail");
             // 
             // txtNome
@@ -443,7 +483,7 @@
             this.txtNome.Location = new System.Drawing.Point(156, 39);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(487, 27);
-            this.txtNome.TabIndex = 7;
+            this.txtNome.TabIndex = 0;
             this.toolTipCliente.SetToolTip(this.txtNome, "Insira o nome do Cliente");
             // 
             // lblTelefone1
@@ -472,46 +512,6 @@
             this.toolTipCliente.AutomaticDelay = 100;
             this.toolTipCliente.IsBalloon = true;
             this.toolTipCliente.StripAmpersands = true;
-            // 
-            // txtTelefone2
-            // 
-            this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone2.Location = new System.Drawing.Point(473, 209);
-            this.txtTelefone2.Name = "txtTelefone2";
-            this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone2.TabIndex = 17;
-            this.toolTipCliente.SetToolTip(this.txtTelefone2, "Insira o número do Telefone");
-            // 
-            // lblTelefone2
-            // 
-            this.lblTelefone2.AutoSize = true;
-            this.lblTelefone2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefone2.Location = new System.Drawing.Point(356, 209);
-            this.lblTelefone2.Name = "lblTelefone2";
-            this.lblTelefone2.Size = new System.Drawing.Size(99, 23);
-            this.lblTelefone2.TabIndex = 16;
-            this.lblTelefone2.Text = "Telefone:";
-            // 
-            // txtTelefone3
-            // 
-            this.txtTelefone3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone3.Location = new System.Drawing.Point(156, 252);
-            this.txtTelefone3.Name = "txtTelefone3";
-            this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone3.TabIndex = 19;
-            this.toolTipCliente.SetToolTip(this.txtTelefone3, "Insira o número do Telefone");
-            // 
-            // lblTelefone
-            // 
-            this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefone.Location = new System.Drawing.Point(6, 252);
-            this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(99, 23);
-            this.lblTelefone.TabIndex = 18;
-            this.lblTelefone.Text = "Telefone:";
             // 
             // FrmCadastroCliente
             // 

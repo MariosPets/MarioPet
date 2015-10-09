@@ -48,18 +48,6 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 
-                /*
-                 * 
-                string sql = "update CLIENTE set ID_CLIENTE = ?, ID_PESSOA = ? where ID_CLIENTE = ?";
-                OdbcCommand command = new OdbcCommand(sql, conexao);
-
-                command.Parameters.AddWithValue("@ID_CLIENTE", cliente.id_cliente);
-                command.Parameters.AddWithValue("@ID_PESSOA", cliente.id_pessoa);
-                command.Parameters.AddWithValue("@ID_CLIENTE", cliente.id_cliente);
-
-                conexao.Open();
-                command.ExecuteNonQuery();
-                 */
             }
         }
 
@@ -67,16 +55,10 @@ namespace MariosPet.Crud
         {
             excluiPessoa(codigo);
 
-            /*using (OdbcConnection conexao = ConexaoPadrao.criarConexao())
+            using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete CLIENTE where ID_CLIENTE = ?";
-                OdbcCommand command = new OdbcCommand(sql, connection);
 
-                command.Parameters.AddWithValue("@ID_CLIENTE", codigo);
-
-                connection.Open();
-                command.ExecuteNonQuery();
-            }*/
+            }
         }
     }
 }

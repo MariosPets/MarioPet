@@ -182,14 +182,26 @@
     <EmbeddedResource Include="Telas\FrmAgenda.resx">
       <DependentUpon>FrmAgenda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmAnimal.resx">
+      <DependentUpon>FrmAnimal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmCadastroCliente.resx">
       <DependentUpon>FrmCadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmFichaClinica.resx">
       <DependentUpon>FrmFichaClinica.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmFornecedor.resx">
+      <DependentUpon>FrmFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmFuncionario.resx">
+      <DependentUpon>FrmFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmLaboratorio.resx">
+      <DependentUpon>FrmLaboratorio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

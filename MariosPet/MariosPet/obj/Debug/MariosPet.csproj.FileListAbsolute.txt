@@ -68,3 +68,6 @@ C:\Users\Jéssica Kelly\Source\Repos\MarioPet2\MariosPet\MariosPet\obj\Debug\Mar
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet4\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet4\MariosPet\MariosPet\obj\Debug\MariosPet.exe
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet4\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
+C:\Users\Olivia S\Source\Repos\MarioPet13\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
+C:\Users\Olivia S\Source\Repos\MarioPet13\MariosPet\MariosPet\obj\Debug\MariosPet.exe
+C:\Users\Olivia S\Source\Repos\MarioPet13\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
