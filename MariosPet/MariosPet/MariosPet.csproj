@@ -80,6 +80,7 @@
     <Compile Include="Crud\CrudFornecedor.cs" />
     <Compile Include="Crud\CrudFoto.cs" />
     <Compile Include="Crud\CrudFuncionario.cs" />
+    <Compile Include="Crud\CrudLaboratorio.cs" />
     <Compile Include="Crud\CrudMedicamento.cs" />
     <Compile Include="Crud\CrudMedicamentoFichaClinica.cs" />
     <Compile Include="Crud\CrudPessoa.cs" />
