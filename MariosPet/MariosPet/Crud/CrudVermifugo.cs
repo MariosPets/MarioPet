@@ -15,11 +15,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-
-                string sql = "insert into VERMIFUGO (ID, ID_ANIMAL, ID_MEDICAMENTO, DATA_INICIO, DATA_FIM) values(?,?,?,?,?)";
+                string sql = "insert into VERMIFUGO (ID_VERMIFUGO, ID_ANIMAL, ID_MEDICAMENTO, DATA_INICIO, DATA_FIM) values(?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", vermifugo.id);
+                command.Parameters.AddWithValue("@ID_VERMIFUGO", vermifugo.id);
                 command.Parameters.AddWithValue("@ID_ANIMAL", vermifugo.idAnimal);
                 command.Parameters.AddWithValue("@ID_MEDICAMENTO", vermifugo.idMedicamento);
                 command.Parameters.AddWithValue("@DATA_INICIO", vermifugo.dataInicio);
@@ -47,14 +46,14 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update VERMIFUGO set ID_ANIMAL = ?, ID_MEDICAMENTO = ?, DATA_INICIO = ?, DATA_FIM = ? where ID = ?";
+                string sql = "update VERMIFUGO set ID_ANIMAL = ?, ID_MEDICAMENTO = ?, DATA_INICIO = ?, DATA_FIM = ? where ID_VERMIFUGO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_ANIMAL", vermifugo.idAnimal);
                 command.Parameters.AddWithValue("@ID_MEDICAMENTO", vermifugo.idMedicamento);
                 command.Parameters.AddWithValue("@DATA_INICIO", vermifugo.dataInicio);
-                command.Parameters.AddWithValue("@DATA_FIM", vermifugo.dataFim);           
-                command.Parameters.AddWithValue("@ID", vermifugo.id);
+                command.Parameters.AddWithValue("@DATA_FIM", vermifugo.dataFim);
+                command.Parameters.AddWithValue("@ID_VERMIFUGO", vermifugo.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -65,10 +64,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete VERMIFUGO where ID = ?";
+                string sql = "delete VERMIFUGO where ID_VERMIFUGO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_VERMIFUGO", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
