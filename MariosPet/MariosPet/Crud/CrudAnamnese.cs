@@ -15,9 +15,6 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-
-
-
                 string sql = "insert into ANAMNESE (ID, DESCRICAO) values(?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
