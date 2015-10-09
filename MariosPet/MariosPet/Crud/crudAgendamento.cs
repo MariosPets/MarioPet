@@ -16,12 +16,13 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into AGENDAMENTO (ID, ID_CLIENTE, ID_FUNCIONARIO, HORA, ATENDIDO) values(?,?,?,?,?)";
+                string sql = "insert into AGENDAMENTO (ID_AGENDAMENTO, ID_CLIENTE, ID_FUNCIONARIO, ID_SERVICO, HORA, ATENDIDO) values(?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", agendamento.id);
+                command.Parameters.AddWithValue("@ID_AGENDAMENTO", agendamento.id);
                 command.Parameters.AddWithValue("@ID_CLIENTE", agendamento.idCliente);                
                 command.Parameters.AddWithValue("@ID_FUNCIONARIO", agendamento.idFuncionario);
+                command.Parameters.AddWithValue("@ID_SERVICO", agendamento.idServico);
                 command.Parameters.AddWithValue("@HORA", agendamento.hora);
                 command.Parameters.AddWithValue("@ATENDIDO", agendamento.atendido);
 
@@ -47,14 +48,15 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update AGENDAMENTO set ID_CLIENTE = ?, ID_FUNCIONARIO = ?, HORA = ?, ATENDIDO = ? where ID = ?";
+                string sql = "update AGENDAMENTO set ID_CLIENTE = ?, ID_FUNCIONARIO = ?, ID_SERVICO = ?, HORA = ?, ATENDIDO = ? where ID_AGENDAMENTO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_CLIENTE", agendamento.idCliente);                
                 command.Parameters.AddWithValue("@ID_FUNCIONARIO", agendamento.idFuncionario);
+                command.Parameters.AddWithValue("@ID_SERVICO", agendamento.idServico);
                 command.Parameters.AddWithValue("@HORA", agendamento.hora);
                 command.Parameters.AddWithValue("@ATENDIDO", agendamento.atendido);
-                command.Parameters.AddWithValue("@ID", agendamento.id);
+                command.Parameters.AddWithValue("@ID_AGENDAMENTO", agendamento.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -65,10 +67,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete AGENDAMENTO where ID = ?";
+                string sql = "delete AGENDAMENTO where ID_AGENDAMENTO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_AGENDAMENTO", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
