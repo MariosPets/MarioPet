@@ -67,6 +67,7 @@ namespace MariosPet.Crud
 
         public void excluiFuncionario(int codigo)
         {
+            excluiPessoa(codigo);
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "delete FUNCIONARIO where ID_PESSOA = ?";

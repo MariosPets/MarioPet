@@ -46,6 +46,7 @@ namespace MariosPet.Crud
 
         public void alteraFornecedor(Fornecedor fornecedor)
         {
+            alteraPessoaJuridica(fornecedor);
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "update FORNECEDOR set RAMO_ATIVIDADE = ?, NOME_CONTATO = ? where ID_PESSOA_JURIDICA = ?";
@@ -62,6 +63,7 @@ namespace MariosPet.Crud
 
         public void excluiFornecedor(int codigo)
         {
+            excluiPessoaJuridica(codigo);
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
                 string sql = "delete FORNECEDOR where ID_PESSOA_JURIDICA = ?";
