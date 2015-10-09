@@ -155,11 +155,11 @@
     <Compile Include="Telas\FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telas\FrmPesquisaLaboratorio.cs">
+    <Compile Include="Telas\FrmPesquisas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Telas\FrmPesquisaLaboratorio.Designer.cs">
-      <DependentUpon>FrmPesquisaLaboratorio.cs</DependentUpon>
+    <Compile Include="Telas\FrmPesquisas.Designer.cs">
+      <DependentUpon>FrmPesquisas.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\FrmProduto.cs">
       <SubType>Form</SubType>
@@ -213,6 +213,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmProduto.resx">
+      <DependentUpon>FrmProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmRemedio.resx">
+      <DependentUpon>FrmRemedio.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

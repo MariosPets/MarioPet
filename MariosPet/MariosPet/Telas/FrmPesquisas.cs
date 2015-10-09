@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MariosPet.Telas
 {
-    public partial class FrmPesquisaLaboratorio : Form
+    public partial class FrmPesquisas : Form
     {
-        public FrmPesquisaLaboratorio()
+        public FrmPesquisas()
         {
             InitializeComponent();
         }
