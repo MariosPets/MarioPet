@@ -16,10 +16,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "insert into MEDICAMENTO (ID, DESCRICAO, QUANTIDADE, MINIMO_EM_ESTOQUE, MAXIMO_EM_ESTOQUE) values(?,?,?,?,?)";
+                string sql = "insert into MEDICAMENTO (ID_MEDICAMENTO, DESCRICAO, QUANTIDADE, MINIMO_EM_ESTOQUE, MAXIMO_EM_ESTOQUE) values(?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", medicamento.id);
+                command.Parameters.AddWithValue("@ID_MEDICAMENTO", medicamento.id);
                 command.Parameters.AddWithValue("@DESCRICAO", medicamento.descricao);            
                 command.Parameters.AddWithValue("@QUANTIDADE", medicamento.quantidade); 
                 command.Parameters.AddWithValue("@MINIMO_EM_ESTOQUE", medicamento.minimoEmEstoque); 
@@ -47,14 +47,14 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update MEDICAMENTO set DESCRICAO = ?, QUANTIDADE = ?, MINIMO_EM_ESTOQUE = ?, MAXIMO_EM_ESTOQUE = ? where ID = ?";
+                string sql = "update MEDICAMENTO set DESCRICAO = ?, QUANTIDADE = ?, MINIMO_EM_ESTOQUE = ?, MAXIMO_EM_ESTOQUE = ? where ID_MEDICAMENTO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@DESCRICAO", medicamento.descricao);
                 command.Parameters.AddWithValue("@QUANTIDADE", medicamento.quantidade);
                 command.Parameters.AddWithValue("@MINIMO_EM_ESTOQUE", medicamento.minimoEmEstoque);
                 command.Parameters.AddWithValue("@MAXIMO_EM_ESTOQUE", medicamento.maximoEmEstoque);
-                command.Parameters.AddWithValue("@ID", medicamento.id);
+                command.Parameters.AddWithValue("@ID_MEDICAMENTO", medicamento.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -65,10 +65,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete MEDICAMENTO where ID = ?";
+                string sql = "delete MEDICAMENTO where ID_MEDICAMENTO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_MEDICAMENTO", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
