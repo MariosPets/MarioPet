@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btmLimpar = new System.Windows.Forms.Button();
             this.btmVoltar = new System.Windows.Forms.Button();
@@ -60,6 +61,7 @@
             this.lblQuantidade = new System.Windows.Forms.Label();
             this.lblVencimento = new System.Windows.Forms.Label();
             this.lblNomeProduto = new System.Windows.Forms.Label();
+            this.toolTipProduto = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -116,9 +118,10 @@
             this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmLimpar.Location = new System.Drawing.Point(343, 505);
             this.btmLimpar.Name = "btmLimpar";
-            this.btmLimpar.Size = new System.Drawing.Size(117, 44);
+            this.btmLimpar.Size = new System.Drawing.Size(131, 44);
             this.btmLimpar.TabIndex = 15;
             this.btmLimpar.Text = "Limpar";
+            this.toolTipProduto.SetToolTip(this.btmLimpar, "Limpar os Campos");
             this.btmLimpar.UseVisualStyleBackColor = false;
             // 
             // btmVoltar
@@ -132,6 +135,7 @@
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
             this.btmVoltar.TabIndex = 14;
             this.btmVoltar.Text = "Voltar";
+            this.toolTipProduto.SetToolTip(this.btmVoltar, "Voltar ao Menu");
             this.btmVoltar.UseVisualStyleBackColor = false;
             // 
             // btmSalvar
@@ -145,6 +149,7 @@
             this.btmSalvar.Size = new System.Drawing.Size(133, 42);
             this.btmSalvar.TabIndex = 16;
             this.btmSalvar.Text = "Salvar";
+            this.toolTipProduto.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
             // textFabricante
@@ -155,6 +160,7 @@
             this.textFabricante.Name = "textFabricante";
             this.textFabricante.Size = new System.Drawing.Size(510, 27);
             this.textFabricante.TabIndex = 12;
+            this.toolTipProduto.SetToolTip(this.textFabricante, "Insira o Nome do Fabricante");
             // 
             // cmbFornecedor
             // 
@@ -165,6 +171,7 @@
             this.cmbFornecedor.Name = "cmbFornecedor";
             this.cmbFornecedor.Size = new System.Drawing.Size(360, 26);
             this.cmbFornecedor.TabIndex = 13;
+            this.toolTipProduto.SetToolTip(this.cmbFornecedor, "Selecione o Fornecedor");
             // 
             // lblFabricante
             // 
@@ -194,6 +201,7 @@
             this.textCodBarras.Name = "textCodBarras";
             this.textCodBarras.Size = new System.Drawing.Size(231, 27);
             this.textCodBarras.TabIndex = 11;
+            this.toolTipProduto.SetToolTip(this.textCodBarras, "Insira o Código de Barras");
             // 
             // lblCodBarras
             // 
@@ -213,6 +221,7 @@
             this.txtMaxEstoque.Name = "txtMaxEstoque";
             this.txtMaxEstoque.Size = new System.Drawing.Size(144, 27);
             this.txtMaxEstoque.TabIndex = 9;
+            this.toolTipProduto.SetToolTip(this.txtMaxEstoque, "Insira a quantidade Máxima em Estoque");
             // 
             // lblMaxEstoque
             // 
@@ -252,6 +261,7 @@
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(144, 27);
             this.txtQuantidade.TabIndex = 3;
+            this.toolTipProduto.SetToolTip(this.txtQuantidade, "Insira a Quantidade");
             // 
             // txtMinEstoque
             // 
@@ -261,6 +271,7 @@
             this.txtMinEstoque.Name = "txtMinEstoque";
             this.txtMinEstoque.Size = new System.Drawing.Size(144, 27);
             this.txtMinEstoque.TabIndex = 8;
+            this.toolTipProduto.SetToolTip(this.txtMinEstoque, "Insira a quantidade Mínima em Estoque");
             // 
             // txtUnidade
             // 
@@ -270,6 +281,7 @@
             this.txtUnidade.Name = "txtUnidade";
             this.txtUnidade.Size = new System.Drawing.Size(231, 27);
             this.txtUnidade.TabIndex = 4;
+            this.toolTipProduto.SetToolTip(this.txtUnidade, "Insira a Unidade");
             // 
             // txtMargemLucro
             // 
@@ -279,6 +291,7 @@
             this.txtMargemLucro.Name = "txtMargemLucro";
             this.txtMargemLucro.Size = new System.Drawing.Size(144, 27);
             this.txtMargemLucro.TabIndex = 7;
+            this.toolTipProduto.SetToolTip(this.txtMargemLucro, "Insira a Margem de Lucro");
             // 
             // lblMargemLucro
             // 
@@ -298,6 +311,7 @@
             this.txtValorVenda.Name = "txtValorVenda";
             this.txtValorVenda.Size = new System.Drawing.Size(144, 27);
             this.txtValorVenda.TabIndex = 6;
+            this.toolTipProduto.SetToolTip(this.txtValorVenda, "Insira o Valor de Venda");
             // 
             // lblValorVenda
             // 
@@ -317,6 +331,7 @@
             this.txtValorCusto.Name = "txtValorCusto";
             this.txtValorCusto.Size = new System.Drawing.Size(144, 27);
             this.txtValorCusto.TabIndex = 5;
+            this.toolTipProduto.SetToolTip(this.txtValorCusto, "Insira o Valor de Custo");
             // 
             // maskedTxtVencimento
             // 
@@ -327,6 +342,7 @@
             this.maskedTxtVencimento.Name = "maskedTxtVencimento";
             this.maskedTxtVencimento.Size = new System.Drawing.Size(170, 27);
             this.maskedTxtVencimento.TabIndex = 2;
+            this.toolTipProduto.SetToolTip(this.maskedTxtVencimento, "Insira a Data de Vencimento");
             this.maskedTxtVencimento.ValidatingType = typeof(System.DateTime);
             // 
             // cmbSetor
@@ -344,6 +360,7 @@
             this.cmbSetor.Name = "cmbSetor";
             this.cmbSetor.Size = new System.Drawing.Size(170, 26);
             this.cmbSetor.TabIndex = 1;
+            this.toolTipProduto.SetToolTip(this.cmbSetor, "Selecione o Setor");
             // 
             // lblSetor
             // 
@@ -363,6 +380,7 @@
             this.txtTributacao.Name = "txtTributacao";
             this.txtTributacao.Size = new System.Drawing.Size(231, 27);
             this.txtTributacao.TabIndex = 10;
+            this.toolTipProduto.SetToolTip(this.txtTributacao, "Insira o Tipo de Tributação");
             // 
             // txtNomeProduto
             // 
@@ -372,6 +390,7 @@
             this.txtNomeProduto.Name = "txtNomeProduto";
             this.txtNomeProduto.Size = new System.Drawing.Size(510, 27);
             this.txtNomeProduto.TabIndex = 0;
+            this.toolTipProduto.SetToolTip(this.txtNomeProduto, "Insira o Nome do Produto");
             // 
             // lblValorCusto
             // 
@@ -424,6 +443,12 @@
             this.lblNomeProduto.TabIndex = 0;
             this.lblNomeProduto.Text = "Nome:";
             // 
+            // toolTipProduto
+            // 
+            this.toolTipProduto.AutomaticDelay = 100;
+            this.toolTipProduto.IsBalloon = true;
+            this.toolTipProduto.StripAmpersands = true;
+            // 
             // FrmProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -475,5 +500,6 @@
         private System.Windows.Forms.Button btmLimpar;
         private System.Windows.Forms.Button btmVoltar;
         private System.Windows.Forms.Button btmSalvar;
+        private System.Windows.Forms.ToolTip toolTipProduto;
     }
 }
