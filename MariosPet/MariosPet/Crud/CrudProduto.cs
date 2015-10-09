@@ -15,13 +15,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-
-
-
-                string sql = "insert into PRODUTO (ID, DESCRICAO, SETOR, ID_FORNECEDOR, FABRICANTE, VENCIMENTO, QUANTIDADE, UNIDADE, VALOR_CUSTO, VALOR_VENDA, LUCRO, TRIBUTACAO, MINIMO_EM_ESTOQUE, MAXIMO_EM_ESTOQUE, CODIGO_BARRAS) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+                string sql = "insert into PRODUTO (ID_PRODUTO, DESCRICAO, SETOR, ID_FORNECEDOR, FABRICANTE, VENCIMENTO, QUANTIDADE, UNIDADE, VALOR_CUSTO, VALOR_VENDA, LUCRO, TRIBUTACAO, MINIMO_EM_ESTOQUE, MAXIMO_EM_ESTOQUE, CODIGO_BARRAS) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", produto.id);
+                command.Parameters.AddWithValue("@ID_PRODUTO", produto.id);
                 command.Parameters.AddWithValue("@DESCRICAO", produto.descricao);
                 command.Parameters.AddWithValue("@SETOR", produto.setor);
                 command.Parameters.AddWithValue("@ID_FORNECEDOR", produto.idFornecedor);
@@ -59,7 +56,7 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update PRODUTO set DESCRICAO = ?, SETOR = ?, ID_FORNECEDOR = ?, FABRICANTE = ?, VENCIMENTO = ?, QUANTIDADE = ?, UNIDADE = ?, VALOR_CUSTO = ?, VALOR_VENDA = ?, LUCRO = ?, TRIBUTACAO = ?, MINIMO_EM_ESTOQUE = ?, MAXIMO_EM_ESTOQUE = ?, CODIGO_BARRAS = ? where ID = ?";
+                string sql = "update PRODUTO set DESCRICAO = ?, SETOR = ?, ID_FORNECEDOR = ?, FABRICANTE = ?, VENCIMENTO = ?, QUANTIDADE = ?, UNIDADE = ?, VALOR_CUSTO = ?, VALOR_VENDA = ?, LUCRO = ?, TRIBUTACAO = ?, MINIMO_EM_ESTOQUE = ?, MAXIMO_EM_ESTOQUE = ?, CODIGO_BARRAS = ? where ID_PRODUTO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@DESCRICAO", produto.descricao);
@@ -76,7 +73,7 @@ namespace MariosPet.Crud
                 command.Parameters.AddWithValue("@MINIMO_EM_ESTOQUE", produto.minimoEmEstoque);
                 command.Parameters.AddWithValue("@MAXIMO_EM_ESTOQUE", produto.maximoEmEstoque);
                 command.Parameters.AddWithValue("@CODIGO_BARRAS", produto.codigoBarras);
-                command.Parameters.AddWithValue("@ID", produto.id);
+                command.Parameters.AddWithValue("@ID_PRODUTO", produto.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -87,10 +84,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete PRODUTO where ID = ?";
+                string sql = "delete PRODUTO where ID_PRODUTO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_PRODUTO", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
