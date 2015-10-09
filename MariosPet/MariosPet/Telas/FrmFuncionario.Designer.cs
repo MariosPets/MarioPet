@@ -57,18 +57,18 @@
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtTelefone3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.txtTelefone2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.mstRG = new System.Windows.Forms.MaskedTextBox();
             this.mstCPF = new System.Windows.Forms.MaskedTextBox();
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblRG = new System.Windows.Forms.Label();
@@ -114,7 +114,7 @@
             this.maskedTextBox2.Location = new System.Drawing.Point(473, 138);
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
-            this.maskedTextBox2.TabIndex = 23;
+            this.maskedTextBox2.TabIndex = 4;
             this.toolTipFuncionario.SetToolTip(this.maskedTextBox2, "Insira o CEP");
             // 
             // cmbUF
@@ -125,7 +125,7 @@
             this.cmbUF.Location = new System.Drawing.Point(473, 187);
             this.cmbUF.Name = "cmbUF";
             this.cmbUF.Size = new System.Drawing.Size(171, 26);
-            this.cmbUF.TabIndex = 22;
+            this.cmbUF.TabIndex = 6;
             this.cmbUF.Text = "---Selecione---";
             this.toolTipFuncionario.SetToolTip(this.cmbUF, "Selecione a UF");
             // 
@@ -156,7 +156,7 @@
             this.txtCidade.Location = new System.Drawing.Point(156, 185);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(195, 27);
-            this.txtCidade.TabIndex = 17;
+            this.txtCidade.TabIndex = 5;
             this.toolTipFuncionario.SetToolTip(this.txtCidade, "Insira a Cidade");
             // 
             // lblCidade
@@ -176,7 +176,7 @@
             this.txtBairro.Location = new System.Drawing.Point(156, 137);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(195, 27);
-            this.txtBairro.TabIndex = 15;
+            this.txtBairro.TabIndex = 3;
             this.toolTipFuncionario.SetToolTip(this.txtBairro, "Insira o Bairro");
             // 
             // lblBairro
@@ -196,7 +196,7 @@
             this.txtNumero.Location = new System.Drawing.Point(156, 90);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(81, 27);
-            this.txtNumero.TabIndex = 13;
+            this.txtNumero.TabIndex = 1;
             this.toolTipFuncionario.SetToolTip(this.txtNumero, "Insira o Número da Residência");
             // 
             // lblNumero
@@ -216,7 +216,7 @@
             this.txtComplemento.Location = new System.Drawing.Point(473, 97);
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(170, 27);
-            this.txtComplemento.TabIndex = 11;
+            this.txtComplemento.TabIndex = 2;
             this.toolTipFuncionario.SetToolTip(this.txtComplemento, "Insira o Complemento");
             // 
             // lblComplemento
@@ -236,7 +236,7 @@
             this.txtRua.Location = new System.Drawing.Point(156, 44);
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(488, 27);
-            this.txtRua.TabIndex = 9;
+            this.txtRua.TabIndex = 0;
             this.toolTipFuncionario.SetToolTip(this.txtRua, "Insira o Nome da Rua");
             // 
             // lblRua
@@ -278,7 +278,7 @@
             this.txtConfirmacaoSenha.Location = new System.Drawing.Point(223, 134);
             this.txtConfirmacaoSenha.Name = "txtConfirmacaoSenha";
             this.txtConfirmacaoSenha.Size = new System.Drawing.Size(170, 27);
-            this.txtConfirmacaoSenha.TabIndex = 30;
+            this.txtConfirmacaoSenha.TabIndex = 3;
             this.toolTipFuncionario.SetToolTip(this.txtConfirmacaoSenha, "Insira a Senha novamente");
             // 
             // label4
@@ -298,7 +298,7 @@
             this.txtSenha.Location = new System.Drawing.Point(223, 101);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(170, 27);
-            this.txtSenha.TabIndex = 28;
+            this.txtSenha.TabIndex = 2;
             this.toolTipFuncionario.SetToolTip(this.txtSenha, "Insira a Senha");
             this.txtSenha.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -319,7 +319,7 @@
             this.txtLogin.Location = new System.Drawing.Point(222, 68);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(170, 27);
-            this.txtLogin.TabIndex = 26;
+            this.txtLogin.TabIndex = 1;
             this.toolTipFuncionario.SetToolTip(this.txtLogin, "Insira o Login");
             // 
             // label2
@@ -340,7 +340,7 @@
             this.cmbTipoFuncionario.Location = new System.Drawing.Point(222, 36);
             this.cmbTipoFuncionario.Name = "cmbTipoFuncionario";
             this.cmbTipoFuncionario.Size = new System.Drawing.Size(171, 26);
-            this.cmbTipoFuncionario.TabIndex = 23;
+            this.cmbTipoFuncionario.TabIndex = 0;
             this.cmbTipoFuncionario.Text = "---Selecione---";
             this.toolTipFuncionario.SetToolTip(this.cmbTipoFuncionario, "Selecione o Tipo de Funcionário");
             // 
@@ -366,7 +366,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(84, 76);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(75, 23);
-            this.btnLimpar.TabIndex = 9;
+            this.btnLimpar.TabIndex = 1;
             this.btnLimpar.Text = "Limpar";
             this.toolTipFuncionario.SetToolTip(this.btnLimpar, "Limpar campos");
             this.btnLimpar.UseVisualStyleBackColor = true;
@@ -377,7 +377,7 @@
             this.btnVoltar.Location = new System.Drawing.Point(3, 76);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(75, 23);
-            this.btnVoltar.TabIndex = 10;
+            this.btnVoltar.TabIndex = 2;
             this.btnVoltar.Text = "Voltar";
             this.toolTipFuncionario.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
@@ -388,10 +388,94 @@
             this.btnSalvar.Location = new System.Drawing.Point(180, 76);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 23);
-            this.btnSalvar.TabIndex = 11;
+            this.btnSalvar.TabIndex = 0;
             this.btnSalvar.Text = "Salvar";
             this.toolTipFuncionario.SetToolTip(this.btnSalvar, "Salvar as Informações");
             this.btnSalvar.UseVisualStyleBackColor = true;
+            // 
+            // txtTelefone3
+            // 
+            this.txtTelefone3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone3.Location = new System.Drawing.Point(156, 248);
+            this.txtTelefone3.Name = "txtTelefone3";
+            this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone3.TabIndex = 7;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefone3, "Insira o Telefone para Contato");
+            // 
+            // txtTelefone2
+            // 
+            this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone2.Location = new System.Drawing.Point(473, 206);
+            this.txtTelefone2.Name = "txtTelefone2";
+            this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone2.TabIndex = 6;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefone2, "Insira o Telefone para Contato");
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.maskedTextBox1.Location = new System.Drawing.Point(156, 78);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
+            this.maskedTextBox1.TabIndex = 1;
+            this.toolTipFuncionario.SetToolTip(this.maskedTextBox1, "Insira a Data de Nascimento");
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
+            // mstRG
+            // 
+            this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstRG.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstRG.Location = new System.Drawing.Point(473, 119);
+            this.mstRG.Mask = "00.000.000-0";
+            this.mstRG.Name = "mstRG";
+            this.mstRG.Size = new System.Drawing.Size(170, 27);
+            this.mstRG.TabIndex = 3;
+            this.toolTipFuncionario.SetToolTip(this.mstRG, "Insira o RG");
+            // 
+            // mstCPF
+            // 
+            this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstCPF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstCPF.Location = new System.Drawing.Point(156, 120);
+            this.mstCPF.Mask = "000.000.000-00";
+            this.mstCPF.Name = "mstCPF";
+            this.mstCPF.Size = new System.Drawing.Size(170, 27);
+            this.mstCPF.TabIndex = 2;
+            this.toolTipFuncionario.SetToolTip(this.mstCPF, "Insira o CPF");
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone.Location = new System.Drawing.Point(156, 205);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone.TabIndex = 5;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefone, "Insira o Telefone para Contato");
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtEmail.Location = new System.Drawing.Point(156, 163);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(487, 27);
+            this.txtEmail.TabIndex = 4;
+            this.toolTipFuncionario.SetToolTip(this.txtEmail, "Insira o E-mail");
+            // 
+            // txtNome
+            // 
+            this.txtNome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtNome.Location = new System.Drawing.Point(156, 36);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(487, 27);
+            this.txtNome.TabIndex = 0;
+            this.toolTipFuncionario.SetToolTip(this.txtNome, "Insira o Nome do Funcionário");
             // 
             // groupBox1
             // 
@@ -423,16 +507,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   Dados Pessoais";
             // 
-            // txtTelefone3
-            // 
-            this.txtTelefone3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone3.Location = new System.Drawing.Point(156, 248);
-            this.txtTelefone3.Name = "txtTelefone3";
-            this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone3.TabIndex = 32;
-            this.toolTipFuncionario.SetToolTip(this.txtTelefone3, "Insira o Telefone para Contato");
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -442,16 +516,6 @@
             this.label6.Size = new System.Drawing.Size(99, 23);
             this.label6.TabIndex = 31;
             this.label6.Text = "Telefone:";
-            // 
-            // txtTelefone2
-            // 
-            this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone2.Location = new System.Drawing.Point(473, 206);
-            this.txtTelefone2.Name = "txtTelefone2";
-            this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone2.TabIndex = 30;
-            this.toolTipFuncionario.SetToolTip(this.txtTelefone2, "Insira o Telefone para Contato");
             // 
             // label5
             // 
@@ -463,18 +527,6 @@
             this.label5.TabIndex = 29;
             this.label5.Text = "Telefone:";
             // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.maskedTextBox1.Location = new System.Drawing.Point(156, 78);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
-            this.maskedTextBox1.TabIndex = 28;
-            this.toolTipFuncionario.SetToolTip(this.maskedTextBox1, "Insira a Data de Nascimento");
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -484,58 +536,6 @@
             this.label1.Size = new System.Drawing.Size(130, 23);
             this.label1.TabIndex = 27;
             this.label1.Text = "Nascimento:";
-            // 
-            // mstRG
-            // 
-            this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstRG.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.mstRG.Location = new System.Drawing.Point(473, 119);
-            this.mstRG.Mask = "00.000.000-0";
-            this.mstRG.Name = "mstRG";
-            this.mstRG.Size = new System.Drawing.Size(170, 27);
-            this.mstRG.TabIndex = 26;
-            this.toolTipFuncionario.SetToolTip(this.mstRG, "Insira o RG");
-            // 
-            // mstCPF
-            // 
-            this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstCPF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.mstCPF.Location = new System.Drawing.Point(156, 120);
-            this.mstCPF.Mask = "000.000.000-00";
-            this.mstCPF.Name = "mstCPF";
-            this.mstCPF.Size = new System.Drawing.Size(170, 27);
-            this.mstCPF.TabIndex = 25;
-            this.toolTipFuncionario.SetToolTip(this.mstCPF, "Insira o CPF");
-            // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone.Location = new System.Drawing.Point(156, 205);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone.TabIndex = 24;
-            this.toolTipFuncionario.SetToolTip(this.txtTelefone, "Insira o Telefone para Contato");
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtEmail.Location = new System.Drawing.Point(156, 163);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(487, 27);
-            this.txtEmail.TabIndex = 23;
-            this.toolTipFuncionario.SetToolTip(this.txtEmail, "Insira o E-mail");
-            // 
-            // txtNome
-            // 
-            this.txtNome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtNome.Location = new System.Drawing.Point(156, 36);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(487, 27);
-            this.txtNome.TabIndex = 22;
-            this.toolTipFuncionario.SetToolTip(this.txtNome, "Insira o Nome do Funcionário");
             // 
             // lblTelefone
             // 
