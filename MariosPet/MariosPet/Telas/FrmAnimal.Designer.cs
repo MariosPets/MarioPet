@@ -97,7 +97,7 @@
             this.btmLimpar.Location = new System.Drawing.Point(330, 261);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
-            this.btmLimpar.TabIndex = 20;
+            this.btmLimpar.TabIndex = 6;
             this.btmLimpar.Text = "Limpar";
             this.btmLimpar.UseVisualStyleBackColor = false;
             // 
@@ -111,7 +111,7 @@
             this.btmVoltar.Location = new System.Drawing.Point(110, 261);
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
-            this.btmVoltar.TabIndex = 19;
+            this.btmVoltar.TabIndex = 5;
             this.btmVoltar.Text = "Voltar";
             this.btmVoltar.UseVisualStyleBackColor = false;
             this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
@@ -126,7 +126,7 @@
             this.btmSalvar.Location = new System.Drawing.Point(550, 261);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(117, 42);
-            this.btmSalvar.TabIndex = 18;
+            this.btmSalvar.TabIndex = 7;
             this.btmSalvar.Text = "Salvar";
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
@@ -148,7 +148,7 @@
             this.txtSexo.MaxLength = 1;
             this.txtSexo.Name = "txtSexo";
             this.txtSexo.Size = new System.Drawing.Size(60, 27);
-            this.txtSexo.TabIndex = 16;
+            this.txtSexo.TabIndex = 4;
             this.toolTipAnimal.SetToolTip(this.txtSexo, "Insira o Sexo do Animal (F ou M)");
             // 
             // maskedTxtNascimentoAnimal
@@ -159,7 +159,7 @@
             this.maskedTxtNascimentoAnimal.Mask = "00/00/0000";
             this.maskedTxtNascimentoAnimal.Name = "maskedTxtNascimentoAnimal";
             this.maskedTxtNascimentoAnimal.Size = new System.Drawing.Size(158, 27);
-            this.maskedTxtNascimentoAnimal.TabIndex = 15;
+            this.maskedTxtNascimentoAnimal.TabIndex = 3;
             this.toolTipAnimal.SetToolTip(this.maskedTxtNascimentoAnimal, "Insira a Data de Nascimento do Animal");
             this.maskedTxtNascimentoAnimal.ValidatingType = typeof(System.DateTime);
             // 
@@ -181,7 +181,7 @@
             this.txtPelagemCor.MaxLength = 20;
             this.txtPelagemCor.Name = "txtPelagemCor";
             this.txtPelagemCor.Size = new System.Drawing.Size(345, 27);
-            this.txtPelagemCor.TabIndex = 11;
+            this.txtPelagemCor.TabIndex = 2;
             this.toolTipAnimal.SetToolTip(this.txtPelagemCor, "Insira a Pelagem/Cor");
             // 
             // txtRacaPorte
@@ -192,7 +192,7 @@
             this.txtRacaPorte.MaxLength = 20;
             this.txtRacaPorte.Name = "txtRacaPorte";
             this.txtRacaPorte.Size = new System.Drawing.Size(345, 27);
-            this.txtRacaPorte.TabIndex = 10;
+            this.txtRacaPorte.TabIndex = 1;
             this.toolTipAnimal.SetToolTip(this.txtRacaPorte, "Insira a Raça e o Porte");
             // 
             // txtNomeAnimal
@@ -203,7 +203,7 @@
             this.txtNomeAnimal.MaxLength = 20;
             this.txtNomeAnimal.Name = "txtNomeAnimal";
             this.txtNomeAnimal.Size = new System.Drawing.Size(345, 27);
-            this.txtNomeAnimal.TabIndex = 7;
+            this.txtNomeAnimal.TabIndex = 0;
             this.toolTipAnimal.SetToolTip(this.txtNomeAnimal, "Insira o nome do Animal");
             // 
             // lblRacaPorte
