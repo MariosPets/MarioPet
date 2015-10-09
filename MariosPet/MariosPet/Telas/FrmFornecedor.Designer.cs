@@ -41,8 +41,11 @@
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.cmbUF = new System.Windows.Forms.ComboBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.lblUF = new System.Windows.Forms.Label();
             this.lblCEP = new System.Windows.Forms.Label();
             this.txtCidade = new System.Windows.Forms.TextBox();
@@ -55,9 +58,6 @@
             this.lblComplemento = new System.Windows.Forms.Label();
             this.txtRua = new System.Windows.Forms.TextBox();
             this.lblRua = new System.Windows.Forms.Label();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnVoltar = new System.Windows.Forms.Button();
             this.toolTipFornecedor = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -93,7 +93,7 @@
             this.txtTelefone2.Location = new System.Drawing.Point(525, 167);
             this.txtTelefone2.Name = "txtTelefone2";
             this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone2.TabIndex = 27;
+            this.txtTelefone2.TabIndex = 4;
             this.toolTipFornecedor.SetToolTip(this.txtTelefone2, "Insira o telefone para Contato");
             // 
             // label1
@@ -114,7 +114,7 @@
             this.mstCNPJ.Mask = "000.000.000-00";
             this.mstCNPJ.Name = "mstCNPJ";
             this.mstCNPJ.Size = new System.Drawing.Size(170, 27);
-            this.mstCNPJ.TabIndex = 25;
+            this.mstCNPJ.TabIndex = 1;
             this.toolTipFornecedor.SetToolTip(this.mstCNPJ, "Insira o CNPJ do Fornecedor");
             // 
             // txtTelefone
@@ -124,7 +124,7 @@
             this.txtTelefone.Location = new System.Drawing.Point(226, 166);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone.TabIndex = 24;
+            this.txtTelefone.TabIndex = 3;
             this.toolTipFornecedor.SetToolTip(this.txtTelefone, "Insira o telefone para Contato");
             // 
             // txtAtividade
@@ -134,7 +134,7 @@
             this.txtAtividade.Location = new System.Drawing.Point(226, 121);
             this.txtAtividade.Name = "txtAtividade";
             this.txtAtividade.Size = new System.Drawing.Size(469, 27);
-            this.txtAtividade.TabIndex = 23;
+            this.txtAtividade.TabIndex = 2;
             this.toolTipFornecedor.SetToolTip(this.txtAtividade, "Insira o Ramo da Atividade do Fornecedor");
             // 
             // txtNomeF
@@ -144,7 +144,7 @@
             this.txtNomeF.Location = new System.Drawing.Point(226, 36);
             this.txtNomeF.Name = "txtNomeF";
             this.txtNomeF.Size = new System.Drawing.Size(469, 27);
-            this.txtNomeF.TabIndex = 22;
+            this.txtNomeF.TabIndex = 0;
             this.toolTipFornecedor.SetToolTip(this.txtNomeF, "Insira o Nome do Fornecedor");
             // 
             // lblTelefone
@@ -219,6 +219,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "   Endereço";
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(65, 265);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(172, 41);
+            this.btnVoltar.TabIndex = 7;
+            this.btnVoltar.Text = "Voltar";
+            this.toolTipFornecedor.SetToolTip(this.btnVoltar, "Voltar ao Menu");
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            // 
             // maskedTextBox2
             // 
             this.maskedTextBox2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -226,8 +236,18 @@
             this.maskedTextBox2.Location = new System.Drawing.Point(473, 138);
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
-            this.maskedTextBox2.TabIndex = 23;
+            this.maskedTextBox2.TabIndex = 4;
             this.toolTipFornecedor.SetToolTip(this.maskedTextBox2, "Insira o CEP");
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(294, 265);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(172, 41);
+            this.btnLimpar.TabIndex = 8;
+            this.btnLimpar.Text = "Limpar";
+            this.toolTipFornecedor.SetToolTip(this.btnLimpar, "Limpar Campos");
+            this.btnLimpar.UseVisualStyleBackColor = true;
             // 
             // cmbUF
             // 
@@ -237,9 +257,19 @@
             this.cmbUF.Location = new System.Drawing.Point(473, 187);
             this.cmbUF.Name = "cmbUF";
             this.cmbUF.Size = new System.Drawing.Size(171, 26);
-            this.cmbUF.TabIndex = 22;
+            this.cmbUF.TabIndex = 6;
             this.cmbUF.Text = "---Selecione---";
             this.toolTipFornecedor.SetToolTip(this.cmbUF, "Selecione a UF");
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Location = new System.Drawing.Point(491, 265);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(172, 41);
+            this.btnSalvar.TabIndex = 9;
+            this.btnSalvar.Text = "Salvar";
+            this.toolTipFornecedor.SetToolTip(this.btnSalvar, "Salvar as Informações");
+            this.btnSalvar.UseVisualStyleBackColor = true;
             // 
             // lblUF
             // 
@@ -268,7 +298,7 @@
             this.txtCidade.Location = new System.Drawing.Point(156, 185);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(195, 27);
-            this.txtCidade.TabIndex = 17;
+            this.txtCidade.TabIndex = 5;
             this.toolTipFornecedor.SetToolTip(this.txtCidade, "Insira a Cidade");
             // 
             // lblCidade
@@ -288,7 +318,7 @@
             this.txtBairro.Location = new System.Drawing.Point(156, 137);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(195, 27);
-            this.txtBairro.TabIndex = 15;
+            this.txtBairro.TabIndex = 3;
             this.toolTipFornecedor.SetToolTip(this.txtBairro, "Insira o Bairro");
             // 
             // lblBairro
@@ -308,7 +338,7 @@
             this.txtNumero.Location = new System.Drawing.Point(156, 90);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(81, 27);
-            this.txtNumero.TabIndex = 13;
+            this.txtNumero.TabIndex = 1;
             this.toolTipFornecedor.SetToolTip(this.txtNumero, "Insira o Número do Estabelecimento");
             // 
             // lblNumero
@@ -328,7 +358,7 @@
             this.txtComplemento.Location = new System.Drawing.Point(473, 97);
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(170, 27);
-            this.txtComplemento.TabIndex = 11;
+            this.txtComplemento.TabIndex = 2;
             this.toolTipFornecedor.SetToolTip(this.txtComplemento, "Insira o Complemento");
             // 
             // lblComplemento
@@ -348,7 +378,7 @@
             this.txtRua.Location = new System.Drawing.Point(156, 44);
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(488, 27);
-            this.txtRua.TabIndex = 9;
+            this.txtRua.TabIndex = 0;
             this.toolTipFornecedor.SetToolTip(this.txtRua, "Insira o Nome da Rua");
             // 
             // lblRua
@@ -360,36 +390,6 @@
             this.lblRua.Size = new System.Drawing.Size(55, 23);
             this.lblRua.TabIndex = 8;
             this.lblRua.Text = "Rua:";
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.Location = new System.Drawing.Point(491, 265);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(172, 41);
-            this.btnSalvar.TabIndex = 9;
-            this.btnSalvar.Text = "Salvar";
-            this.toolTipFornecedor.SetToolTip(this.btnSalvar, "Salvar as Informações");
-            this.btnSalvar.UseVisualStyleBackColor = true;
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Location = new System.Drawing.Point(294, 265);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(172, 41);
-            this.btnLimpar.TabIndex = 10;
-            this.btnLimpar.Text = "Limpar";
-            this.toolTipFornecedor.SetToolTip(this.btnLimpar, "Limpar Campos");
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            // 
-            // btnVoltar
-            // 
-            this.btnVoltar.Location = new System.Drawing.Point(65, 265);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(172, 41);
-            this.btnVoltar.TabIndex = 11;
-            this.btnVoltar.Text = "Voltar";
-            this.toolTipFornecedor.SetToolTip(this.btnVoltar, "Voltar ao Menu");
-            this.btnVoltar.UseVisualStyleBackColor = true;
             // 
             // toolTipFornecedor
             // 
