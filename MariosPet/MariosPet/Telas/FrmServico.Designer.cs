@@ -74,7 +74,7 @@
             this.btnSalvar.Location = new System.Drawing.Point(619, 128);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(103, 46);
-            this.btnSalvar.TabIndex = 6;
+            this.btnSalvar.TabIndex = 4;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
@@ -84,7 +84,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(510, 128);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(103, 46);
-            this.btnLimpar.TabIndex = 5;
+            this.btnLimpar.TabIndex = 3;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
             // 
@@ -94,7 +94,7 @@
             this.btnVoltar.Location = new System.Drawing.Point(401, 128);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(103, 46);
-            this.btnVoltar.TabIndex = 4;
+            this.btnVoltar.TabIndex = 2;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
             // 
@@ -126,7 +126,7 @@
             this.mskPreco.Mask = "000,00";
             this.mskPreco.Name = "mskPreco";
             this.mskPreco.Size = new System.Drawing.Size(107, 27);
-            this.mskPreco.TabIndex = 18;
+            this.mskPreco.TabIndex = 1;
             // 
             // FrmServico
             // 
