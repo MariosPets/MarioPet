@@ -19,12 +19,12 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into FUNCIONARIO (ID_PESSOA, TIPO_FUNCIONARIO, LOGIN, SENHA) values(?,?,?,?,?)";
+                string sql = "insert into FUNCIONARIO (ID_PESSOA, TIPO_FUNCIONARIO, APELIDO, SENHA) values(?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_PESSOA", funcionario.id);
                 command.Parameters.AddWithValue("@TIPO_FUNCIONARIO", funcionario.tipo);
-                command.Parameters.AddWithValue("@LOGIN", funcionario.login);
+                command.Parameters.AddWithValue("@APELIDO", funcionario.apelido);
                 command.Parameters.AddWithValue("@SENHA", funcionario.senha);
 
                 conexao.Open();

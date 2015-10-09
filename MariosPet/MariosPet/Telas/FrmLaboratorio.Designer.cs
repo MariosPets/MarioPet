@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.mstCNPJ = new System.Windows.Forms.MaskedTextBox();
             this.txtTelefone1 = new System.Windows.Forms.TextBox();
-            this.txtNomeF = new System.Windows.Forms.TextBox();
+            this.txtNomeLaboratorio = new System.Windows.Forms.TextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
@@ -75,7 +75,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.mstCNPJ);
             this.groupBox1.Controls.Add(this.txtTelefone1);
-            this.groupBox1.Controls.Add(this.txtNomeF);
+            this.groupBox1.Controls.Add(this.txtNomeLaboratorio);
             this.groupBox1.Controls.Add(this.lblTelefone);
             this.groupBox1.Controls.Add(this.lblCpf);
             this.groupBox1.Controls.Add(this.lblNome);
@@ -95,7 +95,7 @@
             this.txtTelefone2.Location = new System.Drawing.Point(525, 123);
             this.txtTelefone2.Name = "txtTelefone2";
             this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone2.TabIndex = 27;
+            this.txtTelefone2.TabIndex = 3;
             // 
             // label1
             // 
@@ -115,7 +115,7 @@
             this.mstCNPJ.Mask = "000.000.000-00";
             this.mstCNPJ.Name = "mstCNPJ";
             this.mstCNPJ.Size = new System.Drawing.Size(170, 27);
-            this.mstCNPJ.TabIndex = 25;
+            this.mstCNPJ.TabIndex = 1;
             // 
             // txtTelefone1
             // 
@@ -124,16 +124,16 @@
             this.txtTelefone1.Location = new System.Drawing.Point(226, 122);
             this.txtTelefone1.Name = "txtTelefone1";
             this.txtTelefone1.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone1.TabIndex = 24;
+            this.txtTelefone1.TabIndex = 2;
             // 
-            // txtNomeF
+            // txtNomeLaboratorio
             // 
-            this.txtNomeF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtNomeF.Location = new System.Drawing.Point(226, 36);
-            this.txtNomeF.Name = "txtNomeF";
-            this.txtNomeF.Size = new System.Drawing.Size(469, 27);
-            this.txtNomeF.TabIndex = 22;
+            this.txtNomeLaboratorio.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeLaboratorio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtNomeLaboratorio.Location = new System.Drawing.Point(226, 36);
+            this.txtNomeLaboratorio.Name = "txtNomeLaboratorio";
+            this.txtNomeLaboratorio.Size = new System.Drawing.Size(469, 27);
+            this.txtNomeLaboratorio.TabIndex = 0;
             // 
             // lblTelefone
             // 
@@ -172,7 +172,7 @@
             this.txtEmail1.Location = new System.Drawing.Point(226, 164);
             this.txtEmail1.Name = "txtEmail1";
             this.txtEmail1.Size = new System.Drawing.Size(469, 27);
-            this.txtEmail1.TabIndex = 29;
+            this.txtEmail1.TabIndex = 4;
             // 
             // label2
             // 
@@ -191,7 +191,7 @@
             this.txtEmail2.Location = new System.Drawing.Point(226, 207);
             this.txtEmail2.Name = "txtEmail2";
             this.txtEmail2.Size = new System.Drawing.Size(469, 27);
-            this.txtEmail2.TabIndex = 31;
+            this.txtEmail2.TabIndex = 5;
             // 
             // label3
             // 
@@ -241,7 +241,7 @@
             this.maskedTextBox2.Location = new System.Drawing.Point(473, 138);
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
-            this.maskedTextBox2.TabIndex = 23;
+            this.maskedTextBox2.TabIndex = 4;
             // 
             // cmbUF
             // 
@@ -251,7 +251,7 @@
             this.cmbUF.Location = new System.Drawing.Point(473, 187);
             this.cmbUF.Name = "cmbUF";
             this.cmbUF.Size = new System.Drawing.Size(171, 26);
-            this.cmbUF.TabIndex = 22;
+            this.cmbUF.TabIndex = 6;
             this.cmbUF.Text = "---Selecione---";
             // 
             // lblUF
@@ -281,7 +281,7 @@
             this.txtCidade.Location = new System.Drawing.Point(156, 185);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(195, 27);
-            this.txtCidade.TabIndex = 17;
+            this.txtCidade.TabIndex = 5;
             // 
             // lblCidade
             // 
@@ -300,7 +300,7 @@
             this.txtBairro.Location = new System.Drawing.Point(156, 137);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(195, 27);
-            this.txtBairro.TabIndex = 15;
+            this.txtBairro.TabIndex = 3;
             // 
             // lblBairro
             // 
@@ -319,7 +319,7 @@
             this.txtNumero.Location = new System.Drawing.Point(156, 90);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(81, 27);
-            this.txtNumero.TabIndex = 13;
+            this.txtNumero.TabIndex = 1;
             // 
             // lblNumero
             // 
@@ -338,7 +338,7 @@
             this.txtComplemento.Location = new System.Drawing.Point(473, 97);
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(170, 27);
-            this.txtComplemento.TabIndex = 11;
+            this.txtComplemento.TabIndex = 2;
             // 
             // lblComplemento
             // 
@@ -357,7 +357,7 @@
             this.txtRua.Location = new System.Drawing.Point(156, 44);
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(488, 27);
-            this.txtRua.TabIndex = 9;
+            this.txtRua.TabIndex = 0;
             // 
             // lblRua
             // 
@@ -375,7 +375,7 @@
             this.btnVoltar.Location = new System.Drawing.Point(390, 276);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(103, 46);
-            this.btnVoltar.TabIndex = 26;
+            this.btnVoltar.TabIndex = 7;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
             // 
@@ -385,7 +385,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(499, 276);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(103, 46);
-            this.btnLimpar.TabIndex = 25;
+            this.btnLimpar.TabIndex = 8;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
             // 
@@ -395,7 +395,7 @@
             this.btnSalvar.Location = new System.Drawing.Point(608, 276);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(103, 46);
-            this.btnSalvar.TabIndex = 24;
+            this.btnSalvar.TabIndex = 9;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
@@ -409,7 +409,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmLaboratorio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmLaboratório";
+            this.Text = "1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -430,7 +430,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox mstCNPJ;
         private System.Windows.Forms.TextBox txtTelefone1;
-        private System.Windows.Forms.TextBox txtNomeF;
+        private System.Windows.Forms.TextBox txtNomeLaboratorio;
         private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblNome;
