@@ -88,7 +88,7 @@
             this.txtMedicamento.Location = new System.Drawing.Point(250, 36);
             this.txtMedicamento.Name = "txtMedicamento";
             this.txtMedicamento.Size = new System.Drawing.Size(469, 27);
-            this.txtMedicamento.TabIndex = 22;
+            this.txtMedicamento.TabIndex = 0;
             // 
             // lblTelefone
             // 
@@ -127,7 +127,7 @@
             this.nudQuantidade.Location = new System.Drawing.Point(250, 76);
             this.nudQuantidade.Name = "nudQuantidade";
             this.nudQuantidade.Size = new System.Drawing.Size(81, 31);
-            this.nudQuantidade.TabIndex = 33;
+            this.nudQuantidade.TabIndex = 1;
             // 
             // nudMinimo
             // 
@@ -136,7 +136,7 @@
             this.nudMinimo.Location = new System.Drawing.Point(250, 122);
             this.nudMinimo.Name = "nudMinimo";
             this.nudMinimo.Size = new System.Drawing.Size(81, 31);
-            this.nudMinimo.TabIndex = 34;
+            this.nudMinimo.TabIndex = 2;
             // 
             // nudMaximo
             // 
@@ -145,7 +145,7 @@
             this.nudMaximo.Location = new System.Drawing.Point(447, 122);
             this.nudMaximo.Name = "nudMaximo";
             this.nudMaximo.Size = new System.Drawing.Size(83, 31);
-            this.nudMaximo.TabIndex = 35;
+            this.nudMaximo.TabIndex = 3;
             // 
             // btnVoltar
             // 
@@ -153,7 +153,7 @@
             this.btnVoltar.Location = new System.Drawing.Point(410, 181);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(103, 46);
-            this.btnVoltar.TabIndex = 38;
+            this.btnVoltar.TabIndex = 4;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
             // 
@@ -163,7 +163,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(519, 181);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(103, 46);
-            this.btnLimpar.TabIndex = 37;
+            this.btnLimpar.TabIndex = 5;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
             // 
@@ -173,7 +173,7 @@
             this.btnSalvar.Location = new System.Drawing.Point(628, 181);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(103, 46);
-            this.btnSalvar.TabIndex = 36;
+            this.btnSalvar.TabIndex = 6;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
