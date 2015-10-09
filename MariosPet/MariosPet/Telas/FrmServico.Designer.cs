@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblNome = new System.Windows.Forms.Label();
             this.lblCpf = new System.Windows.Forms.Label();
             this.txtServico = new System.Windows.Forms.TextBox();
@@ -36,6 +37,7 @@
             this.btnVoltar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.mskPreco = new System.Windows.Forms.MaskedTextBox();
+            this.toolTipServicos = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +69,7 @@
             this.txtServico.Name = "txtServico";
             this.txtServico.Size = new System.Drawing.Size(449, 27);
             this.txtServico.TabIndex = 0;
+            this.toolTipServicos.SetToolTip(this.txtServico, "Descreva o Serviço");
             // 
             // btnSalvar
             // 
@@ -76,6 +79,7 @@
             this.btnSalvar.Size = new System.Drawing.Size(103, 46);
             this.btnSalvar.TabIndex = 4;
             this.btnSalvar.Text = "Salvar";
+            this.toolTipServicos.SetToolTip(this.btnSalvar, "Salvar as Informações");
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
             // btnLimpar
@@ -86,6 +90,7 @@
             this.btnLimpar.Size = new System.Drawing.Size(103, 46);
             this.btnLimpar.TabIndex = 3;
             this.btnLimpar.Text = "Limpar";
+            this.toolTipServicos.SetToolTip(this.btnLimpar, "Limpar os Campos");
             this.btnLimpar.UseVisualStyleBackColor = true;
             // 
             // btnVoltar
@@ -96,6 +101,7 @@
             this.btnVoltar.Size = new System.Drawing.Size(103, 46);
             this.btnVoltar.TabIndex = 2;
             this.btnVoltar.Text = "Voltar";
+            this.toolTipServicos.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -127,6 +133,13 @@
             this.mskPreco.Name = "mskPreco";
             this.mskPreco.Size = new System.Drawing.Size(107, 27);
             this.mskPreco.TabIndex = 1;
+            this.toolTipServicos.SetToolTip(this.mskPreco, "Insira o Valor");
+            // 
+            // toolTipServicos
+            // 
+            this.toolTipServicos.AutomaticDelay = 100;
+            this.toolTipServicos.IsBalloon = true;
+            this.toolTipServicos.StripAmpersands = true;
             // 
             // FrmServico
             // 
@@ -153,5 +166,6 @@
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.MaskedTextBox mskPreco;
+        private System.Windows.Forms.ToolTip toolTipServicos;
     }
 }

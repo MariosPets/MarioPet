@@ -40,6 +40,7 @@
             this.lblConsulta = new System.Windows.Forms.Label();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.toolTipPesquisas = new System.Windows.Forms.ToolTip(this.components);
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.groupBoxPesquisas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPesquisas)).BeginInit();
             this.SuspendLayout();
@@ -48,6 +49,7 @@
             // 
             this.groupBoxPesquisas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBoxPesquisas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBoxPesquisas.Controls.Add(this.btnLimpar);
             this.groupBoxPesquisas.Controls.Add(this.btnVoltar);
             this.groupBoxPesquisas.Controls.Add(this.lblConsulta);
             this.groupBoxPesquisas.Controls.Add(this.label1);
@@ -166,7 +168,7 @@
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(594, 484);
+            this.btnVoltar.Location = new System.Drawing.Point(446, 484);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(116, 44);
             this.btnVoltar.TabIndex = 4;
@@ -179,6 +181,17 @@
             this.toolTipPesquisas.AutomaticDelay = 100;
             this.toolTipPesquisas.IsBalloon = true;
             this.toolTipPesquisas.StripAmpersands = true;
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(594, 484);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(116, 44);
+            this.btnLimpar.TabIndex = 21;
+            this.btnLimpar.Text = "Limpar";
+            this.toolTipPesquisas.SetToolTip(this.btnLimpar, "Limpar os Campos");
+            this.btnLimpar.UseVisualStyleBackColor = true;
             // 
             // FrmPesquisas
             // 
@@ -210,5 +223,6 @@
         private System.Windows.Forms.Label lblConsulta;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolTip toolTipPesquisas;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }
