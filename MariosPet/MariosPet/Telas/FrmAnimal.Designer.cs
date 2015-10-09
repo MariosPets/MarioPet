@@ -44,7 +44,7 @@
             this.lblRacaPorte = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblNomeAnimal = new System.Windows.Forms.Label();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipAnimal = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimal)).BeginInit();
             this.groupBoxAnimal.SuspendLayout();
             this.SuspendLayout();
@@ -149,7 +149,7 @@
             this.txtSexo.Name = "txtSexo";
             this.txtSexo.Size = new System.Drawing.Size(60, 27);
             this.txtSexo.TabIndex = 16;
-            this.toolTip1.SetToolTip(this.txtSexo, "Insira o Sexo do Animal (F ou M)");
+            this.toolTipAnimal.SetToolTip(this.txtSexo, "Insira o Sexo do Animal (F ou M)");
             // 
             // maskedTxtNascimentoAnimal
             // 
@@ -160,7 +160,7 @@
             this.maskedTxtNascimentoAnimal.Name = "maskedTxtNascimentoAnimal";
             this.maskedTxtNascimentoAnimal.Size = new System.Drawing.Size(158, 27);
             this.maskedTxtNascimentoAnimal.TabIndex = 15;
-            this.toolTip1.SetToolTip(this.maskedTxtNascimentoAnimal, "Insira a Data de Nascimento do Animal");
+            this.toolTipAnimal.SetToolTip(this.maskedTxtNascimentoAnimal, "Insira a Data de Nascimento do Animal");
             this.maskedTxtNascimentoAnimal.ValidatingType = typeof(System.DateTime);
             // 
             // lblPelagemCor
@@ -182,7 +182,7 @@
             this.txtPelagemCor.Name = "txtPelagemCor";
             this.txtPelagemCor.Size = new System.Drawing.Size(345, 27);
             this.txtPelagemCor.TabIndex = 11;
-            this.toolTip1.SetToolTip(this.txtPelagemCor, "Insira a Pelagem/Cor");
+            this.toolTipAnimal.SetToolTip(this.txtPelagemCor, "Insira a Pelagem/Cor");
             // 
             // txtRacaPorte
             // 
@@ -193,7 +193,7 @@
             this.txtRacaPorte.Name = "txtRacaPorte";
             this.txtRacaPorte.Size = new System.Drawing.Size(345, 27);
             this.txtRacaPorte.TabIndex = 10;
-            this.toolTip1.SetToolTip(this.txtRacaPorte, "Insira a Raça e o Porte");
+            this.toolTipAnimal.SetToolTip(this.txtRacaPorte, "Insira a Raça e o Porte");
             // 
             // txtNomeAnimal
             // 
@@ -204,7 +204,7 @@
             this.txtNomeAnimal.Name = "txtNomeAnimal";
             this.txtNomeAnimal.Size = new System.Drawing.Size(345, 27);
             this.txtNomeAnimal.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.txtNomeAnimal, "Insira o nome do Animal");
+            this.toolTipAnimal.SetToolTip(this.txtNomeAnimal, "Insira o nome do Animal");
             // 
             // lblRacaPorte
             // 
@@ -236,11 +236,11 @@
             this.lblNomeAnimal.TabIndex = 0;
             this.lblNomeAnimal.Text = "Nome:";
             // 
-            // toolTip1
+            // toolTipAnimal
             // 
-            this.toolTip1.AutomaticDelay = 100;
-            this.toolTip1.IsBalloon = true;
-            this.toolTip1.StripAmpersands = true;
+            this.toolTipAnimal.AutomaticDelay = 100;
+            this.toolTipAnimal.IsBalloon = true;
+            this.toolTipAnimal.StripAmpersands = true;
             // 
             // FrmAnimal
             // 
@@ -277,7 +277,7 @@
         private System.Windows.Forms.Button btmLimpar;
         private System.Windows.Forms.Button btmVoltar;
         private System.Windows.Forms.Button btmSalvar;
-        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTipAnimal;
 
 
     }
