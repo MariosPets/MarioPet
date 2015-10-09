@@ -36,8 +36,8 @@
             this.labelSenha = new System.Windows.Forms.Label();
             this.labelUsuario = new System.Windows.Forms.Label();
             this.textUsuario = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.toolTipLogin = new System.Windows.Forms.ToolTip(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.grpLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -75,7 +75,6 @@
             // grpLogin
             // 
             this.grpLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.grpLogin.BackgroundImage = global::MariosPet.Properties.Resources.PATA_2;
             this.grpLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.grpLogin.Controls.Add(this.textSenha);
             this.grpLogin.Controls.Add(this.labelSenha);
@@ -98,7 +97,7 @@
             this.textSenha.MaxLength = 20;
             this.textSenha.Name = "textSenha";
             this.textSenha.PasswordChar = '•';
-            this.textSenha.Size = new System.Drawing.Size(186, 31);
+            this.textSenha.Size = new System.Drawing.Size(186, 36);
             this.textSenha.TabIndex = 1;
             this.toolTipLogin.SetToolTip(this.textSenha, "Insira a Senha");
             // 
@@ -108,7 +107,7 @@
             this.labelSenha.Font = new System.Drawing.Font("Verdana", 16F);
             this.labelSenha.Location = new System.Drawing.Point(55, 129);
             this.labelSenha.Name = "labelSenha";
-            this.labelSenha.Size = new System.Drawing.Size(81, 26);
+            this.labelSenha.Size = new System.Drawing.Size(99, 32);
             this.labelSenha.TabIndex = 4;
             this.labelSenha.Text = "Senha";
             // 
@@ -118,7 +117,7 @@
             this.labelUsuario.Font = new System.Drawing.Font("Verdana", 16F);
             this.labelUsuario.Location = new System.Drawing.Point(42, 63);
             this.labelUsuario.Name = "labelUsuario";
-            this.labelUsuario.Size = new System.Drawing.Size(94, 26);
+            this.labelUsuario.Size = new System.Drawing.Size(117, 32);
             this.labelUsuario.TabIndex = 3;
             this.labelUsuario.Text = "Usuário";
             // 
@@ -129,26 +128,25 @@
             this.textUsuario.Location = new System.Drawing.Point(142, 58);
             this.textUsuario.MaxLength = 20;
             this.textUsuario.Name = "textUsuario";
-            this.textUsuario.Size = new System.Drawing.Size(186, 31);
+            this.textUsuario.Size = new System.Drawing.Size(186, 36);
             this.textUsuario.TabIndex = 0;
             this.toolTipLogin.SetToolTip(this.textUsuario, "Insira o Login");
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.BackgroundImage = global::MariosPet.Properties.Resources.Logo_pet___Copia__2_;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(62, 91);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(224, 215);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // toolTipLogin
             // 
             this.toolTipLogin.AutomaticDelay = 100;
             this.toolTipLogin.IsBalloon = true;
             this.toolTipLogin.ShowAlways = true;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(62, 91);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(224, 215);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // FrmLogin
             // 

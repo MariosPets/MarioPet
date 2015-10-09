@@ -15,6 +15,6 @@ namespace MariosPet.Classes
         public int idAnimal { get; set; }
         public Image autorizacao { get; set; }
 
-        #region
+        #endregion
     }
 }

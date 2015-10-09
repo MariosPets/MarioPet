@@ -11,7 +11,6 @@ namespace MariosPet.Crud
 {
     class CrudMedicamento
     {
-        {
         public void inserirMedicamento(Medicamento medicamento)
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())

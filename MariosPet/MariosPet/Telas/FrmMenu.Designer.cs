@@ -862,7 +862,6 @@
             this.prontuárioToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
             this.prontuárioToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prontuárioToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.prontuárioToolStripMenuItem.Image = global::MariosPet.Properties.Resources.PATA_8;
             this.prontuárioToolStripMenuItem.Name = "prontuárioToolStripMenuItem";
             this.prontuárioToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
             this.prontuárioToolStripMenuItem.Text = "Prontuário";

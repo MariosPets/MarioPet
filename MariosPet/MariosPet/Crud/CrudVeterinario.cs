@@ -20,8 +20,8 @@ namespace MariosPet.Crud
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID", veterinario.id);
-                command.Parameters.AddWithValue("@ID_FUNCIONARIO", veterinario.id_funcionario);
-                command.Parameters.AddWithValue("@CRMV_VETERINARIO", veterinario.crmv_veterinario);
+                command.Parameters.AddWithValue("@ID_FUNCIONARIO", veterinario.id);
+                command.Parameters.AddWithValue("@CRMV_VETERINARIO", veterinario.crmv);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -49,8 +49,8 @@ namespace MariosPet.Crud
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID", veterinario.id);
-                command.Parameters.AddWithValue("@CRMV_VETERINARIO", veterinario.crmv_veterinario);
-                command.Parameters.AddWithValue("@ID_VETERINARIO", veterinario.id_veterinario);
+                command.Parameters.AddWithValue("@CRMV_VETERINARIO", veterinario.crmv);
+                command.Parameters.AddWithValue("@ID_VETERINARIO", veterinario.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();

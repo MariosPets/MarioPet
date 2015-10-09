@@ -480,7 +480,6 @@
             // groupBox1
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox1.BackgroundImage = global::MariosPet.Properties.Resources.PATA_2;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox1.Controls.Add(this.txtTelefone3);
             this.groupBox1.Controls.Add(this.label6);

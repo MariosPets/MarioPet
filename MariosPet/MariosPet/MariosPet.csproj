@@ -236,13 +236,79 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo_pet - Copia %282%29.png" />
+    <None Include="Resources\BotaoFirstLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BOTAO ENTRAR.png" />
+    <None Include="Resources\botaoAbrirLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\img.jpg" />
+    <None Include="Resources\botaoEntrarLaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botaoEntrarLaranjaGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botaoEntrarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botaoSairLaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botaoSairVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botaoSalvarLaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pataAmarelaMarrom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pataMarromAmarelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pataMarromVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pataMarromVerdeGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pataVerdeMarrom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoFirstVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoMaisLaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoMaisVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoUltimoLaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoUltimoVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_pet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receituario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setaNext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setaNextLaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setaPrevious.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetaPreviousLaranja.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
