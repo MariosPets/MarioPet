@@ -16,10 +16,10 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into FOTO (ID, ID_ANIMAL, FOTO) values(?,?,?)";
+                string sql = "insert into FOTO (ID_FOTO, ID_ANIMAL, FOTO) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", foto.id);
+                command.Parameters.AddWithValue("@ID_FOTO", foto.id);
                 command.Parameters.AddWithValue("@ID_ANIMAL", foto.idAnimal);
                 command.Parameters.AddWithValue("@FOTO", foto.foto);
 
@@ -45,12 +45,12 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update FOTO set ID_ANIMAL = ?, FOTO = ? where ID = ?";
+                string sql = "update FOTO set ID_ANIMAL = ?, FOTO = ? where ID_FOTO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_ANIMAL", foto.idAnimal);
                 command.Parameters.AddWithValue("@FOTO", foto.foto);
-                command.Parameters.AddWithValue("@ID", foto.id);
+                command.Parameters.AddWithValue("@ID_FOTO", foto.id);
 
 
                 conexao.Open();
@@ -62,10 +62,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete FOTO where ID = ?";
+                string sql = "delete FOTO where ID_FOTO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_FOTO", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
