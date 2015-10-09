@@ -30,17 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBoxPesquisas = new System.Windows.Forms.GroupBox();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
+            this.lblConsulta = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBoxPesqPor = new System.Windows.Forms.ComboBox();
+            this.comboBoxTipo = new System.Windows.Forms.ComboBox();
             this.dataGridViewPesquisas = new System.Windows.Forms.DataGridView();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisa = new System.Windows.Forms.TextBox();
             this.lblTipo = new System.Windows.Forms.Label();
-            this.comboBoxTipo = new System.Windows.Forms.ComboBox();
-            this.comboBoxPesqPor = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblConsulta = new System.Windows.Forms.Label();
-            this.btnVoltar = new System.Windows.Forms.Button();
             this.toolTipPesquisas = new System.Windows.Forms.ToolTip(this.components);
-            this.btnLimpar = new System.Windows.Forms.Button();
             this.groupBoxPesquisas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPesquisas)).BeginInit();
             this.SuspendLayout();
@@ -67,6 +67,84 @@
             this.groupBoxPesquisas.TabIndex = 3;
             this.groupBoxPesquisas.TabStop = false;
             this.groupBoxPesquisas.Text = "   Pesquisa";
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(594, 484);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(116, 44);
+            this.btnLimpar.TabIndex = 5;
+            this.btnLimpar.Text = "Limpar";
+            this.toolTipPesquisas.SetToolTip(this.btnLimpar, "Limpar os Campos");
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(446, 484);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(116, 44);
+            this.btnVoltar.TabIndex = 4;
+            this.btnVoltar.Text = "Voltar";
+            this.toolTipPesquisas.SetToolTip(this.btnVoltar, "Voltar ao Menu");
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            // 
+            // lblConsulta
+            // 
+            this.lblConsulta.AutoSize = true;
+            this.lblConsulta.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConsulta.Location = new System.Drawing.Point(23, 118);
+            this.lblConsulta.Name = "lblConsulta";
+            this.lblConsulta.Size = new System.Drawing.Size(102, 23);
+            this.lblConsulta.TabIndex = 20;
+            this.lblConsulta.Text = "Consulta:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(377, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(141, 23);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "Pesquisa por:";
+            // 
+            // comboBoxPesqPor
+            // 
+            this.comboBoxPesqPor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxPesqPor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxPesqPor.FormattingEnabled = true;
+            this.comboBoxPesqPor.Location = new System.Drawing.Point(524, 47);
+            this.comboBoxPesqPor.Name = "comboBoxPesqPor";
+            this.comboBoxPesqPor.Size = new System.Drawing.Size(186, 26);
+            this.comboBoxPesqPor.TabIndex = 1;
+            this.comboBoxPesqPor.Text = "    ---Selecionar---";
+            this.toolTipPesquisas.SetToolTip(this.comboBoxPesqPor, "Selecionar informação a ser pesquisada");
+            // 
+            // comboBoxTipo
+            // 
+            this.comboBoxTipo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxTipo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxTipo.FormattingEnabled = true;
+            this.comboBoxTipo.Items.AddRange(new object[] {
+            "Clientes",
+            "Animais",
+            "Laboratórios",
+            "Medicamentos",
+            "Solicitação de Exames",
+            "Prontuário",
+            "Produtos e Serviços",
+            "Fornecedores",
+            "Produtos",
+            "Vendas",
+            "Funcionários"});
+            this.comboBoxTipo.Location = new System.Drawing.Point(90, 47);
+            this.comboBoxTipo.Name = "comboBoxTipo";
+            this.comboBoxTipo.Size = new System.Drawing.Size(268, 26);
+            this.comboBoxTipo.TabIndex = 0;
+            this.comboBoxTipo.Text = "         ---Selecionar---";
+            this.toolTipPesquisas.SetToolTip(this.comboBoxTipo, "Selecionar o Tipo de Pesquisa");
             // 
             // dataGridViewPesquisas
             // 
@@ -109,89 +187,11 @@
             this.lblTipo.TabIndex = 16;
             this.lblTipo.Text = "Tipo:";
             // 
-            // comboBoxTipo
-            // 
-            this.comboBoxTipo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxTipo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBoxTipo.FormattingEnabled = true;
-            this.comboBoxTipo.Items.AddRange(new object[] {
-            "Clientes",
-            "Animais",
-            "Laboratórios",
-            "Medicamentos",
-            "Solicitação de Exames",
-            "Prontuário",
-            "Produtos e Serviços",
-            "Fornecedores",
-            "Produtos",
-            "Vendas",
-            "Funcionários"});
-            this.comboBoxTipo.Location = new System.Drawing.Point(90, 47);
-            this.comboBoxTipo.Name = "comboBoxTipo";
-            this.comboBoxTipo.Size = new System.Drawing.Size(268, 26);
-            this.comboBoxTipo.TabIndex = 0;
-            this.comboBoxTipo.Text = "         ---Selecionar---";
-            this.toolTipPesquisas.SetToolTip(this.comboBoxTipo, "Selecionar o Tipo de Pesquisa");
-            // 
-            // comboBoxPesqPor
-            // 
-            this.comboBoxPesqPor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxPesqPor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBoxPesqPor.FormattingEnabled = true;
-            this.comboBoxPesqPor.Location = new System.Drawing.Point(524, 47);
-            this.comboBoxPesqPor.Name = "comboBoxPesqPor";
-            this.comboBoxPesqPor.Size = new System.Drawing.Size(186, 26);
-            this.comboBoxPesqPor.TabIndex = 1;
-            this.comboBoxPesqPor.Text = "    ---Selecionar---";
-            this.toolTipPesquisas.SetToolTip(this.comboBoxPesqPor, "Selecionar informação a ser pesquisada");
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(377, 50);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 23);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "Pesquisa por:";
-            // 
-            // lblConsulta
-            // 
-            this.lblConsulta.AutoSize = true;
-            this.lblConsulta.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConsulta.Location = new System.Drawing.Point(23, 118);
-            this.lblConsulta.Name = "lblConsulta";
-            this.lblConsulta.Size = new System.Drawing.Size(102, 23);
-            this.lblConsulta.TabIndex = 20;
-            this.lblConsulta.Text = "Consulta:";
-            // 
-            // btnVoltar
-            // 
-            this.btnVoltar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(446, 484);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(116, 44);
-            this.btnVoltar.TabIndex = 4;
-            this.btnVoltar.Text = "Voltar";
-            this.toolTipPesquisas.SetToolTip(this.btnVoltar, "Voltar ao Menu");
-            this.btnVoltar.UseVisualStyleBackColor = true;
-            // 
             // toolTipPesquisas
             // 
             this.toolTipPesquisas.AutomaticDelay = 100;
             this.toolTipPesquisas.IsBalloon = true;
             this.toolTipPesquisas.StripAmpersands = true;
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(594, 484);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(116, 44);
-            this.btnLimpar.TabIndex = 21;
-            this.btnLimpar.Text = "Limpar";
-            this.toolTipPesquisas.SetToolTip(this.btnLimpar, "Limpar os Campos");
-            this.btnLimpar.UseVisualStyleBackColor = true;
             // 
             // FrmPesquisas
             // 
