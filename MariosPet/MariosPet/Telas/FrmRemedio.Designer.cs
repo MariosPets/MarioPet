@@ -28,22 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.nudMaximo = new System.Windows.Forms.NumericUpDown();
+            this.nudMinimo = new System.Windows.Forms.NumericUpDown();
+            this.nudQuantidade = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMedicamento = new System.Windows.Forms.TextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
-            this.nudQuantidade = new System.Windows.Forms.NumericUpDown();
-            this.nudMinimo = new System.Windows.Forms.NumericUpDown();
-            this.nudMaximo = new System.Windows.Forms.NumericUpDown();
-            this.btnVoltar = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnSalvar = new System.Windows.Forms.Button();
+            this.toolTipRemedio = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudMinimo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMaximo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudMinimo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -70,6 +72,69 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   Dados do Medicamento";
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(410, 181);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(103, 46);
+            this.btnVoltar.TabIndex = 4;
+            this.btnVoltar.Text = "Voltar";
+            this.toolTipRemedio.SetToolTip(this.btnVoltar, "Voltar ao Menu");
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(519, 181);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(103, 46);
+            this.btnLimpar.TabIndex = 5;
+            this.btnLimpar.Text = "Limpar";
+            this.toolTipRemedio.SetToolTip(this.btnLimpar, "Limpar os Campos");
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Location = new System.Drawing.Point(628, 181);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(103, 46);
+            this.btnSalvar.TabIndex = 6;
+            this.btnSalvar.Text = "Salvar";
+            this.toolTipRemedio.SetToolTip(this.btnSalvar, "Salvar as Informações");
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            // 
+            // nudMaximo
+            // 
+            this.nudMaximo.Font = new System.Drawing.Font("Verdana", 14.25F);
+            this.nudMaximo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.nudMaximo.Location = new System.Drawing.Point(447, 122);
+            this.nudMaximo.Name = "nudMaximo";
+            this.nudMaximo.Size = new System.Drawing.Size(83, 31);
+            this.nudMaximo.TabIndex = 3;
+            this.toolTipRemedio.SetToolTip(this.nudMaximo, "Insira a Quantidade Máxima");
+            // 
+            // nudMinimo
+            // 
+            this.nudMinimo.Font = new System.Drawing.Font("Verdana", 14.25F);
+            this.nudMinimo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.nudMinimo.Location = new System.Drawing.Point(250, 122);
+            this.nudMinimo.Name = "nudMinimo";
+            this.nudMinimo.Size = new System.Drawing.Size(81, 31);
+            this.nudMinimo.TabIndex = 2;
+            this.toolTipRemedio.SetToolTip(this.nudMinimo, "Insira a Quantidade Mínima");
+            // 
+            // nudQuantidade
+            // 
+            this.nudQuantidade.Font = new System.Drawing.Font("Verdana", 14.25F);
+            this.nudQuantidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.nudQuantidade.Location = new System.Drawing.Point(250, 76);
+            this.nudQuantidade.Name = "nudQuantidade";
+            this.nudQuantidade.Size = new System.Drawing.Size(81, 31);
+            this.nudQuantidade.TabIndex = 1;
+            this.toolTipRemedio.SetToolTip(this.nudQuantidade, "Insira a Quantidade");
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -89,6 +154,7 @@
             this.txtMedicamento.Name = "txtMedicamento";
             this.txtMedicamento.Size = new System.Drawing.Size(469, 27);
             this.txtMedicamento.TabIndex = 0;
+            this.toolTipRemedio.SetToolTip(this.txtMedicamento, "Insira o Nome do Medicamento");
             // 
             // lblTelefone
             // 
@@ -120,62 +186,11 @@
             this.lblNome.TabIndex = 16;
             this.lblNome.Text = "Nome do Medicamento:";
             // 
-            // nudQuantidade
+            // toolTipRemedio
             // 
-            this.nudQuantidade.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.nudQuantidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.nudQuantidade.Location = new System.Drawing.Point(250, 76);
-            this.nudQuantidade.Name = "nudQuantidade";
-            this.nudQuantidade.Size = new System.Drawing.Size(81, 31);
-            this.nudQuantidade.TabIndex = 1;
-            // 
-            // nudMinimo
-            // 
-            this.nudMinimo.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.nudMinimo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.nudMinimo.Location = new System.Drawing.Point(250, 122);
-            this.nudMinimo.Name = "nudMinimo";
-            this.nudMinimo.Size = new System.Drawing.Size(81, 31);
-            this.nudMinimo.TabIndex = 2;
-            // 
-            // nudMaximo
-            // 
-            this.nudMaximo.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.nudMaximo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.nudMaximo.Location = new System.Drawing.Point(447, 122);
-            this.nudMaximo.Name = "nudMaximo";
-            this.nudMaximo.Size = new System.Drawing.Size(83, 31);
-            this.nudMaximo.TabIndex = 3;
-            // 
-            // btnVoltar
-            // 
-            this.btnVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(410, 181);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(103, 46);
-            this.btnVoltar.TabIndex = 4;
-            this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(519, 181);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(103, 46);
-            this.btnLimpar.TabIndex = 5;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(628, 181);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(103, 46);
-            this.btnSalvar.TabIndex = 6;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.toolTipRemedio.AutomaticDelay = 100;
+            this.toolTipRemedio.IsBalloon = true;
+            this.toolTipRemedio.StripAmpersands = true;
             // 
             // FrmRemedio
             // 
@@ -190,9 +205,9 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudMinimo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMaximo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudMinimo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -211,5 +226,6 @@
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.ToolTip toolTipRemedio;
     }
 }
