@@ -15,11 +15,19 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "insert into ANAMNESE (ID, DESCRICAO) values(?,?)";
+                string sql = "insert into ANAMNESE (ID_ANAMNESE, VACINADO, DOENCAS, TRATAMENTOS, SISTEMA_DIGESTORIO, SISTEMA_CARDIO_RESPIRATORIO, SISTEMA_GENITO_URINARIO, SISTEMA_NERVOSO_LOCOMOTOR, PELES_ANEXOS, MANEJO) values(?,?,?,?,?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", anamnese.id);
-                command.Parameters.AddWithValue("@DESCRICAO", anamnese.descricao);
+                command.Parameters.AddWithValue("@ID_ANAMNESE", anamnese.id);
+                command.Parameters.AddWithValue("@VACINADO", anamnese.vacinado);
+                command.Parameters.AddWithValue("@DOENCAS", anamnese.doencas);
+                command.Parameters.AddWithValue("@TRATAMENTOS", anamnese.tratamentos);
+                command.Parameters.AddWithValue("@SISTEMA_DIGESTORIO", anamnese.sistemaDigestorio);
+                command.Parameters.AddWithValue("@SISTEMA_CARDIO_RESPIRATORIO", anamnese.sistemaCardioRespiratorio);
+                command.Parameters.AddWithValue("@SISTEMA_GENITO_URINARIO", anamnese.sistemaGenitoUrinario);
+                command.Parameters.AddWithValue("@SISTEMA_NERVOSO_LOCOMOTOR", anamnese.sistemaNervosoLocomotor);
+                command.Parameters.AddWithValue("@PELES_ANEXOS", anamnese.pelesAnexos);
+                command.Parameters.AddWithValue("@MANEJO", anamnese.manejo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -43,11 +51,19 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update ANAMNESE set DESCRICAO = ? where ID = ?";
+                string sql = "update ANAMNESE set VACINADO = ?, DOENCAS = ?, TRATAMENTOS = ?, SISTEMA_DIGESTORIO = ?, SISTEMA_CARDIO_RESPIRATORIO = ?, SISTEMA_GENITO_URINARIO = ?, SISTEMA_NERVOSO_LOCOMOTOR = ?, PELES_ANEXOS = ?, MANEJO = ? where ID_ANAMNESE = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@DESCRICAO", anamnese.descricao);
-                command.Parameters.AddWithValue("@ID", anamnese.id);
+                command.Parameters.AddWithValue("@VACINADO", anamnese.vacinado);
+                command.Parameters.AddWithValue("@DOENCAS", anamnese.doencas);
+                command.Parameters.AddWithValue("@TRATAMENTOS", anamnese.tratamentos);
+                command.Parameters.AddWithValue("@SISTEMA_DIGESTORIO", anamnese.sistemaDigestorio);
+                command.Parameters.AddWithValue("@SISTEMA_CARDIO_RESPIRATORIO", anamnese.sistemaCardioRespiratorio);
+                command.Parameters.AddWithValue("@SISTEMA_GENITO_URINARIO", anamnese.sistemaGenitoUrinario);
+                command.Parameters.AddWithValue("@SISTEMA_NERVOSO_LOCOMOTOR", anamnese.sistemaNervosoLocomotor);
+                command.Parameters.AddWithValue("@PELES_ANEXOS", anamnese.pelesAnexos);
+                command.Parameters.AddWithValue("@MANEJO", anamnese.manejo);
+                command.Parameters.AddWithValue("@ID_ANAMNESE", anamnese.id);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -58,10 +74,10 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "delete ANAMNESE where ID = ?";
+                string sql = "delete ANAMNESE where ID_ANAMNESE = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID", codigo);
+                command.Parameters.AddWithValue("@ID_ANAMNESE", codigo);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
