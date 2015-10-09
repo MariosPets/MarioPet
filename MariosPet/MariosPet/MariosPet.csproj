@@ -69,6 +69,7 @@
     <Compile Include="Classes\Vermifugo.cs" />
     <Compile Include="Classes\Veterinario.cs" />
     <Compile Include="Crud\CrudAgendamento.cs" />
+    <Compile Include="Crud\CrudAnamnese.cs" />
     <Compile Include="Crud\CrudAnimal.cs" />
     <Compile Include="Crud\CrudAutorizacao.cs" />
     <Compile Include="Crud\CrudCliente.cs" />
@@ -78,8 +79,12 @@
     <Compile Include="Crud\CrudFornecedor.cs" />
     <Compile Include="Crud\CrudFoto.cs" />
     <Compile Include="Crud\CrudFuncionario.cs" />
+    <Compile Include="Crud\CrudMedicamento.cs" />
+    <Compile Include="Crud\CrudMedicamentoFichaClinica.cs" />
     <Compile Include="Crud\CrudPessoa.cs" />
     <Compile Include="Crud\CrudPessoaJuridica.cs" />
+    <Compile Include="Crud\CrudProduto.cs" />
+    <Compile Include="Crud\CrudServico.cs" />
     <Compile Include="Crud\CrudVacina.cs" />
     <Compile Include="Crud\CrudVermifugo.cs" />
     <Compile Include="Crud\CrudVeterinario.cs" />
