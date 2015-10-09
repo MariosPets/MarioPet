@@ -15,11 +15,12 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "insert into SERVICO (ID_SERVICO, DESCRICAO) values(?,?)";
+                string sql = "insert into SERVICO (ID_SERVICO, DESCRICAO, PRECO) values(?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@ID_SERVICO", servico.id);
                 command.Parameters.AddWithValue("@DESCRICAO", servico.descricao);
+                command.Parameters.AddWithValue("@PRECO", servico.preco);
 
                 conexao.Open();
                 command.ExecuteNonQuery();
@@ -43,10 +44,11 @@ namespace MariosPet.Crud
         {
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
-                string sql = "update SERVICO set DESCRICAO = ? where ID_SERVICO = ?";
+                string sql = "update SERVICO set DESCRICAO = ?, PRECO = ? where ID_SERVICO = ?";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
                 command.Parameters.AddWithValue("@DESCRICAO", servico.descricao);
+                command.Parameters.AddWithValue("@PRECO", servico.preco);
                 command.Parameters.AddWithValue("@ID_SERVICO", servico.id);
 
                 conexao.Open();
