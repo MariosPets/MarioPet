@@ -28,9 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAnimal));
+            this.components = new System.ComponentModel.Container();
             this.pictureBoxAnimal = new System.Windows.Forms.PictureBox();
             this.groupBoxAnimal = new System.Windows.Forms.GroupBox();
+            this.btmLimpar = new System.Windows.Forms.Button();
+            this.btmVoltar = new System.Windows.Forms.Button();
+            this.btmSalvar = new System.Windows.Forms.Button();
+            this.lblNascimentoAnimal = new System.Windows.Forms.Label();
+            this.txtSexo = new System.Windows.Forms.TextBox();
             this.maskedTxtNascimentoAnimal = new System.Windows.Forms.MaskedTextBox();
             this.lblPelagemCor = new System.Windows.Forms.Label();
             this.txtPelagemCor = new System.Windows.Forms.TextBox();
@@ -39,11 +44,7 @@
             this.lblRacaPorte = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblNomeAnimal = new System.Windows.Forms.Label();
-            this.txtSexo = new System.Windows.Forms.TextBox();
-            this.lblNascimentoAnimal = new System.Windows.Forms.Label();
-            this.btmLimpar = new System.Windows.Forms.Button();
-            this.btmVoltar = new System.Windows.Forms.Button();
-            this.btmSalvar = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimal)).BeginInit();
             this.groupBoxAnimal.SuspendLayout();
             this.SuspendLayout();
@@ -62,7 +63,6 @@
             // 
             this.groupBoxAnimal.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBoxAnimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBoxAnimal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBoxAnimal.BackgroundImage")));
             this.groupBoxAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxAnimal.Controls.Add(this.btmLimpar);
             this.groupBoxAnimal.Controls.Add(this.btmVoltar);
@@ -87,6 +87,70 @@
             this.groupBoxAnimal.TabStop = false;
             this.groupBoxAnimal.Text = "   Dados do Animal";
             // 
+            // btmLimpar
+            // 
+            this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btmLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmLimpar.FlatAppearance.BorderSize = 0;
+            this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmLimpar.Location = new System.Drawing.Point(330, 261);
+            this.btmLimpar.Name = "btmLimpar";
+            this.btmLimpar.Size = new System.Drawing.Size(117, 44);
+            this.btmLimpar.TabIndex = 20;
+            this.btmLimpar.Text = "Limpar";
+            this.btmLimpar.UseVisualStyleBackColor = false;
+            // 
+            // btmVoltar
+            // 
+            this.btmVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btmVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmVoltar.FlatAppearance.BorderSize = 0;
+            this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmVoltar.Location = new System.Drawing.Point(110, 261);
+            this.btmVoltar.Name = "btmVoltar";
+            this.btmVoltar.Size = new System.Drawing.Size(116, 44);
+            this.btmVoltar.TabIndex = 19;
+            this.btmVoltar.Text = "Voltar";
+            this.btmVoltar.UseVisualStyleBackColor = false;
+            this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
+            // 
+            // btmSalvar
+            // 
+            this.btmSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btmSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmSalvar.FlatAppearance.BorderSize = 0;
+            this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmSalvar.Location = new System.Drawing.Point(550, 261);
+            this.btmSalvar.Name = "btmSalvar";
+            this.btmSalvar.Size = new System.Drawing.Size(117, 42);
+            this.btmSalvar.TabIndex = 18;
+            this.btmSalvar.Text = "Salvar";
+            this.btmSalvar.UseVisualStyleBackColor = false;
+            // 
+            // lblNascimentoAnimal
+            // 
+            this.lblNascimentoAnimal.AutoSize = true;
+            this.lblNascimentoAnimal.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNascimentoAnimal.Location = new System.Drawing.Point(232, 195);
+            this.lblNascimentoAnimal.Name = "lblNascimentoAnimal";
+            this.lblNascimentoAnimal.Size = new System.Drawing.Size(130, 23);
+            this.lblNascimentoAnimal.TabIndex = 17;
+            this.lblNascimentoAnimal.Text = "Nascimento:";
+            // 
+            // txtSexo
+            // 
+            this.txtSexo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtSexo.Location = new System.Drawing.Point(673, 191);
+            this.txtSexo.MaxLength = 1;
+            this.txtSexo.Name = "txtSexo";
+            this.txtSexo.Size = new System.Drawing.Size(60, 27);
+            this.txtSexo.TabIndex = 16;
+            this.toolTip1.SetToolTip(this.txtSexo, "Insira o Sexo do Animal (F ou M)");
+            // 
             // maskedTxtNascimentoAnimal
             // 
             this.maskedTxtNascimentoAnimal.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,6 +160,7 @@
             this.maskedTxtNascimentoAnimal.Name = "maskedTxtNascimentoAnimal";
             this.maskedTxtNascimentoAnimal.Size = new System.Drawing.Size(158, 27);
             this.maskedTxtNascimentoAnimal.TabIndex = 15;
+            this.toolTip1.SetToolTip(this.maskedTxtNascimentoAnimal, "Insira a Data de Nascimento do Animal");
             this.maskedTxtNascimentoAnimal.ValidatingType = typeof(System.DateTime);
             // 
             // lblPelagemCor
@@ -117,6 +182,7 @@
             this.txtPelagemCor.Name = "txtPelagemCor";
             this.txtPelagemCor.Size = new System.Drawing.Size(345, 27);
             this.txtPelagemCor.TabIndex = 11;
+            this.toolTip1.SetToolTip(this.txtPelagemCor, "Insira a Pelagem/Cor");
             // 
             // txtRacaPorte
             // 
@@ -127,6 +193,7 @@
             this.txtRacaPorte.Name = "txtRacaPorte";
             this.txtRacaPorte.Size = new System.Drawing.Size(345, 27);
             this.txtRacaPorte.TabIndex = 10;
+            this.toolTip1.SetToolTip(this.txtRacaPorte, "Insira a Raça e o Porte");
             // 
             // txtNomeAnimal
             // 
@@ -137,6 +204,7 @@
             this.txtNomeAnimal.Name = "txtNomeAnimal";
             this.txtNomeAnimal.Size = new System.Drawing.Size(345, 27);
             this.txtNomeAnimal.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.txtNomeAnimal, "Insira o nome do Animal");
             // 
             // lblRacaPorte
             // 
@@ -168,65 +236,11 @@
             this.lblNomeAnimal.TabIndex = 0;
             this.lblNomeAnimal.Text = "Nome:";
             // 
-            // txtSexo
+            // toolTip1
             // 
-            this.txtSexo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtSexo.Location = new System.Drawing.Point(673, 191);
-            this.txtSexo.MaxLength = 1;
-            this.txtSexo.Name = "txtSexo";
-            this.txtSexo.Size = new System.Drawing.Size(60, 27);
-            this.txtSexo.TabIndex = 16;
-            // 
-            // lblNascimentoAnimal
-            // 
-            this.lblNascimentoAnimal.AutoSize = true;
-            this.lblNascimentoAnimal.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNascimentoAnimal.Location = new System.Drawing.Point(232, 195);
-            this.lblNascimentoAnimal.Name = "lblNascimentoAnimal";
-            this.lblNascimentoAnimal.Size = new System.Drawing.Size(130, 23);
-            this.lblNascimentoAnimal.TabIndex = 17;
-            this.lblNascimentoAnimal.Text = "Nascimento:";
-            // 
-            // btmLimpar
-            // 
-            this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmLimpar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmLimpar.BackgroundImage")));
-            this.btmLimpar.FlatAppearance.BorderSize = 0;
-            this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmLimpar.Location = new System.Drawing.Point(330, 261);
-            this.btmLimpar.Name = "btmLimpar";
-            this.btmLimpar.Size = new System.Drawing.Size(117, 44);
-            this.btmLimpar.TabIndex = 20;
-            this.btmLimpar.UseVisualStyleBackColor = false;
-            // 
-            // btmVoltar
-            // 
-            this.btmVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmVoltar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmVoltar.BackgroundImage")));
-            this.btmVoltar.FlatAppearance.BorderSize = 0;
-            this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmVoltar.Location = new System.Drawing.Point(110, 261);
-            this.btmVoltar.Name = "btmVoltar";
-            this.btmVoltar.Size = new System.Drawing.Size(116, 44);
-            this.btmVoltar.TabIndex = 19;
-            this.btmVoltar.UseVisualStyleBackColor = false;
-            this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
-            // 
-            // btmSalvar
-            // 
-            this.btmSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmSalvar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmSalvar.BackgroundImage")));
-            this.btmSalvar.FlatAppearance.BorderSize = 0;
-            this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmSalvar.Location = new System.Drawing.Point(550, 261);
-            this.btmSalvar.Name = "btmSalvar";
-            this.btmSalvar.Size = new System.Drawing.Size(117, 42);
-            this.btmSalvar.TabIndex = 18;
-            this.btmSalvar.UseVisualStyleBackColor = false;
+            this.toolTip1.AutomaticDelay = 100;
+            this.toolTip1.IsBalloon = true;
+            this.toolTip1.StripAmpersands = true;
             // 
             // FrmAnimal
             // 
@@ -263,6 +277,7 @@
         private System.Windows.Forms.Button btmLimpar;
         private System.Windows.Forms.Button btmVoltar;
         private System.Windows.Forms.Button btmSalvar;
+        private System.Windows.Forms.ToolTip toolTip1;
 
 
     }
