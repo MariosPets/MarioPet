@@ -235,80 +235,216 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\BotaoFirstLaranja.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoAbrirLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botaoAbrirLaranja.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoAdicionarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botaoEntrarLaranja.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoCalcularLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botaoEntrarLaranjaGrande.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoCancelarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botaoEntrarVerde.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoConsultarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botaoSairLaranja.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoEditarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botaoSairVerde.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoEntrarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botaoSalvarLaranja.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoEnviarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logo.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoExcluirLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pataAmarelaMarrom.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoFecharLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pataMarromAmarelo.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoImprimirLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pataMarromVerde.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoLimparLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pataMarromVerdeGrande.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoMenuLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pataVerdeMarrom.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoNovoLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BotaoFirstVerde.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoPesquisarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BotaoMaisLaranja.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoSairLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BotaoMaisVerde.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoSalvarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BotaoUltimoLaranja.png" />
+    <None Include="Resources\Botoes\Laranjas\botaoVoltarLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BotaoUltimoVerde.png" />
+    <None Include="Resources\Botoes\Patas\pataAmareloMarrom.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo_pet.png" />
+    <None Include="Resources\Botoes\Patas\pataAmareloMarromGrande.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\receituario.png" />
+    <None Include="Resources\Botoes\Patas\pataAmareloVerde.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\setaNext.png" />
+    <None Include="Resources\Botoes\Patas\pataAmareloVerdeGrande.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\setaNextLaranja.png" />
+    <None Include="Resources\Botoes\Patas\pataMarromAmarelo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\setaPrevious.png" />
+    <None Include="Resources\Botoes\Patas\pataMarromAmareloGrande.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SetaPreviousLaranja.png" />
+    <None Include="Resources\Botoes\Patas\pataMarromVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataMarromVerdeGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataPretoAmarelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataPretoAmareloGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataPretoVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataPretoVerdeGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataVerdeAmarelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataVerdeAmareloGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataVerdeMarrom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Patas\pataVerdeMarromGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoAbrirVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoAdicionarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoCalcularVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoCancelarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoConsultarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoEditarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoEntrarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoEnviarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoExcluirVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoFecharVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoImprimirVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoLimparVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoMaisVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoMenuVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoNovoVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoPesquisarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoSairVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoSalvarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Verdes\botaoVoltarVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoAjudaAmarelo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoAjudaAzul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoAjudaLaranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoAjudaPreto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoAnteriorLaranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoAnteriorVerde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoMaisLaranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoMaisVerde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoPrimeiroLaranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoPrimeiroVerde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoProximoLaranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoProximoVerde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoUltimoLaranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Redondos\botaoUltimoVerde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagens\receituario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagens\logoBranco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagens\logoRosa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

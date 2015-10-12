@@ -119,48 +119,213 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="botaoAbrirLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botaoAbrirLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Laranjas\botaoAbrirLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAbrirVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoAbrirVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAdicionarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoAdicionarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAdicionarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoAdicionarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAjudaAmarelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoAjudaAmarelo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAjudaAzul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoAjudaAzul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAjudaLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoAjudaLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAjudaPreto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoAjudaPreto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAnteriorLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoAnteriorLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAnteriorVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoAnteriorVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoCalcularLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoCalcularLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoCalcularVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoCalcularVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoCancelarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoCancelarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoCancelarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoCancelarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoConsultarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoConsultarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoConsultarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoConsultarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoEditarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoEditarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoEditarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoEditarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="botaoEntrarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botaoEntrarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="botaoEntrarLaranjaGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botaoEntrarLaranjaGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Laranjas\botaoEntrarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="botaoEntrarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botaoEntrarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Verdes\botaoEntrarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoEnviarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoEnviarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoEnviarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoEnviarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoExcluirLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoExcluirLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoExcluirVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoExcluirVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoFecharLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoFecharLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoFecharVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoFecharVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoImprimirLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoImprimirLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoImprimirVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoImprimirVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoLimparLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoLimparLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoLimparVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoLimparVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoMaisLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoMaisLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoMaisVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoMaisVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoMaisVerde1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoMaisVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoMenuLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoMenuLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoMenuVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoMenuVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoNovoLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoNovoLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoNovoVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoNovoVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoPesquisarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoPesquisarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoPesquisarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoPesquisarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoPrimeiroLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoPrimeiroLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoPrimeiroVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoPrimeiroVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoProximoLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoProximoLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoProximoVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoProximoVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="botaoSairLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botaoSairLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Laranjas\botaoSairLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="botaoSairVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botaoSairVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Verdes\botaoSairVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="botaoSalvarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botaoSalvarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Laranjas\botaoSalvarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="botaoSalvarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoSalvarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo_pet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo_pet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="botaoUltimoLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoUltimoLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pataAmarelaMarrom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pataAmarelaMarrom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="botaoUltimoVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoUltimoVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoVoltarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Laranjas\botaoVoltarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoVoltarVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Verdes\botaoVoltarVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoBranco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagens\logoBranco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoRosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagens\logoRosa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataAmareloMarrom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataAmareloMarrom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataAmareloMarromGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataAmareloMarromGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataAmareloVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataAmareloVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataAmareloVerdeGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataAmareloVerdeGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pataMarromAmarelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pataMarromAmarelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Patas\pataMarromAmarelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataMarromAmareloGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataMarromAmareloGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pataMarromVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pataMarromVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Patas\pataMarromVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pataMarromVerdeGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pataMarromVerdeGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Patas\pataMarromVerdeGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataPretoAmarelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataPretoAmarelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataPretoAmareloGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataPretoAmareloGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataPretoVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataPretoVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataPretoVerdeGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataPretoVerdeGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataVerdeAmarelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataVerdeAmarelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataVerdeAmareloGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataVerdeAmareloGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pataVerdeMarrom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pataVerdeMarrom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Botoes\Patas\pataVerdeMarrom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pataVerdeMarromGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Patas\pataVerdeMarromGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="receituario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\receituario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Imagens\receituario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
