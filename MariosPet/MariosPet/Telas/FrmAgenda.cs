@@ -26,5 +26,15 @@ namespace MariosPet.Telas
         {
 
         }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmAgenda_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

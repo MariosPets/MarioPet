@@ -92,3 +92,5 @@ G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmMenu.res
 G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmProduto.resources
 G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmRemedio.resources
 G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.csproj.GenerateResource.Cache
+G:\Workspace\MariosPet\MariosPet\MariosPet\bin\Debug\MariosPet.exe
+G:\Workspace\MariosPet\MariosPet\MariosPet\bin\Debug\MariosPet.pdb

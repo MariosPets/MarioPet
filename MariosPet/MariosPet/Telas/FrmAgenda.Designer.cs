@@ -31,159 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAgenda));
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario08F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH08F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH08F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH08F1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.GroupBoxFuncionario1 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.comboBox24 = new System.Windows.Forms.ComboBox();
-            this.comboBox25 = new System.Windows.Forms.ComboBox();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
-            this.comboBox23 = new System.Windows.Forms.ComboBox();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
-            this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.comboBox26 = new System.Windows.Forms.ComboBox();
-            this.comboBox27 = new System.Windows.Forms.ComboBox();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.comboBox28 = new System.Windows.Forms.ComboBox();
-            this.comboBox29 = new System.Windows.Forms.ComboBox();
-            this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.comboBox30 = new System.Windows.Forms.ComboBox();
-            this.comboBox31 = new System.Windows.Forms.ComboBox();
-            this.groupBox17 = new System.Windows.Forms.GroupBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.comboBox32 = new System.Windows.Forms.ComboBox();
-            this.comboBox33 = new System.Windows.Forms.ComboBox();
-            this.groupBox18 = new System.Windows.Forms.GroupBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.comboBox34 = new System.Windows.Forms.ComboBox();
-            this.comboBox35 = new System.Windows.Forms.ComboBox();
-            this.groupBox19 = new System.Windows.Forms.GroupBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.comboBox36 = new System.Windows.Forms.ComboBox();
-            this.comboBox37 = new System.Windows.Forms.ComboBox();
-            this.groupBox20 = new System.Windows.Forms.GroupBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.comboBox38 = new System.Windows.Forms.ComboBox();
-            this.comboBox39 = new System.Windows.Forms.ComboBox();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.comboBox40 = new System.Windows.Forms.ComboBox();
-            this.comboBox41 = new System.Windows.Forms.ComboBox();
-            this.groupBox22 = new System.Windows.Forms.GroupBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.comboBox42 = new System.Windows.Forms.ComboBox();
-            this.comboBox43 = new System.Windows.Forms.ComboBox();
-            this.groupBox23 = new System.Windows.Forms.GroupBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.comboBox44 = new System.Windows.Forms.ComboBox();
-            this.comboBox45 = new System.Windows.Forms.ComboBox();
-            this.groupBox24 = new System.Windows.Forms.GroupBox();
-            this.groupBox25 = new System.Windows.Forms.GroupBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.comboBox46 = new System.Windows.Forms.ComboBox();
-            this.comboBox47 = new System.Windows.Forms.ComboBox();
-            this.groupBox26 = new System.Windows.Forms.GroupBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.comboBox48 = new System.Windows.Forms.ComboBox();
-            this.comboBox49 = new System.Windows.Forms.ComboBox();
-            this.groupBox27 = new System.Windows.Forms.GroupBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.comboBox50 = new System.Windows.Forms.ComboBox();
-            this.comboBox51 = new System.Windows.Forms.ComboBox();
-            this.groupBox28 = new System.Windows.Forms.GroupBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.comboBox52 = new System.Windows.Forms.ComboBox();
-            this.comboBox53 = new System.Windows.Forms.ComboBox();
-            this.groupBox29 = new System.Windows.Forms.GroupBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.comboBox54 = new System.Windows.Forms.ComboBox();
-            this.comboBox55 = new System.Windows.Forms.ComboBox();
-            this.groupBox30 = new System.Windows.Forms.GroupBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.comboBox56 = new System.Windows.Forms.ComboBox();
-            this.comboBox57 = new System.Windows.Forms.ComboBox();
-            this.groupBox31 = new System.Windows.Forms.GroupBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.comboBox58 = new System.Windows.Forms.ComboBox();
-            this.comboBox59 = new System.Windows.Forms.ComboBox();
-            this.groupBox32 = new System.Windows.Forms.GroupBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.comboBox60 = new System.Windows.Forms.ComboBox();
-            this.comboBox61 = new System.Windows.Forms.ComboBox();
-            this.groupBox33 = new System.Windows.Forms.GroupBox();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.comboBox62 = new System.Windows.Forms.ComboBox();
-            this.comboBox63 = new System.Windows.Forms.ComboBox();
-            this.groupBox34 = new System.Windows.Forms.GroupBox();
-            this.checkBox32 = new System.Windows.Forms.CheckBox();
-            this.comboBox64 = new System.Windows.Forms.ComboBox();
-            this.comboBox65 = new System.Windows.Forms.ComboBox();
-            this.groupBox35 = new System.Windows.Forms.GroupBox();
-            this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.comboBox66 = new System.Windows.Forms.ComboBox();
-            this.comboBox67 = new System.Windows.Forms.ComboBox();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasEPesquisasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -245,44 +104,185 @@
             this.gerarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imprimirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxHorario09F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH09F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH09F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH09F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario10F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH10F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH10F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH10F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario11F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH11F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH11F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH11F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario12F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH12F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH12F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH12F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario13F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH13F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH13F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH13F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario14F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH14F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH14F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH14F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario15F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH15F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH15F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH15F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario16F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH16F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH16F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH16F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario17F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH17F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH17F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH17F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario18F1 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH18F1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH18F1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH18F1 = new System.Windows.Forms.ComboBox();
+            this.groupBoxFuncionario2 = new System.Windows.Forms.GroupBox();
+            this.groupBoxHorario18F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH18F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH18F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH18F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario17F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH17F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH17F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH17F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario16F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH16F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH16F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH16F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario15F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH15F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH15F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH15F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario14F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH14F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH14F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH14F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario13F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH13F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH13F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH13F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario12F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH12F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH12F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH12F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario11F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH11F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH11F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH11F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario10F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH10F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH10F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH10F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario09F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH09F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH09F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH009F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario08F2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH08F2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH08F2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH08F2 = new System.Windows.Forms.ComboBox();
+            this.groupBoxFuncionario3 = new System.Windows.Forms.GroupBox();
+            this.groupBoxHorario18F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH18F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH18F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH18F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario17F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH17F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH17F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH17F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario16F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH16F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH16F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH16F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario15F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH15F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH15F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH15F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario14F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH14F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH14F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH14F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario13F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH13F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH13F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH13F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario12F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH12F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH12F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH12F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario11F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH11F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH11F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH11F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario10F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH10F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH10F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH10F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario09F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH09F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH09F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH09F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario08F3 = new System.Windows.Forms.GroupBox();
+            this.checkBoxAtendidoH08F3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxServicoH08F3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxClienteH08F3 = new System.Windows.Forms.ComboBox();
+            this.groupBoxHorario08F1.SuspendLayout();
             this.GroupBoxFuncionario1.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox13.SuspendLayout();
-            this.groupBox12.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox14.SuspendLayout();
-            this.groupBox15.SuspendLayout();
-            this.groupBox16.SuspendLayout();
-            this.groupBox17.SuspendLayout();
-            this.groupBox18.SuspendLayout();
-            this.groupBox19.SuspendLayout();
-            this.groupBox20.SuspendLayout();
-            this.groupBox21.SuspendLayout();
-            this.groupBox22.SuspendLayout();
-            this.groupBox23.SuspendLayout();
-            this.groupBox24.SuspendLayout();
-            this.groupBox25.SuspendLayout();
-            this.groupBox26.SuspendLayout();
-            this.groupBox27.SuspendLayout();
-            this.groupBox28.SuspendLayout();
-            this.groupBox29.SuspendLayout();
-            this.groupBox30.SuspendLayout();
-            this.groupBox31.SuspendLayout();
-            this.groupBox32.SuspendLayout();
-            this.groupBox33.SuspendLayout();
-            this.groupBox34.SuspendLayout();
-            this.groupBox35.SuspendLayout();
+            this.groupBoxHorario09F1.SuspendLayout();
+            this.groupBoxHorario10F1.SuspendLayout();
+            this.groupBoxHorario11F1.SuspendLayout();
+            this.groupBoxHorario12F1.SuspendLayout();
+            this.groupBoxHorario13F1.SuspendLayout();
+            this.groupBoxHorario14F1.SuspendLayout();
+            this.groupBoxHorario15F1.SuspendLayout();
+            this.groupBoxHorario16F1.SuspendLayout();
+            this.groupBoxHorario17F1.SuspendLayout();
+            this.groupBoxHorario18F1.SuspendLayout();
+            this.groupBoxFuncionario2.SuspendLayout();
+            this.groupBoxHorario18F2.SuspendLayout();
+            this.groupBoxHorario17F2.SuspendLayout();
+            this.groupBoxHorario16F2.SuspendLayout();
+            this.groupBoxHorario15F2.SuspendLayout();
+            this.groupBoxHorario14F2.SuspendLayout();
+            this.groupBoxHorario13F2.SuspendLayout();
+            this.groupBoxHorario12F2.SuspendLayout();
+            this.groupBoxHorario11F2.SuspendLayout();
+            this.groupBoxHorario10F2.SuspendLayout();
+            this.groupBoxHorario09F2.SuspendLayout();
+            this.groupBoxHorario08F2.SuspendLayout();
+            this.groupBoxFuncionario3.SuspendLayout();
+            this.groupBoxHorario18F3.SuspendLayout();
+            this.groupBoxHorario17F3.SuspendLayout();
+            this.groupBoxHorario16F3.SuspendLayout();
+            this.groupBoxHorario15F3.SuspendLayout();
+            this.groupBoxHorario14F3.SuspendLayout();
+            this.groupBoxHorario13F3.SuspendLayout();
+            this.groupBoxHorario12F3.SuspendLayout();
+            this.groupBoxHorario11F3.SuspendLayout();
+            this.groupBoxHorario10F3.SuspendLayout();
+            this.groupBoxHorario09F3.SuspendLayout();
+            this.groupBoxHorario08F3.SuspendLayout();
             this.SuspendLayout();
             // 
             // dateTimePicker1
@@ -304,60 +304,60 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label3.Location = new System.Drawing.Point(33, 145);
+            this.label3.Location = new System.Drawing.Point(33, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "8:00";
             // 
-            // groupBox1
+            // groupBoxHorario08F1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Location = new System.Drawing.Point(5, 16);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(412, 55);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
+            this.groupBoxHorario08F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario08F1.Controls.Add(this.checkBoxAtendidoH08F1);
+            this.groupBoxHorario08F1.Controls.Add(this.comboBoxServicoH08F1);
+            this.groupBoxHorario08F1.Controls.Add(this.comboBoxClienteH08F1);
+            this.groupBoxHorario08F1.Location = new System.Drawing.Point(6, 24);
+            this.groupBoxHorario08F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario08F1.Name = "groupBoxHorario08F1";
+            this.groupBoxHorario08F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario08F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario08F1.TabIndex = 5;
+            this.groupBoxHorario08F1.TabStop = false;
             // 
-            // checkBox1
+            // checkBoxAtendidoH08F1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(285, 23);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(117, 24);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Atendido";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxAtendidoH08F1.AutoSize = true;
+            this.checkBoxAtendidoH08F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH08F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH08F1.Name = "checkBoxAtendidoH08F1";
+            this.checkBoxAtendidoH08F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH08F1.TabIndex = 2;
+            this.checkBoxAtendidoH08F1.Text = "Atendido";
+            this.checkBoxAtendidoH08F1.UseVisualStyleBackColor = true;
             // 
-            // comboBox2
+            // comboBoxServicoH08F1
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(157, 21);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 26);
-            this.comboBox2.TabIndex = 1;
-            this.comboBox2.Text = "Serviço 1";
+            this.comboBoxServicoH08F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH08F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH08F1.FormattingEnabled = true;
+            this.comboBoxServicoH08F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH08F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH08F1.Name = "comboBoxServicoH08F1";
+            this.comboBoxServicoH08F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH08F1.TabIndex = 1;
+            this.comboBoxServicoH08F1.Text = "Serviço 1";
             // 
-            // comboBox1
+            // comboBoxClienteH08F1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(29, 21);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 26);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.Text = "Cliente 1";
+            this.comboBoxClienteH08F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH08F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH08F1.FormattingEnabled = true;
+            this.comboBoxClienteH08F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH08F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH08F1.Name = "comboBoxClienteH08F1";
+            this.comboBoxClienteH08F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH08F1.TabIndex = 0;
+            this.comboBoxClienteH08F1.Text = "Cliente 1";
             // 
             // button2
             // 
@@ -401,17 +401,17 @@
             // GroupBoxFuncionario1
             // 
             this.GroupBoxFuncionario1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox4);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox13);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox12);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox11);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox10);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox9);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox8);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox7);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox3);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox2);
-            this.GroupBoxFuncionario1.Controls.Add(this.groupBox1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario18F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario17F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario16F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario15F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario14F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario13F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario12F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario11F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario10F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario09F1);
+            this.GroupBoxFuncionario1.Controls.Add(this.groupBoxHorario08F1);
             this.GroupBoxFuncionario1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBoxFuncionario1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.GroupBoxFuncionario1.Location = new System.Drawing.Point(87, 105);
@@ -422,496 +422,6 @@
             this.GroupBoxFuncionario1.TabIndex = 12;
             this.GroupBoxFuncionario1.TabStop = false;
             this.GroupBoxFuncionario1.Text = "Funcionário 1";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox4.Controls.Add(this.checkBox3);
-            this.groupBox4.Controls.Add(this.comboBox5);
-            this.groupBox4.Controls.Add(this.comboBox6);
-            this.groupBox4.Location = new System.Drawing.Point(5, 614);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(412, 55);
-            this.groupBox4.TabIndex = 8;
-            this.groupBox4.TabStop = false;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(285, 23);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(117, 24);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Atendido";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(157, 21);
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 26);
-            this.comboBox5.TabIndex = 1;
-            this.comboBox5.Text = "Serviço 1";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(29, 21);
-            this.comboBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 26);
-            this.comboBox6.TabIndex = 0;
-            this.comboBox6.Text = "Cliente 1";
-            // 
-            // groupBox13
-            // 
-            this.groupBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox13.Controls.Add(this.checkBox12);
-            this.groupBox13.Controls.Add(this.comboBox24);
-            this.groupBox13.Controls.Add(this.comboBox25);
-            this.groupBox13.Location = new System.Drawing.Point(5, 554);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox13.Size = new System.Drawing.Size(412, 55);
-            this.groupBox13.TabIndex = 7;
-            this.groupBox13.TabStop = false;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(285, 23);
-            this.checkBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(117, 24);
-            this.checkBox12.TabIndex = 2;
-            this.checkBox12.Text = "Atendido";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // comboBox24
-            // 
-            this.comboBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox24.FormattingEnabled = true;
-            this.comboBox24.Location = new System.Drawing.Point(157, 21);
-            this.comboBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox24.Name = "comboBox24";
-            this.comboBox24.Size = new System.Drawing.Size(121, 26);
-            this.comboBox24.TabIndex = 1;
-            this.comboBox24.Text = "Serviço 1";
-            // 
-            // comboBox25
-            // 
-            this.comboBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox25.FormattingEnabled = true;
-            this.comboBox25.Location = new System.Drawing.Point(29, 21);
-            this.comboBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox25.Name = "comboBox25";
-            this.comboBox25.Size = new System.Drawing.Size(121, 26);
-            this.comboBox25.TabIndex = 0;
-            this.comboBox25.Text = "Cliente 1";
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox12.Controls.Add(this.checkBox11);
-            this.groupBox12.Controls.Add(this.comboBox22);
-            this.groupBox12.Controls.Add(this.comboBox23);
-            this.groupBox12.Location = new System.Drawing.Point(5, 497);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox12.Size = new System.Drawing.Size(412, 55);
-            this.groupBox12.TabIndex = 6;
-            this.groupBox12.TabStop = false;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(285, 23);
-            this.checkBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(117, 24);
-            this.checkBox11.TabIndex = 2;
-            this.checkBox11.Text = "Atendido";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // comboBox22
-            // 
-            this.comboBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox22.FormattingEnabled = true;
-            this.comboBox22.Location = new System.Drawing.Point(157, 21);
-            this.comboBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(121, 26);
-            this.comboBox22.TabIndex = 1;
-            this.comboBox22.Text = "Serviço 1";
-            // 
-            // comboBox23
-            // 
-            this.comboBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox23.FormattingEnabled = true;
-            this.comboBox23.Location = new System.Drawing.Point(29, 21);
-            this.comboBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox23.Name = "comboBox23";
-            this.comboBox23.Size = new System.Drawing.Size(121, 26);
-            this.comboBox23.TabIndex = 0;
-            this.comboBox23.Text = "Cliente 1";
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox11.Controls.Add(this.checkBox10);
-            this.groupBox11.Controls.Add(this.comboBox20);
-            this.groupBox11.Controls.Add(this.comboBox21);
-            this.groupBox11.Location = new System.Drawing.Point(5, 442);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox11.Size = new System.Drawing.Size(412, 55);
-            this.groupBox11.TabIndex = 6;
-            this.groupBox11.TabStop = false;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(285, 23);
-            this.checkBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(117, 24);
-            this.checkBox10.TabIndex = 2;
-            this.checkBox10.Text = "Atendido";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // comboBox20
-            // 
-            this.comboBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Location = new System.Drawing.Point(157, 21);
-            this.comboBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(121, 26);
-            this.comboBox20.TabIndex = 1;
-            this.comboBox20.Text = "Serviço 1";
-            // 
-            // comboBox21
-            // 
-            this.comboBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox21.FormattingEnabled = true;
-            this.comboBox21.Location = new System.Drawing.Point(29, 21);
-            this.comboBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(121, 26);
-            this.comboBox21.TabIndex = 0;
-            this.comboBox21.Text = "Cliente 1";
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox10.Controls.Add(this.checkBox9);
-            this.groupBox10.Controls.Add(this.comboBox18);
-            this.groupBox10.Controls.Add(this.comboBox19);
-            this.groupBox10.Location = new System.Drawing.Point(5, 378);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox10.Size = new System.Drawing.Size(412, 55);
-            this.groupBox10.TabIndex = 6;
-            this.groupBox10.TabStop = false;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(285, 23);
-            this.checkBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(117, 24);
-            this.checkBox9.TabIndex = 2;
-            this.checkBox9.Text = "Atendido";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // comboBox18
-            // 
-            this.comboBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Location = new System.Drawing.Point(157, 21);
-            this.comboBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(121, 26);
-            this.comboBox18.TabIndex = 1;
-            this.comboBox18.Text = "Serviço 1";
-            // 
-            // comboBox19
-            // 
-            this.comboBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox19.FormattingEnabled = true;
-            this.comboBox19.Location = new System.Drawing.Point(29, 21);
-            this.comboBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(121, 26);
-            this.comboBox19.TabIndex = 0;
-            this.comboBox19.Text = "Cliente 1";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox9.Controls.Add(this.checkBox8);
-            this.groupBox9.Controls.Add(this.comboBox16);
-            this.groupBox9.Controls.Add(this.comboBox17);
-            this.groupBox9.Location = new System.Drawing.Point(5, 318);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox9.Size = new System.Drawing.Size(412, 55);
-            this.groupBox9.TabIndex = 6;
-            this.groupBox9.TabStop = false;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(285, 23);
-            this.checkBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(117, 24);
-            this.checkBox8.TabIndex = 2;
-            this.checkBox8.Text = "Atendido";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // comboBox16
-            // 
-            this.comboBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Location = new System.Drawing.Point(157, 21);
-            this.comboBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(121, 26);
-            this.comboBox16.TabIndex = 1;
-            this.comboBox16.Text = "Serviço 1";
-            // 
-            // comboBox17
-            // 
-            this.comboBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Location = new System.Drawing.Point(29, 21);
-            this.comboBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(121, 26);
-            this.comboBox17.TabIndex = 0;
-            this.comboBox17.Text = "Cliente 1";
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox8.Controls.Add(this.checkBox7);
-            this.groupBox8.Controls.Add(this.comboBox14);
-            this.groupBox8.Controls.Add(this.comboBox15);
-            this.groupBox8.Location = new System.Drawing.Point(5, 257);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox8.Size = new System.Drawing.Size(412, 55);
-            this.groupBox8.TabIndex = 6;
-            this.groupBox8.TabStop = false;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(285, 23);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(117, 24);
-            this.checkBox7.TabIndex = 2;
-            this.checkBox7.Text = "Atendido";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(157, 21);
-            this.comboBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(121, 26);
-            this.comboBox14.TabIndex = 1;
-            this.comboBox14.Text = "Serviço 1";
-            // 
-            // comboBox15
-            // 
-            this.comboBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(29, 21);
-            this.comboBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(121, 26);
-            this.comboBox15.TabIndex = 0;
-            this.comboBox15.Text = "Cliente 1";
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox7.Controls.Add(this.checkBox6);
-            this.groupBox7.Controls.Add(this.comboBox12);
-            this.groupBox7.Controls.Add(this.comboBox13);
-            this.groupBox7.Location = new System.Drawing.Point(5, 197);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox7.Size = new System.Drawing.Size(412, 55);
-            this.groupBox7.TabIndex = 6;
-            this.groupBox7.TabStop = false;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(285, 23);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(117, 24);
-            this.checkBox6.TabIndex = 2;
-            this.checkBox6.Text = "Atendido";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(157, 21);
-            this.comboBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(121, 26);
-            this.comboBox12.TabIndex = 1;
-            this.comboBox12.Text = "Serviço 1";
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(29, 21);
-            this.comboBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(121, 26);
-            this.comboBox13.TabIndex = 0;
-            this.comboBox13.Text = "Cliente 1";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox3.Controls.Add(this.checkBox5);
-            this.groupBox3.Controls.Add(this.comboBox10);
-            this.groupBox3.Controls.Add(this.comboBox11);
-            this.groupBox3.Location = new System.Drawing.Point(5, 137);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(412, 55);
-            this.groupBox3.TabIndex = 6;
-            this.groupBox3.TabStop = false;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(285, 23);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(117, 24);
-            this.checkBox5.TabIndex = 2;
-            this.checkBox5.Text = "Atendido";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(157, 21);
-            this.comboBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(121, 26);
-            this.comboBox10.TabIndex = 1;
-            this.comboBox10.Text = "Serviço 1";
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(29, 21);
-            this.comboBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(121, 26);
-            this.comboBox11.TabIndex = 0;
-            this.comboBox11.Text = "Cliente 1";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.comboBox3);
-            this.groupBox2.Controls.Add(this.comboBox4);
-            this.groupBox2.Location = new System.Drawing.Point(5, 76);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(412, 55);
-            this.groupBox2.TabIndex = 6;
-            this.groupBox2.TabStop = false;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(285, 23);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(117, 24);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Atendido";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(157, 21);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 26);
-            this.comboBox3.TabIndex = 1;
-            this.comboBox3.Text = "Serviço 1";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(29, 21);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 26);
-            this.comboBox4.TabIndex = 0;
-            this.comboBox4.Text = "Cliente 1";
             // 
             // label6
             // 
@@ -960,1255 +470,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(1505, 28);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "StripMenu";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label7.Location = new System.Drawing.Point(15, 48);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 25);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "AGENDA";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label1.Location = new System.Drawing.Point(31, 217);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 20);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "9:00";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label4.Location = new System.Drawing.Point(20, 337);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 20);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "11:00";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label8.Location = new System.Drawing.Point(23, 271);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 20);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "10:00";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label9.Location = new System.Drawing.Point(20, 458);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 20);
-            this.label9.TabIndex = 22;
-            this.label9.Text = "13:00";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label10.Location = new System.Drawing.Point(23, 391);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(55, 20);
-            this.label10.TabIndex = 21;
-            this.label10.Text = "12:00";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label11.Location = new System.Drawing.Point(20, 582);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 20);
-            this.label11.TabIndex = 24;
-            this.label11.Text = "15:00";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label12.Location = new System.Drawing.Point(20, 518);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(55, 20);
-            this.label12.TabIndex = 23;
-            this.label12.Text = "14:00";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label13.Location = new System.Drawing.Point(23, 638);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(55, 20);
-            this.label13.TabIndex = 25;
-            this.label13.Text = "16:00";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label14.Location = new System.Drawing.Point(28, 694);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(55, 20);
-            this.label14.TabIndex = 26;
-            this.label14.Text = "17:00";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.label2.Location = new System.Drawing.Point(23, 743);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 20);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "18:00";
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox5.Controls.Add(this.groupBox6);
-            this.groupBox5.Controls.Add(this.groupBox14);
-            this.groupBox5.Controls.Add(this.groupBox15);
-            this.groupBox5.Controls.Add(this.groupBox16);
-            this.groupBox5.Controls.Add(this.groupBox17);
-            this.groupBox5.Controls.Add(this.groupBox18);
-            this.groupBox5.Controls.Add(this.groupBox19);
-            this.groupBox5.Controls.Add(this.groupBox20);
-            this.groupBox5.Controls.Add(this.groupBox21);
-            this.groupBox5.Controls.Add(this.groupBox22);
-            this.groupBox5.Controls.Add(this.groupBox23);
-            this.groupBox5.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox5.Location = new System.Drawing.Point(540, 106);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox5.Size = new System.Drawing.Size(424, 690);
-            this.groupBox5.TabIndex = 28;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Funcionário 2";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox6.Controls.Add(this.checkBox4);
-            this.groupBox6.Controls.Add(this.comboBox7);
-            this.groupBox6.Controls.Add(this.comboBox8);
-            this.groupBox6.Location = new System.Drawing.Point(5, 614);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox6.Size = new System.Drawing.Size(412, 55);
-            this.groupBox6.TabIndex = 8;
-            this.groupBox6.TabStop = false;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(285, 23);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(117, 24);
-            this.checkBox4.TabIndex = 2;
-            this.checkBox4.Text = "Atendido";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(157, 21);
-            this.comboBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 26);
-            this.comboBox7.TabIndex = 1;
-            this.comboBox7.Text = "Serviço 1";
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(29, 21);
-            this.comboBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(121, 26);
-            this.comboBox8.TabIndex = 0;
-            this.comboBox8.Text = "Cliente 1";
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox14.Controls.Add(this.checkBox13);
-            this.groupBox14.Controls.Add(this.comboBox26);
-            this.groupBox14.Controls.Add(this.comboBox27);
-            this.groupBox14.Location = new System.Drawing.Point(5, 554);
-            this.groupBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox14.Size = new System.Drawing.Size(412, 55);
-            this.groupBox14.TabIndex = 7;
-            this.groupBox14.TabStop = false;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(285, 23);
-            this.checkBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(117, 24);
-            this.checkBox13.TabIndex = 2;
-            this.checkBox13.Text = "Atendido";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // comboBox26
-            // 
-            this.comboBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox26.FormattingEnabled = true;
-            this.comboBox26.Location = new System.Drawing.Point(157, 21);
-            this.comboBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox26.Name = "comboBox26";
-            this.comboBox26.Size = new System.Drawing.Size(121, 26);
-            this.comboBox26.TabIndex = 1;
-            this.comboBox26.Text = "Serviço 1";
-            // 
-            // comboBox27
-            // 
-            this.comboBox27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox27.FormattingEnabled = true;
-            this.comboBox27.Location = new System.Drawing.Point(29, 21);
-            this.comboBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox27.Name = "comboBox27";
-            this.comboBox27.Size = new System.Drawing.Size(121, 26);
-            this.comboBox27.TabIndex = 0;
-            this.comboBox27.Text = "Cliente 1";
-            // 
-            // groupBox15
-            // 
-            this.groupBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox15.Controls.Add(this.checkBox14);
-            this.groupBox15.Controls.Add(this.comboBox28);
-            this.groupBox15.Controls.Add(this.comboBox29);
-            this.groupBox15.Location = new System.Drawing.Point(5, 497);
-            this.groupBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox15.Size = new System.Drawing.Size(412, 55);
-            this.groupBox15.TabIndex = 6;
-            this.groupBox15.TabStop = false;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(285, 23);
-            this.checkBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(117, 24);
-            this.checkBox14.TabIndex = 2;
-            this.checkBox14.Text = "Atendido";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // comboBox28
-            // 
-            this.comboBox28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox28.FormattingEnabled = true;
-            this.comboBox28.Location = new System.Drawing.Point(157, 21);
-            this.comboBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox28.Name = "comboBox28";
-            this.comboBox28.Size = new System.Drawing.Size(121, 26);
-            this.comboBox28.TabIndex = 1;
-            this.comboBox28.Text = "Serviço 1";
-            // 
-            // comboBox29
-            // 
-            this.comboBox29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox29.FormattingEnabled = true;
-            this.comboBox29.Location = new System.Drawing.Point(29, 21);
-            this.comboBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox29.Name = "comboBox29";
-            this.comboBox29.Size = new System.Drawing.Size(121, 26);
-            this.comboBox29.TabIndex = 0;
-            this.comboBox29.Text = "Cliente 1";
-            // 
-            // groupBox16
-            // 
-            this.groupBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox16.Controls.Add(this.checkBox15);
-            this.groupBox16.Controls.Add(this.comboBox30);
-            this.groupBox16.Controls.Add(this.comboBox31);
-            this.groupBox16.Location = new System.Drawing.Point(5, 442);
-            this.groupBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox16.Size = new System.Drawing.Size(412, 55);
-            this.groupBox16.TabIndex = 6;
-            this.groupBox16.TabStop = false;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(285, 23);
-            this.checkBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(117, 24);
-            this.checkBox15.TabIndex = 2;
-            this.checkBox15.Text = "Atendido";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // comboBox30
-            // 
-            this.comboBox30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox30.FormattingEnabled = true;
-            this.comboBox30.Location = new System.Drawing.Point(157, 21);
-            this.comboBox30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox30.Name = "comboBox30";
-            this.comboBox30.Size = new System.Drawing.Size(121, 26);
-            this.comboBox30.TabIndex = 1;
-            this.comboBox30.Text = "Serviço 1";
-            // 
-            // comboBox31
-            // 
-            this.comboBox31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox31.FormattingEnabled = true;
-            this.comboBox31.Location = new System.Drawing.Point(29, 21);
-            this.comboBox31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox31.Name = "comboBox31";
-            this.comboBox31.Size = new System.Drawing.Size(121, 26);
-            this.comboBox31.TabIndex = 0;
-            this.comboBox31.Text = "Cliente 1";
-            // 
-            // groupBox17
-            // 
-            this.groupBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox17.Controls.Add(this.checkBox16);
-            this.groupBox17.Controls.Add(this.comboBox32);
-            this.groupBox17.Controls.Add(this.comboBox33);
-            this.groupBox17.Location = new System.Drawing.Point(5, 378);
-            this.groupBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox17.Size = new System.Drawing.Size(412, 55);
-            this.groupBox17.TabIndex = 6;
-            this.groupBox17.TabStop = false;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(285, 23);
-            this.checkBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(117, 24);
-            this.checkBox16.TabIndex = 2;
-            this.checkBox16.Text = "Atendido";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // comboBox32
-            // 
-            this.comboBox32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox32.FormattingEnabled = true;
-            this.comboBox32.Location = new System.Drawing.Point(157, 21);
-            this.comboBox32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox32.Name = "comboBox32";
-            this.comboBox32.Size = new System.Drawing.Size(121, 26);
-            this.comboBox32.TabIndex = 1;
-            this.comboBox32.Text = "Serviço 1";
-            // 
-            // comboBox33
-            // 
-            this.comboBox33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox33.FormattingEnabled = true;
-            this.comboBox33.Location = new System.Drawing.Point(29, 21);
-            this.comboBox33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox33.Name = "comboBox33";
-            this.comboBox33.Size = new System.Drawing.Size(121, 26);
-            this.comboBox33.TabIndex = 0;
-            this.comboBox33.Text = "Cliente 1";
-            // 
-            // groupBox18
-            // 
-            this.groupBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox18.Controls.Add(this.checkBox17);
-            this.groupBox18.Controls.Add(this.comboBox34);
-            this.groupBox18.Controls.Add(this.comboBox35);
-            this.groupBox18.Location = new System.Drawing.Point(5, 318);
-            this.groupBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox18.Size = new System.Drawing.Size(412, 55);
-            this.groupBox18.TabIndex = 6;
-            this.groupBox18.TabStop = false;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(285, 23);
-            this.checkBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(117, 24);
-            this.checkBox17.TabIndex = 2;
-            this.checkBox17.Text = "Atendido";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // comboBox34
-            // 
-            this.comboBox34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox34.FormattingEnabled = true;
-            this.comboBox34.Location = new System.Drawing.Point(157, 21);
-            this.comboBox34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox34.Name = "comboBox34";
-            this.comboBox34.Size = new System.Drawing.Size(121, 26);
-            this.comboBox34.TabIndex = 1;
-            this.comboBox34.Text = "Serviço 1";
-            // 
-            // comboBox35
-            // 
-            this.comboBox35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox35.FormattingEnabled = true;
-            this.comboBox35.Location = new System.Drawing.Point(29, 21);
-            this.comboBox35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox35.Name = "comboBox35";
-            this.comboBox35.Size = new System.Drawing.Size(121, 26);
-            this.comboBox35.TabIndex = 0;
-            this.comboBox35.Text = "Cliente 1";
-            // 
-            // groupBox19
-            // 
-            this.groupBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox19.Controls.Add(this.checkBox18);
-            this.groupBox19.Controls.Add(this.comboBox36);
-            this.groupBox19.Controls.Add(this.comboBox37);
-            this.groupBox19.Location = new System.Drawing.Point(5, 257);
-            this.groupBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox19.Size = new System.Drawing.Size(412, 55);
-            this.groupBox19.TabIndex = 6;
-            this.groupBox19.TabStop = false;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(285, 23);
-            this.checkBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(117, 24);
-            this.checkBox18.TabIndex = 2;
-            this.checkBox18.Text = "Atendido";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // comboBox36
-            // 
-            this.comboBox36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox36.FormattingEnabled = true;
-            this.comboBox36.Location = new System.Drawing.Point(157, 21);
-            this.comboBox36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox36.Name = "comboBox36";
-            this.comboBox36.Size = new System.Drawing.Size(121, 26);
-            this.comboBox36.TabIndex = 1;
-            this.comboBox36.Text = "Serviço 1";
-            // 
-            // comboBox37
-            // 
-            this.comboBox37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox37.FormattingEnabled = true;
-            this.comboBox37.Location = new System.Drawing.Point(29, 21);
-            this.comboBox37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox37.Name = "comboBox37";
-            this.comboBox37.Size = new System.Drawing.Size(121, 26);
-            this.comboBox37.TabIndex = 0;
-            this.comboBox37.Text = "Cliente 1";
-            // 
-            // groupBox20
-            // 
-            this.groupBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox20.Controls.Add(this.checkBox19);
-            this.groupBox20.Controls.Add(this.comboBox38);
-            this.groupBox20.Controls.Add(this.comboBox39);
-            this.groupBox20.Location = new System.Drawing.Point(5, 197);
-            this.groupBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox20.Size = new System.Drawing.Size(412, 55);
-            this.groupBox20.TabIndex = 6;
-            this.groupBox20.TabStop = false;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(285, 23);
-            this.checkBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(117, 24);
-            this.checkBox19.TabIndex = 2;
-            this.checkBox19.Text = "Atendido";
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // comboBox38
-            // 
-            this.comboBox38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox38.FormattingEnabled = true;
-            this.comboBox38.Location = new System.Drawing.Point(157, 21);
-            this.comboBox38.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox38.Name = "comboBox38";
-            this.comboBox38.Size = new System.Drawing.Size(121, 26);
-            this.comboBox38.TabIndex = 1;
-            this.comboBox38.Text = "Serviço 1";
-            // 
-            // comboBox39
-            // 
-            this.comboBox39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox39.FormattingEnabled = true;
-            this.comboBox39.Location = new System.Drawing.Point(29, 21);
-            this.comboBox39.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox39.Name = "comboBox39";
-            this.comboBox39.Size = new System.Drawing.Size(121, 26);
-            this.comboBox39.TabIndex = 0;
-            this.comboBox39.Text = "Cliente 1";
-            // 
-            // groupBox21
-            // 
-            this.groupBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox21.Controls.Add(this.checkBox20);
-            this.groupBox21.Controls.Add(this.comboBox40);
-            this.groupBox21.Controls.Add(this.comboBox41);
-            this.groupBox21.Location = new System.Drawing.Point(5, 137);
-            this.groupBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox21.Size = new System.Drawing.Size(412, 55);
-            this.groupBox21.TabIndex = 6;
-            this.groupBox21.TabStop = false;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(285, 23);
-            this.checkBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(117, 24);
-            this.checkBox20.TabIndex = 2;
-            this.checkBox20.Text = "Atendido";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // comboBox40
-            // 
-            this.comboBox40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox40.FormattingEnabled = true;
-            this.comboBox40.Location = new System.Drawing.Point(157, 21);
-            this.comboBox40.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox40.Name = "comboBox40";
-            this.comboBox40.Size = new System.Drawing.Size(121, 26);
-            this.comboBox40.TabIndex = 1;
-            this.comboBox40.Text = "Serviço 1";
-            // 
-            // comboBox41
-            // 
-            this.comboBox41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox41.FormattingEnabled = true;
-            this.comboBox41.Location = new System.Drawing.Point(29, 21);
-            this.comboBox41.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox41.Name = "comboBox41";
-            this.comboBox41.Size = new System.Drawing.Size(121, 26);
-            this.comboBox41.TabIndex = 0;
-            this.comboBox41.Text = "Cliente 1";
-            // 
-            // groupBox22
-            // 
-            this.groupBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox22.Controls.Add(this.checkBox21);
-            this.groupBox22.Controls.Add(this.comboBox42);
-            this.groupBox22.Controls.Add(this.comboBox43);
-            this.groupBox22.Location = new System.Drawing.Point(5, 76);
-            this.groupBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox22.Size = new System.Drawing.Size(412, 55);
-            this.groupBox22.TabIndex = 6;
-            this.groupBox22.TabStop = false;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(285, 23);
-            this.checkBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(117, 24);
-            this.checkBox21.TabIndex = 2;
-            this.checkBox21.Text = "Atendido";
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // comboBox42
-            // 
-            this.comboBox42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox42.FormattingEnabled = true;
-            this.comboBox42.Location = new System.Drawing.Point(157, 21);
-            this.comboBox42.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox42.Name = "comboBox42";
-            this.comboBox42.Size = new System.Drawing.Size(121, 26);
-            this.comboBox42.TabIndex = 1;
-            this.comboBox42.Text = "Serviço 1";
-            // 
-            // comboBox43
-            // 
-            this.comboBox43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox43.FormattingEnabled = true;
-            this.comboBox43.Location = new System.Drawing.Point(29, 21);
-            this.comboBox43.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox43.Name = "comboBox43";
-            this.comboBox43.Size = new System.Drawing.Size(121, 26);
-            this.comboBox43.TabIndex = 0;
-            this.comboBox43.Text = "Cliente 1";
-            // 
-            // groupBox23
-            // 
-            this.groupBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox23.Controls.Add(this.checkBox22);
-            this.groupBox23.Controls.Add(this.comboBox44);
-            this.groupBox23.Controls.Add(this.comboBox45);
-            this.groupBox23.Location = new System.Drawing.Point(5, 16);
-            this.groupBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox23.Size = new System.Drawing.Size(412, 55);
-            this.groupBox23.TabIndex = 5;
-            this.groupBox23.TabStop = false;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(285, 23);
-            this.checkBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(117, 24);
-            this.checkBox22.TabIndex = 2;
-            this.checkBox22.Text = "Atendido";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // comboBox44
-            // 
-            this.comboBox44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox44.FormattingEnabled = true;
-            this.comboBox44.Location = new System.Drawing.Point(157, 21);
-            this.comboBox44.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox44.Name = "comboBox44";
-            this.comboBox44.Size = new System.Drawing.Size(121, 26);
-            this.comboBox44.TabIndex = 1;
-            this.comboBox44.Text = "Serviço 1";
-            // 
-            // comboBox45
-            // 
-            this.comboBox45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox45.FormattingEnabled = true;
-            this.comboBox45.Location = new System.Drawing.Point(29, 21);
-            this.comboBox45.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox45.Name = "comboBox45";
-            this.comboBox45.Size = new System.Drawing.Size(121, 26);
-            this.comboBox45.TabIndex = 0;
-            this.comboBox45.Text = "Cliente 1";
-            // 
-            // groupBox24
-            // 
-            this.groupBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox24.Controls.Add(this.groupBox25);
-            this.groupBox24.Controls.Add(this.groupBox26);
-            this.groupBox24.Controls.Add(this.groupBox27);
-            this.groupBox24.Controls.Add(this.groupBox28);
-            this.groupBox24.Controls.Add(this.groupBox29);
-            this.groupBox24.Controls.Add(this.groupBox30);
-            this.groupBox24.Controls.Add(this.groupBox31);
-            this.groupBox24.Controls.Add(this.groupBox32);
-            this.groupBox24.Controls.Add(this.groupBox33);
-            this.groupBox24.Controls.Add(this.groupBox34);
-            this.groupBox24.Controls.Add(this.groupBox35);
-            this.groupBox24.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox24.Location = new System.Drawing.Point(993, 106);
-            this.groupBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox24.Name = "groupBox24";
-            this.groupBox24.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox24.Size = new System.Drawing.Size(424, 690);
-            this.groupBox24.TabIndex = 29;
-            this.groupBox24.TabStop = false;
-            this.groupBox24.Text = "Funcionário 3";
-            // 
-            // groupBox25
-            // 
-            this.groupBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox25.Controls.Add(this.checkBox23);
-            this.groupBox25.Controls.Add(this.comboBox46);
-            this.groupBox25.Controls.Add(this.comboBox47);
-            this.groupBox25.Location = new System.Drawing.Point(5, 614);
-            this.groupBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox25.Size = new System.Drawing.Size(412, 55);
-            this.groupBox25.TabIndex = 8;
-            this.groupBox25.TabStop = false;
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(285, 23);
-            this.checkBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(117, 24);
-            this.checkBox23.TabIndex = 2;
-            this.checkBox23.Text = "Atendido";
-            this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // comboBox46
-            // 
-            this.comboBox46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox46.FormattingEnabled = true;
-            this.comboBox46.Location = new System.Drawing.Point(157, 21);
-            this.comboBox46.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox46.Name = "comboBox46";
-            this.comboBox46.Size = new System.Drawing.Size(121, 26);
-            this.comboBox46.TabIndex = 1;
-            this.comboBox46.Text = "Serviço 1";
-            // 
-            // comboBox47
-            // 
-            this.comboBox47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox47.FormattingEnabled = true;
-            this.comboBox47.Location = new System.Drawing.Point(29, 21);
-            this.comboBox47.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox47.Name = "comboBox47";
-            this.comboBox47.Size = new System.Drawing.Size(121, 26);
-            this.comboBox47.TabIndex = 0;
-            this.comboBox47.Text = "Cliente 1";
-            // 
-            // groupBox26
-            // 
-            this.groupBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox26.Controls.Add(this.checkBox24);
-            this.groupBox26.Controls.Add(this.comboBox48);
-            this.groupBox26.Controls.Add(this.comboBox49);
-            this.groupBox26.Location = new System.Drawing.Point(5, 554);
-            this.groupBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox26.Size = new System.Drawing.Size(412, 55);
-            this.groupBox26.TabIndex = 7;
-            this.groupBox26.TabStop = false;
-            // 
-            // checkBox24
-            // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Location = new System.Drawing.Point(285, 23);
-            this.checkBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(117, 24);
-            this.checkBox24.TabIndex = 2;
-            this.checkBox24.Text = "Atendido";
-            this.checkBox24.UseVisualStyleBackColor = true;
-            // 
-            // comboBox48
-            // 
-            this.comboBox48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox48.FormattingEnabled = true;
-            this.comboBox48.Location = new System.Drawing.Point(157, 21);
-            this.comboBox48.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox48.Name = "comboBox48";
-            this.comboBox48.Size = new System.Drawing.Size(121, 26);
-            this.comboBox48.TabIndex = 1;
-            this.comboBox48.Text = "Serviço 1";
-            // 
-            // comboBox49
-            // 
-            this.comboBox49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox49.FormattingEnabled = true;
-            this.comboBox49.Location = new System.Drawing.Point(29, 21);
-            this.comboBox49.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox49.Name = "comboBox49";
-            this.comboBox49.Size = new System.Drawing.Size(121, 26);
-            this.comboBox49.TabIndex = 0;
-            this.comboBox49.Text = "Cliente 1";
-            // 
-            // groupBox27
-            // 
-            this.groupBox27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox27.Controls.Add(this.checkBox25);
-            this.groupBox27.Controls.Add(this.comboBox50);
-            this.groupBox27.Controls.Add(this.comboBox51);
-            this.groupBox27.Location = new System.Drawing.Point(5, 497);
-            this.groupBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox27.Name = "groupBox27";
-            this.groupBox27.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox27.Size = new System.Drawing.Size(412, 55);
-            this.groupBox27.TabIndex = 6;
-            this.groupBox27.TabStop = false;
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Location = new System.Drawing.Point(285, 23);
-            this.checkBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(117, 24);
-            this.checkBox25.TabIndex = 2;
-            this.checkBox25.Text = "Atendido";
-            this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // comboBox50
-            // 
-            this.comboBox50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox50.FormattingEnabled = true;
-            this.comboBox50.Location = new System.Drawing.Point(157, 21);
-            this.comboBox50.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox50.Name = "comboBox50";
-            this.comboBox50.Size = new System.Drawing.Size(121, 26);
-            this.comboBox50.TabIndex = 1;
-            this.comboBox50.Text = "Serviço 1";
-            // 
-            // comboBox51
-            // 
-            this.comboBox51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox51.FormattingEnabled = true;
-            this.comboBox51.Location = new System.Drawing.Point(29, 21);
-            this.comboBox51.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox51.Name = "comboBox51";
-            this.comboBox51.Size = new System.Drawing.Size(121, 26);
-            this.comboBox51.TabIndex = 0;
-            this.comboBox51.Text = "Cliente 1";
-            // 
-            // groupBox28
-            // 
-            this.groupBox28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox28.Controls.Add(this.checkBox26);
-            this.groupBox28.Controls.Add(this.comboBox52);
-            this.groupBox28.Controls.Add(this.comboBox53);
-            this.groupBox28.Location = new System.Drawing.Point(5, 442);
-            this.groupBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox28.Size = new System.Drawing.Size(412, 55);
-            this.groupBox28.TabIndex = 6;
-            this.groupBox28.TabStop = false;
-            // 
-            // checkBox26
-            // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Location = new System.Drawing.Point(285, 23);
-            this.checkBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(117, 24);
-            this.checkBox26.TabIndex = 2;
-            this.checkBox26.Text = "Atendido";
-            this.checkBox26.UseVisualStyleBackColor = true;
-            // 
-            // comboBox52
-            // 
-            this.comboBox52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox52.FormattingEnabled = true;
-            this.comboBox52.Location = new System.Drawing.Point(157, 21);
-            this.comboBox52.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox52.Name = "comboBox52";
-            this.comboBox52.Size = new System.Drawing.Size(121, 26);
-            this.comboBox52.TabIndex = 1;
-            this.comboBox52.Text = "Serviço 1";
-            // 
-            // comboBox53
-            // 
-            this.comboBox53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox53.FormattingEnabled = true;
-            this.comboBox53.Location = new System.Drawing.Point(29, 21);
-            this.comboBox53.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox53.Name = "comboBox53";
-            this.comboBox53.Size = new System.Drawing.Size(121, 26);
-            this.comboBox53.TabIndex = 0;
-            this.comboBox53.Text = "Cliente 1";
-            // 
-            // groupBox29
-            // 
-            this.groupBox29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox29.Controls.Add(this.checkBox27);
-            this.groupBox29.Controls.Add(this.comboBox54);
-            this.groupBox29.Controls.Add(this.comboBox55);
-            this.groupBox29.Location = new System.Drawing.Point(5, 378);
-            this.groupBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox29.Size = new System.Drawing.Size(412, 55);
-            this.groupBox29.TabIndex = 6;
-            this.groupBox29.TabStop = false;
-            // 
-            // checkBox27
-            // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Location = new System.Drawing.Point(285, 23);
-            this.checkBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(117, 24);
-            this.checkBox27.TabIndex = 2;
-            this.checkBox27.Text = "Atendido";
-            this.checkBox27.UseVisualStyleBackColor = true;
-            // 
-            // comboBox54
-            // 
-            this.comboBox54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox54.FormattingEnabled = true;
-            this.comboBox54.Location = new System.Drawing.Point(157, 21);
-            this.comboBox54.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox54.Name = "comboBox54";
-            this.comboBox54.Size = new System.Drawing.Size(121, 26);
-            this.comboBox54.TabIndex = 1;
-            this.comboBox54.Text = "Serviço 1";
-            // 
-            // comboBox55
-            // 
-            this.comboBox55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox55.FormattingEnabled = true;
-            this.comboBox55.Location = new System.Drawing.Point(29, 21);
-            this.comboBox55.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox55.Name = "comboBox55";
-            this.comboBox55.Size = new System.Drawing.Size(121, 26);
-            this.comboBox55.TabIndex = 0;
-            this.comboBox55.Text = "Cliente 1";
-            // 
-            // groupBox30
-            // 
-            this.groupBox30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox30.Controls.Add(this.checkBox28);
-            this.groupBox30.Controls.Add(this.comboBox56);
-            this.groupBox30.Controls.Add(this.comboBox57);
-            this.groupBox30.Location = new System.Drawing.Point(5, 318);
-            this.groupBox30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox30.Name = "groupBox30";
-            this.groupBox30.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox30.Size = new System.Drawing.Size(412, 55);
-            this.groupBox30.TabIndex = 6;
-            this.groupBox30.TabStop = false;
-            // 
-            // checkBox28
-            // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Location = new System.Drawing.Point(285, 23);
-            this.checkBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(117, 24);
-            this.checkBox28.TabIndex = 2;
-            this.checkBox28.Text = "Atendido";
-            this.checkBox28.UseVisualStyleBackColor = true;
-            // 
-            // comboBox56
-            // 
-            this.comboBox56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox56.FormattingEnabled = true;
-            this.comboBox56.Location = new System.Drawing.Point(157, 21);
-            this.comboBox56.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox56.Name = "comboBox56";
-            this.comboBox56.Size = new System.Drawing.Size(121, 26);
-            this.comboBox56.TabIndex = 1;
-            this.comboBox56.Text = "Serviço 1";
-            // 
-            // comboBox57
-            // 
-            this.comboBox57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox57.FormattingEnabled = true;
-            this.comboBox57.Location = new System.Drawing.Point(29, 21);
-            this.comboBox57.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox57.Name = "comboBox57";
-            this.comboBox57.Size = new System.Drawing.Size(121, 26);
-            this.comboBox57.TabIndex = 0;
-            this.comboBox57.Text = "Cliente 1";
-            // 
-            // groupBox31
-            // 
-            this.groupBox31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox31.Controls.Add(this.checkBox29);
-            this.groupBox31.Controls.Add(this.comboBox58);
-            this.groupBox31.Controls.Add(this.comboBox59);
-            this.groupBox31.Location = new System.Drawing.Point(5, 257);
-            this.groupBox31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox31.Name = "groupBox31";
-            this.groupBox31.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox31.Size = new System.Drawing.Size(412, 55);
-            this.groupBox31.TabIndex = 6;
-            this.groupBox31.TabStop = false;
-            // 
-            // checkBox29
-            // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Location = new System.Drawing.Point(285, 23);
-            this.checkBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(117, 24);
-            this.checkBox29.TabIndex = 2;
-            this.checkBox29.Text = "Atendido";
-            this.checkBox29.UseVisualStyleBackColor = true;
-            // 
-            // comboBox58
-            // 
-            this.comboBox58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox58.FormattingEnabled = true;
-            this.comboBox58.Location = new System.Drawing.Point(157, 21);
-            this.comboBox58.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox58.Name = "comboBox58";
-            this.comboBox58.Size = new System.Drawing.Size(121, 26);
-            this.comboBox58.TabIndex = 1;
-            this.comboBox58.Text = "Serviço 1";
-            // 
-            // comboBox59
-            // 
-            this.comboBox59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox59.FormattingEnabled = true;
-            this.comboBox59.Location = new System.Drawing.Point(29, 21);
-            this.comboBox59.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox59.Name = "comboBox59";
-            this.comboBox59.Size = new System.Drawing.Size(121, 26);
-            this.comboBox59.TabIndex = 0;
-            this.comboBox59.Text = "Cliente 1";
-            // 
-            // groupBox32
-            // 
-            this.groupBox32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox32.Controls.Add(this.checkBox30);
-            this.groupBox32.Controls.Add(this.comboBox60);
-            this.groupBox32.Controls.Add(this.comboBox61);
-            this.groupBox32.Location = new System.Drawing.Point(5, 197);
-            this.groupBox32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox32.Size = new System.Drawing.Size(412, 55);
-            this.groupBox32.TabIndex = 6;
-            this.groupBox32.TabStop = false;
-            // 
-            // checkBox30
-            // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Location = new System.Drawing.Point(285, 23);
-            this.checkBox30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(117, 24);
-            this.checkBox30.TabIndex = 2;
-            this.checkBox30.Text = "Atendido";
-            this.checkBox30.UseVisualStyleBackColor = true;
-            // 
-            // comboBox60
-            // 
-            this.comboBox60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox60.FormattingEnabled = true;
-            this.comboBox60.Location = new System.Drawing.Point(157, 21);
-            this.comboBox60.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox60.Name = "comboBox60";
-            this.comboBox60.Size = new System.Drawing.Size(121, 26);
-            this.comboBox60.TabIndex = 1;
-            this.comboBox60.Text = "Serviço 1";
-            // 
-            // comboBox61
-            // 
-            this.comboBox61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox61.FormattingEnabled = true;
-            this.comboBox61.Location = new System.Drawing.Point(29, 21);
-            this.comboBox61.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox61.Name = "comboBox61";
-            this.comboBox61.Size = new System.Drawing.Size(121, 26);
-            this.comboBox61.TabIndex = 0;
-            this.comboBox61.Text = "Cliente 1";
-            // 
-            // groupBox33
-            // 
-            this.groupBox33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox33.Controls.Add(this.checkBox31);
-            this.groupBox33.Controls.Add(this.comboBox62);
-            this.groupBox33.Controls.Add(this.comboBox63);
-            this.groupBox33.Location = new System.Drawing.Point(5, 137);
-            this.groupBox33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox33.Name = "groupBox33";
-            this.groupBox33.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox33.Size = new System.Drawing.Size(412, 55);
-            this.groupBox33.TabIndex = 6;
-            this.groupBox33.TabStop = false;
-            // 
-            // checkBox31
-            // 
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.Location = new System.Drawing.Point(285, 23);
-            this.checkBox31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(117, 24);
-            this.checkBox31.TabIndex = 2;
-            this.checkBox31.Text = "Atendido";
-            this.checkBox31.UseVisualStyleBackColor = true;
-            // 
-            // comboBox62
-            // 
-            this.comboBox62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox62.FormattingEnabled = true;
-            this.comboBox62.Location = new System.Drawing.Point(157, 21);
-            this.comboBox62.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox62.Name = "comboBox62";
-            this.comboBox62.Size = new System.Drawing.Size(121, 26);
-            this.comboBox62.TabIndex = 1;
-            this.comboBox62.Text = "Serviço 1";
-            // 
-            // comboBox63
-            // 
-            this.comboBox63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox63.FormattingEnabled = true;
-            this.comboBox63.Location = new System.Drawing.Point(29, 21);
-            this.comboBox63.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox63.Name = "comboBox63";
-            this.comboBox63.Size = new System.Drawing.Size(121, 26);
-            this.comboBox63.TabIndex = 0;
-            this.comboBox63.Text = "Cliente 1";
-            // 
-            // groupBox34
-            // 
-            this.groupBox34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox34.Controls.Add(this.checkBox32);
-            this.groupBox34.Controls.Add(this.comboBox64);
-            this.groupBox34.Controls.Add(this.comboBox65);
-            this.groupBox34.Location = new System.Drawing.Point(5, 76);
-            this.groupBox34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox34.Name = "groupBox34";
-            this.groupBox34.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox34.Size = new System.Drawing.Size(412, 55);
-            this.groupBox34.TabIndex = 6;
-            this.groupBox34.TabStop = false;
-            // 
-            // checkBox32
-            // 
-            this.checkBox32.AutoSize = true;
-            this.checkBox32.Location = new System.Drawing.Point(285, 23);
-            this.checkBox32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Size = new System.Drawing.Size(117, 24);
-            this.checkBox32.TabIndex = 2;
-            this.checkBox32.Text = "Atendido";
-            this.checkBox32.UseVisualStyleBackColor = true;
-            // 
-            // comboBox64
-            // 
-            this.comboBox64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox64.FormattingEnabled = true;
-            this.comboBox64.Location = new System.Drawing.Point(157, 21);
-            this.comboBox64.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox64.Name = "comboBox64";
-            this.comboBox64.Size = new System.Drawing.Size(121, 26);
-            this.comboBox64.TabIndex = 1;
-            this.comboBox64.Text = "Serviço 1";
-            // 
-            // comboBox65
-            // 
-            this.comboBox65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox65.FormattingEnabled = true;
-            this.comboBox65.Location = new System.Drawing.Point(29, 21);
-            this.comboBox65.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox65.Name = "comboBox65";
-            this.comboBox65.Size = new System.Drawing.Size(121, 26);
-            this.comboBox65.TabIndex = 0;
-            this.comboBox65.Text = "Cliente 1";
-            // 
-            // groupBox35
-            // 
-            this.groupBox35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBox35.Controls.Add(this.checkBox33);
-            this.groupBox35.Controls.Add(this.comboBox66);
-            this.groupBox35.Controls.Add(this.comboBox67);
-            this.groupBox35.Location = new System.Drawing.Point(5, 16);
-            this.groupBox35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox35.Name = "groupBox35";
-            this.groupBox35.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox35.Size = new System.Drawing.Size(412, 55);
-            this.groupBox35.TabIndex = 5;
-            this.groupBox35.TabStop = false;
-            // 
-            // checkBox33
-            // 
-            this.checkBox33.AutoSize = true;
-            this.checkBox33.Location = new System.Drawing.Point(285, 23);
-            this.checkBox33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox33.Name = "checkBox33";
-            this.checkBox33.Size = new System.Drawing.Size(117, 24);
-            this.checkBox33.TabIndex = 2;
-            this.checkBox33.Text = "Atendido";
-            this.checkBox33.UseVisualStyleBackColor = true;
-            // 
-            // comboBox66
-            // 
-            this.comboBox66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox66.FormattingEnabled = true;
-            this.comboBox66.Location = new System.Drawing.Point(157, 21);
-            this.comboBox66.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox66.Name = "comboBox66";
-            this.comboBox66.Size = new System.Drawing.Size(121, 26);
-            this.comboBox66.TabIndex = 1;
-            this.comboBox66.Text = "Serviço 1";
-            // 
-            // comboBox67
-            // 
-            this.comboBox67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.comboBox67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.comboBox67.FormattingEnabled = true;
-            this.comboBox67.Location = new System.Drawing.Point(29, 21);
-            this.comboBox67.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox67.Name = "comboBox67";
-            this.comboBox67.Size = new System.Drawing.Size(121, 26);
-            this.comboBox67.TabIndex = 0;
-            this.comboBox67.Text = "Cliente 1";
             // 
             // clientesToolStripMenuItem
             // 
@@ -2920,6 +1181,127 @@
             this.consultarToolStripMenuItem.Text = "Consultar";
             this.consultarToolStripMenuItem.ToolTipText = "Consultar Etiquetas";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label7.Location = new System.Drawing.Point(15, 48);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(108, 25);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "AGENDA";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label1.Location = new System.Drawing.Point(33, 208);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 20);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "9:00";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label4.Location = new System.Drawing.Point(23, 326);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 20);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "11:00";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label8.Location = new System.Drawing.Point(23, 271);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(55, 20);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "10:00";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label9.Location = new System.Drawing.Point(20, 450);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(55, 20);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "13:00";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label10.Location = new System.Drawing.Point(23, 391);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(55, 20);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "12:00";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label11.Location = new System.Drawing.Point(20, 567);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(55, 20);
+            this.label11.TabIndex = 24;
+            this.label11.Text = "15:00";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label12.Location = new System.Drawing.Point(20, 510);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(55, 20);
+            this.label12.TabIndex = 23;
+            this.label12.Text = "14:00";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label13.Location = new System.Drawing.Point(23, 626);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(55, 20);
+            this.label13.TabIndex = 25;
+            this.label13.Text = "16:00";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label14.Location = new System.Drawing.Point(26, 681);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(55, 20);
+            this.label14.TabIndex = 26;
+            this.label14.Text = "17:00";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.label2.Location = new System.Drawing.Point(23, 743);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 20);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "18:00";
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(635, 862);
@@ -2930,14 +1312,1633 @@
             this.button1.Text = "Primeiro";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // groupBoxHorario09F1
+            // 
+            this.groupBoxHorario09F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario09F1.Controls.Add(this.checkBoxAtendidoH09F1);
+            this.groupBoxHorario09F1.Controls.Add(this.comboBoxServicoH09F1);
+            this.groupBoxHorario09F1.Controls.Add(this.comboBoxClienteH09F1);
+            this.groupBoxHorario09F1.Location = new System.Drawing.Point(6, 83);
+            this.groupBoxHorario09F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario09F1.Name = "groupBoxHorario09F1";
+            this.groupBoxHorario09F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario09F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario09F1.TabIndex = 6;
+            this.groupBoxHorario09F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH09F1
+            // 
+            this.checkBoxAtendidoH09F1.AutoSize = true;
+            this.checkBoxAtendidoH09F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH09F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH09F1.Name = "checkBoxAtendidoH09F1";
+            this.checkBoxAtendidoH09F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH09F1.TabIndex = 2;
+            this.checkBoxAtendidoH09F1.Text = "Atendido";
+            this.checkBoxAtendidoH09F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH09F1
+            // 
+            this.comboBoxServicoH09F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH09F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH09F1.FormattingEnabled = true;
+            this.comboBoxServicoH09F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH09F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH09F1.Name = "comboBoxServicoH09F1";
+            this.comboBoxServicoH09F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH09F1.TabIndex = 1;
+            this.comboBoxServicoH09F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH09F1
+            // 
+            this.comboBoxClienteH09F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH09F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH09F1.FormattingEnabled = true;
+            this.comboBoxClienteH09F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH09F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH09F1.Name = "comboBoxClienteH09F1";
+            this.comboBoxClienteH09F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH09F1.TabIndex = 0;
+            this.comboBoxClienteH09F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario10F1
+            // 
+            this.groupBoxHorario10F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario10F1.Controls.Add(this.checkBoxAtendidoH10F1);
+            this.groupBoxHorario10F1.Controls.Add(this.comboBoxServicoH10F1);
+            this.groupBoxHorario10F1.Controls.Add(this.comboBoxClienteH10F1);
+            this.groupBoxHorario10F1.Location = new System.Drawing.Point(6, 142);
+            this.groupBoxHorario10F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario10F1.Name = "groupBoxHorario10F1";
+            this.groupBoxHorario10F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario10F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario10F1.TabIndex = 7;
+            this.groupBoxHorario10F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH10F1
+            // 
+            this.checkBoxAtendidoH10F1.AutoSize = true;
+            this.checkBoxAtendidoH10F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH10F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH10F1.Name = "checkBoxAtendidoH10F1";
+            this.checkBoxAtendidoH10F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH10F1.TabIndex = 2;
+            this.checkBoxAtendidoH10F1.Text = "Atendido";
+            this.checkBoxAtendidoH10F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH10F1
+            // 
+            this.comboBoxServicoH10F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH10F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH10F1.FormattingEnabled = true;
+            this.comboBoxServicoH10F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH10F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH10F1.Name = "comboBoxServicoH10F1";
+            this.comboBoxServicoH10F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH10F1.TabIndex = 1;
+            this.comboBoxServicoH10F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH10F1
+            // 
+            this.comboBoxClienteH10F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH10F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH10F1.FormattingEnabled = true;
+            this.comboBoxClienteH10F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH10F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH10F1.Name = "comboBoxClienteH10F1";
+            this.comboBoxClienteH10F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH10F1.TabIndex = 0;
+            this.comboBoxClienteH10F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario11F1
+            // 
+            this.groupBoxHorario11F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario11F1.Controls.Add(this.checkBoxAtendidoH11F1);
+            this.groupBoxHorario11F1.Controls.Add(this.comboBoxServicoH11F1);
+            this.groupBoxHorario11F1.Controls.Add(this.comboBoxClienteH11F1);
+            this.groupBoxHorario11F1.Location = new System.Drawing.Point(6, 201);
+            this.groupBoxHorario11F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario11F1.Name = "groupBoxHorario11F1";
+            this.groupBoxHorario11F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario11F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario11F1.TabIndex = 8;
+            this.groupBoxHorario11F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH11F1
+            // 
+            this.checkBoxAtendidoH11F1.AutoSize = true;
+            this.checkBoxAtendidoH11F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH11F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH11F1.Name = "checkBoxAtendidoH11F1";
+            this.checkBoxAtendidoH11F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH11F1.TabIndex = 2;
+            this.checkBoxAtendidoH11F1.Text = "Atendido";
+            this.checkBoxAtendidoH11F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH11F1
+            // 
+            this.comboBoxServicoH11F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH11F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH11F1.FormattingEnabled = true;
+            this.comboBoxServicoH11F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH11F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH11F1.Name = "comboBoxServicoH11F1";
+            this.comboBoxServicoH11F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH11F1.TabIndex = 1;
+            this.comboBoxServicoH11F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH11F1
+            // 
+            this.comboBoxClienteH11F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH11F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH11F1.FormattingEnabled = true;
+            this.comboBoxClienteH11F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH11F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH11F1.Name = "comboBoxClienteH11F1";
+            this.comboBoxClienteH11F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH11F1.TabIndex = 0;
+            this.comboBoxClienteH11F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario12F1
+            // 
+            this.groupBoxHorario12F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario12F1.Controls.Add(this.checkBoxAtendidoH12F1);
+            this.groupBoxHorario12F1.Controls.Add(this.comboBoxServicoH12F1);
+            this.groupBoxHorario12F1.Controls.Add(this.comboBoxClienteH12F1);
+            this.groupBoxHorario12F1.Location = new System.Drawing.Point(6, 260);
+            this.groupBoxHorario12F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario12F1.Name = "groupBoxHorario12F1";
+            this.groupBoxHorario12F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario12F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario12F1.TabIndex = 9;
+            this.groupBoxHorario12F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH12F1
+            // 
+            this.checkBoxAtendidoH12F1.AutoSize = true;
+            this.checkBoxAtendidoH12F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH12F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH12F1.Name = "checkBoxAtendidoH12F1";
+            this.checkBoxAtendidoH12F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH12F1.TabIndex = 2;
+            this.checkBoxAtendidoH12F1.Text = "Atendido";
+            this.checkBoxAtendidoH12F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH12F1
+            // 
+            this.comboBoxServicoH12F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH12F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH12F1.FormattingEnabled = true;
+            this.comboBoxServicoH12F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH12F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH12F1.Name = "comboBoxServicoH12F1";
+            this.comboBoxServicoH12F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH12F1.TabIndex = 1;
+            this.comboBoxServicoH12F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH12F1
+            // 
+            this.comboBoxClienteH12F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH12F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH12F1.FormattingEnabled = true;
+            this.comboBoxClienteH12F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH12F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH12F1.Name = "comboBoxClienteH12F1";
+            this.comboBoxClienteH12F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH12F1.TabIndex = 0;
+            this.comboBoxClienteH12F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario13F1
+            // 
+            this.groupBoxHorario13F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario13F1.Controls.Add(this.checkBoxAtendidoH13F1);
+            this.groupBoxHorario13F1.Controls.Add(this.comboBoxServicoH13F1);
+            this.groupBoxHorario13F1.Controls.Add(this.comboBoxClienteH13F1);
+            this.groupBoxHorario13F1.Location = new System.Drawing.Point(6, 319);
+            this.groupBoxHorario13F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario13F1.Name = "groupBoxHorario13F1";
+            this.groupBoxHorario13F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario13F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario13F1.TabIndex = 10;
+            this.groupBoxHorario13F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH13F1
+            // 
+            this.checkBoxAtendidoH13F1.AutoSize = true;
+            this.checkBoxAtendidoH13F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH13F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH13F1.Name = "checkBoxAtendidoH13F1";
+            this.checkBoxAtendidoH13F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH13F1.TabIndex = 2;
+            this.checkBoxAtendidoH13F1.Text = "Atendido";
+            this.checkBoxAtendidoH13F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH13F1
+            // 
+            this.comboBoxServicoH13F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH13F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH13F1.FormattingEnabled = true;
+            this.comboBoxServicoH13F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH13F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH13F1.Name = "comboBoxServicoH13F1";
+            this.comboBoxServicoH13F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH13F1.TabIndex = 1;
+            this.comboBoxServicoH13F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH13F1
+            // 
+            this.comboBoxClienteH13F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH13F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH13F1.FormattingEnabled = true;
+            this.comboBoxClienteH13F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH13F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH13F1.Name = "comboBoxClienteH13F1";
+            this.comboBoxClienteH13F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH13F1.TabIndex = 0;
+            this.comboBoxClienteH13F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario14F1
+            // 
+            this.groupBoxHorario14F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario14F1.Controls.Add(this.checkBoxAtendidoH14F1);
+            this.groupBoxHorario14F1.Controls.Add(this.comboBoxServicoH14F1);
+            this.groupBoxHorario14F1.Controls.Add(this.comboBoxClienteH14F1);
+            this.groupBoxHorario14F1.Location = new System.Drawing.Point(6, 379);
+            this.groupBoxHorario14F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario14F1.Name = "groupBoxHorario14F1";
+            this.groupBoxHorario14F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario14F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario14F1.TabIndex = 11;
+            this.groupBoxHorario14F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH14F1
+            // 
+            this.checkBoxAtendidoH14F1.AutoSize = true;
+            this.checkBoxAtendidoH14F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH14F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH14F1.Name = "checkBoxAtendidoH14F1";
+            this.checkBoxAtendidoH14F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH14F1.TabIndex = 2;
+            this.checkBoxAtendidoH14F1.Text = "Atendido";
+            this.checkBoxAtendidoH14F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH14F1
+            // 
+            this.comboBoxServicoH14F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH14F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH14F1.FormattingEnabled = true;
+            this.comboBoxServicoH14F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH14F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH14F1.Name = "comboBoxServicoH14F1";
+            this.comboBoxServicoH14F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH14F1.TabIndex = 1;
+            this.comboBoxServicoH14F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH14F1
+            // 
+            this.comboBoxClienteH14F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH14F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH14F1.FormattingEnabled = true;
+            this.comboBoxClienteH14F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH14F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH14F1.Name = "comboBoxClienteH14F1";
+            this.comboBoxClienteH14F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH14F1.TabIndex = 0;
+            this.comboBoxClienteH14F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario15F1
+            // 
+            this.groupBoxHorario15F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario15F1.Controls.Add(this.checkBoxAtendidoH15F1);
+            this.groupBoxHorario15F1.Controls.Add(this.comboBoxServicoH15F1);
+            this.groupBoxHorario15F1.Controls.Add(this.comboBoxClienteH15F1);
+            this.groupBoxHorario15F1.Location = new System.Drawing.Point(6, 438);
+            this.groupBoxHorario15F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario15F1.Name = "groupBoxHorario15F1";
+            this.groupBoxHorario15F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario15F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario15F1.TabIndex = 12;
+            this.groupBoxHorario15F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH15F1
+            // 
+            this.checkBoxAtendidoH15F1.AutoSize = true;
+            this.checkBoxAtendidoH15F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH15F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH15F1.Name = "checkBoxAtendidoH15F1";
+            this.checkBoxAtendidoH15F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH15F1.TabIndex = 2;
+            this.checkBoxAtendidoH15F1.Text = "Atendido";
+            this.checkBoxAtendidoH15F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH15F1
+            // 
+            this.comboBoxServicoH15F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH15F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH15F1.FormattingEnabled = true;
+            this.comboBoxServicoH15F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH15F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH15F1.Name = "comboBoxServicoH15F1";
+            this.comboBoxServicoH15F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH15F1.TabIndex = 1;
+            this.comboBoxServicoH15F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH15F1
+            // 
+            this.comboBoxClienteH15F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH15F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH15F1.FormattingEnabled = true;
+            this.comboBoxClienteH15F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH15F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH15F1.Name = "comboBoxClienteH15F1";
+            this.comboBoxClienteH15F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH15F1.TabIndex = 0;
+            this.comboBoxClienteH15F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario16F1
+            // 
+            this.groupBoxHorario16F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario16F1.Controls.Add(this.checkBoxAtendidoH16F1);
+            this.groupBoxHorario16F1.Controls.Add(this.comboBoxServicoH16F1);
+            this.groupBoxHorario16F1.Controls.Add(this.comboBoxClienteH16F1);
+            this.groupBoxHorario16F1.Location = new System.Drawing.Point(6, 498);
+            this.groupBoxHorario16F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario16F1.Name = "groupBoxHorario16F1";
+            this.groupBoxHorario16F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario16F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario16F1.TabIndex = 13;
+            this.groupBoxHorario16F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH16F1
+            // 
+            this.checkBoxAtendidoH16F1.AutoSize = true;
+            this.checkBoxAtendidoH16F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH16F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH16F1.Name = "checkBoxAtendidoH16F1";
+            this.checkBoxAtendidoH16F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH16F1.TabIndex = 2;
+            this.checkBoxAtendidoH16F1.Text = "Atendido";
+            this.checkBoxAtendidoH16F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH16F1
+            // 
+            this.comboBoxServicoH16F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH16F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH16F1.FormattingEnabled = true;
+            this.comboBoxServicoH16F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH16F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH16F1.Name = "comboBoxServicoH16F1";
+            this.comboBoxServicoH16F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH16F1.TabIndex = 1;
+            this.comboBoxServicoH16F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH16F1
+            // 
+            this.comboBoxClienteH16F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH16F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH16F1.FormattingEnabled = true;
+            this.comboBoxClienteH16F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH16F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH16F1.Name = "comboBoxClienteH16F1";
+            this.comboBoxClienteH16F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH16F1.TabIndex = 0;
+            this.comboBoxClienteH16F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario17F1
+            // 
+            this.groupBoxHorario17F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario17F1.Controls.Add(this.checkBoxAtendidoH17F1);
+            this.groupBoxHorario17F1.Controls.Add(this.comboBoxServicoH17F1);
+            this.groupBoxHorario17F1.Controls.Add(this.comboBoxClienteH17F1);
+            this.groupBoxHorario17F1.Location = new System.Drawing.Point(6, 557);
+            this.groupBoxHorario17F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario17F1.Name = "groupBoxHorario17F1";
+            this.groupBoxHorario17F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario17F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario17F1.TabIndex = 14;
+            this.groupBoxHorario17F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH17F1
+            // 
+            this.checkBoxAtendidoH17F1.AutoSize = true;
+            this.checkBoxAtendidoH17F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH17F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH17F1.Name = "checkBoxAtendidoH17F1";
+            this.checkBoxAtendidoH17F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH17F1.TabIndex = 2;
+            this.checkBoxAtendidoH17F1.Text = "Atendido";
+            this.checkBoxAtendidoH17F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH17F1
+            // 
+            this.comboBoxServicoH17F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH17F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH17F1.FormattingEnabled = true;
+            this.comboBoxServicoH17F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH17F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH17F1.Name = "comboBoxServicoH17F1";
+            this.comboBoxServicoH17F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH17F1.TabIndex = 1;
+            this.comboBoxServicoH17F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH17F1
+            // 
+            this.comboBoxClienteH17F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH17F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH17F1.FormattingEnabled = true;
+            this.comboBoxClienteH17F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH17F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH17F1.Name = "comboBoxClienteH17F1";
+            this.comboBoxClienteH17F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH17F1.TabIndex = 0;
+            this.comboBoxClienteH17F1.Text = "Cliente 1";
+            // 
+            // groupBoxHorario18F1
+            // 
+            this.groupBoxHorario18F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario18F1.Controls.Add(this.checkBoxAtendidoH18F1);
+            this.groupBoxHorario18F1.Controls.Add(this.comboBoxServicoH18F1);
+            this.groupBoxHorario18F1.Controls.Add(this.comboBoxClienteH18F1);
+            this.groupBoxHorario18F1.Location = new System.Drawing.Point(6, 616);
+            this.groupBoxHorario18F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario18F1.Name = "groupBoxHorario18F1";
+            this.groupBoxHorario18F1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario18F1.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario18F1.TabIndex = 15;
+            this.groupBoxHorario18F1.TabStop = false;
+            // 
+            // checkBoxAtendidoH18F1
+            // 
+            this.checkBoxAtendidoH18F1.AutoSize = true;
+            this.checkBoxAtendidoH18F1.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH18F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH18F1.Name = "checkBoxAtendidoH18F1";
+            this.checkBoxAtendidoH18F1.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH18F1.TabIndex = 2;
+            this.checkBoxAtendidoH18F1.Text = "Atendido";
+            this.checkBoxAtendidoH18F1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH18F1
+            // 
+            this.comboBoxServicoH18F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH18F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH18F1.FormattingEnabled = true;
+            this.comboBoxServicoH18F1.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH18F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH18F1.Name = "comboBoxServicoH18F1";
+            this.comboBoxServicoH18F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH18F1.TabIndex = 1;
+            this.comboBoxServicoH18F1.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH18F1
+            // 
+            this.comboBoxClienteH18F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH18F1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH18F1.FormattingEnabled = true;
+            this.comboBoxClienteH18F1.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH18F1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH18F1.Name = "comboBoxClienteH18F1";
+            this.comboBoxClienteH18F1.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH18F1.TabIndex = 0;
+            this.comboBoxClienteH18F1.Text = "Cliente 1";
+            // 
+            // groupBoxFuncionario2
+            // 
+            this.groupBoxFuncionario2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario18F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario17F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario16F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario15F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario14F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario13F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario12F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario11F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario10F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario09F2);
+            this.groupBoxFuncionario2.Controls.Add(this.groupBoxHorario08F2);
+            this.groupBoxFuncionario2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxFuncionario2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.groupBoxFuncionario2.Location = new System.Drawing.Point(536, 106);
+            this.groupBoxFuncionario2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxFuncionario2.Name = "groupBoxFuncionario2";
+            this.groupBoxFuncionario2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxFuncionario2.Size = new System.Drawing.Size(424, 690);
+            this.groupBoxFuncionario2.TabIndex = 13;
+            this.groupBoxFuncionario2.TabStop = false;
+            this.groupBoxFuncionario2.Text = "Funcionário 2";
+            // 
+            // groupBoxHorario18F2
+            // 
+            this.groupBoxHorario18F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario18F2.Controls.Add(this.checkBoxAtendidoH18F2);
+            this.groupBoxHorario18F2.Controls.Add(this.comboBoxServicoH18F2);
+            this.groupBoxHorario18F2.Controls.Add(this.comboBoxClienteH18F2);
+            this.groupBoxHorario18F2.Location = new System.Drawing.Point(6, 616);
+            this.groupBoxHorario18F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario18F2.Name = "groupBoxHorario18F2";
+            this.groupBoxHorario18F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario18F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario18F2.TabIndex = 15;
+            this.groupBoxHorario18F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH18F2
+            // 
+            this.checkBoxAtendidoH18F2.AutoSize = true;
+            this.checkBoxAtendidoH18F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH18F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH18F2.Name = "checkBoxAtendidoH18F2";
+            this.checkBoxAtendidoH18F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH18F2.TabIndex = 2;
+            this.checkBoxAtendidoH18F2.Text = "Atendido";
+            this.checkBoxAtendidoH18F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH18F2
+            // 
+            this.comboBoxServicoH18F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH18F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH18F2.FormattingEnabled = true;
+            this.comboBoxServicoH18F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH18F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH18F2.Name = "comboBoxServicoH18F2";
+            this.comboBoxServicoH18F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH18F2.TabIndex = 1;
+            this.comboBoxServicoH18F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH18F2
+            // 
+            this.comboBoxClienteH18F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH18F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH18F2.FormattingEnabled = true;
+            this.comboBoxClienteH18F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH18F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH18F2.Name = "comboBoxClienteH18F2";
+            this.comboBoxClienteH18F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH18F2.TabIndex = 0;
+            this.comboBoxClienteH18F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario17F2
+            // 
+            this.groupBoxHorario17F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario17F2.Controls.Add(this.checkBoxAtendidoH17F2);
+            this.groupBoxHorario17F2.Controls.Add(this.comboBoxServicoH17F2);
+            this.groupBoxHorario17F2.Controls.Add(this.comboBoxClienteH17F2);
+            this.groupBoxHorario17F2.Location = new System.Drawing.Point(6, 557);
+            this.groupBoxHorario17F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario17F2.Name = "groupBoxHorario17F2";
+            this.groupBoxHorario17F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario17F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario17F2.TabIndex = 14;
+            this.groupBoxHorario17F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH17F2
+            // 
+            this.checkBoxAtendidoH17F2.AutoSize = true;
+            this.checkBoxAtendidoH17F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH17F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH17F2.Name = "checkBoxAtendidoH17F2";
+            this.checkBoxAtendidoH17F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH17F2.TabIndex = 2;
+            this.checkBoxAtendidoH17F2.Text = "Atendido";
+            this.checkBoxAtendidoH17F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH17F2
+            // 
+            this.comboBoxServicoH17F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH17F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH17F2.FormattingEnabled = true;
+            this.comboBoxServicoH17F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH17F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH17F2.Name = "comboBoxServicoH17F2";
+            this.comboBoxServicoH17F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH17F2.TabIndex = 1;
+            this.comboBoxServicoH17F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH17F2
+            // 
+            this.comboBoxClienteH17F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH17F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH17F2.FormattingEnabled = true;
+            this.comboBoxClienteH17F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH17F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH17F2.Name = "comboBoxClienteH17F2";
+            this.comboBoxClienteH17F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH17F2.TabIndex = 0;
+            this.comboBoxClienteH17F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario16F2
+            // 
+            this.groupBoxHorario16F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario16F2.Controls.Add(this.checkBoxAtendidoH16F2);
+            this.groupBoxHorario16F2.Controls.Add(this.comboBoxServicoH16F2);
+            this.groupBoxHorario16F2.Controls.Add(this.comboBoxClienteH16F2);
+            this.groupBoxHorario16F2.Location = new System.Drawing.Point(6, 498);
+            this.groupBoxHorario16F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario16F2.Name = "groupBoxHorario16F2";
+            this.groupBoxHorario16F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario16F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario16F2.TabIndex = 13;
+            this.groupBoxHorario16F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH16F2
+            // 
+            this.checkBoxAtendidoH16F2.AutoSize = true;
+            this.checkBoxAtendidoH16F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH16F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH16F2.Name = "checkBoxAtendidoH16F2";
+            this.checkBoxAtendidoH16F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH16F2.TabIndex = 2;
+            this.checkBoxAtendidoH16F2.Text = "Atendido";
+            this.checkBoxAtendidoH16F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH16F2
+            // 
+            this.comboBoxServicoH16F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH16F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH16F2.FormattingEnabled = true;
+            this.comboBoxServicoH16F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH16F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH16F2.Name = "comboBoxServicoH16F2";
+            this.comboBoxServicoH16F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH16F2.TabIndex = 1;
+            this.comboBoxServicoH16F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH16F2
+            // 
+            this.comboBoxClienteH16F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH16F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH16F2.FormattingEnabled = true;
+            this.comboBoxClienteH16F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH16F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH16F2.Name = "comboBoxClienteH16F2";
+            this.comboBoxClienteH16F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH16F2.TabIndex = 0;
+            this.comboBoxClienteH16F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario15F2
+            // 
+            this.groupBoxHorario15F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario15F2.Controls.Add(this.checkBoxAtendidoH15F2);
+            this.groupBoxHorario15F2.Controls.Add(this.comboBoxServicoH15F2);
+            this.groupBoxHorario15F2.Controls.Add(this.comboBoxClienteH15F2);
+            this.groupBoxHorario15F2.Location = new System.Drawing.Point(6, 438);
+            this.groupBoxHorario15F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario15F2.Name = "groupBoxHorario15F2";
+            this.groupBoxHorario15F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario15F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario15F2.TabIndex = 12;
+            this.groupBoxHorario15F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH15F2
+            // 
+            this.checkBoxAtendidoH15F2.AutoSize = true;
+            this.checkBoxAtendidoH15F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH15F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH15F2.Name = "checkBoxAtendidoH15F2";
+            this.checkBoxAtendidoH15F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH15F2.TabIndex = 2;
+            this.checkBoxAtendidoH15F2.Text = "Atendido";
+            this.checkBoxAtendidoH15F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH15F2
+            // 
+            this.comboBoxServicoH15F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH15F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH15F2.FormattingEnabled = true;
+            this.comboBoxServicoH15F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH15F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH15F2.Name = "comboBoxServicoH15F2";
+            this.comboBoxServicoH15F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH15F2.TabIndex = 1;
+            this.comboBoxServicoH15F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH15F2
+            // 
+            this.comboBoxClienteH15F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH15F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH15F2.FormattingEnabled = true;
+            this.comboBoxClienteH15F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH15F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH15F2.Name = "comboBoxClienteH15F2";
+            this.comboBoxClienteH15F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH15F2.TabIndex = 0;
+            this.comboBoxClienteH15F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario14F2
+            // 
+            this.groupBoxHorario14F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario14F2.Controls.Add(this.checkBoxAtendidoH14F2);
+            this.groupBoxHorario14F2.Controls.Add(this.comboBoxServicoH14F2);
+            this.groupBoxHorario14F2.Controls.Add(this.comboBoxClienteH14F2);
+            this.groupBoxHorario14F2.Location = new System.Drawing.Point(6, 379);
+            this.groupBoxHorario14F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario14F2.Name = "groupBoxHorario14F2";
+            this.groupBoxHorario14F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario14F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario14F2.TabIndex = 11;
+            this.groupBoxHorario14F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH14F2
+            // 
+            this.checkBoxAtendidoH14F2.AutoSize = true;
+            this.checkBoxAtendidoH14F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH14F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH14F2.Name = "checkBoxAtendidoH14F2";
+            this.checkBoxAtendidoH14F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH14F2.TabIndex = 2;
+            this.checkBoxAtendidoH14F2.Text = "Atendido";
+            this.checkBoxAtendidoH14F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH14F2
+            // 
+            this.comboBoxServicoH14F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH14F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH14F2.FormattingEnabled = true;
+            this.comboBoxServicoH14F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH14F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH14F2.Name = "comboBoxServicoH14F2";
+            this.comboBoxServicoH14F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH14F2.TabIndex = 1;
+            this.comboBoxServicoH14F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH14F2
+            // 
+            this.comboBoxClienteH14F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH14F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH14F2.FormattingEnabled = true;
+            this.comboBoxClienteH14F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH14F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH14F2.Name = "comboBoxClienteH14F2";
+            this.comboBoxClienteH14F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH14F2.TabIndex = 0;
+            this.comboBoxClienteH14F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario13F2
+            // 
+            this.groupBoxHorario13F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario13F2.Controls.Add(this.checkBoxAtendidoH13F2);
+            this.groupBoxHorario13F2.Controls.Add(this.comboBoxServicoH13F2);
+            this.groupBoxHorario13F2.Controls.Add(this.comboBoxClienteH13F2);
+            this.groupBoxHorario13F2.Location = new System.Drawing.Point(6, 319);
+            this.groupBoxHorario13F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario13F2.Name = "groupBoxHorario13F2";
+            this.groupBoxHorario13F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario13F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario13F2.TabIndex = 10;
+            this.groupBoxHorario13F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH13F2
+            // 
+            this.checkBoxAtendidoH13F2.AutoSize = true;
+            this.checkBoxAtendidoH13F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH13F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH13F2.Name = "checkBoxAtendidoH13F2";
+            this.checkBoxAtendidoH13F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH13F2.TabIndex = 2;
+            this.checkBoxAtendidoH13F2.Text = "Atendido";
+            this.checkBoxAtendidoH13F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH13F2
+            // 
+            this.comboBoxServicoH13F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH13F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH13F2.FormattingEnabled = true;
+            this.comboBoxServicoH13F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH13F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH13F2.Name = "comboBoxServicoH13F2";
+            this.comboBoxServicoH13F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH13F2.TabIndex = 1;
+            this.comboBoxServicoH13F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH13F2
+            // 
+            this.comboBoxClienteH13F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH13F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH13F2.FormattingEnabled = true;
+            this.comboBoxClienteH13F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH13F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH13F2.Name = "comboBoxClienteH13F2";
+            this.comboBoxClienteH13F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH13F2.TabIndex = 0;
+            this.comboBoxClienteH13F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario12F2
+            // 
+            this.groupBoxHorario12F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario12F2.Controls.Add(this.checkBoxAtendidoH12F2);
+            this.groupBoxHorario12F2.Controls.Add(this.comboBoxServicoH12F2);
+            this.groupBoxHorario12F2.Controls.Add(this.comboBoxClienteH12F2);
+            this.groupBoxHorario12F2.Location = new System.Drawing.Point(6, 260);
+            this.groupBoxHorario12F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario12F2.Name = "groupBoxHorario12F2";
+            this.groupBoxHorario12F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario12F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario12F2.TabIndex = 9;
+            this.groupBoxHorario12F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH12F2
+            // 
+            this.checkBoxAtendidoH12F2.AutoSize = true;
+            this.checkBoxAtendidoH12F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH12F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH12F2.Name = "checkBoxAtendidoH12F2";
+            this.checkBoxAtendidoH12F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH12F2.TabIndex = 2;
+            this.checkBoxAtendidoH12F2.Text = "Atendido";
+            this.checkBoxAtendidoH12F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH12F2
+            // 
+            this.comboBoxServicoH12F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH12F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH12F2.FormattingEnabled = true;
+            this.comboBoxServicoH12F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH12F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH12F2.Name = "comboBoxServicoH12F2";
+            this.comboBoxServicoH12F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH12F2.TabIndex = 1;
+            this.comboBoxServicoH12F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH12F2
+            // 
+            this.comboBoxClienteH12F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH12F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH12F2.FormattingEnabled = true;
+            this.comboBoxClienteH12F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH12F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH12F2.Name = "comboBoxClienteH12F2";
+            this.comboBoxClienteH12F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH12F2.TabIndex = 0;
+            this.comboBoxClienteH12F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario11F2
+            // 
+            this.groupBoxHorario11F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario11F2.Controls.Add(this.checkBoxAtendidoH11F2);
+            this.groupBoxHorario11F2.Controls.Add(this.comboBoxServicoH11F2);
+            this.groupBoxHorario11F2.Controls.Add(this.comboBoxClienteH11F2);
+            this.groupBoxHorario11F2.Location = new System.Drawing.Point(6, 201);
+            this.groupBoxHorario11F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario11F2.Name = "groupBoxHorario11F2";
+            this.groupBoxHorario11F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario11F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario11F2.TabIndex = 8;
+            this.groupBoxHorario11F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH11F2
+            // 
+            this.checkBoxAtendidoH11F2.AutoSize = true;
+            this.checkBoxAtendidoH11F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH11F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH11F2.Name = "checkBoxAtendidoH11F2";
+            this.checkBoxAtendidoH11F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH11F2.TabIndex = 2;
+            this.checkBoxAtendidoH11F2.Text = "Atendido";
+            this.checkBoxAtendidoH11F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH11F2
+            // 
+            this.comboBoxServicoH11F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH11F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH11F2.FormattingEnabled = true;
+            this.comboBoxServicoH11F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH11F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH11F2.Name = "comboBoxServicoH11F2";
+            this.comboBoxServicoH11F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH11F2.TabIndex = 1;
+            this.comboBoxServicoH11F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH11F2
+            // 
+            this.comboBoxClienteH11F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH11F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH11F2.FormattingEnabled = true;
+            this.comboBoxClienteH11F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH11F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH11F2.Name = "comboBoxClienteH11F2";
+            this.comboBoxClienteH11F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH11F2.TabIndex = 0;
+            this.comboBoxClienteH11F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario10F2
+            // 
+            this.groupBoxHorario10F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario10F2.Controls.Add(this.checkBoxAtendidoH10F2);
+            this.groupBoxHorario10F2.Controls.Add(this.comboBoxServicoH10F2);
+            this.groupBoxHorario10F2.Controls.Add(this.comboBoxClienteH10F2);
+            this.groupBoxHorario10F2.Location = new System.Drawing.Point(6, 142);
+            this.groupBoxHorario10F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario10F2.Name = "groupBoxHorario10F2";
+            this.groupBoxHorario10F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario10F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario10F2.TabIndex = 7;
+            this.groupBoxHorario10F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH10F2
+            // 
+            this.checkBoxAtendidoH10F2.AutoSize = true;
+            this.checkBoxAtendidoH10F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH10F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH10F2.Name = "checkBoxAtendidoH10F2";
+            this.checkBoxAtendidoH10F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH10F2.TabIndex = 2;
+            this.checkBoxAtendidoH10F2.Text = "Atendido";
+            this.checkBoxAtendidoH10F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH10F2
+            // 
+            this.comboBoxServicoH10F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH10F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH10F2.FormattingEnabled = true;
+            this.comboBoxServicoH10F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH10F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH10F2.Name = "comboBoxServicoH10F2";
+            this.comboBoxServicoH10F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH10F2.TabIndex = 1;
+            this.comboBoxServicoH10F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH10F2
+            // 
+            this.comboBoxClienteH10F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH10F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH10F2.FormattingEnabled = true;
+            this.comboBoxClienteH10F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH10F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH10F2.Name = "comboBoxClienteH10F2";
+            this.comboBoxClienteH10F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH10F2.TabIndex = 0;
+            this.comboBoxClienteH10F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario09F2
+            // 
+            this.groupBoxHorario09F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario09F2.Controls.Add(this.checkBoxAtendidoH09F2);
+            this.groupBoxHorario09F2.Controls.Add(this.comboBoxServicoH09F2);
+            this.groupBoxHorario09F2.Controls.Add(this.comboBoxClienteH009F2);
+            this.groupBoxHorario09F2.Location = new System.Drawing.Point(6, 83);
+            this.groupBoxHorario09F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario09F2.Name = "groupBoxHorario09F2";
+            this.groupBoxHorario09F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario09F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario09F2.TabIndex = 6;
+            this.groupBoxHorario09F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH09F2
+            // 
+            this.checkBoxAtendidoH09F2.AutoSize = true;
+            this.checkBoxAtendidoH09F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH09F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH09F2.Name = "checkBoxAtendidoH09F2";
+            this.checkBoxAtendidoH09F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH09F2.TabIndex = 2;
+            this.checkBoxAtendidoH09F2.Text = "Atendido";
+            this.checkBoxAtendidoH09F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH09F2
+            // 
+            this.comboBoxServicoH09F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH09F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH09F2.FormattingEnabled = true;
+            this.comboBoxServicoH09F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH09F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH09F2.Name = "comboBoxServicoH09F2";
+            this.comboBoxServicoH09F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH09F2.TabIndex = 1;
+            this.comboBoxServicoH09F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH009F2
+            // 
+            this.comboBoxClienteH009F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH009F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH009F2.FormattingEnabled = true;
+            this.comboBoxClienteH009F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH009F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH009F2.Name = "comboBoxClienteH009F2";
+            this.comboBoxClienteH009F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH009F2.TabIndex = 0;
+            this.comboBoxClienteH009F2.Text = "Cliente 1";
+            // 
+            // groupBoxHorario08F2
+            // 
+            this.groupBoxHorario08F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario08F2.Controls.Add(this.checkBoxAtendidoH08F2);
+            this.groupBoxHorario08F2.Controls.Add(this.comboBoxServicoH08F2);
+            this.groupBoxHorario08F2.Controls.Add(this.comboBoxClienteH08F2);
+            this.groupBoxHorario08F2.Location = new System.Drawing.Point(6, 24);
+            this.groupBoxHorario08F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario08F2.Name = "groupBoxHorario08F2";
+            this.groupBoxHorario08F2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario08F2.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario08F2.TabIndex = 5;
+            this.groupBoxHorario08F2.TabStop = false;
+            // 
+            // checkBoxAtendidoH08F2
+            // 
+            this.checkBoxAtendidoH08F2.AutoSize = true;
+            this.checkBoxAtendidoH08F2.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH08F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH08F2.Name = "checkBoxAtendidoH08F2";
+            this.checkBoxAtendidoH08F2.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH08F2.TabIndex = 2;
+            this.checkBoxAtendidoH08F2.Text = "Atendido";
+            this.checkBoxAtendidoH08F2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH08F2
+            // 
+            this.comboBoxServicoH08F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH08F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH08F2.FormattingEnabled = true;
+            this.comboBoxServicoH08F2.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH08F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH08F2.Name = "comboBoxServicoH08F2";
+            this.comboBoxServicoH08F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH08F2.TabIndex = 1;
+            this.comboBoxServicoH08F2.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH08F2
+            // 
+            this.comboBoxClienteH08F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH08F2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH08F2.FormattingEnabled = true;
+            this.comboBoxClienteH08F2.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH08F2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH08F2.Name = "comboBoxClienteH08F2";
+            this.comboBoxClienteH08F2.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH08F2.TabIndex = 0;
+            this.comboBoxClienteH08F2.Text = "Cliente 1";
+            // 
+            // groupBoxFuncionario3
+            // 
+            this.groupBoxFuncionario3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario18F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario17F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario16F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario15F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario14F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario13F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario12F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario11F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario10F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario09F3);
+            this.groupBoxFuncionario3.Controls.Add(this.groupBoxHorario08F3);
+            this.groupBoxFuncionario3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxFuncionario3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.groupBoxFuncionario3.Location = new System.Drawing.Point(984, 105);
+            this.groupBoxFuncionario3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxFuncionario3.Name = "groupBoxFuncionario3";
+            this.groupBoxFuncionario3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxFuncionario3.Size = new System.Drawing.Size(424, 690);
+            this.groupBoxFuncionario3.TabIndex = 16;
+            this.groupBoxFuncionario3.TabStop = false;
+            this.groupBoxFuncionario3.Text = "Funcionário 3";
+            // 
+            // groupBoxHorario18F3
+            // 
+            this.groupBoxHorario18F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario18F3.Controls.Add(this.checkBoxAtendidoH18F3);
+            this.groupBoxHorario18F3.Controls.Add(this.comboBoxServicoH18F3);
+            this.groupBoxHorario18F3.Controls.Add(this.comboBoxClienteH18F3);
+            this.groupBoxHorario18F3.Location = new System.Drawing.Point(6, 616);
+            this.groupBoxHorario18F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario18F3.Name = "groupBoxHorario18F3";
+            this.groupBoxHorario18F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario18F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario18F3.TabIndex = 15;
+            this.groupBoxHorario18F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH18F3
+            // 
+            this.checkBoxAtendidoH18F3.AutoSize = true;
+            this.checkBoxAtendidoH18F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH18F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH18F3.Name = "checkBoxAtendidoH18F3";
+            this.checkBoxAtendidoH18F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH18F3.TabIndex = 2;
+            this.checkBoxAtendidoH18F3.Text = "Atendido";
+            this.checkBoxAtendidoH18F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH18F3
+            // 
+            this.comboBoxServicoH18F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH18F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH18F3.FormattingEnabled = true;
+            this.comboBoxServicoH18F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH18F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH18F3.Name = "comboBoxServicoH18F3";
+            this.comboBoxServicoH18F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH18F3.TabIndex = 1;
+            this.comboBoxServicoH18F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH18F3
+            // 
+            this.comboBoxClienteH18F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH18F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH18F3.FormattingEnabled = true;
+            this.comboBoxClienteH18F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH18F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH18F3.Name = "comboBoxClienteH18F3";
+            this.comboBoxClienteH18F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH18F3.TabIndex = 0;
+            this.comboBoxClienteH18F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario17F3
+            // 
+            this.groupBoxHorario17F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario17F3.Controls.Add(this.checkBoxAtendidoH17F3);
+            this.groupBoxHorario17F3.Controls.Add(this.comboBoxServicoH17F3);
+            this.groupBoxHorario17F3.Controls.Add(this.comboBoxClienteH17F3);
+            this.groupBoxHorario17F3.Location = new System.Drawing.Point(6, 557);
+            this.groupBoxHorario17F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario17F3.Name = "groupBoxHorario17F3";
+            this.groupBoxHorario17F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario17F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario17F3.TabIndex = 14;
+            this.groupBoxHorario17F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH17F3
+            // 
+            this.checkBoxAtendidoH17F3.AutoSize = true;
+            this.checkBoxAtendidoH17F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH17F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH17F3.Name = "checkBoxAtendidoH17F3";
+            this.checkBoxAtendidoH17F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH17F3.TabIndex = 2;
+            this.checkBoxAtendidoH17F3.Text = "Atendido";
+            this.checkBoxAtendidoH17F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH17F3
+            // 
+            this.comboBoxServicoH17F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH17F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH17F3.FormattingEnabled = true;
+            this.comboBoxServicoH17F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH17F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH17F3.Name = "comboBoxServicoH17F3";
+            this.comboBoxServicoH17F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH17F3.TabIndex = 1;
+            this.comboBoxServicoH17F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH17F3
+            // 
+            this.comboBoxClienteH17F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH17F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH17F3.FormattingEnabled = true;
+            this.comboBoxClienteH17F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH17F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH17F3.Name = "comboBoxClienteH17F3";
+            this.comboBoxClienteH17F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH17F3.TabIndex = 0;
+            this.comboBoxClienteH17F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario16F3
+            // 
+            this.groupBoxHorario16F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario16F3.Controls.Add(this.checkBoxAtendidoH16F3);
+            this.groupBoxHorario16F3.Controls.Add(this.comboBoxServicoH16F3);
+            this.groupBoxHorario16F3.Controls.Add(this.comboBoxClienteH16F3);
+            this.groupBoxHorario16F3.Location = new System.Drawing.Point(6, 498);
+            this.groupBoxHorario16F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario16F3.Name = "groupBoxHorario16F3";
+            this.groupBoxHorario16F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario16F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario16F3.TabIndex = 13;
+            this.groupBoxHorario16F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH16F3
+            // 
+            this.checkBoxAtendidoH16F3.AutoSize = true;
+            this.checkBoxAtendidoH16F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH16F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH16F3.Name = "checkBoxAtendidoH16F3";
+            this.checkBoxAtendidoH16F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH16F3.TabIndex = 2;
+            this.checkBoxAtendidoH16F3.Text = "Atendido";
+            this.checkBoxAtendidoH16F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH16F3
+            // 
+            this.comboBoxServicoH16F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH16F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH16F3.FormattingEnabled = true;
+            this.comboBoxServicoH16F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH16F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH16F3.Name = "comboBoxServicoH16F3";
+            this.comboBoxServicoH16F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH16F3.TabIndex = 1;
+            this.comboBoxServicoH16F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH16F3
+            // 
+            this.comboBoxClienteH16F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH16F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH16F3.FormattingEnabled = true;
+            this.comboBoxClienteH16F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH16F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH16F3.Name = "comboBoxClienteH16F3";
+            this.comboBoxClienteH16F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH16F3.TabIndex = 0;
+            this.comboBoxClienteH16F3.Text = "Cliente 1";
+            this.comboBoxClienteH16F3.SelectedIndexChanged += new System.EventHandler(this.comboBox6_SelectedIndexChanged);
+            // 
+            // groupBoxHorario15F3
+            // 
+            this.groupBoxHorario15F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario15F3.Controls.Add(this.checkBoxAtendidoH15F3);
+            this.groupBoxHorario15F3.Controls.Add(this.comboBoxServicoH15F3);
+            this.groupBoxHorario15F3.Controls.Add(this.comboBoxClienteH15F3);
+            this.groupBoxHorario15F3.Location = new System.Drawing.Point(6, 438);
+            this.groupBoxHorario15F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario15F3.Name = "groupBoxHorario15F3";
+            this.groupBoxHorario15F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario15F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario15F3.TabIndex = 12;
+            this.groupBoxHorario15F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH15F3
+            // 
+            this.checkBoxAtendidoH15F3.AutoSize = true;
+            this.checkBoxAtendidoH15F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH15F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH15F3.Name = "checkBoxAtendidoH15F3";
+            this.checkBoxAtendidoH15F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH15F3.TabIndex = 2;
+            this.checkBoxAtendidoH15F3.Text = "Atendido";
+            this.checkBoxAtendidoH15F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH15F3
+            // 
+            this.comboBoxServicoH15F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH15F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH15F3.FormattingEnabled = true;
+            this.comboBoxServicoH15F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH15F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH15F3.Name = "comboBoxServicoH15F3";
+            this.comboBoxServicoH15F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH15F3.TabIndex = 1;
+            this.comboBoxServicoH15F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH15F3
+            // 
+            this.comboBoxClienteH15F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH15F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH15F3.FormattingEnabled = true;
+            this.comboBoxClienteH15F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH15F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH15F3.Name = "comboBoxClienteH15F3";
+            this.comboBoxClienteH15F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH15F3.TabIndex = 0;
+            this.comboBoxClienteH15F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario14F3
+            // 
+            this.groupBoxHorario14F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario14F3.Controls.Add(this.checkBoxAtendidoH14F3);
+            this.groupBoxHorario14F3.Controls.Add(this.comboBoxServicoH14F3);
+            this.groupBoxHorario14F3.Controls.Add(this.comboBoxClienteH14F3);
+            this.groupBoxHorario14F3.Location = new System.Drawing.Point(6, 379);
+            this.groupBoxHorario14F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario14F3.Name = "groupBoxHorario14F3";
+            this.groupBoxHorario14F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario14F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario14F3.TabIndex = 11;
+            this.groupBoxHorario14F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH14F3
+            // 
+            this.checkBoxAtendidoH14F3.AutoSize = true;
+            this.checkBoxAtendidoH14F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH14F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH14F3.Name = "checkBoxAtendidoH14F3";
+            this.checkBoxAtendidoH14F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH14F3.TabIndex = 2;
+            this.checkBoxAtendidoH14F3.Text = "Atendido";
+            this.checkBoxAtendidoH14F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH14F3
+            // 
+            this.comboBoxServicoH14F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH14F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH14F3.FormattingEnabled = true;
+            this.comboBoxServicoH14F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH14F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH14F3.Name = "comboBoxServicoH14F3";
+            this.comboBoxServicoH14F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH14F3.TabIndex = 1;
+            this.comboBoxServicoH14F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH14F3
+            // 
+            this.comboBoxClienteH14F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH14F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH14F3.FormattingEnabled = true;
+            this.comboBoxClienteH14F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH14F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH14F3.Name = "comboBoxClienteH14F3";
+            this.comboBoxClienteH14F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH14F3.TabIndex = 0;
+            this.comboBoxClienteH14F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario13F3
+            // 
+            this.groupBoxHorario13F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario13F3.Controls.Add(this.checkBoxAtendidoH13F3);
+            this.groupBoxHorario13F3.Controls.Add(this.comboBoxServicoH13F3);
+            this.groupBoxHorario13F3.Controls.Add(this.comboBoxClienteH13F3);
+            this.groupBoxHorario13F3.Location = new System.Drawing.Point(6, 319);
+            this.groupBoxHorario13F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario13F3.Name = "groupBoxHorario13F3";
+            this.groupBoxHorario13F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario13F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario13F3.TabIndex = 10;
+            this.groupBoxHorario13F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH13F3
+            // 
+            this.checkBoxAtendidoH13F3.AutoSize = true;
+            this.checkBoxAtendidoH13F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH13F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH13F3.Name = "checkBoxAtendidoH13F3";
+            this.checkBoxAtendidoH13F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH13F3.TabIndex = 2;
+            this.checkBoxAtendidoH13F3.Text = "Atendido";
+            this.checkBoxAtendidoH13F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH13F3
+            // 
+            this.comboBoxServicoH13F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH13F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH13F3.FormattingEnabled = true;
+            this.comboBoxServicoH13F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH13F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH13F3.Name = "comboBoxServicoH13F3";
+            this.comboBoxServicoH13F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH13F3.TabIndex = 1;
+            this.comboBoxServicoH13F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH13F3
+            // 
+            this.comboBoxClienteH13F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH13F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH13F3.FormattingEnabled = true;
+            this.comboBoxClienteH13F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH13F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH13F3.Name = "comboBoxClienteH13F3";
+            this.comboBoxClienteH13F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH13F3.TabIndex = 0;
+            this.comboBoxClienteH13F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario12F3
+            // 
+            this.groupBoxHorario12F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario12F3.Controls.Add(this.checkBoxAtendidoH12F3);
+            this.groupBoxHorario12F3.Controls.Add(this.comboBoxServicoH12F3);
+            this.groupBoxHorario12F3.Controls.Add(this.comboBoxClienteH12F3);
+            this.groupBoxHorario12F3.Location = new System.Drawing.Point(6, 260);
+            this.groupBoxHorario12F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario12F3.Name = "groupBoxHorario12F3";
+            this.groupBoxHorario12F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario12F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario12F3.TabIndex = 9;
+            this.groupBoxHorario12F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH12F3
+            // 
+            this.checkBoxAtendidoH12F3.AutoSize = true;
+            this.checkBoxAtendidoH12F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH12F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH12F3.Name = "checkBoxAtendidoH12F3";
+            this.checkBoxAtendidoH12F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH12F3.TabIndex = 2;
+            this.checkBoxAtendidoH12F3.Text = "Atendido";
+            this.checkBoxAtendidoH12F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH12F3
+            // 
+            this.comboBoxServicoH12F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH12F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH12F3.FormattingEnabled = true;
+            this.comboBoxServicoH12F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH12F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH12F3.Name = "comboBoxServicoH12F3";
+            this.comboBoxServicoH12F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH12F3.TabIndex = 1;
+            this.comboBoxServicoH12F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH12F3
+            // 
+            this.comboBoxClienteH12F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH12F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH12F3.FormattingEnabled = true;
+            this.comboBoxClienteH12F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH12F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH12F3.Name = "comboBoxClienteH12F3";
+            this.comboBoxClienteH12F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH12F3.TabIndex = 0;
+            this.comboBoxClienteH12F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario11F3
+            // 
+            this.groupBoxHorario11F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario11F3.Controls.Add(this.checkBoxAtendidoH11F3);
+            this.groupBoxHorario11F3.Controls.Add(this.comboBoxServicoH11F3);
+            this.groupBoxHorario11F3.Controls.Add(this.comboBoxClienteH11F3);
+            this.groupBoxHorario11F3.Location = new System.Drawing.Point(6, 201);
+            this.groupBoxHorario11F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario11F3.Name = "groupBoxHorario11F3";
+            this.groupBoxHorario11F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario11F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario11F3.TabIndex = 8;
+            this.groupBoxHorario11F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH11F3
+            // 
+            this.checkBoxAtendidoH11F3.AutoSize = true;
+            this.checkBoxAtendidoH11F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH11F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH11F3.Name = "checkBoxAtendidoH11F3";
+            this.checkBoxAtendidoH11F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH11F3.TabIndex = 2;
+            this.checkBoxAtendidoH11F3.Text = "Atendido";
+            this.checkBoxAtendidoH11F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH11F3
+            // 
+            this.comboBoxServicoH11F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH11F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH11F3.FormattingEnabled = true;
+            this.comboBoxServicoH11F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH11F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH11F3.Name = "comboBoxServicoH11F3";
+            this.comboBoxServicoH11F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH11F3.TabIndex = 1;
+            this.comboBoxServicoH11F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH11F3
+            // 
+            this.comboBoxClienteH11F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH11F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH11F3.FormattingEnabled = true;
+            this.comboBoxClienteH11F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH11F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH11F3.Name = "comboBoxClienteH11F3";
+            this.comboBoxClienteH11F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH11F3.TabIndex = 0;
+            this.comboBoxClienteH11F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario10F3
+            // 
+            this.groupBoxHorario10F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario10F3.Controls.Add(this.checkBoxAtendidoH10F3);
+            this.groupBoxHorario10F3.Controls.Add(this.comboBoxServicoH10F3);
+            this.groupBoxHorario10F3.Controls.Add(this.comboBoxClienteH10F3);
+            this.groupBoxHorario10F3.Location = new System.Drawing.Point(6, 142);
+            this.groupBoxHorario10F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario10F3.Name = "groupBoxHorario10F3";
+            this.groupBoxHorario10F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario10F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario10F3.TabIndex = 7;
+            this.groupBoxHorario10F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH10F3
+            // 
+            this.checkBoxAtendidoH10F3.AutoSize = true;
+            this.checkBoxAtendidoH10F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH10F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH10F3.Name = "checkBoxAtendidoH10F3";
+            this.checkBoxAtendidoH10F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH10F3.TabIndex = 2;
+            this.checkBoxAtendidoH10F3.Text = "Atendido";
+            this.checkBoxAtendidoH10F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH10F3
+            // 
+            this.comboBoxServicoH10F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH10F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH10F3.FormattingEnabled = true;
+            this.comboBoxServicoH10F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH10F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH10F3.Name = "comboBoxServicoH10F3";
+            this.comboBoxServicoH10F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH10F3.TabIndex = 1;
+            this.comboBoxServicoH10F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH10F3
+            // 
+            this.comboBoxClienteH10F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH10F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH10F3.FormattingEnabled = true;
+            this.comboBoxClienteH10F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH10F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH10F3.Name = "comboBoxClienteH10F3";
+            this.comboBoxClienteH10F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH10F3.TabIndex = 0;
+            this.comboBoxClienteH10F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario09F3
+            // 
+            this.groupBoxHorario09F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario09F3.Controls.Add(this.checkBoxAtendidoH09F3);
+            this.groupBoxHorario09F3.Controls.Add(this.comboBoxServicoH09F3);
+            this.groupBoxHorario09F3.Controls.Add(this.comboBoxClienteH09F3);
+            this.groupBoxHorario09F3.Location = new System.Drawing.Point(6, 83);
+            this.groupBoxHorario09F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario09F3.Name = "groupBoxHorario09F3";
+            this.groupBoxHorario09F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario09F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario09F3.TabIndex = 6;
+            this.groupBoxHorario09F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH09F3
+            // 
+            this.checkBoxAtendidoH09F3.AutoSize = true;
+            this.checkBoxAtendidoH09F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH09F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH09F3.Name = "checkBoxAtendidoH09F3";
+            this.checkBoxAtendidoH09F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH09F3.TabIndex = 2;
+            this.checkBoxAtendidoH09F3.Text = "Atendido";
+            this.checkBoxAtendidoH09F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH09F3
+            // 
+            this.comboBoxServicoH09F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH09F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH09F3.FormattingEnabled = true;
+            this.comboBoxServicoH09F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH09F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH09F3.Name = "comboBoxServicoH09F3";
+            this.comboBoxServicoH09F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH09F3.TabIndex = 1;
+            this.comboBoxServicoH09F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH09F3
+            // 
+            this.comboBoxClienteH09F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH09F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH09F3.FormattingEnabled = true;
+            this.comboBoxClienteH09F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH09F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH09F3.Name = "comboBoxClienteH09F3";
+            this.comboBoxClienteH09F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH09F3.TabIndex = 0;
+            this.comboBoxClienteH09F3.Text = "Cliente 1";
+            // 
+            // groupBoxHorario08F3
+            // 
+            this.groupBoxHorario08F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxHorario08F3.Controls.Add(this.checkBoxAtendidoH08F3);
+            this.groupBoxHorario08F3.Controls.Add(this.comboBoxServicoH08F3);
+            this.groupBoxHorario08F3.Controls.Add(this.comboBoxClienteH08F3);
+            this.groupBoxHorario08F3.Location = new System.Drawing.Point(6, 24);
+            this.groupBoxHorario08F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario08F3.Name = "groupBoxHorario08F3";
+            this.groupBoxHorario08F3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBoxHorario08F3.Size = new System.Drawing.Size(412, 55);
+            this.groupBoxHorario08F3.TabIndex = 5;
+            this.groupBoxHorario08F3.TabStop = false;
+            // 
+            // checkBoxAtendidoH08F3
+            // 
+            this.checkBoxAtendidoH08F3.AutoSize = true;
+            this.checkBoxAtendidoH08F3.Location = new System.Drawing.Point(285, 23);
+            this.checkBoxAtendidoH08F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxAtendidoH08F3.Name = "checkBoxAtendidoH08F3";
+            this.checkBoxAtendidoH08F3.Size = new System.Drawing.Size(117, 24);
+            this.checkBoxAtendidoH08F3.TabIndex = 2;
+            this.checkBoxAtendidoH08F3.Text = "Atendido";
+            this.checkBoxAtendidoH08F3.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServicoH08F3
+            // 
+            this.comboBoxServicoH08F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxServicoH08F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxServicoH08F3.FormattingEnabled = true;
+            this.comboBoxServicoH08F3.Location = new System.Drawing.Point(157, 21);
+            this.comboBoxServicoH08F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxServicoH08F3.Name = "comboBoxServicoH08F3";
+            this.comboBoxServicoH08F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxServicoH08F3.TabIndex = 1;
+            this.comboBoxServicoH08F3.Text = "Serviço 1";
+            // 
+            // comboBoxClienteH08F3
+            // 
+            this.comboBoxClienteH08F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.comboBoxClienteH08F3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.comboBoxClienteH08F3.FormattingEnabled = true;
+            this.comboBoxClienteH08F3.Location = new System.Drawing.Point(29, 21);
+            this.comboBoxClienteH08F3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxClienteH08F3.Name = "comboBoxClienteH08F3";
+            this.comboBoxClienteH08F3.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxClienteH08F3.TabIndex = 0;
+            this.comboBoxClienteH08F3.Text = "Cliente 1";
+            // 
             // FrmAgenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1505, 902);
-            this.Controls.Add(this.groupBox24);
-            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBoxFuncionario3);
+            this.Controls.Add(this.groupBoxFuncionario2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -2964,77 +2965,78 @@
             this.Name = "FrmAgenda";
             this.Text = "FrmAgenda";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Load += new System.EventHandler(this.FrmAgenda_Load);
+            this.groupBoxHorario08F1.ResumeLayout(false);
+            this.groupBoxHorario08F1.PerformLayout();
             this.GroupBoxFuncionario1.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox13.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox14.PerformLayout();
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox15.PerformLayout();
-            this.groupBox16.ResumeLayout(false);
-            this.groupBox16.PerformLayout();
-            this.groupBox17.ResumeLayout(false);
-            this.groupBox17.PerformLayout();
-            this.groupBox18.ResumeLayout(false);
-            this.groupBox18.PerformLayout();
-            this.groupBox19.ResumeLayout(false);
-            this.groupBox19.PerformLayout();
-            this.groupBox20.ResumeLayout(false);
-            this.groupBox20.PerformLayout();
-            this.groupBox21.ResumeLayout(false);
-            this.groupBox21.PerformLayout();
-            this.groupBox22.ResumeLayout(false);
-            this.groupBox22.PerformLayout();
-            this.groupBox23.ResumeLayout(false);
-            this.groupBox23.PerformLayout();
-            this.groupBox24.ResumeLayout(false);
-            this.groupBox25.ResumeLayout(false);
-            this.groupBox25.PerformLayout();
-            this.groupBox26.ResumeLayout(false);
-            this.groupBox26.PerformLayout();
-            this.groupBox27.ResumeLayout(false);
-            this.groupBox27.PerformLayout();
-            this.groupBox28.ResumeLayout(false);
-            this.groupBox28.PerformLayout();
-            this.groupBox29.ResumeLayout(false);
-            this.groupBox29.PerformLayout();
-            this.groupBox30.ResumeLayout(false);
-            this.groupBox30.PerformLayout();
-            this.groupBox31.ResumeLayout(false);
-            this.groupBox31.PerformLayout();
-            this.groupBox32.ResumeLayout(false);
-            this.groupBox32.PerformLayout();
-            this.groupBox33.ResumeLayout(false);
-            this.groupBox33.PerformLayout();
-            this.groupBox34.ResumeLayout(false);
-            this.groupBox34.PerformLayout();
-            this.groupBox35.ResumeLayout(false);
-            this.groupBox35.PerformLayout();
+            this.groupBoxHorario09F1.ResumeLayout(false);
+            this.groupBoxHorario09F1.PerformLayout();
+            this.groupBoxHorario10F1.ResumeLayout(false);
+            this.groupBoxHorario10F1.PerformLayout();
+            this.groupBoxHorario11F1.ResumeLayout(false);
+            this.groupBoxHorario11F1.PerformLayout();
+            this.groupBoxHorario12F1.ResumeLayout(false);
+            this.groupBoxHorario12F1.PerformLayout();
+            this.groupBoxHorario13F1.ResumeLayout(false);
+            this.groupBoxHorario13F1.PerformLayout();
+            this.groupBoxHorario14F1.ResumeLayout(false);
+            this.groupBoxHorario14F1.PerformLayout();
+            this.groupBoxHorario15F1.ResumeLayout(false);
+            this.groupBoxHorario15F1.PerformLayout();
+            this.groupBoxHorario16F1.ResumeLayout(false);
+            this.groupBoxHorario16F1.PerformLayout();
+            this.groupBoxHorario17F1.ResumeLayout(false);
+            this.groupBoxHorario17F1.PerformLayout();
+            this.groupBoxHorario18F1.ResumeLayout(false);
+            this.groupBoxHorario18F1.PerformLayout();
+            this.groupBoxFuncionario2.ResumeLayout(false);
+            this.groupBoxHorario18F2.ResumeLayout(false);
+            this.groupBoxHorario18F2.PerformLayout();
+            this.groupBoxHorario17F2.ResumeLayout(false);
+            this.groupBoxHorario17F2.PerformLayout();
+            this.groupBoxHorario16F2.ResumeLayout(false);
+            this.groupBoxHorario16F2.PerformLayout();
+            this.groupBoxHorario15F2.ResumeLayout(false);
+            this.groupBoxHorario15F2.PerformLayout();
+            this.groupBoxHorario14F2.ResumeLayout(false);
+            this.groupBoxHorario14F2.PerformLayout();
+            this.groupBoxHorario13F2.ResumeLayout(false);
+            this.groupBoxHorario13F2.PerformLayout();
+            this.groupBoxHorario12F2.ResumeLayout(false);
+            this.groupBoxHorario12F2.PerformLayout();
+            this.groupBoxHorario11F2.ResumeLayout(false);
+            this.groupBoxHorario11F2.PerformLayout();
+            this.groupBoxHorario10F2.ResumeLayout(false);
+            this.groupBoxHorario10F2.PerformLayout();
+            this.groupBoxHorario09F2.ResumeLayout(false);
+            this.groupBoxHorario09F2.PerformLayout();
+            this.groupBoxHorario08F2.ResumeLayout(false);
+            this.groupBoxHorario08F2.PerformLayout();
+            this.groupBoxFuncionario3.ResumeLayout(false);
+            this.groupBoxHorario18F3.ResumeLayout(false);
+            this.groupBoxHorario18F3.PerformLayout();
+            this.groupBoxHorario17F3.ResumeLayout(false);
+            this.groupBoxHorario17F3.PerformLayout();
+            this.groupBoxHorario16F3.ResumeLayout(false);
+            this.groupBoxHorario16F3.PerformLayout();
+            this.groupBoxHorario15F3.ResumeLayout(false);
+            this.groupBoxHorario15F3.PerformLayout();
+            this.groupBoxHorario14F3.ResumeLayout(false);
+            this.groupBoxHorario14F3.PerformLayout();
+            this.groupBoxHorario13F3.ResumeLayout(false);
+            this.groupBoxHorario13F3.PerformLayout();
+            this.groupBoxHorario12F3.ResumeLayout(false);
+            this.groupBoxHorario12F3.PerformLayout();
+            this.groupBoxHorario11F3.ResumeLayout(false);
+            this.groupBoxHorario11F3.PerformLayout();
+            this.groupBoxHorario10F3.ResumeLayout(false);
+            this.groupBoxHorario10F3.PerformLayout();
+            this.groupBoxHorario09F3.ResumeLayout(false);
+            this.groupBoxHorario09F3.PerformLayout();
+            this.groupBoxHorario08F3.ResumeLayout(false);
+            this.groupBoxHorario08F3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3044,10 +3046,10 @@
 
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.GroupBox groupBoxHorario08F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH08F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH08F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH08F1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -3119,46 +3121,6 @@
         private System.Windows.Forms.ToolStripMenuItem imprimirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.GroupBox groupBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.ComboBox comboBox24;
-        private System.Windows.Forms.ComboBox comboBox25;
-        private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.ComboBox comboBox22;
-        private System.Windows.Forms.ComboBox comboBox23;
-        private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.ComboBox comboBox20;
-        private System.Windows.Forms.ComboBox comboBox21;
-        private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.ComboBox comboBox18;
-        private System.Windows.Forms.ComboBox comboBox19;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.ComboBox comboBox16;
-        private System.Windows.Forms.ComboBox comboBox17;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label8;
@@ -3169,95 +3131,135 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.ComboBox comboBox26;
-        private System.Windows.Forms.ComboBox comboBox27;
-        private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.ComboBox comboBox28;
-        private System.Windows.Forms.ComboBox comboBox29;
-        private System.Windows.Forms.GroupBox groupBox16;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.ComboBox comboBox30;
-        private System.Windows.Forms.ComboBox comboBox31;
-        private System.Windows.Forms.GroupBox groupBox17;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.ComboBox comboBox32;
-        private System.Windows.Forms.ComboBox comboBox33;
-        private System.Windows.Forms.GroupBox groupBox18;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.ComboBox comboBox34;
-        private System.Windows.Forms.ComboBox comboBox35;
-        private System.Windows.Forms.GroupBox groupBox19;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.ComboBox comboBox36;
-        private System.Windows.Forms.ComboBox comboBox37;
-        private System.Windows.Forms.GroupBox groupBox20;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.ComboBox comboBox38;
-        private System.Windows.Forms.ComboBox comboBox39;
-        private System.Windows.Forms.GroupBox groupBox21;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.ComboBox comboBox40;
-        private System.Windows.Forms.ComboBox comboBox41;
-        private System.Windows.Forms.GroupBox groupBox22;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.ComboBox comboBox42;
-        private System.Windows.Forms.ComboBox comboBox43;
-        private System.Windows.Forms.GroupBox groupBox23;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.ComboBox comboBox44;
-        private System.Windows.Forms.ComboBox comboBox45;
-        private System.Windows.Forms.GroupBox groupBox24;
-        private System.Windows.Forms.GroupBox groupBox25;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.ComboBox comboBox46;
-        private System.Windows.Forms.ComboBox comboBox47;
-        private System.Windows.Forms.GroupBox groupBox26;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.ComboBox comboBox48;
-        private System.Windows.Forms.ComboBox comboBox49;
-        private System.Windows.Forms.GroupBox groupBox27;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.ComboBox comboBox50;
-        private System.Windows.Forms.ComboBox comboBox51;
-        private System.Windows.Forms.GroupBox groupBox28;
-        private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.ComboBox comboBox52;
-        private System.Windows.Forms.ComboBox comboBox53;
-        private System.Windows.Forms.GroupBox groupBox29;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.ComboBox comboBox54;
-        private System.Windows.Forms.ComboBox comboBox55;
-        private System.Windows.Forms.GroupBox groupBox30;
-        private System.Windows.Forms.CheckBox checkBox28;
-        private System.Windows.Forms.ComboBox comboBox56;
-        private System.Windows.Forms.ComboBox comboBox57;
-        private System.Windows.Forms.GroupBox groupBox31;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.ComboBox comboBox58;
-        private System.Windows.Forms.ComboBox comboBox59;
-        private System.Windows.Forms.GroupBox groupBox32;
-        private System.Windows.Forms.CheckBox checkBox30;
-        private System.Windows.Forms.ComboBox comboBox60;
-        private System.Windows.Forms.ComboBox comboBox61;
-        private System.Windows.Forms.GroupBox groupBox33;
-        private System.Windows.Forms.CheckBox checkBox31;
-        private System.Windows.Forms.ComboBox comboBox62;
-        private System.Windows.Forms.ComboBox comboBox63;
-        private System.Windows.Forms.GroupBox groupBox34;
-        private System.Windows.Forms.CheckBox checkBox32;
-        private System.Windows.Forms.ComboBox comboBox64;
-        private System.Windows.Forms.ComboBox comboBox65;
-        private System.Windows.Forms.GroupBox groupBox35;
-        private System.Windows.Forms.CheckBox checkBox33;
-        private System.Windows.Forms.ComboBox comboBox66;
-        private System.Windows.Forms.ComboBox comboBox67;
+        private System.Windows.Forms.GroupBox groupBoxHorario18F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH18F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH18F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH18F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario17F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH17F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH17F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH17F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario16F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH16F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH16F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH16F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario15F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH15F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH15F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH15F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario14F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH14F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH14F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH14F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario13F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH13F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH13F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH13F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario12F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH12F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH12F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH12F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario11F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH11F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH11F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH11F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario10F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH10F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH10F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH10F1;
+        private System.Windows.Forms.GroupBox groupBoxHorario09F1;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH09F1;
+        private System.Windows.Forms.ComboBox comboBoxServicoH09F1;
+        private System.Windows.Forms.ComboBox comboBoxClienteH09F1;
+        private System.Windows.Forms.GroupBox groupBoxFuncionario2;
+        private System.Windows.Forms.GroupBox groupBoxHorario18F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH18F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH18F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH18F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario17F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH17F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH17F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH17F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario16F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH16F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH16F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH16F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario15F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH15F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH15F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH15F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario14F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH14F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH14F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH14F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario13F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH13F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH13F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH13F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario12F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH12F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH12F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH12F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario11F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH11F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH11F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH11F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario10F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH10F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH10F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH10F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario09F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH09F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH09F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH009F2;
+        private System.Windows.Forms.GroupBox groupBoxHorario08F2;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH08F2;
+        private System.Windows.Forms.ComboBox comboBoxServicoH08F2;
+        private System.Windows.Forms.ComboBox comboBoxClienteH08F2;
+        private System.Windows.Forms.GroupBox groupBoxFuncionario3;
+        private System.Windows.Forms.GroupBox groupBoxHorario18F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH18F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH18F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH18F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario17F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH17F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH17F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH17F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario16F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH16F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH16F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH16F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario15F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH15F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH15F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH15F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario14F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH14F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH14F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH14F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario13F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH13F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH13F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH13F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario12F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH12F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH12F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH12F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario11F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH11F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH11F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH11F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario10F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH10F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH10F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH10F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario09F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH09F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH09F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH09F3;
+        private System.Windows.Forms.GroupBox groupBoxHorario08F3;
+        private System.Windows.Forms.CheckBox checkBoxAtendidoH08F3;
+        private System.Windows.Forms.ComboBox comboBoxServicoH08F3;
+        private System.Windows.Forms.ComboBox comboBoxClienteH08F3;
     }
 }

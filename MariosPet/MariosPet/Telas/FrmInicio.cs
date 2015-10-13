@@ -26,20 +26,10 @@ namespace MariosPet
             else
             {
                 timer1.Enabled = false;
-                FrmLogin login = new FrmLogin();
-                login.Show();
+                FrmLogin login = new FrmLogin();                
                 this.Visible = false;
+                login.Show();                
             }
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
