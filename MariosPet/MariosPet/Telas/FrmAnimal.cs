@@ -20,7 +20,7 @@ namespace MariosPet.Telas
         private void btmVoltar_Click(object sender, EventArgs e)
         {
             FrmMenu menu = new FrmMenu();
-            menu.ShowDialog();
+            menu.Show();
             Close();
         }
 
