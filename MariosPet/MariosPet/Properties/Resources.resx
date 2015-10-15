@@ -142,6 +142,12 @@
   <data name="botaoAjudaPreto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botoes\Redondos\botaoAjudaPreto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="botaoAnteriorLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoAnteriorLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoAnteriorVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoAnteriorVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="botaoCalcularLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botoes\Laranjas\botaoCalcularLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -235,6 +241,12 @@
   <data name="botaoPrimeiroVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botoes\Redondos\botaoPrimeiroVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="botaoProximoLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoProximoLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoProximoVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoProximoVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="botaoSairLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botoes\Laranjas\botaoSairLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -249,6 +261,9 @@
   </data>
   <data name="botaoUltimoLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botoes\Redondos\botaoUltimoLaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botaoUltimoVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botoes\Redondos\botaoUltimoVerde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="botaoVoltarLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botoes\Laranjas\botaoVoltarLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
