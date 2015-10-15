@@ -36,7 +36,7 @@
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.mskPreco = new System.Windows.Forms.MaskedTextBox();
+            this.mstPreco = new System.Windows.Forms.MaskedTextBox();
             this.toolTipServicos = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -92,6 +92,7 @@
             this.btnLimpar.Text = "Limpar";
             this.toolTipServicos.SetToolTip(this.btnLimpar, "Limpar os Campos");
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnVoltar
             // 
@@ -108,7 +109,7 @@
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Controls.Add(this.mskPreco);
+            this.groupBox1.Controls.Add(this.mstPreco);
             this.groupBox1.Controls.Add(this.btnVoltar);
             this.groupBox1.Controls.Add(this.btnLimpar);
             this.groupBox1.Controls.Add(this.btnSalvar);
@@ -124,16 +125,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   Dados do Serviço";
             // 
-            // mskPreco
+            // mstPreco
             // 
-            this.mskPreco.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskPreco.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.mskPreco.Location = new System.Drawing.Point(262, 79);
-            this.mskPreco.Mask = "000,00";
-            this.mskPreco.Name = "mskPreco";
-            this.mskPreco.Size = new System.Drawing.Size(107, 27);
-            this.mskPreco.TabIndex = 1;
-            this.toolTipServicos.SetToolTip(this.mskPreco, "Insira o Valor");
+            this.mstPreco.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstPreco.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstPreco.Location = new System.Drawing.Point(262, 79);
+            this.mstPreco.Mask = "000,00";
+            this.mstPreco.Name = "mstPreco";
+            this.mstPreco.Size = new System.Drawing.Size(107, 27);
+            this.mstPreco.TabIndex = 1;
+            this.toolTipServicos.SetToolTip(this.mstPreco, "Insira o Valor");
             // 
             // toolTipServicos
             // 
@@ -165,7 +166,7 @@
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.MaskedTextBox mskPreco;
+        private System.Windows.Forms.MaskedTextBox mstPreco;
         private System.Windows.Forms.ToolTip toolTipServicos;
     }
 }

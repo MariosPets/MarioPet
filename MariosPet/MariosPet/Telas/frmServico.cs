@@ -16,5 +16,11 @@ namespace MariosPet.Telas
         {
             InitializeComponent();
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtServico.Clear();
+            mstPreco.Clear();
+        }
     }
 }
