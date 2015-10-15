@@ -21,43 +21,49 @@ namespace MariosPet.Telas
         {
             Telas.FrmCadastroCliente cadcli = new FrmCadastroCliente();
             cadcli.Show();
+            Close();
         }
 
         private void cadastroToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FrmAnimal animal = new FrmAnimal();
             animal.Show();
+            Close();
         }
 
         private void cadastroToolStripMenuItem3_Click(object sender, EventArgs e)
         {
             FrmFornecedor fornecedor = new FrmFornecedor();
             fornecedor.Show();
+            Close();
         }
 
         private void serviçosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Telas.FrmServico servico = new FrmServico();
             servico.ShowDialog();
-            
+            Close();            
         }
 
         private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Telas.FrmProduto produto = new FrmProduto();
             produto.ShowDialog();
+            Close();
         }
 
         private void laboratóriosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Telas.FrmLaboratorio laboratorio = new FrmLaboratorio();
             laboratorio.ShowDialog();
+            Close();
         }
 
         private void fichaClínicaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Telas.FrmFichaClinica fichaClinica = new FrmFichaClinica();
             fichaClinica.ShowDialog();
+            Close();
         }
     }
 }
