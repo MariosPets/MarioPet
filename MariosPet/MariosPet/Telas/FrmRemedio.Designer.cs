@@ -93,6 +93,7 @@
             this.btnLimpar.Text = "Limpar";
             this.toolTipRemedio.SetToolTip(this.btnLimpar, "Limpar os Campos");
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSalvar
             // 

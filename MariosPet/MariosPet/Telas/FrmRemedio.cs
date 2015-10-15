@@ -21,5 +21,10 @@ namespace MariosPet.Telas
         {
 
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtMedicamento.Clear();
+        }
     }
 }
