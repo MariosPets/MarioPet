@@ -30,19 +30,19 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.cmbUF = new System.Windows.Forms.ComboBox();
+            this.mstCepFuncionario = new System.Windows.Forms.MaskedTextBox();
+            this.cmbUFFuncionario = new System.Windows.Forms.ComboBox();
             this.lblUF = new System.Windows.Forms.Label();
             this.lblCEP = new System.Windows.Forms.Label();
-            this.txtCidade = new System.Windows.Forms.TextBox();
+            this.txtCidadeFuncionario = new System.Windows.Forms.TextBox();
             this.lblCidade = new System.Windows.Forms.Label();
-            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.txtBairroFuncionario = new System.Windows.Forms.TextBox();
             this.lblBairro = new System.Windows.Forms.Label();
-            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.txtNumeroFuncionario = new System.Windows.Forms.TextBox();
             this.lblNumero = new System.Windows.Forms.Label();
-            this.txtComplemento = new System.Windows.Forms.TextBox();
+            this.txtComplementoFuncionario = new System.Windows.Forms.TextBox();
             this.lblComplemento = new System.Windows.Forms.Label();
-            this.txtRua = new System.Windows.Forms.TextBox();
+            this.txtRuaFuncionario = new System.Windows.Forms.TextBox();
             this.lblRua = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtConfirmacaoSenha = new System.Windows.Forms.TextBox();
@@ -57,14 +57,14 @@
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.txtTelefone3 = new System.Windows.Forms.TextBox();
-            this.txtTelefone2 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.mstRG = new System.Windows.Forms.MaskedTextBox();
-            this.mstCPF = new System.Windows.Forms.MaskedTextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtTelefone3Funcionario = new System.Windows.Forms.TextBox();
+            this.txtTelefone2Funcionario = new System.Windows.Forms.TextBox();
+            this.mstNascimentoFuncionario = new System.Windows.Forms.MaskedTextBox();
+            this.mstRGFuncionario = new System.Windows.Forms.MaskedTextBox();
+            this.mstCPFFuncionario = new System.Windows.Forms.MaskedTextBox();
+            this.txtTelefoneFuncionario = new System.Windows.Forms.TextBox();
+            this.txtEmailFuncionario = new System.Windows.Forms.TextBox();
+            this.txtNomeFuncionario = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -84,19 +84,19 @@
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox2.Controls.Add(this.maskedTextBox2);
-            this.groupBox2.Controls.Add(this.cmbUF);
+            this.groupBox2.Controls.Add(this.mstCepFuncionario);
+            this.groupBox2.Controls.Add(this.cmbUFFuncionario);
             this.groupBox2.Controls.Add(this.lblUF);
             this.groupBox2.Controls.Add(this.lblCEP);
-            this.groupBox2.Controls.Add(this.txtCidade);
+            this.groupBox2.Controls.Add(this.txtCidadeFuncionario);
             this.groupBox2.Controls.Add(this.lblCidade);
-            this.groupBox2.Controls.Add(this.txtBairro);
+            this.groupBox2.Controls.Add(this.txtBairroFuncionario);
             this.groupBox2.Controls.Add(this.lblBairro);
-            this.groupBox2.Controls.Add(this.txtNumero);
+            this.groupBox2.Controls.Add(this.txtNumeroFuncionario);
             this.groupBox2.Controls.Add(this.lblNumero);
-            this.groupBox2.Controls.Add(this.txtComplemento);
+            this.groupBox2.Controls.Add(this.txtComplementoFuncionario);
             this.groupBox2.Controls.Add(this.lblComplemento);
-            this.groupBox2.Controls.Add(this.txtRua);
+            this.groupBox2.Controls.Add(this.txtRuaFuncionario);
             this.groupBox2.Controls.Add(this.lblRua);
             this.groupBox2.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
@@ -107,27 +107,27 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "   Endereço";
             // 
-            // maskedTextBox2
+            // mstCepFuncionario
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.maskedTextBox2.Location = new System.Drawing.Point(473, 138);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
-            this.maskedTextBox2.TabIndex = 4;
-            this.toolTipFuncionario.SetToolTip(this.maskedTextBox2, "Insira o CEP");
+            this.mstCepFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstCepFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstCepFuncionario.Location = new System.Drawing.Point(473, 133);
+            this.mstCepFuncionario.Name = "mstCepFuncionario";
+            this.mstCepFuncionario.Size = new System.Drawing.Size(171, 27);
+            this.mstCepFuncionario.TabIndex = 4;
+            this.toolTipFuncionario.SetToolTip(this.mstCepFuncionario, "Insira o CEP");
             // 
-            // cmbUF
+            // cmbUFFuncionario
             // 
-            this.cmbUF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbUF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.cmbUF.FormattingEnabled = true;
-            this.cmbUF.Location = new System.Drawing.Point(473, 187);
-            this.cmbUF.Name = "cmbUF";
-            this.cmbUF.Size = new System.Drawing.Size(171, 26);
-            this.cmbUF.TabIndex = 6;
-            this.cmbUF.Text = "---Selecione---";
-            this.toolTipFuncionario.SetToolTip(this.cmbUF, "Selecione a UF");
+            this.cmbUFFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbUFFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.cmbUFFuncionario.FormattingEnabled = true;
+            this.cmbUFFuncionario.Location = new System.Drawing.Point(473, 187);
+            this.cmbUFFuncionario.Name = "cmbUFFuncionario";
+            this.cmbUFFuncionario.Size = new System.Drawing.Size(171, 26);
+            this.cmbUFFuncionario.TabIndex = 6;
+            this.cmbUFFuncionario.Text = "---Selecione---";
+            this.toolTipFuncionario.SetToolTip(this.cmbUFFuncionario, "Selecione a UF");
             // 
             // lblUF
             // 
@@ -143,21 +143,21 @@
             // 
             this.lblCEP.AutoSize = true;
             this.lblCEP.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCEP.Location = new System.Drawing.Point(400, 142);
+            this.lblCEP.Location = new System.Drawing.Point(400, 137);
             this.lblCEP.Name = "lblCEP";
             this.lblCEP.Size = new System.Drawing.Size(55, 23);
             this.lblCEP.TabIndex = 18;
             this.lblCEP.Text = "CEP:";
             // 
-            // txtCidade
+            // txtCidadeFuncionario
             // 
-            this.txtCidade.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtCidade.Location = new System.Drawing.Point(156, 185);
-            this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(195, 27);
-            this.txtCidade.TabIndex = 5;
-            this.toolTipFuncionario.SetToolTip(this.txtCidade, "Insira a Cidade");
+            this.txtCidadeFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCidadeFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtCidadeFuncionario.Location = new System.Drawing.Point(156, 185);
+            this.txtCidadeFuncionario.Name = "txtCidadeFuncionario";
+            this.txtCidadeFuncionario.Size = new System.Drawing.Size(195, 27);
+            this.txtCidadeFuncionario.TabIndex = 5;
+            this.toolTipFuncionario.SetToolTip(this.txtCidadeFuncionario, "Insira a Cidade");
             // 
             // lblCidade
             // 
@@ -169,15 +169,15 @@
             this.lblCidade.TabIndex = 16;
             this.lblCidade.Text = "Cidade:";
             // 
-            // txtBairro
+            // txtBairroFuncionario
             // 
-            this.txtBairro.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBairro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtBairro.Location = new System.Drawing.Point(156, 137);
-            this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(195, 27);
-            this.txtBairro.TabIndex = 3;
-            this.toolTipFuncionario.SetToolTip(this.txtBairro, "Insira o Bairro");
+            this.txtBairroFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBairroFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtBairroFuncionario.Location = new System.Drawing.Point(156, 137);
+            this.txtBairroFuncionario.Name = "txtBairroFuncionario";
+            this.txtBairroFuncionario.Size = new System.Drawing.Size(195, 27);
+            this.txtBairroFuncionario.TabIndex = 3;
+            this.toolTipFuncionario.SetToolTip(this.txtBairroFuncionario, "Insira o Bairro");
             // 
             // lblBairro
             // 
@@ -189,15 +189,15 @@
             this.lblBairro.TabIndex = 14;
             this.lblBairro.Text = "Bairro:";
             // 
-            // txtNumero
+            // txtNumeroFuncionario
             // 
-            this.txtNumero.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtNumero.Location = new System.Drawing.Point(156, 90);
-            this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(81, 27);
-            this.txtNumero.TabIndex = 1;
-            this.toolTipFuncionario.SetToolTip(this.txtNumero, "Insira o Número da Residência");
+            this.txtNumeroFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumeroFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtNumeroFuncionario.Location = new System.Drawing.Point(156, 90);
+            this.txtNumeroFuncionario.Name = "txtNumeroFuncionario";
+            this.txtNumeroFuncionario.Size = new System.Drawing.Size(81, 27);
+            this.txtNumeroFuncionario.TabIndex = 1;
+            this.toolTipFuncionario.SetToolTip(this.txtNumeroFuncionario, "Insira o Número da Residência");
             // 
             // lblNumero
             // 
@@ -209,35 +209,35 @@
             this.lblNumero.TabIndex = 12;
             this.lblNumero.Text = "Numero:";
             // 
-            // txtComplemento
+            // txtComplementoFuncionario
             // 
-            this.txtComplemento.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComplemento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtComplemento.Location = new System.Drawing.Point(473, 97);
-            this.txtComplemento.Name = "txtComplemento";
-            this.txtComplemento.Size = new System.Drawing.Size(170, 27);
-            this.txtComplemento.TabIndex = 2;
-            this.toolTipFuncionario.SetToolTip(this.txtComplemento, "Insira o Complemento");
+            this.txtComplementoFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComplementoFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtComplementoFuncionario.Location = new System.Drawing.Point(474, 86);
+            this.txtComplementoFuncionario.Name = "txtComplementoFuncionario";
+            this.txtComplementoFuncionario.Size = new System.Drawing.Size(170, 27);
+            this.txtComplementoFuncionario.TabIndex = 2;
+            this.toolTipFuncionario.SetToolTip(this.txtComplementoFuncionario, "Insira o Complemento");
             // 
             // lblComplemento
             // 
             this.lblComplemento.AutoSize = true;
             this.lblComplemento.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComplemento.Location = new System.Drawing.Point(304, 101);
+            this.lblComplemento.Location = new System.Drawing.Point(304, 90);
             this.lblComplemento.Name = "lblComplemento";
             this.lblComplemento.Size = new System.Drawing.Size(151, 23);
             this.lblComplemento.TabIndex = 10;
             this.lblComplemento.Text = "Complemento:";
             // 
-            // txtRua
+            // txtRuaFuncionario
             // 
-            this.txtRua.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtRua.Location = new System.Drawing.Point(156, 44);
-            this.txtRua.Name = "txtRua";
-            this.txtRua.Size = new System.Drawing.Size(488, 27);
-            this.txtRua.TabIndex = 0;
-            this.toolTipFuncionario.SetToolTip(this.txtRua, "Insira o Nome da Rua");
+            this.txtRuaFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRuaFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtRuaFuncionario.Location = new System.Drawing.Point(156, 44);
+            this.txtRuaFuncionario.Name = "txtRuaFuncionario";
+            this.txtRuaFuncionario.Size = new System.Drawing.Size(488, 27);
+            this.txtRuaFuncionario.TabIndex = 0;
+            this.toolTipFuncionario.SetToolTip(this.txtRuaFuncionario, "Insira o Nome da Rua");
             // 
             // lblRua
             // 
@@ -370,6 +370,7 @@
             this.btnLimpar.Text = "Limpar";
             this.toolTipFuncionario.SetToolTip(this.btnLimpar, "Limpar campos");
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnVoltar
             // 
@@ -381,6 +382,7 @@
             this.btnVoltar.Text = "Voltar";
             this.toolTipFuncionario.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnSalvar
             // 
@@ -393,105 +395,105 @@
             this.toolTipFuncionario.SetToolTip(this.btnSalvar, "Salvar as Informações");
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
-            // txtTelefone3
+            // txtTelefone3Funcionario
             // 
-            this.txtTelefone3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone3.Location = new System.Drawing.Point(156, 248);
-            this.txtTelefone3.Name = "txtTelefone3";
-            this.txtTelefone3.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone3.TabIndex = 7;
-            this.toolTipFuncionario.SetToolTip(this.txtTelefone3, "Insira o Telefone para Contato");
+            this.txtTelefone3Funcionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone3Funcionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone3Funcionario.Location = new System.Drawing.Point(156, 248);
+            this.txtTelefone3Funcionario.Name = "txtTelefone3Funcionario";
+            this.txtTelefone3Funcionario.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone3Funcionario.TabIndex = 7;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefone3Funcionario, "Insira o Telefone para Contato");
             // 
-            // txtTelefone2
+            // txtTelefone2Funcionario
             // 
-            this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone2.Location = new System.Drawing.Point(473, 206);
-            this.txtTelefone2.Name = "txtTelefone2";
-            this.txtTelefone2.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone2.TabIndex = 6;
-            this.toolTipFuncionario.SetToolTip(this.txtTelefone2, "Insira o Telefone para Contato");
+            this.txtTelefone2Funcionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone2Funcionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefone2Funcionario.Location = new System.Drawing.Point(473, 206);
+            this.txtTelefone2Funcionario.Name = "txtTelefone2Funcionario";
+            this.txtTelefone2Funcionario.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefone2Funcionario.TabIndex = 6;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefone2Funcionario, "Insira o Telefone para Contato");
             // 
-            // maskedTextBox1
+            // mstNascimentoFuncionario
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.maskedTextBox1.Location = new System.Drawing.Point(156, 78);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(170, 27);
-            this.maskedTextBox1.TabIndex = 1;
-            this.toolTipFuncionario.SetToolTip(this.maskedTextBox1, "Insira a Data de Nascimento");
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            this.mstNascimentoFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstNascimentoFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstNascimentoFuncionario.Location = new System.Drawing.Point(156, 78);
+            this.mstNascimentoFuncionario.Mask = "00/00/0000";
+            this.mstNascimentoFuncionario.Name = "mstNascimentoFuncionario";
+            this.mstNascimentoFuncionario.Size = new System.Drawing.Size(170, 27);
+            this.mstNascimentoFuncionario.TabIndex = 1;
+            this.toolTipFuncionario.SetToolTip(this.mstNascimentoFuncionario, "Insira a Data de Nascimento");
+            this.mstNascimentoFuncionario.ValidatingType = typeof(System.DateTime);
             // 
-            // mstRG
+            // mstRGFuncionario
             // 
-            this.mstRG.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstRG.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.mstRG.Location = new System.Drawing.Point(473, 119);
-            this.mstRG.Mask = "00.000.000-0";
-            this.mstRG.Name = "mstRG";
-            this.mstRG.Size = new System.Drawing.Size(170, 27);
-            this.mstRG.TabIndex = 3;
-            this.toolTipFuncionario.SetToolTip(this.mstRG, "Insira o RG");
+            this.mstRGFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstRGFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstRGFuncionario.Location = new System.Drawing.Point(473, 119);
+            this.mstRGFuncionario.Mask = "00.000.000-0";
+            this.mstRGFuncionario.Name = "mstRGFuncionario";
+            this.mstRGFuncionario.Size = new System.Drawing.Size(170, 27);
+            this.mstRGFuncionario.TabIndex = 3;
+            this.toolTipFuncionario.SetToolTip(this.mstRGFuncionario, "Insira o RG");
             // 
-            // mstCPF
+            // mstCPFFuncionario
             // 
-            this.mstCPF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mstCPF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.mstCPF.Location = new System.Drawing.Point(156, 120);
-            this.mstCPF.Mask = "000.000.000-00";
-            this.mstCPF.Name = "mstCPF";
-            this.mstCPF.Size = new System.Drawing.Size(170, 27);
-            this.mstCPF.TabIndex = 2;
-            this.toolTipFuncionario.SetToolTip(this.mstCPF, "Insira o CPF");
+            this.mstCPFFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstCPFFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstCPFFuncionario.Location = new System.Drawing.Point(156, 120);
+            this.mstCPFFuncionario.Mask = "000.000.000-00";
+            this.mstCPFFuncionario.Name = "mstCPFFuncionario";
+            this.mstCPFFuncionario.Size = new System.Drawing.Size(170, 27);
+            this.mstCPFFuncionario.TabIndex = 2;
+            this.toolTipFuncionario.SetToolTip(this.mstCPFFuncionario, "Insira o CPF");
             // 
-            // txtTelefone
+            // txtTelefoneFuncionario
             // 
-            this.txtTelefone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtTelefone.Location = new System.Drawing.Point(156, 205);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(170, 27);
-            this.txtTelefone.TabIndex = 5;
-            this.toolTipFuncionario.SetToolTip(this.txtTelefone, "Insira o Telefone para Contato");
+            this.txtTelefoneFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefoneFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtTelefoneFuncionario.Location = new System.Drawing.Point(156, 205);
+            this.txtTelefoneFuncionario.Name = "txtTelefoneFuncionario";
+            this.txtTelefoneFuncionario.Size = new System.Drawing.Size(170, 27);
+            this.txtTelefoneFuncionario.TabIndex = 5;
+            this.toolTipFuncionario.SetToolTip(this.txtTelefoneFuncionario, "Insira o Telefone para Contato");
             // 
-            // txtEmail
+            // txtEmailFuncionario
             // 
-            this.txtEmail.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtEmail.Location = new System.Drawing.Point(156, 163);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(487, 27);
-            this.txtEmail.TabIndex = 4;
-            this.toolTipFuncionario.SetToolTip(this.txtEmail, "Insira o E-mail");
+            this.txtEmailFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmailFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtEmailFuncionario.Location = new System.Drawing.Point(156, 163);
+            this.txtEmailFuncionario.Name = "txtEmailFuncionario";
+            this.txtEmailFuncionario.Size = new System.Drawing.Size(487, 27);
+            this.txtEmailFuncionario.TabIndex = 4;
+            this.toolTipFuncionario.SetToolTip(this.txtEmailFuncionario, "Insira o E-mail");
             // 
-            // txtNome
+            // txtNomeFuncionario
             // 
-            this.txtNome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtNome.Location = new System.Drawing.Point(156, 36);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(487, 27);
-            this.txtNome.TabIndex = 0;
-            this.toolTipFuncionario.SetToolTip(this.txtNome, "Insira o Nome do Funcionário");
+            this.txtNomeFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtNomeFuncionario.Location = new System.Drawing.Point(156, 36);
+            this.txtNomeFuncionario.Name = "txtNomeFuncionario";
+            this.txtNomeFuncionario.Size = new System.Drawing.Size(487, 27);
+            this.txtNomeFuncionario.TabIndex = 0;
+            this.toolTipFuncionario.SetToolTip(this.txtNomeFuncionario, "Insira o Nome do Funcionário");
             // 
             // groupBox1
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Controls.Add(this.txtTelefone3);
+            this.groupBox1.Controls.Add(this.txtTelefone3Funcionario);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.txtTelefone2);
+            this.groupBox1.Controls.Add(this.txtTelefone2Funcionario);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
+            this.groupBox1.Controls.Add(this.mstNascimentoFuncionario);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.mstRG);
-            this.groupBox1.Controls.Add(this.mstCPF);
-            this.groupBox1.Controls.Add(this.txtTelefone);
-            this.groupBox1.Controls.Add(this.txtEmail);
-            this.groupBox1.Controls.Add(this.txtNome);
+            this.groupBox1.Controls.Add(this.mstRGFuncionario);
+            this.groupBox1.Controls.Add(this.mstCPFFuncionario);
+            this.groupBox1.Controls.Add(this.txtTelefoneFuncionario);
+            this.groupBox1.Controls.Add(this.txtEmailFuncionario);
+            this.groupBox1.Controls.Add(this.txtNomeFuncionario);
             this.groupBox1.Controls.Add(this.lblTelefone);
             this.groupBox1.Controls.Add(this.lblEmail);
             this.groupBox1.Controls.Add(this.lblRG);
@@ -614,32 +616,32 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mstNascimentoFuncionario;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MaskedTextBox mstRG;
-        private System.Windows.Forms.MaskedTextBox mstCPF;
-        private System.Windows.Forms.TextBox txtTelefone;
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.MaskedTextBox mstRGFuncionario;
+        private System.Windows.Forms.MaskedTextBox mstCPFFuncionario;
+        private System.Windows.Forms.TextBox txtTelefoneFuncionario;
+        private System.Windows.Forms.TextBox txtEmailFuncionario;
+        private System.Windows.Forms.TextBox txtNomeFuncionario;
         private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblRG;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.ComboBox cmbUF;
+        private System.Windows.Forms.MaskedTextBox mstCepFuncionario;
+        private System.Windows.Forms.ComboBox cmbUFFuncionario;
         private System.Windows.Forms.Label lblUF;
         private System.Windows.Forms.Label lblCEP;
-        private System.Windows.Forms.TextBox txtCidade;
+        private System.Windows.Forms.TextBox txtCidadeFuncionario;
         private System.Windows.Forms.Label lblCidade;
-        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.TextBox txtBairroFuncionario;
         private System.Windows.Forms.Label lblBairro;
-        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.TextBox txtNumeroFuncionario;
         private System.Windows.Forms.Label lblNumero;
-        private System.Windows.Forms.TextBox txtComplemento;
+        private System.Windows.Forms.TextBox txtComplementoFuncionario;
         private System.Windows.Forms.Label lblComplemento;
-        private System.Windows.Forms.TextBox txtRua;
+        private System.Windows.Forms.TextBox txtRuaFuncionario;
         private System.Windows.Forms.Label lblRua;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label lblTipoFuncionario;
@@ -650,9 +652,9 @@
         private System.Windows.Forms.ComboBox cmbTipoFuncionario;
         private System.Windows.Forms.TextBox txtConfirmacaoSenha;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtTelefone3;
+        private System.Windows.Forms.TextBox txtTelefone3Funcionario;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtTelefone2;
+        private System.Windows.Forms.TextBox txtTelefone2Funcionario;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ToolTip toolTipFuncionario;
         private System.Windows.Forms.Button btnLimpar;

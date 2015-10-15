@@ -26,5 +26,34 @@ namespace MariosPet.Telas
         {
 
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtBairroFuncionario.Clear();
+            txtCidadeFuncionario.Clear();
+            txtComplementoFuncionario.Clear();
+            txtConfirmacaoSenha.Clear();
+            txtEmailFuncionario.Clear();
+            txtLogin.Clear();
+            txtNomeFuncionario.Clear();
+            txtNumeroFuncionario.Clear();
+            txtRuaFuncionario.Clear();
+            txtSenha.Clear();
+            txtTelefone2Funcionario.Clear();
+            txtTelefone3Funcionario.Clear();
+            txtTelefoneFuncionario.Clear();
+            mstCepFuncionario.Clear();
+            mstCPFFuncionario.Clear();
+            mstNascimentoFuncionario.Clear();
+            mstRGFuncionario.Clear();
+            
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Telas.FrmMenu frmmenu = new FrmMenu();
+            frmmenu.ShowDialog();
+            this.Close();
+        }
     }
 }
