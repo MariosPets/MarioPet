@@ -166,7 +166,6 @@
             this.lblEmail.Size = new System.Drawing.Size(199, 23);
             this.lblEmail.TabIndex = 19;
             this.lblEmail.Text = "Ramo da Atividade:";
-            this.lblEmail.Click += new System.EventHandler(this.lblEmail_Click);
             // 
             // lblCpf
             // 
@@ -228,6 +227,7 @@
             this.btnVoltar.Text = "Voltar";
             this.toolTipFornecedor.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // maskedTextBox2
             // 
@@ -248,6 +248,7 @@
             this.btnLimpar.Text = "Limpar";
             this.toolTipFornecedor.SetToolTip(this.btnLimpar, "Limpar Campos");
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // cmbUF
             // 
