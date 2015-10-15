@@ -20,7 +20,17 @@ namespace MariosPet.Telas
         private void btmVoltar_Click(object sender, EventArgs e)
         {
             FrmMenu menu = new FrmMenu();
-            menu.Show();
+            menu.ShowDialog();
+            Close();
+        }
+
+        private void btmLimpar_Click(object sender, EventArgs e)
+        {
+            txtNomeAnimal.Clear();
+            txtPelagemCor.Clear();
+            txtRacaPorte.Clear();
+            txtSexo.Clear();
+            maskedTxtNascimentoAnimal.Clear();
         }
     }
 }

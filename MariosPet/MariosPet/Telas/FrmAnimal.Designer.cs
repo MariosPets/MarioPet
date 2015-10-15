@@ -100,6 +100,7 @@
             this.btmLimpar.TabIndex = 6;
             this.btmLimpar.Text = "Limpar";
             this.btmLimpar.UseVisualStyleBackColor = false;
+            this.btmLimpar.Click += new System.EventHandler(this.btmLimpar_Click);
             // 
             // btmVoltar
             // 
