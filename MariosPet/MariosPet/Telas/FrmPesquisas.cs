@@ -16,5 +16,18 @@ namespace MariosPet.Telas
         {
             InitializeComponent();
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtPesquisa.Clear();
+      
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Telas.FrmMenu menu = new FrmMenu();
+            menu.Show();
+            Close();
+        }
     }
 }

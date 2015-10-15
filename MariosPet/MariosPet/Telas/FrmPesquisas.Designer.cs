@@ -78,6 +78,7 @@
             this.btnLimpar.Text = "Limpar";
             this.toolTipPesquisas.SetToolTip(this.btnLimpar, "Limpar os Campos");
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnVoltar
             // 
@@ -89,6 +90,7 @@
             this.btnVoltar.Text = "Voltar";
             this.toolTipPesquisas.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // lblConsulta
             // 
