@@ -33,11 +33,11 @@
             this.btmLimpar = new System.Windows.Forms.Button();
             this.btmVoltar = new System.Windows.Forms.Button();
             this.btmSalvar = new System.Windows.Forms.Button();
-            this.textFabricante = new System.Windows.Forms.TextBox();
+            this.txtFabricante = new System.Windows.Forms.TextBox();
             this.cmbFornecedor = new System.Windows.Forms.ComboBox();
             this.lblFabricante = new System.Windows.Forms.Label();
             this.lblFornecedor = new System.Windows.Forms.Label();
-            this.textCodBarras = new System.Windows.Forms.TextBox();
+            this.txtCodBarras = new System.Windows.Forms.TextBox();
             this.lblCodBarras = new System.Windows.Forms.Label();
             this.txtMaxEstoque = new System.Windows.Forms.TextBox();
             this.lblMaxEstoque = new System.Windows.Forms.Label();
@@ -51,7 +51,7 @@
             this.txtValorVenda = new System.Windows.Forms.TextBox();
             this.lblValorVenda = new System.Windows.Forms.Label();
             this.txtValorCusto = new System.Windows.Forms.TextBox();
-            this.maskedTxtVencimento = new System.Windows.Forms.MaskedTextBox();
+            this.mstVencimento = new System.Windows.Forms.MaskedTextBox();
             this.cmbSetor = new System.Windows.Forms.ComboBox();
             this.lblSetor = new System.Windows.Forms.Label();
             this.txtTributacao = new System.Windows.Forms.TextBox();
@@ -73,11 +73,11 @@
             this.groupBox1.Controls.Add(this.btmLimpar);
             this.groupBox1.Controls.Add(this.btmVoltar);
             this.groupBox1.Controls.Add(this.btmSalvar);
-            this.groupBox1.Controls.Add(this.textFabricante);
+            this.groupBox1.Controls.Add(this.txtFabricante);
             this.groupBox1.Controls.Add(this.cmbFornecedor);
             this.groupBox1.Controls.Add(this.lblFabricante);
             this.groupBox1.Controls.Add(this.lblFornecedor);
-            this.groupBox1.Controls.Add(this.textCodBarras);
+            this.groupBox1.Controls.Add(this.txtCodBarras);
             this.groupBox1.Controls.Add(this.lblCodBarras);
             this.groupBox1.Controls.Add(this.txtMaxEstoque);
             this.groupBox1.Controls.Add(this.lblMaxEstoque);
@@ -91,7 +91,7 @@
             this.groupBox1.Controls.Add(this.txtValorVenda);
             this.groupBox1.Controls.Add(this.lblValorVenda);
             this.groupBox1.Controls.Add(this.txtValorCusto);
-            this.groupBox1.Controls.Add(this.maskedTxtVencimento);
+            this.groupBox1.Controls.Add(this.mstVencimento);
             this.groupBox1.Controls.Add(this.cmbSetor);
             this.groupBox1.Controls.Add(this.lblSetor);
             this.groupBox1.Controls.Add(this.txtTributacao);
@@ -123,6 +123,7 @@
             this.btmLimpar.Text = "Limpar";
             this.toolTipProduto.SetToolTip(this.btmLimpar, "Limpar os Campos");
             this.btmLimpar.UseVisualStyleBackColor = false;
+            this.btmLimpar.Click += new System.EventHandler(this.btmLimpar_Click);
             // 
             // btmVoltar
             // 
@@ -137,6 +138,7 @@
             this.btmVoltar.Text = "Voltar";
             this.toolTipProduto.SetToolTip(this.btmVoltar, "Voltar ao Menu");
             this.btmVoltar.UseVisualStyleBackColor = false;
+            this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
             // 
             // btmSalvar
             // 
@@ -152,15 +154,15 @@
             this.toolTipProduto.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
-            // textFabricante
+            // txtFabricante
             // 
-            this.textFabricante.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textFabricante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textFabricante.Location = new System.Drawing.Point(220, 409);
-            this.textFabricante.Name = "textFabricante";
-            this.textFabricante.Size = new System.Drawing.Size(510, 27);
-            this.textFabricante.TabIndex = 12;
-            this.toolTipProduto.SetToolTip(this.textFabricante, "Insira o Nome do Fabricante");
+            this.txtFabricante.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFabricante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtFabricante.Location = new System.Drawing.Point(220, 409);
+            this.txtFabricante.Name = "txtFabricante";
+            this.txtFabricante.Size = new System.Drawing.Size(510, 27);
+            this.txtFabricante.TabIndex = 12;
+            this.toolTipProduto.SetToolTip(this.txtFabricante, "Insira o Nome do Fabricante");
             // 
             // cmbFornecedor
             // 
@@ -193,15 +195,15 @@
             this.lblFornecedor.TabIndex = 29;
             this.lblFornecedor.Text = "Fornecedor:";
             // 
-            // textCodBarras
+            // txtCodBarras
             // 
-            this.textCodBarras.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textCodBarras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textCodBarras.Location = new System.Drawing.Point(220, 366);
-            this.textCodBarras.Name = "textCodBarras";
-            this.textCodBarras.Size = new System.Drawing.Size(231, 27);
-            this.textCodBarras.TabIndex = 11;
-            this.toolTipProduto.SetToolTip(this.textCodBarras, "Insira o Código de Barras");
+            this.txtCodBarras.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodBarras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtCodBarras.Location = new System.Drawing.Point(220, 366);
+            this.txtCodBarras.Name = "txtCodBarras";
+            this.txtCodBarras.Size = new System.Drawing.Size(231, 27);
+            this.txtCodBarras.TabIndex = 11;
+            this.toolTipProduto.SetToolTip(this.txtCodBarras, "Insira o Código de Barras");
             // 
             // lblCodBarras
             // 
@@ -333,17 +335,17 @@
             this.txtValorCusto.TabIndex = 5;
             this.toolTipProduto.SetToolTip(this.txtValorCusto, "Insira o Valor de Custo");
             // 
-            // maskedTxtVencimento
+            // mstVencimento
             // 
-            this.maskedTxtVencimento.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTxtVencimento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.maskedTxtVencimento.Location = new System.Drawing.Point(220, 114);
-            this.maskedTxtVencimento.Mask = "00/00/0000";
-            this.maskedTxtVencimento.Name = "maskedTxtVencimento";
-            this.maskedTxtVencimento.Size = new System.Drawing.Size(170, 27);
-            this.maskedTxtVencimento.TabIndex = 2;
-            this.toolTipProduto.SetToolTip(this.maskedTxtVencimento, "Insira a Data de Vencimento");
-            this.maskedTxtVencimento.ValidatingType = typeof(System.DateTime);
+            this.mstVencimento.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstVencimento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstVencimento.Location = new System.Drawing.Point(220, 114);
+            this.mstVencimento.Mask = "00/00/0000";
+            this.mstVencimento.Name = "mstVencimento";
+            this.mstVencimento.Size = new System.Drawing.Size(170, 27);
+            this.mstVencimento.TabIndex = 2;
+            this.toolTipProduto.SetToolTip(this.mstVencimento, "Insira a Data de Vencimento");
+            this.mstVencimento.ValidatingType = typeof(System.DateTime);
             // 
             // cmbSetor
             // 
@@ -469,7 +471,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTxtVencimento;
+        private System.Windows.Forms.MaskedTextBox mstVencimento;
         private System.Windows.Forms.Label lblSetor;
         private System.Windows.Forms.TextBox txtTributacao;
         private System.Windows.Forms.TextBox txtNomeProduto;
@@ -491,11 +493,11 @@
         private System.Windows.Forms.TextBox txtUnidade;
         private System.Windows.Forms.TextBox txtMargemLucro;
         private System.Windows.Forms.Label lblMargemLucro;
-        private System.Windows.Forms.TextBox textCodBarras;
+        private System.Windows.Forms.TextBox txtCodBarras;
         private System.Windows.Forms.Label lblCodBarras;
         private System.Windows.Forms.ComboBox cmbFornecedor;
         private System.Windows.Forms.Label lblFornecedor;
-        private System.Windows.Forms.TextBox textFabricante;
+        private System.Windows.Forms.TextBox txtFabricante;
         private System.Windows.Forms.Label lblFabricante;
         private System.Windows.Forms.Button btmLimpar;
         private System.Windows.Forms.Button btmVoltar;
