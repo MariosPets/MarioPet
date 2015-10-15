@@ -26,5 +26,12 @@ namespace MariosPet.Telas
         {
             txtMedicamento.Clear();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Telas.FrmMenu menu = new FrmMenu();
+            menu.Show();
+            Close();
+        }
     }
 }

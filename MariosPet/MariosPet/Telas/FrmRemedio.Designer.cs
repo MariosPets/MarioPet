@@ -82,6 +82,7 @@
             this.btnVoltar.Text = "Voltar";
             this.toolTipRemedio.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnLimpar
             // 
