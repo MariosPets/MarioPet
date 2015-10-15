@@ -14,7 +14,7 @@ namespace MariosPet.Crud
         public void inserirVeterinario(Veterinario veterinario)
         {
             inserirFuncionario(veterinario);
-            veterinario.id = Convert.ToInt32(consultaPessoa("select top 1 ID from PESSOA order by ID desc").Rows[0][0].ToString());
+            veterinario.id = Convert.ToInt32(consultaPessoa("select top 1 ID_PESSOA from PESSOA order by ID_PESSOA desc").Rows[0][0].ToString());
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
