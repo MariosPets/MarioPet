@@ -78,6 +78,7 @@
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.prontuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtosEServiçosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.serviçosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -94,7 +95,6 @@
             this.parceladoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button2 = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.prontuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -612,6 +612,7 @@
             this.fichaClínicaToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
             this.fichaClínicaToolStripMenuItem.Text = "Ficha Clínica";
             this.fichaClínicaToolStripMenuItem.ToolTipText = "Ficha Clínica do Animal";
+            this.fichaClínicaToolStripMenuItem.Click += new System.EventHandler(this.fichaClínicaToolStripMenuItem_Click);
             // 
             // anamneseToolStripMenuItem
             // 
@@ -656,6 +657,7 @@
             this.laboratóriosToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
             this.laboratóriosToolStripMenuItem.Text = "Laboratórios";
             this.laboratóriosToolStripMenuItem.ToolTipText = "Laboratórios";
+            this.laboratóriosToolStripMenuItem.Click += new System.EventHandler(this.laboratóriosToolStripMenuItem_Click);
             // 
             // medicamentosToolStripMenuItem
             // 
@@ -667,6 +669,15 @@
             this.medicamentosToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
             this.medicamentosToolStripMenuItem.Text = "Medicamentos";
             this.medicamentosToolStripMenuItem.ToolTipText = "Medicamentos";
+            // 
+            // prontuárioToolStripMenuItem
+            // 
+            this.prontuárioToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
+            this.prontuárioToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prontuárioToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.prontuárioToolStripMenuItem.Name = "prontuárioToolStripMenuItem";
+            this.prontuárioToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.prontuárioToolStripMenuItem.Text = "Prontuário";
             // 
             // produtosEServiçosToolStripMenuItem
             // 
@@ -706,6 +717,7 @@
             this.serviçosToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.serviçosToolStripMenuItem.Text = "Serviços";
             this.serviçosToolStripMenuItem.ToolTipText = "Cadastro de Serviços";
+            this.serviçosToolStripMenuItem.Click += new System.EventHandler(this.serviçosToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
@@ -716,6 +728,7 @@
             this.produtosToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.produtosToolStripMenuItem.Text = "Produtos";
             this.produtosToolStripMenuItem.ToolTipText = "Cadastro de Produtos";
+            this.produtosToolStripMenuItem.Click += new System.EventHandler(this.produtosToolStripMenuItem_Click);
             // 
             // tabelasDePreçoToolStripMenuItem
             // 
@@ -856,15 +869,6 @@
             this.toolTip1.AutomaticDelay = 100;
             this.toolTip1.IsBalloon = true;
             this.toolTip1.StripAmpersands = true;
-            // 
-            // prontuárioToolStripMenuItem
-            // 
-            this.prontuárioToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
-            this.prontuárioToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prontuárioToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.prontuárioToolStripMenuItem.Name = "prontuárioToolStripMenuItem";
-            this.prontuárioToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
-            this.prontuárioToolStripMenuItem.Text = "Prontuário";
             // 
             // FrmMenu
             // 

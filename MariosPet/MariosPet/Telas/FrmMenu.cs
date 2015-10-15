@@ -34,5 +34,30 @@ namespace MariosPet.Telas
             FrmFornecedor fornecedor = new FrmFornecedor();
             fornecedor.Show();
         }
+
+        private void serviçosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Telas.FrmServico servico = new FrmServico();
+            servico.ShowDialog();
+            
+        }
+
+        private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Telas.FrmProduto produto = new FrmProduto();
+            produto.ShowDialog();
+        }
+
+        private void laboratóriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Telas.FrmLaboratorio laboratorio = new FrmLaboratorio();
+            laboratorio.ShowDialog();
+        }
+
+        private void fichaClínicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Telas.FrmFichaClinica fichaClinica = new FrmFichaClinica();
+            fichaClinica.ShowDialog();
+        }
     }
 }
