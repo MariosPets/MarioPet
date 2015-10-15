@@ -32,6 +32,7 @@ namespace MariosPet
         {
             Telas.FrmMenu menu = new Telas.FrmMenu();
             menu.Show();
+            Close();
         }
 
         private void btmSair_Click(object sender, EventArgs e)
