@@ -38,7 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.mstCNPJ = new System.Windows.Forms.MaskedTextBox();
             this.txtTelefone1 = new System.Windows.Forms.TextBox();
-            this.txtNomeF = new System.Windows.Forms.TextBox();
+            this.txtNomeLaboratorio = new System.Windows.Forms.TextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.mstCep = new System.Windows.Forms.MaskedTextBox();
             this.cmbUF = new System.Windows.Forms.ComboBox();
             this.lblUF = new System.Windows.Forms.Label();
             this.lblCEP = new System.Windows.Forms.Label();
@@ -77,7 +77,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.mstCNPJ);
             this.groupBox1.Controls.Add(this.txtTelefone1);
-            this.groupBox1.Controls.Add(this.txtNomeF);
+            this.groupBox1.Controls.Add(this.txtNomeLaboratorio);
             this.groupBox1.Controls.Add(this.lblTelefone);
             this.groupBox1.Controls.Add(this.lblCpf);
             this.groupBox1.Controls.Add(this.lblNome);
@@ -171,15 +171,15 @@
             this.txtTelefone1.TabIndex = 24;
             this.toolTipLaboratorio.SetToolTip(this.txtTelefone1, "Insira o Telefone");
             // 
-            // txtNomeF
+            // txtNomeLaboratorio
             // 
-            this.txtNomeF.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtNomeF.Location = new System.Drawing.Point(226, 36);
-            this.txtNomeF.Name = "txtNomeF";
-            this.txtNomeF.Size = new System.Drawing.Size(469, 27);
-            this.txtNomeF.TabIndex = 22;
-            this.toolTipLaboratorio.SetToolTip(this.txtNomeF, "Insira o Nome do Laboratório");
+            this.txtNomeLaboratorio.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeLaboratorio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtNomeLaboratorio.Location = new System.Drawing.Point(226, 36);
+            this.txtNomeLaboratorio.Name = "txtNomeLaboratorio";
+            this.txtNomeLaboratorio.Size = new System.Drawing.Size(469, 27);
+            this.txtNomeLaboratorio.TabIndex = 22;
+            this.toolTipLaboratorio.SetToolTip(this.txtNomeLaboratorio, "Insira o Nome do Laboratório");
             // 
             // lblTelefone
             // 
@@ -219,7 +219,7 @@
             this.groupBox2.Controls.Add(this.btnVoltar);
             this.groupBox2.Controls.Add(this.btnLimpar);
             this.groupBox2.Controls.Add(this.btnSalvar);
-            this.groupBox2.Controls.Add(this.maskedTextBox2);
+            this.groupBox2.Controls.Add(this.mstCep);
             this.groupBox2.Controls.Add(this.cmbUF);
             this.groupBox2.Controls.Add(this.lblUF);
             this.groupBox2.Controls.Add(this.lblCEP);
@@ -252,6 +252,7 @@
             this.btnVoltar.Text = "Voltar";
             this.toolTipLaboratorio.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnLimpar
             // 
@@ -263,6 +264,7 @@
             this.btnLimpar.Text = "Limpar";
             this.toolTipLaboratorio.SetToolTip(this.btnLimpar, "Limpar os Campos");
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSalvar
             // 
@@ -275,15 +277,15 @@
             this.toolTipLaboratorio.SetToolTip(this.btnSalvar, "Salvar as Informações");
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox2
+            // mstCep
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.maskedTextBox2.Location = new System.Drawing.Point(473, 138);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(171, 27);
-            this.maskedTextBox2.TabIndex = 23;
-            this.toolTipLaboratorio.SetToolTip(this.maskedTextBox2, "Insira o CEP");
+            this.mstCep.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mstCep.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mstCep.Location = new System.Drawing.Point(473, 138);
+            this.mstCep.Name = "mstCep";
+            this.mstCep.Size = new System.Drawing.Size(171, 27);
+            this.mstCep.TabIndex = 23;
+            this.toolTipLaboratorio.SetToolTip(this.mstCep, "Insira o CEP");
             // 
             // cmbUF
             // 
@@ -454,12 +456,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox mstCNPJ;
         private System.Windows.Forms.TextBox txtTelefone1;
-        private System.Windows.Forms.TextBox txtNomeF;
+        private System.Windows.Forms.TextBox txtNomeLaboratorio;
         private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox mstCep;
         private System.Windows.Forms.ComboBox cmbUF;
         private System.Windows.Forms.Label lblUF;
         private System.Windows.Forms.Label lblCEP;
