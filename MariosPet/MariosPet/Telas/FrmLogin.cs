@@ -27,5 +27,17 @@ namespace MariosPet
         {
             Close();
         }
+
+        private void buttonEntrar_Click(object sender, EventArgs e)
+        {
+            Telas.FrmMenu menu = new Telas.FrmMenu();
+            menu.Show();
+        }
+
+        private void btmSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
     }
 }

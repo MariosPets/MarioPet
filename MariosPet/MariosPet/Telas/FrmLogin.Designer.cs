@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.buttonEntrar = new System.Windows.Forms.Button();
-            this.buttonSair = new System.Windows.Forms.Button();
+            this.btmEntrar = new System.Windows.Forms.Button();
+            this.btmSair = new System.Windows.Forms.Button();
             this.grpLogin = new System.Windows.Forms.GroupBox();
             this.textSenha = new System.Windows.Forms.TextBox();
             this.labelSenha = new System.Windows.Forms.Label();
@@ -42,35 +42,37 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // buttonEntrar
+            // btmEntrar
             // 
-            this.buttonEntrar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.buttonEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonEntrar.FlatAppearance.BorderSize = 0;
-            this.buttonEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEntrar.Location = new System.Drawing.Point(566, 325);
-            this.buttonEntrar.Name = "buttonEntrar";
-            this.buttonEntrar.Size = new System.Drawing.Size(117, 48);
-            this.buttonEntrar.TabIndex = 2;
-            this.buttonEntrar.Text = "Entrar";
-            this.toolTipLogin.SetToolTip(this.buttonEntrar, "Entrar no sistema");
-            this.buttonEntrar.UseVisualStyleBackColor = false;
+            this.btmEntrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btmEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btmEntrar.FlatAppearance.BorderSize = 0;
+            this.btmEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmEntrar.Location = new System.Drawing.Point(566, 325);
+            this.btmEntrar.Name = "btmEntrar";
+            this.btmEntrar.Size = new System.Drawing.Size(117, 48);
+            this.btmEntrar.TabIndex = 2;
+            this.btmEntrar.Text = "Entrar";
+            this.toolTipLogin.SetToolTip(this.btmEntrar, "Entrar no sistema");
+            this.btmEntrar.UseVisualStyleBackColor = false;
+            this.btmEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
             // 
-            // buttonSair
+            // btmSair
             // 
-            this.buttonSair.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.buttonSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonSair.FlatAppearance.BorderSize = 0;
-            this.buttonSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSair.Location = new System.Drawing.Point(301, 325);
-            this.buttonSair.Name = "buttonSair";
-            this.buttonSair.Size = new System.Drawing.Size(123, 48);
-            this.buttonSair.TabIndex = 1;
-            this.buttonSair.Text = "Sair";
-            this.toolTipLogin.SetToolTip(this.buttonSair, "Sair do sistema");
-            this.buttonSair.UseVisualStyleBackColor = false;
+            this.btmSair.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btmSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btmSair.FlatAppearance.BorderSize = 0;
+            this.btmSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmSair.Location = new System.Drawing.Point(301, 325);
+            this.btmSair.Name = "btmSair";
+            this.btmSair.Size = new System.Drawing.Size(123, 48);
+            this.btmSair.TabIndex = 1;
+            this.btmSair.Text = "Sair";
+            this.toolTipLogin.SetToolTip(this.btmSair, "Sair do sistema");
+            this.btmSair.UseVisualStyleBackColor = false;
+            this.btmSair.Click += new System.EventHandler(this.btmSair_Click);
             // 
             // grpLogin
             // 
@@ -97,7 +99,7 @@
             this.textSenha.MaxLength = 20;
             this.textSenha.Name = "textSenha";
             this.textSenha.PasswordChar = '•';
-            this.textSenha.Size = new System.Drawing.Size(186, 36);
+            this.textSenha.Size = new System.Drawing.Size(186, 31);
             this.textSenha.TabIndex = 1;
             this.toolTipLogin.SetToolTip(this.textSenha, "Insira a Senha");
             // 
@@ -107,7 +109,7 @@
             this.labelSenha.Font = new System.Drawing.Font("Verdana", 16F);
             this.labelSenha.Location = new System.Drawing.Point(55, 129);
             this.labelSenha.Name = "labelSenha";
-            this.labelSenha.Size = new System.Drawing.Size(99, 32);
+            this.labelSenha.Size = new System.Drawing.Size(81, 26);
             this.labelSenha.TabIndex = 4;
             this.labelSenha.Text = "Senha";
             // 
@@ -117,7 +119,7 @@
             this.labelUsuario.Font = new System.Drawing.Font("Verdana", 16F);
             this.labelUsuario.Location = new System.Drawing.Point(42, 63);
             this.labelUsuario.Name = "labelUsuario";
-            this.labelUsuario.Size = new System.Drawing.Size(117, 32);
+            this.labelUsuario.Size = new System.Drawing.Size(94, 26);
             this.labelUsuario.TabIndex = 3;
             this.labelUsuario.Text = "Usuário";
             // 
@@ -128,7 +130,7 @@
             this.textUsuario.Location = new System.Drawing.Point(142, 58);
             this.textUsuario.MaxLength = 20;
             this.textUsuario.Name = "textUsuario";
-            this.textUsuario.Size = new System.Drawing.Size(186, 36);
+            this.textUsuario.Size = new System.Drawing.Size(186, 31);
             this.textUsuario.TabIndex = 0;
             this.toolTipLogin.SetToolTip(this.textUsuario, "Insira o Login");
             // 
@@ -153,8 +155,8 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(727, 435);
-            this.Controls.Add(this.buttonEntrar);
-            this.Controls.Add(this.buttonSair);
+            this.Controls.Add(this.btmEntrar);
+            this.Controls.Add(this.btmSair);
             this.Controls.Add(this.grpLogin);
             this.Controls.Add(this.pictureBox2);
             this.Name = "FrmLogin";
@@ -182,8 +184,8 @@
         private System.Windows.Forms.Label labelSenha;
         private System.Windows.Forms.Label labelUsuario;
         private System.Windows.Forms.TextBox textUsuario;
-        private System.Windows.Forms.Button buttonSair;
-        private System.Windows.Forms.Button buttonEntrar;
+        private System.Windows.Forms.Button btmSair;
+        private System.Windows.Forms.Button btmEntrar;
         private System.Windows.Forms.ToolTip toolTipLogin;
     }
 }
