@@ -11,7 +11,7 @@ namespace MariosPet.Crud
 {
     class CrudFuncionario: CrudPessoa
     {
-        public void inserirFornecedor(Funcionario funcionario)
+        public void inserirFuncionario(Funcionario funcionario)
         {
             inserirPessoa(funcionario);
             funcionario.id = Convert.ToInt32(consultaPessoa("select top 1 ID_PESSOA from PESSOA order by ID_PESSOA desc").Rows[0][0].ToString());
