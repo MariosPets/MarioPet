@@ -69,6 +69,7 @@
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBox1.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeAmareloGrande;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox1.Controls.Add(this.btmLimpar);
             this.groupBox1.Controls.Add(this.btmVoltar);
@@ -116,11 +117,11 @@
             this.btmLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.btmLimpar.FlatAppearance.BorderSize = 0;
             this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmLimpar.Image = global::MariosPet.Properties.Resources.botaoLimparLaranja;
             this.btmLimpar.Location = new System.Drawing.Point(343, 505);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(131, 44);
             this.btmLimpar.TabIndex = 15;
-            this.btmLimpar.Text = "Limpar";
             this.toolTipProduto.SetToolTip(this.btmLimpar, "Limpar os Campos");
             this.btmLimpar.UseVisualStyleBackColor = false;
             this.btmLimpar.Click += new System.EventHandler(this.btmLimpar_Click);
@@ -129,13 +130,13 @@
             // 
             this.btmVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btmVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarVerde;
             this.btmVoltar.FlatAppearance.BorderSize = 0;
             this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmVoltar.Location = new System.Drawing.Point(145, 506);
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
             this.btmVoltar.TabIndex = 14;
-            this.btmVoltar.Text = "Voltar";
             this.toolTipProduto.SetToolTip(this.btmVoltar, "Voltar ao Menu");
             this.btmVoltar.UseVisualStyleBackColor = false;
             this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
@@ -146,11 +147,11 @@
             this.btmSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.btmSalvar.FlatAppearance.BorderSize = 0;
             this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarVerde;
             this.btmSalvar.Location = new System.Drawing.Point(540, 505);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(133, 42);
             this.btmSalvar.TabIndex = 16;
-            this.btmSalvar.Text = "Salvar";
             this.toolTipProduto.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
