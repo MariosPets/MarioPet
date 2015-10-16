@@ -307,12 +307,12 @@
             // btnVoltar
             // 
             this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarVerde;
             this.btnVoltar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(931, 590);
+            this.btnVoltar.Location = new System.Drawing.Point(905, 554);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(64, 21);
+            this.btnVoltar.Size = new System.Drawing.Size(115, 50);
             this.btnVoltar.TabIndex = 4;
-            this.btnVoltar.Text = "Voltar";
             this.toolTipFichaClinica.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
