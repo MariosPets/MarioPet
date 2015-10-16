@@ -31,7 +31,8 @@ namespace MariosPet
         private void buttonEntrar_Click(object sender, EventArgs e)
         {
             Telas.FrmMenu menu = new Telas.FrmMenu();
-            menu.Show();
+            this.Visible = false;
+            menu.ShowDialog();
             Close();
         }
 
