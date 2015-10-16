@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.toolTipPesquisas = new System.Windows.Forms.ToolTip(this.components);
             this.groupBoxPesquisas = new System.Windows.Forms.GroupBox();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
@@ -40,14 +41,20 @@
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisa = new System.Windows.Forms.TextBox();
             this.lblTipo = new System.Windows.Forms.Label();
-            this.toolTipPesquisas = new System.Windows.Forms.ToolTip(this.components);
             this.groupBoxPesquisas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPesquisas)).BeginInit();
             this.SuspendLayout();
             // 
+            // toolTipPesquisas
+            // 
+            this.toolTipPesquisas.AutomaticDelay = 100;
+            this.toolTipPesquisas.IsBalloon = true;
+            this.toolTipPesquisas.StripAmpersands = true;
+            // 
             // groupBoxPesquisas
             // 
             this.groupBoxPesquisas.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBoxPesquisas.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeMarromGrande;
             this.groupBoxPesquisas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxPesquisas.Controls.Add(this.btnLimpar);
             this.groupBoxPesquisas.Controls.Add(this.btnVoltar);
@@ -70,26 +77,32 @@
             // 
             // btnLimpar
             // 
+            this.btnLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
+            this.btnLimpar.FlatAppearance.BorderSize = 0;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpar.Location = new System.Drawing.Point(594, 484);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(116, 44);
             this.btnLimpar.TabIndex = 5;
-            this.btnLimpar.Text = "Limpar";
             this.toolTipPesquisas.SetToolTip(this.btnLimpar, "Limpar os Campos");
-            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.UseVisualStyleBackColor = false;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar.Location = new System.Drawing.Point(446, 484);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(116, 44);
             this.btnVoltar.TabIndex = 4;
-            this.btnVoltar.Text = "Voltar";
             this.toolTipPesquisas.SetToolTip(this.btnVoltar, "Voltar ao Menu");
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // lblConsulta
@@ -160,14 +173,17 @@
             // 
             // btnConsultar
             // 
+            this.btnConsultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
+            this.btnConsultar.FlatAppearance.BorderSize = 0;
+            this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(594, 97);
+            this.btnConsultar.Location = new System.Drawing.Point(594, 104);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(116, 44);
             this.btnConsultar.TabIndex = 3;
-            this.btnConsultar.Text = "Consultar";
             this.toolTipPesquisas.SetToolTip(this.btnConsultar, "Consultar");
-            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.UseVisualStyleBackColor = false;
             // 
             // txtPesquisa
             // 
@@ -175,7 +191,7 @@
             this.txtPesquisa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtPesquisa.Location = new System.Drawing.Point(131, 114);
             this.txtPesquisa.Name = "txtPesquisa";
-            this.txtPesquisa.Size = new System.Drawing.Size(335, 27);
+            this.txtPesquisa.Size = new System.Drawing.Size(439, 27);
             this.txtPesquisa.TabIndex = 2;
             this.toolTipPesquisas.SetToolTip(this.txtPesquisa, "Insira a informação a ser pesquisada");
             // 
@@ -188,12 +204,6 @@
             this.lblTipo.Size = new System.Drawing.Size(61, 23);
             this.lblTipo.TabIndex = 16;
             this.lblTipo.Text = "Tipo:";
-            // 
-            // toolTipPesquisas
-            // 
-            this.toolTipPesquisas.AutomaticDelay = 100;
-            this.toolTipPesquisas.IsBalloon = true;
-            this.toolTipPesquisas.StripAmpersands = true;
             // 
             // FrmPesquisas
             // 
