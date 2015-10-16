@@ -41,5 +41,19 @@ namespace MariosPet.Telas
             menu.Show();
             Close();
         }
+
+        private void btmNovo_Click(object sender, EventArgs e)
+        {
+            Telas.FrmAnimal animal = new FrmAnimal();
+            animal.Show();
+        }
+
+        private void btnVermifugoVacina_Click(object sender, EventArgs e)
+        {
+            Telas.frmVacina vacina = new frmVacina();
+            vacina.ShowDialog();
+        }
+
+
     }
 }

@@ -34,31 +34,31 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.dtgVacina = new System.Windows.Forms.DataGridView();
-            this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisaVacina = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btmLimpar = new System.Windows.Forms.Button();
-            this.btmVoltar = new System.Windows.Forms.Button();
-            this.btmSalvar = new System.Windows.Forms.Button();
             this.mskDataFinal = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.dtgVermifugo = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
             this.txtVermifugo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btmLimpar = new System.Windows.Forms.Button();
+            this.btmVoltar = new System.Windows.Forms.Button();
+            this.btmSalvar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnConsultar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -140,16 +140,6 @@
             this.label5.TabIndex = 18;
             this.label5.Text = "Data:";
             // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
-            this.button4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(568, 194);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(116, 44);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
@@ -158,16 +148,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(674, 97);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
-            this.button5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(568, 41);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(116, 44);
-            this.button5.TabIndex = 1;
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -198,16 +178,6 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Data:";
             // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
-            this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(568, 194);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 44);
-            this.button2.TabIndex = 3;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // dtgVacina
             // 
             this.dtgVacina.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
@@ -216,16 +186,6 @@
             this.dtgVacina.Name = "dtgVacina";
             this.dtgVacina.Size = new System.Drawing.Size(674, 97);
             this.dtgVacina.TabIndex = 2;
-            // 
-            // btnConsultar
-            // 
-            this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
-            this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(568, 41);
-            this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(116, 44);
-            this.btnConsultar.TabIndex = 1;
-            this.btnConsultar.UseVisualStyleBackColor = true;
             // 
             // txtPesquisaVacina
             // 
@@ -271,51 +231,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "   Vermífugo";
             // 
-            // btmLimpar
-            // 
-            this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
-            this.btmLimpar.FlatAppearance.BorderSize = 0;
-            this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmLimpar.Location = new System.Drawing.Point(471, 301);
-            this.btmLimpar.Name = "btmLimpar";
-            this.btmLimpar.Size = new System.Drawing.Size(117, 44);
-            this.btmLimpar.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.btmLimpar, "Botão que Limpa os Campos");
-            this.btmLimpar.UseVisualStyleBackColor = false;
-            // 
-            // btmVoltar
-            // 
-            this.btmVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
-            this.btmVoltar.FlatAppearance.BorderSize = 0;
-            this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmVoltar.Location = new System.Drawing.Point(349, 301);
-            this.btmVoltar.Name = "btmVoltar";
-            this.btmVoltar.Size = new System.Drawing.Size(116, 44);
-            this.btmVoltar.TabIndex = 6;
-            this.toolTip1.SetToolTip(this.btmVoltar, "Botão que Volta para o Menu");
-            this.btmVoltar.UseVisualStyleBackColor = false;
-            // 
-            // btmSalvar
-            // 
-            this.btmSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btmSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmSalvar.BackgroundImage = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
-            this.btmSalvar.FlatAppearance.BorderSize = 0;
-            this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmSalvar.Location = new System.Drawing.Point(594, 303);
-            this.btmSalvar.Name = "btmSalvar";
-            this.btmSalvar.Size = new System.Drawing.Size(117, 42);
-            this.btmSalvar.TabIndex = 8;
-            this.toolTip1.SetToolTip(this.btmSalvar, "Botão Salvar");
-            this.btmSalvar.UseVisualStyleBackColor = false;
-            // 
             // mskDataFinal
             // 
             this.mskDataFinal.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -360,17 +275,6 @@
             this.label2.TabIndex = 18;
             this.label2.Text = "Data Início:";
             // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
-            this.button1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(564, 194);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 44);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // dtgVermifugo
             // 
             this.dtgVermifugo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
@@ -379,17 +283,6 @@
             this.dtgVermifugo.Name = "dtgVermifugo";
             this.dtgVermifugo.Size = new System.Drawing.Size(674, 97);
             this.dtgVermifugo.TabIndex = 2;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
-            this.button3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(568, 41);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 44);
-            this.button3.TabIndex = 1;
-            this.toolTip1.SetToolTip(this.button3, "Botão Consultar Vermífugo");
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // txtVermifugo
             // 
@@ -410,6 +303,115 @@
             this.label3.Size = new System.Drawing.Size(179, 23);
             this.label3.TabIndex = 16;
             this.label3.Text = "Nome Vermífugo:";
+            // 
+            // btmLimpar
+            // 
+            this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btmLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
+            this.btmLimpar.FlatAppearance.BorderSize = 0;
+            this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmLimpar.Location = new System.Drawing.Point(471, 301);
+            this.btmLimpar.Name = "btmLimpar";
+            this.btmLimpar.Size = new System.Drawing.Size(117, 44);
+            this.btmLimpar.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.btmLimpar, "Botão que Limpa os Campos");
+            this.btmLimpar.UseVisualStyleBackColor = false;
+            this.btmLimpar.Click += new System.EventHandler(this.btmLimpar_Click);
+            // 
+            // btmVoltar
+            // 
+            this.btmVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btmVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
+            this.btmVoltar.FlatAppearance.BorderSize = 0;
+            this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmVoltar.Location = new System.Drawing.Point(349, 301);
+            this.btmVoltar.Name = "btmVoltar";
+            this.btmVoltar.Size = new System.Drawing.Size(116, 44);
+            this.btmVoltar.TabIndex = 6;
+            this.toolTip1.SetToolTip(this.btmVoltar, "Botão que Volta para o Menu");
+            this.btmVoltar.UseVisualStyleBackColor = false;
+            this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
+            // 
+            // btmSalvar
+            // 
+            this.btmSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btmSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmSalvar.BackgroundImage = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
+            this.btmSalvar.FlatAppearance.BorderSize = 0;
+            this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmSalvar.Location = new System.Drawing.Point(594, 303);
+            this.btmSalvar.Name = "btmSalvar";
+            this.btmSalvar.Size = new System.Drawing.Size(117, 42);
+            this.btmSalvar.TabIndex = 8;
+            this.toolTip1.SetToolTip(this.btmSalvar, "Botão Salvar");
+            this.btmSalvar.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
+            this.button1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(564, 194);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 44);
+            this.button1.TabIndex = 3;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
+            this.button3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(568, 41);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(116, 44);
+            this.button3.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.button3, "Botão Consultar Vermífugo");
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
+            this.button4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(568, 194);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(116, 44);
+            this.button4.TabIndex = 3;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
+            this.button5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(568, 41);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(116, 44);
+            this.button5.TabIndex = 1;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
+            this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(568, 194);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(116, 44);
+            this.button2.TabIndex = 3;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // btnConsultar
+            // 
+            this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
+            this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultar.Location = new System.Drawing.Point(568, 41);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(116, 44);
+            this.btnConsultar.TabIndex = 1;
+            this.btnConsultar.UseVisualStyleBackColor = true;
             // 
             // frmVacina
             // 
