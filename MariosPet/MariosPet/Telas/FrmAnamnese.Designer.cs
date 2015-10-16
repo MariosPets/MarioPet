@@ -53,15 +53,27 @@
             this.label2 = new System.Windows.Forms.Label();
             this.richTextBoxManejo = new System.Windows.Forms.RichTextBox();
             this.toolTipAnamnese = new System.Windows.Forms.ToolTip(this.components);
+            this.groupBoxPesquisaAnimal = new System.Windows.Forms.GroupBox();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.dtgAnimal = new System.Windows.Forms.DataGridView();
+            this.btnConsultar = new System.Windows.Forms.Button();
+            this.txtPesquisaAnimal = new System.Windows.Forms.TextBox();
+            this.lblNome = new System.Windows.Forms.Label();
             this.groupBoxAnamnese.SuspendLayout();
+            this.groupBoxPesquisaAnimal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgAnimal)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxAnamnese
             // 
             this.groupBoxAnamnese.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBoxAnamnese.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBoxAnamnese.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromAmareloGrande;
             this.groupBoxAnamnese.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxAnamnese.Controls.Add(this.richTextBoxManejo);
+            this.groupBoxAnamnese.Controls.Add(this.btmVoltar);
+            this.groupBoxAnamnese.Controls.Add(this.btmSalvar);
+            this.groupBoxAnamnese.Controls.Add(this.btmLimpar);
             this.groupBoxAnamnese.Controls.Add(this.label2);
             this.groupBoxAnamnese.Controls.Add(this.richTextBoxPelesAnexos);
             this.groupBoxAnamnese.Controls.Add(this.labelPelesAnexos);
@@ -78,19 +90,16 @@
             this.groupBoxAnamnese.Controls.Add(this.richTextBoxDoenca);
             this.groupBoxAnamnese.Controls.Add(this.radioButtonNao);
             this.groupBoxAnamnese.Controls.Add(this.radioButtonSim);
-            this.groupBoxAnamnese.Controls.Add(this.btmLimpar);
-            this.groupBoxAnamnese.Controls.Add(this.btmVoltar);
-            this.groupBoxAnamnese.Controls.Add(this.btmSalvar);
             this.groupBoxAnamnese.Controls.Add(this.lblDoenca);
             this.groupBoxAnamnese.Controls.Add(this.lblVacinaEmDia);
             this.groupBoxAnamnese.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxAnamnese.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBoxAnamnese.Location = new System.Drawing.Point(33, 24);
+            this.groupBoxAnamnese.Location = new System.Drawing.Point(40, 230);
             this.groupBoxAnamnese.Name = "groupBoxAnamnese";
-            this.groupBoxAnamnese.Size = new System.Drawing.Size(1281, 697);
+            this.groupBoxAnamnese.Size = new System.Drawing.Size(1281, 491);
             this.groupBoxAnamnese.TabIndex = 0;
             this.groupBoxAnamnese.TabStop = false;
-            this.groupBoxAnamnese.Text = "Anamnese";
+            this.groupBoxAnamnese.Text = "   Anamnese";
             // 
             // btmLimpar
             // 
@@ -100,7 +109,7 @@
             this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btmLimpar.Image = global::MariosPet.Properties.Resources.botaoLimparVerde;
-            this.btmLimpar.Location = new System.Drawing.Point(571, 624);
+            this.btmLimpar.Location = new System.Drawing.Point(575, 441);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
             this.btmLimpar.TabIndex = 11;
@@ -114,7 +123,7 @@
             this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btmVoltar.Image = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
-            this.btmVoltar.Location = new System.Drawing.Point(396, 624);
+            this.btmVoltar.Location = new System.Drawing.Point(410, 441);
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
             this.btmVoltar.TabIndex = 12;
@@ -128,7 +137,7 @@
             this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btmSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
-            this.btmSalvar.Location = new System.Drawing.Point(757, 624);
+            this.btmSalvar.Location = new System.Drawing.Point(719, 441);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(127, 44);
             this.btmSalvar.TabIndex = 10;
@@ -148,7 +157,7 @@
             // 
             this.lblVacinaEmDia.AutoSize = true;
             this.lblVacinaEmDia.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVacinaEmDia.Location = new System.Drawing.Point(6, 36);
+            this.lblVacinaEmDia.Location = new System.Drawing.Point(3, 45);
             this.lblVacinaEmDia.Name = "lblVacinaEmDia";
             this.lblVacinaEmDia.Size = new System.Drawing.Size(202, 18);
             this.lblVacinaEmDia.TabIndex = 0;
@@ -158,7 +167,7 @@
             // 
             this.radioButtonSim.AutoSize = true;
             this.radioButtonSim.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonSim.Location = new System.Drawing.Point(231, 32);
+            this.radioButtonSim.Location = new System.Drawing.Point(220, 43);
             this.radioButtonSim.Name = "radioButtonSim";
             this.radioButtonSim.Size = new System.Drawing.Size(55, 22);
             this.radioButtonSim.TabIndex = 0;
@@ -170,7 +179,7 @@
             this.radioButtonNao.AutoSize = true;
             this.radioButtonNao.Checked = true;
             this.radioButtonNao.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonNao.Location = new System.Drawing.Point(316, 32);
+            this.radioButtonNao.Location = new System.Drawing.Point(292, 39);
             this.radioButtonNao.Name = "radioButtonNao";
             this.radioButtonNao.Size = new System.Drawing.Size(56, 22);
             this.radioButtonNao.TabIndex = 1;
@@ -185,7 +194,7 @@
             this.richTextBoxDoenca.Location = new System.Drawing.Point(6, 89);
             this.richTextBoxDoenca.MaxLength = 200;
             this.richTextBoxDoenca.Name = "richTextBoxDoenca";
-            this.richTextBoxDoenca.Size = new System.Drawing.Size(600, 101);
+            this.richTextBoxDoenca.Size = new System.Drawing.Size(600, 75);
             this.richTextBoxDoenca.TabIndex = 2;
             this.richTextBoxDoenca.Text = "";
             this.toolTipAnamnese.SetToolTip(this.richTextBoxDoenca, "Descreva as doenças que o anima já teve.");
@@ -194,7 +203,7 @@
             // 
             this.labelTratamento.AutoSize = true;
             this.labelTratamento.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTratamento.Location = new System.Drawing.Point(660, 68);
+            this.labelTratamento.Location = new System.Drawing.Point(662, 68);
             this.labelTratamento.Name = "labelTratamento";
             this.labelTratamento.Size = new System.Drawing.Size(207, 18);
             this.labelTratamento.TabIndex = 11;
@@ -204,7 +213,7 @@
             // 
             this.labelDigestorio.AutoSize = true;
             this.labelDigestorio.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDigestorio.Location = new System.Drawing.Point(6, 193);
+            this.labelDigestorio.Location = new System.Drawing.Point(6, 167);
             this.labelDigestorio.Name = "labelDigestorio";
             this.labelDigestorio.Size = new System.Drawing.Size(171, 18);
             this.labelDigestorio.TabIndex = 5;
@@ -214,7 +223,7 @@
             // 
             this.labelCardioRespiratorio.AutoSize = true;
             this.labelCardioRespiratorio.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCardioRespiratorio.Location = new System.Drawing.Point(662, 193);
+            this.labelCardioRespiratorio.Location = new System.Drawing.Point(662, 167);
             this.labelCardioRespiratorio.Name = "labelCardioRespiratorio";
             this.labelCardioRespiratorio.Size = new System.Drawing.Size(245, 18);
             this.labelCardioRespiratorio.TabIndex = 15;
@@ -224,7 +233,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 318);
+            this.label1.Location = new System.Drawing.Point(6, 258);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(212, 18);
             this.label1.TabIndex = 7;
@@ -234,7 +243,7 @@
             // 
             this.labelNervosoLocomotor.AutoSize = true;
             this.labelNervosoLocomotor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNervosoLocomotor.Location = new System.Drawing.Point(660, 318);
+            this.labelNervosoLocomotor.Location = new System.Drawing.Point(660, 258);
             this.labelNervosoLocomotor.Name = "labelNervosoLocomotor";
             this.labelNervosoLocomotor.Size = new System.Drawing.Size(245, 18);
             this.labelNervosoLocomotor.TabIndex = 21;
@@ -247,7 +256,7 @@
             this.richTextBoxTratamento.Location = new System.Drawing.Point(663, 89);
             this.richTextBoxTratamento.MaxLength = 150;
             this.richTextBoxTratamento.Name = "richTextBoxTratamento";
-            this.richTextBoxTratamento.Size = new System.Drawing.Size(590, 101);
+            this.richTextBoxTratamento.Size = new System.Drawing.Size(590, 75);
             this.richTextBoxTratamento.TabIndex = 6;
             this.richTextBoxTratamento.Text = "";
             this.toolTipAnamnese.SetToolTip(this.richTextBoxTratamento, "Descreva por quais tratamentos o animal já passou.");
@@ -256,10 +265,10 @@
             // 
             this.richTextBoxDigestorio.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxDigestorio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.richTextBoxDigestorio.Location = new System.Drawing.Point(6, 214);
+            this.richTextBoxDigestorio.Location = new System.Drawing.Point(6, 279);
             this.richTextBoxDigestorio.MaxLength = 500;
             this.richTextBoxDigestorio.Name = "richTextBoxDigestorio";
-            this.richTextBoxDigestorio.Size = new System.Drawing.Size(600, 101);
+            this.richTextBoxDigestorio.Size = new System.Drawing.Size(600, 67);
             this.richTextBoxDigestorio.TabIndex = 3;
             this.richTextBoxDigestorio.Text = "";
             this.toolTipAnamnese.SetToolTip(this.richTextBoxDigestorio, "Digite informações do sistema digestivo, como: apetite, ingestão de agua ou doenç" +
@@ -269,10 +278,10 @@
             // 
             this.richTextBoxGenitoUrinario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxGenitoUrinario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.richTextBoxGenitoUrinario.Location = new System.Drawing.Point(6, 339);
+            this.richTextBoxGenitoUrinario.Location = new System.Drawing.Point(6, 188);
             this.richTextBoxGenitoUrinario.MaxLength = 500;
             this.richTextBoxGenitoUrinario.Name = "richTextBoxGenitoUrinario";
-            this.richTextBoxGenitoUrinario.Size = new System.Drawing.Size(600, 101);
+            this.richTextBoxGenitoUrinario.Size = new System.Drawing.Size(600, 67);
             this.richTextBoxGenitoUrinario.TabIndex = 4;
             this.richTextBoxGenitoUrinario.Text = "";
             this.toolTipAnamnese.SetToolTip(this.richTextBoxGenitoUrinario, "Digite informações do sistema genito-urinário, como: micção, castração ou doenças" +
@@ -282,10 +291,10 @@
             // 
             this.richTextBoxCardioRespiratorio.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxCardioRespiratorio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.richTextBoxCardioRespiratorio.Location = new System.Drawing.Point(663, 214);
+            this.richTextBoxCardioRespiratorio.Location = new System.Drawing.Point(665, 188);
             this.richTextBoxCardioRespiratorio.MaxLength = 500;
             this.richTextBoxCardioRespiratorio.Name = "richTextBoxCardioRespiratorio";
-            this.richTextBoxCardioRespiratorio.Size = new System.Drawing.Size(590, 101);
+            this.richTextBoxCardioRespiratorio.Size = new System.Drawing.Size(588, 67);
             this.richTextBoxCardioRespiratorio.TabIndex = 7;
             this.richTextBoxCardioRespiratorio.Text = "";
             this.toolTipAnamnese.SetToolTip(this.richTextBoxCardioRespiratorio, "Digite informações do sistema Cardio-Respiratório, como: respiração, secreção, to" +
@@ -295,10 +304,10 @@
             // 
             this.richTextBoxNervosoLocomotor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxNervosoLocomotor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.richTextBoxNervosoLocomotor.Location = new System.Drawing.Point(663, 339);
+            this.richTextBoxNervosoLocomotor.Location = new System.Drawing.Point(663, 279);
             this.richTextBoxNervosoLocomotor.MaxLength = 500;
             this.richTextBoxNervosoLocomotor.Name = "richTextBoxNervosoLocomotor";
-            this.richTextBoxNervosoLocomotor.Size = new System.Drawing.Size(590, 101);
+            this.richTextBoxNervosoLocomotor.Size = new System.Drawing.Size(590, 67);
             this.richTextBoxNervosoLocomotor.TabIndex = 8;
             this.richTextBoxNervosoLocomotor.Text = "";
             this.toolTipAnamnese.SetToolTip(this.richTextBoxNervosoLocomotor, "Digite informações do sistema nervoso-locomotor, como: convulsões, postura, march" +
@@ -308,7 +317,7 @@
             // 
             this.labelPelesAnexos.AutoSize = true;
             this.labelPelesAnexos.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPelesAnexos.Location = new System.Drawing.Point(6, 443);
+            this.labelPelesAnexos.Location = new System.Drawing.Point(6, 349);
             this.labelPelesAnexos.Name = "labelPelesAnexos";
             this.labelPelesAnexos.Size = new System.Drawing.Size(140, 18);
             this.labelPelesAnexos.TabIndex = 9;
@@ -318,10 +327,10 @@
             // 
             this.richTextBoxPelesAnexos.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxPelesAnexos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.richTextBoxPelesAnexos.Location = new System.Drawing.Point(6, 464);
+            this.richTextBoxPelesAnexos.Location = new System.Drawing.Point(6, 366);
             this.richTextBoxPelesAnexos.MaxLength = 500;
             this.richTextBoxPelesAnexos.Name = "richTextBoxPelesAnexos";
-            this.richTextBoxPelesAnexos.Size = new System.Drawing.Size(600, 101);
+            this.richTextBoxPelesAnexos.Size = new System.Drawing.Size(600, 67);
             this.richTextBoxPelesAnexos.TabIndex = 5;
             this.richTextBoxPelesAnexos.Text = "";
             this.toolTipAnamnese.SetToolTip(this.richTextBoxPelesAnexos, "Digite informações sobre a pele e anexos do animal, como: ");
@@ -330,7 +339,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(662, 443);
+            this.label2.Location = new System.Drawing.Point(662, 349);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 18);
             this.label2.TabIndex = 34;
@@ -340,12 +349,89 @@
             // 
             this.richTextBoxManejo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxManejo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.richTextBoxManejo.Location = new System.Drawing.Point(663, 464);
+            this.richTextBoxManejo.Location = new System.Drawing.Point(663, 366);
             this.richTextBoxManejo.MaxLength = 500;
             this.richTextBoxManejo.Name = "richTextBoxManejo";
-            this.richTextBoxManejo.Size = new System.Drawing.Size(600, 101);
+            this.richTextBoxManejo.Size = new System.Drawing.Size(600, 67);
             this.richTextBoxManejo.TabIndex = 9;
             this.richTextBoxManejo.Text = "";
+            // 
+            // groupBoxPesquisaAnimal
+            // 
+            this.groupBoxPesquisaAnimal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBoxPesquisaAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromVerdeGrande;
+            this.groupBoxPesquisaAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBoxPesquisaAnimal.Controls.Add(this.btnNovo);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.dtgAnimal);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.btnConsultar);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.txtPesquisaAnimal);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.lblNome);
+            this.groupBoxPesquisaAnimal.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
+            this.groupBoxPesquisaAnimal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.groupBoxPesquisaAnimal.Location = new System.Drawing.Point(40, 20);
+            this.groupBoxPesquisaAnimal.Name = "groupBoxPesquisaAnimal";
+            this.groupBoxPesquisaAnimal.Size = new System.Drawing.Size(1281, 204);
+            this.groupBoxPesquisaAnimal.TabIndex = 3;
+            this.groupBoxPesquisaAnimal.TabStop = false;
+            this.groupBoxPesquisaAnimal.Text = "   Pesquisa";
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnNovo.FlatAppearance.BorderSize = 0;
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNovo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovo.Image = global::MariosPet.Properties.Resources.botaoNovoLaranja;
+            this.btnNovo.Location = new System.Drawing.Point(789, 142);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(116, 44);
+            this.btnNovo.TabIndex = 3;
+            this.toolTipAnamnese.SetToolTip(this.btnNovo, "Caso não apareça o nome no animal desejado, é porque ele não está cadastrado. Ent" +
+        "ão clique no botão \"Novo\" para cadastrar o animal.");
+            this.btnNovo.UseVisualStyleBackColor = false;
+            // 
+            // dtgAnimal
+            // 
+            this.dtgAnimal.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.dtgAnimal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgAnimal.Location = new System.Drawing.Point(10, 93);
+            this.dtgAnimal.Name = "dtgAnimal";
+            this.dtgAnimal.Size = new System.Drawing.Size(726, 93);
+            this.dtgAnimal.TabIndex = 2;
+            this.toolTipAnamnese.SetToolTip(this.dtgAnimal, "Exibe o nome dos animais para que você selecione o animal que está procurando.");
+            // 
+            // btnConsultar
+            // 
+            this.btnConsultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnConsultar.FlatAppearance.BorderSize = 0;
+            this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultar.Image = global::MariosPet.Properties.Resources.botaoConsultarVerde;
+            this.btnConsultar.Location = new System.Drawing.Point(789, 41);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(116, 44);
+            this.btnConsultar.TabIndex = 1;
+            this.btnConsultar.UseVisualStyleBackColor = false;
+            // 
+            // txtPesquisaAnimal
+            // 
+            this.txtPesquisaAnimal.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesquisaAnimal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtPesquisaAnimal.Location = new System.Drawing.Point(159, 50);
+            this.txtPesquisaAnimal.Name = "txtPesquisaAnimal";
+            this.txtPesquisaAnimal.Size = new System.Drawing.Size(577, 27);
+            this.txtPesquisaAnimal.TabIndex = 0;
+            this.toolTipAnamnese.SetToolTip(this.txtPesquisaAnimal, "Digite o nome do animal que está procurando.");
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(6, 50);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(147, 23);
+            this.lblNome.TabIndex = 16;
+            this.lblNome.Text = "Nome Animal:";
             // 
             // FrmAnamnese
             // 
@@ -353,6 +439,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1354, 733);
+            this.Controls.Add(this.groupBoxPesquisaAnimal);
             this.Controls.Add(this.groupBoxAnamnese);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "FrmAnamnese";
@@ -360,6 +447,9 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBoxAnamnese.ResumeLayout(false);
             this.groupBoxAnamnese.PerformLayout();
+            this.groupBoxPesquisaAnimal.ResumeLayout(false);
+            this.groupBoxPesquisaAnimal.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgAnimal)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -390,5 +480,11 @@
         private System.Windows.Forms.RichTextBox richTextBoxDigestorio;
         private System.Windows.Forms.RichTextBox richTextBoxTratamento;
         private System.Windows.Forms.ToolTip toolTipAnamnese;
+        private System.Windows.Forms.GroupBox groupBoxPesquisaAnimal;
+        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.DataGridView dtgAnimal;
+        private System.Windows.Forms.Button btnConsultar;
+        private System.Windows.Forms.TextBox txtPesquisaAnimal;
+        private System.Windows.Forms.Label lblNome;
     }
 }
