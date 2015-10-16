@@ -29,50 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.btmEntrar = new System.Windows.Forms.Button();
-            this.btmSair = new System.Windows.Forms.Button();
             this.grpLogin = new System.Windows.Forms.GroupBox();
             this.textSenha = new System.Windows.Forms.TextBox();
             this.labelSenha = new System.Windows.Forms.Label();
             this.labelUsuario = new System.Windows.Forms.Label();
             this.textUsuario = new System.Windows.Forms.TextBox();
             this.toolTipLogin = new System.Windows.Forms.ToolTip(this.components);
+            this.btmEntrar = new System.Windows.Forms.Button();
+            this.btmSair = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.grpLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btmEntrar
-            // 
-            this.btmEntrar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btmEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btmEntrar.FlatAppearance.BorderSize = 0;
-            this.btmEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmEntrar.Location = new System.Drawing.Point(566, 325);
-            this.btmEntrar.Name = "btmEntrar";
-            this.btmEntrar.Size = new System.Drawing.Size(117, 48);
-            this.btmEntrar.TabIndex = 2;
-            this.btmEntrar.Text = "Entrar";
-            this.toolTipLogin.SetToolTip(this.btmEntrar, "Entrar no sistema");
-            this.btmEntrar.UseVisualStyleBackColor = false;
-            this.btmEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
-            // 
-            // btmSair
-            // 
-            this.btmSair.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btmSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btmSair.FlatAppearance.BorderSize = 0;
-            this.btmSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmSair.Location = new System.Drawing.Point(301, 325);
-            this.btmSair.Name = "btmSair";
-            this.btmSair.Size = new System.Drawing.Size(123, 48);
-            this.btmSair.TabIndex = 1;
-            this.btmSair.Text = "Sair";
-            this.toolTipLogin.SetToolTip(this.btmSair, "Sair do sistema");
-            this.btmSair.UseVisualStyleBackColor = false;
-            this.btmSair.Click += new System.EventHandler(this.btmSair_Click);
             // 
             // grpLogin
             // 
@@ -139,6 +107,38 @@
             this.toolTipLogin.AutomaticDelay = 100;
             this.toolTipLogin.IsBalloon = true;
             this.toolTipLogin.ShowAlways = true;
+            // 
+            // btmEntrar
+            // 
+            this.btmEntrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btmEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btmEntrar.FlatAppearance.BorderSize = 0;
+            this.btmEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmEntrar.Image = global::MariosPet.Properties.Resources.botaoEntrarLaranja;
+            this.btmEntrar.Location = new System.Drawing.Point(566, 312);
+            this.btmEntrar.Name = "btmEntrar";
+            this.btmEntrar.Size = new System.Drawing.Size(117, 48);
+            this.btmEntrar.TabIndex = 2;
+            this.toolTipLogin.SetToolTip(this.btmEntrar, "Entrar no sistema");
+            this.btmEntrar.UseVisualStyleBackColor = false;
+            this.btmEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
+            // 
+            // btmSair
+            // 
+            this.btmSair.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btmSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btmSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btmSair.FlatAppearance.BorderSize = 0;
+            this.btmSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmSair.Image = global::MariosPet.Properties.Resources.botaoSairVerde;
+            this.btmSair.Location = new System.Drawing.Point(301, 312);
+            this.btmSair.Name = "btmSair";
+            this.btmSair.Size = new System.Drawing.Size(123, 48);
+            this.btmSair.TabIndex = 1;
+            this.toolTipLogin.SetToolTip(this.btmSair, "Sair do sistema");
+            this.btmSair.UseVisualStyleBackColor = false;
+            this.btmSair.Click += new System.EventHandler(this.btmSair_Click);
             // 
             // pictureBox2
             // 
