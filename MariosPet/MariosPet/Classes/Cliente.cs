@@ -18,6 +18,7 @@ namespace MariosPet.Classes
 
             CrudCliente crudCli = new CrudCliente();
             crudCli.inserirPessoa(cliente);
+            string a;
         }
     }
 }
