@@ -190,6 +190,12 @@
     <Compile Include="Telas\FrmServico.Designer.cs">
       <DependentUpon>FrmServico.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\frmVacina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\frmVacina.Designer.cs">
+      <DependentUpon>frmVacina.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Telas\FrmAgenda.resx">
       <DependentUpon>FrmAgenda.cs</DependentUpon>
     </EmbeddedResource>
@@ -233,6 +239,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmRemedio.resx">
       <DependentUpon>FrmRemedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\frmVacina.resx">
+      <DependentUpon>frmVacina.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
