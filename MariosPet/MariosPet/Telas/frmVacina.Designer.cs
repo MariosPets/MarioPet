@@ -32,25 +32,25 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.mskData = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.dtgVacina = new System.Windows.Forms.DataGridView();
+            this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisaVacina = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btmLimpar = new System.Windows.Forms.Button();
+            this.btmVoltar = new System.Windows.Forms.Button();
+            this.btmSalvar = new System.Windows.Forms.Button();
             this.mskDataFinal = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.dtgVermifugo = new System.Windows.Forms.DataGridView();
+            this.button3 = new System.Windows.Forms.Button();
             this.txtVermifugo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.btmLimpar = new System.Windows.Forms.Button();
-            this.btmVoltar = new System.Windows.Forms.Button();
-            this.btmSalvar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnConsultar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVacina)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -70,7 +70,7 @@
             this.groupBox1.Controls.Add(this.lblNome);
             this.groupBox1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox1.Location = new System.Drawing.Point(160, 34);
+            this.groupBox1.Location = new System.Drawing.Point(160, 30);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(717, 289);
             this.groupBox1.TabIndex = 3;
@@ -98,6 +98,16 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Data:";
             // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
+            this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(568, 194);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(116, 44);
+            this.button2.TabIndex = 3;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // dtgVacina
             // 
             this.dtgVacina.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
@@ -106,6 +116,16 @@
             this.dtgVacina.Name = "dtgVacina";
             this.dtgVacina.Size = new System.Drawing.Size(674, 97);
             this.dtgVacina.TabIndex = 2;
+            // 
+            // btnConsultar
+            // 
+            this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
+            this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultar.Location = new System.Drawing.Point(568, 41);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(116, 44);
+            this.btnConsultar.TabIndex = 1;
+            this.btnConsultar.UseVisualStyleBackColor = true;
             // 
             // txtPesquisaVacina
             // 
@@ -144,85 +164,12 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox2.Location = new System.Drawing.Point(160, 355);
+            this.groupBox2.Location = new System.Drawing.Point(160, 351);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(717, 351);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "   Vermífugo";
-            // 
-            // mskDataFinal
-            // 
-            this.mskDataFinal.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskDataFinal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.mskDataFinal.Location = new System.Drawing.Point(467, 254);
-            this.mskDataFinal.Mask = "00/00/0000";
-            this.mskDataFinal.Name = "mskDataFinal";
-            this.mskDataFinal.Size = new System.Drawing.Size(112, 27);
-            this.mskDataFinal.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.mskDataFinal, "Data Final do Tratamento");
-            this.mskDataFinal.ValidatingType = typeof(System.DateTime);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(314, 253);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 23);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Data Final:";
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.maskedTextBox1.Location = new System.Drawing.Point(163, 249);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(112, 27);
-            this.maskedTextBox1.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.maskedTextBox1, "Data de Início do Tratamento");
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 248);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 23);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Data Início:";
-            // 
-            // dtgVermifugo
-            // 
-            this.dtgVermifugo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.dtgVermifugo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgVermifugo.Location = new System.Drawing.Point(6, 91);
-            this.dtgVermifugo.Name = "dtgVermifugo";
-            this.dtgVermifugo.Size = new System.Drawing.Size(674, 97);
-            this.dtgVermifugo.TabIndex = 2;
-            // 
-            // txtVermifugo
-            // 
-            this.txtVermifugo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtVermifugo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtVermifugo.Location = new System.Drawing.Point(191, 51);
-            this.txtVermifugo.Name = "txtVermifugo";
-            this.txtVermifugo.Size = new System.Drawing.Size(301, 27);
-            this.txtVermifugo.TabIndex = 0;
-            this.toolTip1.SetToolTip(this.txtVermifugo, "Insira Nome Vermífugo");
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 50);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(179, 23);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Nome Vermífugo:";
             // 
             // btmLimpar
             // 
@@ -271,6 +218,50 @@
             this.toolTip1.SetToolTip(this.btmSalvar, "Botão Salvar");
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
+            // mskDataFinal
+            // 
+            this.mskDataFinal.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mskDataFinal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.mskDataFinal.Location = new System.Drawing.Point(467, 254);
+            this.mskDataFinal.Mask = "00/00/0000";
+            this.mskDataFinal.Name = "mskDataFinal";
+            this.mskDataFinal.Size = new System.Drawing.Size(112, 27);
+            this.mskDataFinal.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.mskDataFinal, "Data Final do Tratamento");
+            this.mskDataFinal.ValidatingType = typeof(System.DateTime);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(314, 253);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(116, 23);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Data Final:";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.maskedTextBox1.Location = new System.Drawing.Point(163, 249);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(112, 27);
+            this.maskedTextBox1.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.maskedTextBox1, "Data de Início do Tratamento");
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(10, 248);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(124, 23);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Data Início:";
+            // 
             // button1
             // 
             this.button1.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
@@ -281,6 +272,15 @@
             this.button1.TabIndex = 3;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dtgVermifugo
+            // 
+            this.dtgVermifugo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.dtgVermifugo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgVermifugo.Location = new System.Drawing.Point(6, 91);
+            this.dtgVermifugo.Name = "dtgVermifugo";
+            this.dtgVermifugo.Size = new System.Drawing.Size(674, 97);
+            this.dtgVermifugo.TabIndex = 2;
             // 
             // button3
             // 
@@ -293,32 +293,32 @@
             this.toolTip1.SetToolTip(this.button3, "Botão Consultar Vermífugo");
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // txtVermifugo
             // 
-            this.button2.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
-            this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(568, 194);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 44);
-            this.button2.TabIndex = 3;
-            this.button2.UseVisualStyleBackColor = true;
+            this.txtVermifugo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVermifugo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.txtVermifugo.Location = new System.Drawing.Point(191, 51);
+            this.txtVermifugo.Name = "txtVermifugo";
+            this.txtVermifugo.Size = new System.Drawing.Size(301, 27);
+            this.txtVermifugo.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.txtVermifugo, "Insira Nome Vermífugo");
             // 
-            // btnConsultar
+            // label3
             // 
-            this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
-            this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(568, 41);
-            this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(116, 44);
-            this.btnConsultar.TabIndex = 1;
-            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(6, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(179, 23);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Nome Vermífugo:";
             // 
             // frmVacina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1034, 741);
+            this.ClientSize = new System.Drawing.Size(1034, 733);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmVacina";
