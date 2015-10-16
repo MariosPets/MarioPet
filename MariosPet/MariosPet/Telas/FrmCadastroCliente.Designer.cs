@@ -77,7 +77,7 @@
             this.btmLimpar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmLimpar.BackgroundImage")));
             this.btmLimpar.FlatAppearance.BorderSize = 0;
             this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmLimpar.Location = new System.Drawing.Point(538, 696);
+            this.btmLimpar.Location = new System.Drawing.Point(538, 688);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
             this.btmLimpar.TabIndex = 3;
@@ -92,7 +92,7 @@
             this.btmVoltar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmVoltar.BackgroundImage")));
             this.btmVoltar.FlatAppearance.BorderSize = 0;
             this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmVoltar.Location = new System.Drawing.Point(340, 697);
+            this.btmVoltar.Location = new System.Drawing.Point(340, 689);
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
             this.btmVoltar.TabIndex = 2;
@@ -107,12 +107,13 @@
             this.btmSalvar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btmSalvar.BackgroundImage")));
             this.btmSalvar.FlatAppearance.BorderSize = 0;
             this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmSalvar.Location = new System.Drawing.Point(736, 698);
+            this.btmSalvar.Location = new System.Drawing.Point(736, 690);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(117, 42);
             this.btmSalvar.TabIndex = 4;
             this.toolTipCliente.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
+            this.btmSalvar.Click += new System.EventHandler(this.btmSalvar_Click);
             // 
             // cmbUFCliente
             // 
@@ -176,7 +177,7 @@
             this.groupBox2.Controls.Add(this.lblRua);
             this.groupBox2.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox2.Location = new System.Drawing.Point(243, 353);
+            this.groupBox2.Location = new System.Drawing.Point(243, 349);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(717, 310);
             this.groupBox2.TabIndex = 1;
@@ -367,7 +368,7 @@
             this.groupBox1.Controls.Add(this.lblNome);
             this.groupBox1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox1.Location = new System.Drawing.Point(243, 12);
+            this.groupBox1.Location = new System.Drawing.Point(243, 8);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(717, 312);
             this.groupBox1.TabIndex = 0;
@@ -520,7 +521,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1114, 741);
+            this.ClientSize = new System.Drawing.Size(1114, 733);
             this.Controls.Add(this.btmLimpar);
             this.Controls.Add(this.btmVoltar);
             this.Controls.Add(this.btmSalvar);
