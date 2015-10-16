@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace MariosPet
 {
     public partial class FrmLogin : Form
@@ -31,8 +32,9 @@ namespace MariosPet
         private void buttonEntrar_Click(object sender, EventArgs e)
         {
             Telas.FrmMenu menu = new Telas.FrmMenu();
+            this.Visible = false;
             menu.Show();
-            Close();
+            
         }
 
         private void btmSair_Click(object sender, EventArgs e)

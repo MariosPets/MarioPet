@@ -143,8 +143,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.BackgroundImage = global::MariosPet.Properties.Resources.logoRosa;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(62, 91);
+            this.pictureBox2.Location = new System.Drawing.Point(71, 107);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(224, 215);
             this.pictureBox2.TabIndex = 0;
