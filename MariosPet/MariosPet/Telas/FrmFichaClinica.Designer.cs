@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btmNovo = new System.Windows.Forms.Button();
             this.dtgAnimal = new System.Windows.Forms.DataGridView();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisaAnimal = new System.Windows.Forms.TextBox();
@@ -64,7 +64,7 @@
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btmNovo);
             this.groupBox1.Controls.Add(this.dtgAnimal);
             this.groupBox1.Controls.Add(this.btnConsultar);
             this.groupBox1.Controls.Add(this.txtPesquisaAnimal);
@@ -78,16 +78,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   Pesquisa";
             // 
-            // button2
+            // btmNovo
             // 
-            this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(568, 196);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 44);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Novo";
-            this.toolTipFichaClinica.SetToolTip(this.button2, "Cadastrar novo Animal");
-            this.button2.UseVisualStyleBackColor = true;
+            this.btmNovo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btmNovo.Location = new System.Drawing.Point(568, 196);
+            this.btmNovo.Name = "btmNovo";
+            this.btmNovo.Size = new System.Drawing.Size(116, 44);
+            this.btmNovo.TabIndex = 3;
+            this.btmNovo.Text = "Novo";
+            this.toolTipFichaClinica.SetToolTip(this.btmNovo, "Cadastrar novo Animal");
+            this.btmNovo.UseVisualStyleBackColor = true;
+            this.btmNovo.Click += new System.EventHandler(this.btmNovo_Click);
             // 
             // dtgAnimal
             // 
@@ -340,6 +341,7 @@
             this.btnVermifugoVacina.Text = "Vermífugo/Vacina";
             this.toolTipFichaClinica.SetToolTip(this.btnVermifugoVacina, "Ir para Vermífugo/Vacina");
             this.btnVermifugoVacina.UseVisualStyleBackColor = true;
+            this.btnVermifugoVacina.Click += new System.EventHandler(this.btnVermifugoVacina_Click);
             // 
             // toolTipFichaClinica
             // 
@@ -374,7 +376,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btmNovo;
         private System.Windows.Forms.DataGridView dtgAnimal;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.TextBox txtPesquisaAnimal;

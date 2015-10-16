@@ -114,6 +114,7 @@
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
             this.btmLimpar.TabIndex = 11;
             this.btmLimpar.UseVisualStyleBackColor = false;
+            this.btmLimpar.Click += new System.EventHandler(this.btmLimpar_Click);
             // 
             // btmVoltar
             // 
@@ -128,6 +129,7 @@
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
             this.btmVoltar.TabIndex = 12;
             this.btmVoltar.UseVisualStyleBackColor = false;
+            this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
             // 
             // btmSalvar
             // 
@@ -179,7 +181,7 @@
             this.radioButtonNao.AutoSize = true;
             this.radioButtonNao.Checked = true;
             this.radioButtonNao.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonNao.Location = new System.Drawing.Point(292, 39);
+            this.radioButtonNao.Location = new System.Drawing.Point(292, 43);
             this.radioButtonNao.Name = "radioButtonNao";
             this.radioButtonNao.Size = new System.Drawing.Size(56, 22);
             this.radioButtonNao.TabIndex = 1;
@@ -389,6 +391,7 @@
             this.toolTipAnamnese.SetToolTip(this.btnNovo, "Caso não apareça o nome no animal desejado, é porque ele não está cadastrado. Ent" +
         "ão clique no botão \"Novo\" para cadastrar o animal.");
             this.btnNovo.UseVisualStyleBackColor = false;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // dtgAnimal
             // 
