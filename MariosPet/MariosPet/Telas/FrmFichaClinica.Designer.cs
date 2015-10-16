@@ -184,7 +184,7 @@
             // 
             // txtQueixa
             // 
-            this.txtQueixa.Location = new System.Drawing.Point(499, 57);
+            this.txtQueixa.Location = new System.Drawing.Point(594, 57);
             this.txtQueixa.Multiline = true;
             this.txtQueixa.Name = "txtQueixa";
             this.txtQueixa.Size = new System.Drawing.Size(471, 86);
@@ -195,7 +195,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(495, 36);
+            this.label2.Location = new System.Drawing.Point(591, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 18);
             this.label2.TabIndex = 29;
