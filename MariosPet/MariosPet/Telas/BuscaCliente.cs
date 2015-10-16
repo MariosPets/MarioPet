@@ -1,5 +1,4 @@
-﻿using MariosPet.Classes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MariosPet.Telas
 {
-    public partial class FrmAgenda : Form
-    {        
-        public FrmAgenda()
+    public partial class BuscaCliente : Form
+    {
+        public BuscaCliente()
         {
             InitializeComponent();
-        }
-
-        private void gerênciaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            F
         }
     }
 }

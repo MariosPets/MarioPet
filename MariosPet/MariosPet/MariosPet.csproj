@@ -98,6 +98,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Telas\BuscaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\BuscaCliente.Designer.cs">
+      <DependentUpon>BuscaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\BuscaFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\BuscaFuncionario.Designer.cs">
+      <DependentUpon>BuscaFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\FrmAgenda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +208,12 @@
     <Compile Include="Telas\frmVacina.Designer.cs">
       <DependentUpon>frmVacina.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Telas\BuscaCliente.resx">
+      <DependentUpon>BuscaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\BuscaFuncionario.resx">
+      <DependentUpon>BuscaFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmAgenda.resx">
       <DependentUpon>FrmAgenda.cs</DependentUpon>
     </EmbeddedResource>

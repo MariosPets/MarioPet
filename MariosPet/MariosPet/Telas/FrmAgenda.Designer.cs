@@ -769,6 +769,7 @@
             this.gerênciaToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
             this.gerênciaToolStripMenuItem.Text = "Gerência";
             this.gerênciaToolStripMenuItem.ToolTipText = "Gerência";
+            this.gerênciaToolStripMenuItem.Click += new System.EventHandler(this.gerênciaToolStripMenuItem_Click);
             // 
             // cadastroDeFuncionáriosToolStripMenuItem
             // 
@@ -856,7 +857,7 @@
             this.labelFuncionario.Location = new System.Drawing.Point(102, 112);
             this.labelFuncionario.Name = "labelFuncionario";
             this.labelFuncionario.Size = new System.Drawing.Size(82, 17);
-            this.labelFuncionario.TabIndex = 17;
+            this.labelFuncionario.TabIndex = 0;
             this.labelFuncionario.Text = "Funcionário";
             // 
             // labelData
@@ -865,7 +866,7 @@
             this.labelData.Location = new System.Drawing.Point(424, 118);
             this.labelData.Name = "labelData";
             this.labelData.Size = new System.Drawing.Size(38, 17);
-            this.labelData.TabIndex = 19;
+            this.labelData.TabIndex = 3;
             this.labelData.Text = "Data";
             // 
             // groupBoxAgendamento
@@ -879,6 +880,7 @@
             this.groupBoxAgendamento.Controls.Add(this.comboBoxServico);
             this.groupBoxAgendamento.Controls.Add(this.labelServiço);
             this.groupBoxAgendamento.Controls.Add(this.labelCliente);
+            this.groupBoxAgendamento.Enabled = false;
             this.groupBoxAgendamento.Location = new System.Drawing.Point(146, 202);
             this.groupBoxAgendamento.Name = "groupBoxAgendamento";
             this.groupBoxAgendamento.Size = new System.Drawing.Size(699, 167);
@@ -971,7 +973,7 @@
             this.dateTimePicker.Location = new System.Drawing.Point(477, 112);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker.TabIndex = 21;
+            this.dateTimePicker.TabIndex = 4;
             // 
             // labelHorariosAgendados
             // 
@@ -1021,14 +1023,14 @@
             this.textBoxFuncionario.Location = new System.Drawing.Point(191, 106);
             this.textBoxFuncionario.Name = "textBoxFuncionario";
             this.textBoxFuncionario.Size = new System.Drawing.Size(100, 22);
-            this.textBoxFuncionario.TabIndex = 26;
+            this.textBoxFuncionario.TabIndex = 1;
             // 
             // buttonFuncionario
             // 
             this.buttonFuncionario.Location = new System.Drawing.Point(191, 144);
             this.buttonFuncionario.Name = "buttonFuncionario";
             this.buttonFuncionario.Size = new System.Drawing.Size(118, 52);
-            this.buttonFuncionario.TabIndex = 27;
+            this.buttonFuncionario.TabIndex = 2;
             this.buttonFuncionario.Text = "Selecionar funcionário";
             this.buttonFuncionario.UseVisualStyleBackColor = true;
             // 

@@ -119,3 +119,5 @@ C:\Users\Jéssica Kelly\Source\Repos\MarioPet10\MariosPet\MariosPet\obj\Debug\Ma
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet10\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmRemedio.resources
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet10\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.frmVacina.resources
 C:\Users\Jéssica Kelly\Source\Repos\MarioPet10\MariosPet\MariosPet\obj\Debug\MariosPet.csproj.GenerateResource.Cache
+G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmAnamnese.resources
+G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.frmVacina.resources
