@@ -66,6 +66,7 @@
             // groupBox1
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox1.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromVerdeGrande;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox1.Controls.Add(this.txtTelefone2);
             this.groupBox1.Controls.Add(this.label1);
@@ -191,6 +192,7 @@
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.groupBox2.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromAmareloGrande;
             this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox2.Controls.Add(this.btnVoltar);
             this.groupBox2.Controls.Add(this.maskedTextBox2);
@@ -220,11 +222,14 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(65, 265);
+            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
+            this.btnVoltar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Location = new System.Drawing.Point(179, 265);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(172, 41);
+            this.btnVoltar.Size = new System.Drawing.Size(119, 41);
             this.btnVoltar.TabIndex = 7;
-            this.btnVoltar.Text = "Voltar";
             this.toolTipFornecedor.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
@@ -241,13 +246,17 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(294, 265);
+            this.btnLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
+            this.btnLimpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnLimpar.FlatAppearance.BorderSize = 0;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpar.Location = new System.Drawing.Point(304, 265);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(172, 41);
+            this.btnLimpar.Size = new System.Drawing.Size(117, 41);
             this.btnLimpar.TabIndex = 8;
-            this.btnLimpar.Text = "Limpar";
             this.toolTipFornecedor.SetToolTip(this.btnLimpar, "Limpar Campos");
-            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.UseVisualStyleBackColor = false;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // cmbUF
@@ -264,11 +273,14 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(491, 265);
+            this.btnSalvar.BackgroundImage = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
+            this.btnSalvar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSalvar.FlatAppearance.BorderSize = 0;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.Location = new System.Drawing.Point(427, 265);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(172, 41);
+            this.btnSalvar.Size = new System.Drawing.Size(118, 41);
             this.btnSalvar.TabIndex = 9;
-            this.btnSalvar.Text = "Salvar";
             this.toolTipFornecedor.SetToolTip(this.btnSalvar, "Salvar as Informações");
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
