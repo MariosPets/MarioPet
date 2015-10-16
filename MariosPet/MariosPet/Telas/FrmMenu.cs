@@ -65,5 +65,12 @@ namespace MariosPet.Telas
             fichaClinica.ShowDialog();
             Close();
         }
+
+        private void agendamentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAgenda agenda = new FrmAgenda();
+            agenda.Show();
+            Close();
+        }
     }
 }
