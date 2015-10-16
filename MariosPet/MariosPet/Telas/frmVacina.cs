@@ -21,5 +21,21 @@ namespace MariosPet.Telas
         {
 
         }
+
+        private void btmVoltar_Click(object sender, EventArgs e)
+        {
+            Telas.FrmFichaClinica fichaclinica = new FrmFichaClinica();
+            fichaclinica.Show();
+            Close();
+        }
+
+        private void btmLimpar_Click(object sender, EventArgs e)
+        {
+            txtPesquisaVacina.Clear();
+            dtgVacina.ClearSelection();
+            txtVermifugo.Clear();
+            dtgVermifugo.ClearSelection();
+
+        }
     }
 }
