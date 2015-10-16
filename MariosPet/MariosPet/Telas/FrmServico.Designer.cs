@@ -35,10 +35,10 @@
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxServico = new System.Windows.Forms.GroupBox();
             this.mstPreco = new System.Windows.Forms.MaskedTextBox();
             this.toolTipServicos = new System.Windows.Forms.ToolTip(this.components);
-            this.groupBox1.SuspendLayout();
+            this.groupBoxServico.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblNome
@@ -73,57 +73,69 @@
             // 
             // btnSalvar
             // 
+            this.btnSalvar.BackgroundImage = global::MariosPet.Properties.Resources.botaoSalvarVerde;
+            this.btnSalvar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSalvar.FlatAppearance.BorderSize = 0;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(619, 128);
+            this.btnSalvar.Location = new System.Drawing.Point(608, 128);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(103, 46);
+            this.btnSalvar.Size = new System.Drawing.Size(118, 46);
             this.btnSalvar.TabIndex = 4;
-            this.btnSalvar.Text = "Salvar";
             this.toolTipServicos.SetToolTip(this.btnSalvar, "Salvar as Informações");
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
             // btnLimpar
             // 
+            this.btnLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparLaranja;
+            this.btnLimpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnLimpar.FlatAppearance.BorderSize = 0;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(510, 128);
+            this.btnLimpar.Location = new System.Drawing.Point(475, 128);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(103, 46);
+            this.btnLimpar.Size = new System.Drawing.Size(115, 46);
             this.btnLimpar.TabIndex = 3;
-            this.btnLimpar.Text = "Limpar";
             this.toolTipServicos.SetToolTip(this.btnLimpar, "Limpar os Campos");
-            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.UseVisualStyleBackColor = false;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarVerde;
+            this.btnVoltar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(401, 128);
+            this.btnVoltar.Location = new System.Drawing.Point(333, 128);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(103, 46);
+            this.btnVoltar.Size = new System.Drawing.Size(116, 46);
             this.btnVoltar.TabIndex = 2;
-            this.btnVoltar.Text = "Voltar";
             this.toolTipServicos.SetToolTip(this.btnVoltar, "Voltar ao Menu");
             this.btnVoltar.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // groupBoxServico
             // 
-            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Controls.Add(this.mstPreco);
-            this.groupBox1.Controls.Add(this.btnVoltar);
-            this.groupBox1.Controls.Add(this.btnLimpar);
-            this.groupBox1.Controls.Add(this.btnSalvar);
-            this.groupBox1.Controls.Add(this.txtServico);
-            this.groupBox1.Controls.Add(this.lblCpf);
-            this.groupBox1.Controls.Add(this.lblNome);
-            this.groupBox1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox1.Location = new System.Drawing.Point(201, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(743, 197);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "   Dados do Serviço";
+            this.groupBoxServico.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBoxServico.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromAmareloGrande;
+            this.groupBoxServico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBoxServico.Controls.Add(this.mstPreco);
+            this.groupBoxServico.Controls.Add(this.btnVoltar);
+            this.groupBoxServico.Controls.Add(this.btnLimpar);
+            this.groupBoxServico.Controls.Add(this.btnSalvar);
+            this.groupBoxServico.Controls.Add(this.txtServico);
+            this.groupBoxServico.Controls.Add(this.lblCpf);
+            this.groupBoxServico.Controls.Add(this.lblNome);
+            this.groupBoxServico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBoxServico.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
+            this.groupBoxServico.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.groupBoxServico.Location = new System.Drawing.Point(201, 8);
+            this.groupBoxServico.Name = "groupBoxServico";
+            this.groupBoxServico.Size = new System.Drawing.Size(743, 197);
+            this.groupBoxServico.TabIndex = 4;
+            this.groupBoxServico.TabStop = false;
+            this.groupBoxServico.Text = "   Dados do Serviço";
             // 
             // mstPreco
             // 
@@ -147,12 +159,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1114, 741);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(1114, 733);
+            this.Controls.Add(this.groupBoxServico);
             this.Name = "FrmServico";
             this.Text = "frmServico";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxServico.ResumeLayout(false);
+            this.groupBoxServico.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -165,7 +177,7 @@
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnVoltar;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxServico;
         private System.Windows.Forms.MaskedTextBox mstPreco;
         private System.Windows.Forms.ToolTip toolTipServicos;
     }
