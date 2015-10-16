@@ -51,6 +51,7 @@
             // groupBox1
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox1.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromVerdeGrande;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox1.Controls.Add(this.btnVoltar);
             this.groupBox1.Controls.Add(this.btnLimpar);
@@ -65,7 +66,7 @@
             this.groupBox1.Controls.Add(this.lblNome);
             this.groupBox1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox1.Location = new System.Drawing.Point(222, 12);
+            this.groupBox1.Location = new System.Drawing.Point(222, 8);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(743, 233);
             this.groupBox1.TabIndex = 3;
@@ -74,44 +75,53 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(410, 181);
+            this.btnVoltar.Location = new System.Drawing.Point(352, 181);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(103, 46);
+            this.btnVoltar.Size = new System.Drawing.Size(118, 46);
             this.btnVoltar.TabIndex = 4;
-            this.btnVoltar.Text = "Voltar";
             this.toolTipRemedio.SetToolTip(this.btnVoltar, "Voltar ao Menu");
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnLimpar
             // 
+            this.btnLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
+            this.btnLimpar.FlatAppearance.BorderSize = 0;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(519, 181);
+            this.btnLimpar.Location = new System.Drawing.Point(489, 181);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(103, 46);
+            this.btnLimpar.Size = new System.Drawing.Size(116, 46);
             this.btnLimpar.TabIndex = 5;
-            this.btnLimpar.Text = "Limpar";
             this.toolTipRemedio.SetToolTip(this.btnLimpar, "Limpar os Campos");
-            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.UseVisualStyleBackColor = false;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSalvar
             // 
+            this.btnSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnSalvar.FlatAppearance.BorderSize = 0;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(628, 181);
+            this.btnSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
+            this.btnSalvar.Location = new System.Drawing.Point(611, 181);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(103, 46);
+            this.btnSalvar.Size = new System.Drawing.Size(126, 46);
             this.btnSalvar.TabIndex = 6;
-            this.btnSalvar.Text = "Salvar";
             this.toolTipRemedio.SetToolTip(this.btnSalvar, "Salvar as Informações");
-            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.UseVisualStyleBackColor = false;
             // 
             // nudMaximo
             // 
             this.nudMaximo.Font = new System.Drawing.Font("Verdana", 14.25F);
             this.nudMaximo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.nudMaximo.Location = new System.Drawing.Point(447, 122);
+            this.nudMaximo.Location = new System.Drawing.Point(560, 122);
             this.nudMaximo.Name = "nudMaximo";
             this.nudMaximo.Size = new System.Drawing.Size(83, 31);
             this.nudMaximo.TabIndex = 3;
@@ -141,11 +151,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(348, 122);
+            this.label1.Location = new System.Drawing.Point(348, 130);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 23);
+            this.label1.Size = new System.Drawing.Size(206, 23);
             this.label1.TabIndex = 26;
-            this.label1.Text = "Maximo:";
+            this.label1.Text = "Máximo no estoque:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtMedicamento
@@ -162,11 +172,11 @@
             // 
             this.lblTelefone.AutoSize = true;
             this.lblTelefone.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefone.Location = new System.Drawing.Point(155, 122);
+            this.lblTelefone.Location = new System.Drawing.Point(42, 130);
             this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(89, 23);
+            this.lblTelefone.Size = new System.Drawing.Size(202, 23);
             this.lblTelefone.TabIndex = 20;
-            this.lblTelefone.Text = "Minimo:";
+            this.lblTelefone.Text = "Minimo no estoque:";
             // 
             // lblCpf
             // 
@@ -199,7 +209,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1114, 741);
+            this.ClientSize = new System.Drawing.Size(1114, 733);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmRemedio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
