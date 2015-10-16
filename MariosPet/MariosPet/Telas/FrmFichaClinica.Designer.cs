@@ -36,7 +36,12 @@
             this.txtPesquisaAnimal = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnLimpar = new System.Windows.Forms.Button();
+            this.txtObservacao = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtExames = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtSintomas = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.txtPrescricao = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtSuspeita = new System.Windows.Forms.TextBox();
@@ -44,17 +49,12 @@
             this.txtQueixa = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtHistoricoClinico = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnVermifugoVacina = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.toolTipFichaClinica = new System.Windows.Forms.ToolTip(this.components);
-            this.txtSintomas = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtExames = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtObservacao = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgAnimal)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -85,7 +85,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(116, 44);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Cadastrar";
+            this.button2.Text = "Novo";
             this.toolTipFichaClinica.SetToolTip(this.button2, "Cadastrar novo Animal");
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -157,18 +157,62 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "   Ficha Clínica";
             // 
-            // btnLimpar
+            // txtObservacao
             // 
-            this.btnLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(931, 626);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(64, 21);
-            this.btnLimpar.TabIndex = 5;
-            this.btnLimpar.Text = "Limpar";
-            this.toolTipFichaClinica.SetToolTip(this.btnLimpar, "Limpar Campos");
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            this.txtObservacao.Location = new System.Drawing.Point(10, 422);
+            this.txtObservacao.Multiline = true;
+            this.txtObservacao.Name = "txtObservacao";
+            this.txtObservacao.Size = new System.Drawing.Size(674, 30);
+            this.txtObservacao.TabIndex = 38;
+            this.toolTipFichaClinica.SetToolTip(this.txtObservacao, "Insira a Prescrição");
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(7, 401);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(112, 18);
+            this.label7.TabIndex = 39;
+            this.label7.Text = "Observações:";
+            // 
+            // txtExames
+            // 
+            this.txtExames.Location = new System.Drawing.Point(10, 368);
+            this.txtExames.Multiline = true;
+            this.txtExames.Name = "txtExames";
+            this.txtExames.Size = new System.Drawing.Size(674, 30);
+            this.txtExames.TabIndex = 36;
+            this.toolTipFichaClinica.SetToolTip(this.txtExames, "Insira a Prescrição");
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(7, 347);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(207, 18);
+            this.label6.TabIndex = 37;
+            this.label6.Text = "Exames Complementares:";
+            // 
+            // txtSintomas
+            // 
+            this.txtSintomas.Location = new System.Drawing.Point(9, 316);
+            this.txtSintomas.Multiline = true;
+            this.txtSintomas.Name = "txtSintomas";
+            this.txtSintomas.Size = new System.Drawing.Size(674, 30);
+            this.txtSintomas.TabIndex = 34;
+            this.toolTipFichaClinica.SetToolTip(this.txtSintomas, "Insira a Prescrição");
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(6, 295);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(85, 18);
+            this.label5.TabIndex = 35;
+            this.label5.Text = "Sintomas:";
             // 
             // txtPrescricao
             // 
@@ -237,6 +281,29 @@
             this.toolTipFichaClinica.SetToolTip(this.txtHistoricoClinico, "Insira o Histórico Clínico");
             this.txtHistoricoClinico.TextChanged += new System.EventHandler(this.txtHistoricoClinico_TextChanged);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(132, 18);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Histórico Clinico:";
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(931, 626);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(64, 21);
+            this.btnLimpar.TabIndex = 5;
+            this.btnLimpar.Text = "Limpar";
+            this.toolTipFichaClinica.SetToolTip(this.btnLimpar, "Limpar Campos");
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
             // btnVoltar
             // 
             this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -274,78 +341,11 @@
             this.toolTipFichaClinica.SetToolTip(this.btnVermifugoVacina, "Ir para Vermífugo/Vacina");
             this.btnVermifugoVacina.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 18);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "Histórico Clinico:";
-            // 
             // toolTipFichaClinica
             // 
             this.toolTipFichaClinica.AutomaticDelay = 100;
             this.toolTipFichaClinica.IsBalloon = true;
             this.toolTipFichaClinica.StripAmpersands = true;
-            // 
-            // txtSintomas
-            // 
-            this.txtSintomas.Location = new System.Drawing.Point(9, 316);
-            this.txtSintomas.Multiline = true;
-            this.txtSintomas.Name = "txtSintomas";
-            this.txtSintomas.Size = new System.Drawing.Size(674, 30);
-            this.txtSintomas.TabIndex = 34;
-            this.toolTipFichaClinica.SetToolTip(this.txtSintomas, "Insira a Prescrição");
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 295);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 18);
-            this.label5.TabIndex = 35;
-            this.label5.Text = "Sintomas:";
-            // 
-            // txtExames
-            // 
-            this.txtExames.Location = new System.Drawing.Point(10, 368);
-            this.txtExames.Multiline = true;
-            this.txtExames.Name = "txtExames";
-            this.txtExames.Size = new System.Drawing.Size(674, 30);
-            this.txtExames.TabIndex = 36;
-            this.toolTipFichaClinica.SetToolTip(this.txtExames, "Insira a Prescrição");
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(7, 347);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(207, 18);
-            this.label6.TabIndex = 37;
-            this.label6.Text = "Exames Complementares:";
-            // 
-            // txtObservacao
-            // 
-            this.txtObservacao.Location = new System.Drawing.Point(10, 422);
-            this.txtObservacao.Multiline = true;
-            this.txtObservacao.Name = "txtObservacao";
-            this.txtObservacao.Size = new System.Drawing.Size(674, 30);
-            this.txtObservacao.TabIndex = 38;
-            this.toolTipFichaClinica.SetToolTip(this.txtObservacao, "Insira a Prescrição");
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(7, 401);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 18);
-            this.label7.TabIndex = 39;
-            this.label7.Text = "Observações:";
             // 
             // FrmFichaClinica
             // 
