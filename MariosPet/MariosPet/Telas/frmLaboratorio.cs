@@ -1,4 +1,5 @@
-﻿using MariosPet.Crud;
+﻿using MariosPet.Classes;
+using MariosPet.Crud;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -55,7 +56,7 @@ namespace MariosPet.Telas
             classeEnd.uf = cmbUF.Text;
 
             //Dados do Laboratório
-            classeLab.razaosocial = txtNomeLaboratorio.Text;
+            classeLab.razaoSocial = txtNomeLaboratorio.Text;
             classeLab.cnpj = mstCNPJ.Text;
             classeLab.telefone1 = Convert.ToInt32(txtTelefone1.Text);
             classeLab.telefone2 = Convert.ToInt32(txtTelefone2.Text);
