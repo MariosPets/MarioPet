@@ -96,7 +96,7 @@ namespace MariosPet.Telas
 
             CrudEnd.inserirEndereco(classeEnd);
 
-            classePes.idEndereco = Convert.ToInt32(CrudEnd.consultaEndereco("select top 1 ID_ENDERECO from ENDERECO order by ID_ENDERECO desc").Rows[0][0].ToString())
+            classePes.idEndereco = Convert.ToInt32(CrudEnd.consultaEndereco("select top 1 ID_ENDERECO from ENDERECO order by ID_ENDERECO desc").Rows[0][0].ToString());
 
             CrudPes.inserirPessoa(classePes);
             CrudFun.inserirFuncionario(classeFunc);
