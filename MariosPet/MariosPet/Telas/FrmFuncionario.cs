@@ -12,6 +12,9 @@ namespace MariosPet.Telas
 {
     public partial class FrmFuncionario : Form
     {
+        Funcionario classeFunc = new Funcionario();
+        Pessoa classePes = new Pessoa();
+        Endereco classeEnd = new Endereco();
         public FrmFuncionario()
         {
             InitializeComponent();
@@ -54,6 +57,49 @@ namespace MariosPet.Telas
             Telas.FrmMenu frmmenu = new FrmMenu();
             frmmenu.Show();
             Close();
+        }
+
+        public void CopiarParaClasseFuncionario()
+        {
+            //Pessoa
+            classePes.nome = txtNomeFuncionario.Text;
+            classePes.nascimento = DateTime.Parse(mstNascimentoFuncionario.Text);
+            classePes.cpf = mstCPFFuncionario.Text;
+            classePes.rg = mstRGFuncionario.Text;
+            classePes.email = txtEmailFuncionario.Text;
+            classePes.telefone1 = Convert.ToInt32(txtTelefoneFuncionario.Text);
+            classePes.telefone2 = Convert.ToInt32(txtTelefone2Funcionario.Text);
+            classePes.telefone3 = Convert.ToInt32(txtTelefone3Funcionario.Text);
+
+            //Endereço
+            classeEnd.rua = txtRuaFuncionario.Text;
+            classeEnd.numero = Convert.ToInt32(txtNumeroFuncionario.Text);
+            classeEnd.complemento = txtComplementoFuncionario.Text;
+            classeEnd.bairro = txtBairroFuncionario.Text;
+            classeEnd.cep = Convert.ToInt32(mstCepFuncionario.Text);
+            classeEnd.cidade = txtCidadeFuncionario.Text;
+            classeEnd.uf = cmbUFFuncionario.Text;
+
+            //Funcionario
+            classeFunc.tipo = cmbTipoFuncionario.Text;
+            classeFunc.apelido = txtLogin.Text;
+            classeFunc.senha = txtSenha.Text;
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseFuncionario();
+
+            CrudPessoa CrudPes = new CrudPessoa();
+            CrudEndereco CrudEnd = new CrudEndereco();
+            CrudFuncionario CrudFun = new CrudFuncionario();
+
+            CrudEnd.inserirEndereco(classeEnd);
+
+            classePes.idEndereco = Convert.ToInt32(CrudEnd.consultaEndereco("select top 1 ID_ENDERECO from ENDERECO order by ID_ENDERECO desc").Rows[0][0].ToString())
+
+            CrudPes.inserirPessoa(classePes);
+            CrudFun.inserirFuncionario(classeFunc);
         }
     }
 }
