@@ -36,7 +36,6 @@
             this.btmVoltar = new System.Windows.Forms.Button();
             this.btmSalvar = new System.Windows.Forms.Button();
             this.lblNascimentoAnimal = new System.Windows.Forms.Label();
-            this.txtSexo = new System.Windows.Forms.TextBox();
             this.maskedTxtNascimentoAnimal = new System.Windows.Forms.MaskedTextBox();
             this.lblPelagemCor = new System.Windows.Forms.Label();
             this.txtPelagemCor = new System.Windows.Forms.TextBox();
@@ -46,6 +45,8 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblNomeAnimal = new System.Windows.Forms.Label();
             this.toolTipAnimal = new System.Windows.Forms.ToolTip(this.components);
+            this.radioButtonFem = new System.Windows.Forms.RadioButton();
+            this.radioButtonMasc = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimal)).BeginInit();
             this.groupBoxAnimal.SuspendLayout();
             this.SuspendLayout();
@@ -66,12 +67,13 @@
             this.groupBoxAnimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.groupBoxAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeAmareloGrande;
             this.groupBoxAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBoxAnimal.Controls.Add(this.radioButtonMasc);
+            this.groupBoxAnimal.Controls.Add(this.radioButtonFem);
             this.groupBoxAnimal.Controls.Add(this.button1);
             this.groupBoxAnimal.Controls.Add(this.btmLimpar);
             this.groupBoxAnimal.Controls.Add(this.btmVoltar);
             this.groupBoxAnimal.Controls.Add(this.btmSalvar);
             this.groupBoxAnimal.Controls.Add(this.lblNascimentoAnimal);
-            this.groupBoxAnimal.Controls.Add(this.txtSexo);
             this.groupBoxAnimal.Controls.Add(this.maskedTxtNascimentoAnimal);
             this.groupBoxAnimal.Controls.Add(this.pictureBoxAnimal);
             this.groupBoxAnimal.Controls.Add(this.lblPelagemCor);
@@ -159,17 +161,6 @@
             this.lblNascimentoAnimal.TabIndex = 17;
             this.lblNascimentoAnimal.Text = "Nascimento:";
             // 
-            // txtSexo
-            // 
-            this.txtSexo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.txtSexo.Location = new System.Drawing.Point(673, 191);
-            this.txtSexo.MaxLength = 1;
-            this.txtSexo.Name = "txtSexo";
-            this.txtSexo.Size = new System.Drawing.Size(60, 27);
-            this.txtSexo.TabIndex = 4;
-            this.toolTipAnimal.SetToolTip(this.txtSexo, "Insira o Sexo do Animal (F ou M)");
-            // 
             // maskedTxtNascimentoAnimal
             // 
             this.maskedTxtNascimentoAnimal.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -239,7 +230,7 @@
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(601, 195);
+            this.lblEmail.Location = new System.Drawing.Point(565, 195);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(66, 23);
             this.lblEmail.TabIndex = 3;
@@ -260,6 +251,30 @@
             this.toolTipAnimal.AutomaticDelay = 100;
             this.toolTipAnimal.IsBalloon = true;
             this.toolTipAnimal.StripAmpersands = true;
+            // 
+            // radioButtonFem
+            // 
+            this.radioButtonFem.AutoSize = true;
+            this.radioButtonFem.Checked = true;
+            this.radioButtonFem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonFem.Location = new System.Drawing.Point(637, 196);
+            this.radioButtonFem.Name = "radioButtonFem";
+            this.radioButtonFem.Size = new System.Drawing.Size(66, 22);
+            this.radioButtonFem.TabIndex = 19;
+            this.radioButtonFem.TabStop = true;
+            this.radioButtonFem.Text = "Fem.";
+            this.radioButtonFem.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonMasc
+            // 
+            this.radioButtonMasc.AutoSize = true;
+            this.radioButtonMasc.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonMasc.Location = new System.Drawing.Point(637, 224);
+            this.radioButtonMasc.Name = "radioButtonMasc";
+            this.radioButtonMasc.Size = new System.Drawing.Size(72, 22);
+            this.radioButtonMasc.TabIndex = 20;
+            this.radioButtonMasc.Text = "Masc.";
+            this.radioButtonMasc.UseVisualStyleBackColor = true;
             // 
             // FrmAnimal
             // 
@@ -292,12 +307,13 @@
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblNomeAnimal;
         private System.Windows.Forms.Label lblNascimentoAnimal;
-        private System.Windows.Forms.TextBox txtSexo;
         private System.Windows.Forms.Button btmLimpar;
         private System.Windows.Forms.Button btmVoltar;
         private System.Windows.Forms.Button btmSalvar;
         private System.Windows.Forms.ToolTip toolTipAnimal;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton radioButtonMasc;
+        private System.Windows.Forms.RadioButton radioButtonFem;
 
 
     }
