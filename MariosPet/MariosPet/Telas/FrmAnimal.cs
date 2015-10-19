@@ -34,7 +34,7 @@ namespace MariosPet.Telas
             txtNomeAnimal.Clear();
             txtPelagemCor.Clear();
             txtRacaPorte.Clear();
-            txtSexo.Clear();
+            //txtSexo.Clear();
             maskedTxtNascimentoAnimal.Clear();
         }
 
