@@ -100,7 +100,7 @@
             // 
             // button2
             // 
-            this.button2.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
+            //this.button2.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
             this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(568, 194);
             this.button2.Name = "button2";
@@ -119,7 +119,7 @@
             // 
             // btnConsultar
             // 
-            this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
+            //this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
             this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultar.Location = new System.Drawing.Point(568, 41);
             this.btnConsultar.Name = "btnConsultar";
@@ -175,7 +175,7 @@
             // 
             this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btmLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
+            //this.btmLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
             this.btmLimpar.FlatAppearance.BorderSize = 0;
             this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -191,7 +191,7 @@
             // 
             this.btmVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btmVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
+            //this.btmVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
             this.btmVoltar.FlatAppearance.BorderSize = 0;
             this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -207,7 +207,7 @@
             // 
             this.btmSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btmSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btmSalvar.BackgroundImage = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
+            //this.btmSalvar.BackgroundImage = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
             this.btmSalvar.FlatAppearance.BorderSize = 0;
             this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -264,7 +264,7 @@
             // 
             // button1
             // 
-            this.button1.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
+            //this.button1.BackgroundImage = global::MariosPet.Properties.Resources.botaoNovoVerde;
             this.button1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(564, 194);
             this.button1.Name = "button1";
@@ -284,7 +284,7 @@
             // 
             // button3
             // 
-            this.button3.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
+            //this.button3.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
             this.button3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(568, 41);
             this.button3.Name = "button3";

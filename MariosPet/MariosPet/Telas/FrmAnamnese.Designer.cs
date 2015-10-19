@@ -68,7 +68,7 @@
             // 
             this.groupBoxAnamnese.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBoxAnamnese.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.groupBoxAnamnese.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromAmareloGrande;
+            //this.groupBoxAnamnese.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromAmareloGrande;
             this.groupBoxAnamnese.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxAnamnese.Controls.Add(this.richTextBoxManejo);
             this.groupBoxAnamnese.Controls.Add(this.btmVoltar);
@@ -108,7 +108,7 @@
             this.btmLimpar.FlatAppearance.BorderSize = 0;
             this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmLimpar.Image = global::MariosPet.Properties.Resources.botaoLimparVerde;
+            //this.btmLimpar.Image = global::MariosPet.Properties.Resources.botaoLimparVerde;
             this.btmLimpar.Location = new System.Drawing.Point(575, 441);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
@@ -123,7 +123,7 @@
             this.btmVoltar.FlatAppearance.BorderSize = 0;
             this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmVoltar.Image = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
+            //this.btmVoltar.Image = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
             this.btmVoltar.Location = new System.Drawing.Point(410, 441);
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
@@ -138,7 +138,7 @@
             this.btmSalvar.FlatAppearance.BorderSize = 0;
             this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
+            //this.btmSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
             this.btmSalvar.Location = new System.Drawing.Point(719, 441);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(127, 44);
@@ -361,7 +361,7 @@
             // groupBoxPesquisaAnimal
             // 
             this.groupBoxPesquisaAnimal.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBoxPesquisaAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromVerdeGrande;
+            //this.groupBoxPesquisaAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromVerdeGrande;
             this.groupBoxPesquisaAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxPesquisaAnimal.Controls.Add(this.btnNovo);
             this.groupBoxPesquisaAnimal.Controls.Add(this.dtgAnimal);
@@ -383,7 +383,7 @@
             this.btnNovo.FlatAppearance.BorderSize = 0;
             this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNovo.Image = global::MariosPet.Properties.Resources.botaoNovoLaranja;
+            //this.btnNovo.Image = global::MariosPet.Properties.Resources.botaoNovoLaranja;
             this.btnNovo.Location = new System.Drawing.Point(789, 142);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(116, 44);
@@ -409,7 +409,7 @@
             this.btnConsultar.FlatAppearance.BorderSize = 0;
             this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Image = global::MariosPet.Properties.Resources.botaoConsultarVerde;
+            //this.btnConsultar.Image = global::MariosPet.Properties.Resources.botaoConsultarVerde;
             this.btnConsultar.Location = new System.Drawing.Point(789, 41);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(116, 44);

@@ -262,21 +262,9 @@
   <data name="logoRosa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagens\logoRosa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nextAmarelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Botoes\Icones\nextAmarelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nextLaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Botoes\Icones\nextLaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nextMarrom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Botoes\Icones\nextMarrom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nextVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Botoes\Icones\nextVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pataAmareloMarrom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <!--<data name="pataAmareloMarrom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botoes\Patas\pataAmareloMarrom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  </data>-->
   <data name="pataAmareloMarromGrande" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Botoes\Patas\pataAmareloMarromGrande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

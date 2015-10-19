@@ -17,8 +17,7 @@ namespace MariosPet
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FrmInicio());
-            Application.Run(new FrmAgenda());
+            Application.Run(new FrmInicio());
         }
     }
 }

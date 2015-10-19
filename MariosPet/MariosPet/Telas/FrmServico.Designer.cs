@@ -73,7 +73,7 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.BackgroundImage = global::MariosPet.Properties.Resources.botaoSalvarVerde;
+            //this.btnSalvar.BackgroundImage = global::MariosPet.Properties.Resources.botaoSalvarVerde;
             this.btnSalvar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSalvar.FlatAppearance.BorderSize = 0;
             this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -88,7 +88,7 @@
             // btnLimpar
             // 
             this.btnLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.btnLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparLaranja;
+            //this.btnLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparLaranja;
             this.btnLimpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnLimpar.FlatAppearance.BorderSize = 0;
             this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -103,7 +103,7 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarVerde;
+            //this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarVerde;
             this.btnVoltar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnVoltar.FlatAppearance.BorderSize = 0;
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -118,7 +118,7 @@
             // groupBoxServico
             // 
             this.groupBoxServico.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBoxServico.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromAmareloGrande;
+            //this.groupBoxServico.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromAmareloGrande;
             this.groupBoxServico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxServico.Controls.Add(this.mstPreco);
             this.groupBoxServico.Controls.Add(this.btnVoltar);
