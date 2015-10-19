@@ -11,6 +11,7 @@ namespace MariosPet.Crud
 {
     class CrudAgendamento
     {
+
         public void inserirAgendamento(Agendamento agendamento)
         {
             /**/
