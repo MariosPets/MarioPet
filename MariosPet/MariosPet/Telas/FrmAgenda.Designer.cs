@@ -769,7 +769,6 @@
             this.gerênciaToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
             this.gerênciaToolStripMenuItem.Text = "Gerência";
             this.gerênciaToolStripMenuItem.ToolTipText = "Gerência";
-            this.gerênciaToolStripMenuItem.Click += new System.EventHandler(this.gerênciaToolStripMenuItem_Click);
             // 
             // cadastroDeFuncionáriosToolStripMenuItem
             // 
@@ -886,12 +885,11 @@
             this.groupBoxAgendamento.Size = new System.Drawing.Size(699, 167);
             this.groupBoxAgendamento.TabIndex = 20;
             this.groupBoxAgendamento.TabStop = false;
-            this.groupBoxAgendamento.Text = "hh:hh dd/mm/aaaa Funcionario";
             // 
             // labelHora
             // 
             this.labelHora.AutoSize = true;
-            this.labelHora.Location = new System.Drawing.Point(29, 31);
+            this.labelHora.Location = new System.Drawing.Point(6, 18);
             this.labelHora.Name = "labelHora";
             this.labelHora.Size = new System.Drawing.Size(44, 17);
             this.labelHora.TabIndex = 29;
@@ -1024,6 +1022,7 @@
             this.textBoxFuncionario.Name = "textBoxFuncionario";
             this.textBoxFuncionario.Size = new System.Drawing.Size(100, 22);
             this.textBoxFuncionario.TabIndex = 1;
+            this.textBoxFuncionario.TextChanged += new System.EventHandler(this.textBoxFuncionario_TextChanged);
             // 
             // buttonFuncionario
             // 
@@ -1033,6 +1032,7 @@
             this.buttonFuncionario.TabIndex = 2;
             this.buttonFuncionario.Text = "Selecionar funcionário";
             this.buttonFuncionario.UseVisualStyleBackColor = true;
+            this.buttonFuncionario.Click += new System.EventHandler(this.buttonFuncionario_Click);
             // 
             // FrmAgenda
             // 

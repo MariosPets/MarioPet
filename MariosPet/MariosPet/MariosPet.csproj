@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="Classes\Servico.cs" />
     <Compile Include="Classes\Vacina.cs" />
+    <Compile Include="Classes\Validacao.cs" />
     <Compile Include="Classes\Vermifugo.cs" />
     <Compile Include="Classes\Veterinario.cs" />
     <Compile Include="Crud\CrudAgendamento.cs" />
@@ -93,11 +94,6 @@
     <Compile Include="Crud\CrudVacina.cs" />
     <Compile Include="Crud\CrudVermifugo.cs" />
     <Compile Include="Crud\CrudVeterinario.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Telas\BuscaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,7 +243,6 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
@@ -273,9 +268,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Botoes\Icones\firstAmarelo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Botoes\Laranjas\botaoAbrirLaranja.png" />
@@ -445,14 +437,18 @@
   <ItemGroup>
     <None Include="Resources\Imagens\logoRosa.png" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\firstLaranja.png" />
+    <None Include="Resources\Botoes\Icones\addPhotoAmarelo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\firstMarrom.png" />
+    <None Include="Resources\Botoes\Icones\addPhotoLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\firstVerde.png" />
+    <None Include="Resources\Botoes\Icones\addPhotoMarrom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Icones\addPhotoVerde.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Botoes\Icones\helpAmarelo.png" />
@@ -467,30 +463,6 @@
     <None Include="Resources\Botoes\Icones\helpVerde.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\lastAmarelo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Botoes\Icones\lastLaranja.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Botoes\Icones\lastMarrom.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Botoes\Icones\lastVerde.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Botoes\Icones\nextAmarelo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Botoes\Icones\nextLaranja.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Botoes\Icones\nextMarrom.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Botoes\Icones\nextVerde.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Botoes\Icones\plusAmarelo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -503,28 +475,28 @@
     <None Include="Resources\Botoes\Icones\plusVerde.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\previousAmarelo.png" />
+    <None Include="Resources\Botoes\Icones\searchAmarelo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\previousLaranja.png" />
+    <None Include="Resources\Botoes\Icones\searchLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\previousMarrom.png" />
+    <None Include="Resources\Botoes\Icones\searchMarrom.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\previousVerde.png" />
+    <None Include="Resources\Botoes\Icones\searchVerde.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\researchAmarelo.png" />
+    <None Include="Resources\Botoes\Icones\vaccineAmarelo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\researchLaranja.png" />
+    <None Include="Resources\Botoes\Icones\vaccineLaranja.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\researchMarrom.png" />
+    <None Include="Resources\Botoes\Icones\vaccineMarrom.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Botoes\Icones\researchVerde.png" />
+    <None Include="Resources\Botoes\Icones\vaccineVerde.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

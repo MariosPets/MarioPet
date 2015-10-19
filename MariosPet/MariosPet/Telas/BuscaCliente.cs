@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MariosPet.Telas
@@ -15,6 +8,16 @@ namespace MariosPet.Telas
         public BuscaCliente()
         {
             InitializeComponent();
+        }
+
+        private void buttonCancela_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void buttonSelecionar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
