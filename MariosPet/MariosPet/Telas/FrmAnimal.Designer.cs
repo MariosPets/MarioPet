@@ -46,6 +46,7 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblNomeAnimal = new System.Windows.Forms.Label();
             this.toolTipAnimal = new System.Windows.Forms.ToolTip(this.components);
+            this.btnPesquisar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimal)).BeginInit();
             this.groupBoxAnimal.SuspendLayout();
             this.SuspendLayout();
@@ -64,8 +65,8 @@
             // 
             this.groupBoxAnimal.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBoxAnimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            //this.groupBoxAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeAmareloGrande;
             this.groupBoxAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBoxAnimal.Controls.Add(this.btnPesquisar);
             this.groupBoxAnimal.Controls.Add(this.button1);
             this.groupBoxAnimal.Controls.Add(this.btmLimpar);
             this.groupBoxAnimal.Controls.Add(this.btmVoltar);
@@ -112,11 +113,12 @@
             this.btmLimpar.FlatAppearance.BorderSize = 0;
             this.btmLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmLimpar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            //this.btmLimpar.Image = global::MariosPet.Properties.Resources.botaoLimparLaranja;
-            this.btmLimpar.Location = new System.Drawing.Point(334, 313);
+            this.btmLimpar.Location = new System.Drawing.Point(244, 312);
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
             this.btmLimpar.TabIndex = 6;
+            this.btmLimpar.Text = "limpar";
+            this.toolTipAnimal.SetToolTip(this.btmLimpar, "Limpar os Campos");
             this.btmLimpar.UseVisualStyleBackColor = false;
             this.btmLimpar.Click += new System.EventHandler(this.btmLimpar_Click);
             // 
@@ -124,14 +126,15 @@
             // 
             this.btmVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btmVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            //this.btmVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarVerde;
             this.btmVoltar.FlatAppearance.BorderSize = 0;
             this.btmVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmVoltar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmVoltar.Location = new System.Drawing.Point(203, 312);
+            this.btmVoltar.Location = new System.Drawing.Point(56, 310);
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
             this.btmVoltar.TabIndex = 5;
+            this.btmVoltar.Text = "voltar";
+            this.toolTipAnimal.SetToolTip(this.btmVoltar, "Voltar ao Menu");
             this.btmVoltar.UseVisualStyleBackColor = false;
             this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
             // 
@@ -142,11 +145,12 @@
             this.btmSalvar.FlatAppearance.BorderSize = 0;
             this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            //this.btmSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarVerde;
-            this.btmSalvar.Location = new System.Drawing.Point(468, 315);
+            this.btmSalvar.Location = new System.Drawing.Point(616, 312);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(117, 42);
             this.btmSalvar.TabIndex = 7;
+            this.btmSalvar.Text = "salvar";
+            this.toolTipAnimal.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
             // lblNascimentoAnimal
@@ -261,6 +265,21 @@
             this.toolTipAnimal.IsBalloon = true;
             this.toolTipAnimal.StripAmpersands = true;
             // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnPesquisar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnPesquisar.FlatAppearance.BorderSize = 0;
+            this.btnPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisar.Location = new System.Drawing.Point(429, 311);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(117, 44);
+            this.btnPesquisar.TabIndex = 19;
+            this.btnPesquisar.Text = "pesquisar";
+            this.toolTipAnimal.SetToolTip(this.btnPesquisar, "Pesquisar Cliente");
+            this.btnPesquisar.UseVisualStyleBackColor = false;
+            // 
             // FrmAnimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -298,6 +317,7 @@
         private System.Windows.Forms.Button btmSalvar;
         private System.Windows.Forms.ToolTip toolTipAnimal;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPesquisar;
 
 
     }

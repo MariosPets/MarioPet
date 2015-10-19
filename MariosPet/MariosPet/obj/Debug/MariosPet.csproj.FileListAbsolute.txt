@@ -123,3 +123,27 @@ G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmAnamnese
 G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.frmVacina.resources
 G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.BuscaCliente.resources
 G:\Workspace\MariosPet\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.BuscaFuncionario.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\bin\Debug\MariosPet.exe.config
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.exe
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.pdb
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\bin\Debug\MariosPet.exe
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\bin\Debug\MariosPet.pdb
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.csprojResolveAssemblyReference.cache
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.BuscaCliente.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.BuscaFuncionario.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmAgenda.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmAnamnese.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmAnimal.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmCadastroCliente.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmFichaClinica.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmFornecedor.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmFuncionario.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.FrmInicio.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmLaboratorio.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.FrmLogin.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Properties.Resources.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmMenu.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmProduto.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.FrmRemedio.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.Telas.frmVacina.resources
+C:\Users\Olivia S\Source\Repos\MarioPet15\MariosPet\MariosPet\obj\Debug\MariosPet.csproj.GenerateResource.Cache
