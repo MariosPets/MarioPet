@@ -54,7 +54,7 @@
             // groupBoxPesquisas
             // 
             this.groupBoxPesquisas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            //this.groupBoxPesquisas.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeMarromGrande;
+            this.groupBoxPesquisas.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeMarromGrande;
             this.groupBoxPesquisas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxPesquisas.Controls.Add(this.btnLimpar);
             this.groupBoxPesquisas.Controls.Add(this.btnVoltar);
@@ -78,7 +78,7 @@
             // btnLimpar
             // 
             this.btnLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            //this.btnLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
+            this.btnLimpar.BackgroundImage = global::MariosPet.Properties.Resources.botaoLimparVerde;
             this.btnLimpar.FlatAppearance.BorderSize = 0;
             this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -93,7 +93,7 @@
             // btnVoltar
             // 
             this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            //this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
+            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
             this.btnVoltar.FlatAppearance.BorderSize = 0;
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -174,7 +174,7 @@
             // btnConsultar
             // 
             this.btnConsultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            //this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
+            this.btnConsultar.BackgroundImage = global::MariosPet.Properties.Resources.botaoConsultarLaranja;
             this.btnConsultar.FlatAppearance.BorderSize = 0;
             this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsultar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
