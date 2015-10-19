@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using MariosPet.Crud;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -73,7 +75,7 @@ namespace MariosPet.Telas
 
             //Endereço
             classeEnd.rua = txtRuaFuncionario.Text;
-            classeEnd.numero = Convert.ToInt32(txtNumeroFuncionario.Text);
+            classeEnd.numero = txtNumeroFuncionario.Text;
             classeEnd.complemento = txtComplementoFuncionario.Text;
             classeEnd.bairro = txtBairroFuncionario.Text;
             classeEnd.cep = Convert.ToInt32(mstCepFuncionario.Text);

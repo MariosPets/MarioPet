@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using MariosPet.Crud;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,8 @@ namespace MariosPet.Telas
 {
     public partial class FrmLaboratorio : Form
     {
+        Endereco classeEnd = new Endereco();
+        Laboratorio classeLab = new Laboratorio();
         public FrmLaboratorio()
         {
             InitializeComponent();
@@ -38,6 +42,40 @@ namespace MariosPet.Telas
             Telas.FrmMenu frmmenu = new FrmMenu();
             frmmenu.Show();
             Close();
+        }
+
+        public void CopiarParaClasseLaboratorio()
+        {
+            //Endereco
+            classeEnd.rua = txtRua.Text;
+            classeEnd.numero = txtNumero.Text;
+            classeEnd.complemento = txtComplemento.Text;
+            classeEnd.bairro = txtBairro.Text;
+            classeEnd.cep = Convert.ToInt32(mstCep.Text);
+            classeEnd.cidade = txtCidade.Text;
+            classeEnd.uf = cmbUF.Text;
+
+            //Dados do Laboratório
+            classeLab.razaoSocial = txtNomeLaboratorio.Text;
+            classeLab.cnpj = mstCNPJ.Text;
+            classeLab.telefone1 = Convert.ToInt32(txtTelefone1.Text);
+            classeLab.telefone2 = Convert.ToInt32(txtTelefone2.Text);
+            classeLab.email1 = txtEmail1.Text;
+            classeLab.email2 = txtEmail2.Text;
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseLaboratorio();
+
+            CrudLaboratorio CrudLab = new CrudLaboratorio();
+            CrudEndereco CrudEnd = new CrudEndereco();
+
+            CrudEnd.inserirEndereco(classeEnd);
+
+            classeLab.idEndereco = Convert.ToInt32(CrudEnd.consultaEndereco("select to 1 ID_ENDERECO from ENDERECO order by ID_ENDERECO desc").Rows[0][0].ToString());
+
+            CrudLab.inserirLaboratorio(classeLab);
         }
     }
 }

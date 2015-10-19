@@ -34,7 +34,7 @@ namespace MariosPet.Telas
             txtNomeAnimal.Clear();
             txtPelagemCor.Clear();
             txtRacaPorte.Clear();
-            txtSexo.Clear();
+            //txtSexo.Clear();
             maskedTxtNascimentoAnimal.Clear();
         }
 
@@ -45,7 +45,8 @@ namespace MariosPet.Telas
             classeAni.racaPorte = txtRacaPorte.Text;
             classeAni.pelagemCor = txtPelagemCor.Text;
             classeAni.nascimento = DateTime.Parse(maskedTxtNascimentoAnimal.Text);
-            classeAni.sexo = Convert.ToBoolean(txtSexo.Text);
+            classeAni.sexo = Convert.ToBoolean(radioButtonFem.Text);
+            classeAni.sexo = Convert.ToBoolean(radioButtonMasc.Text);
         }
 
         private void btmSalvar_Click(object sender, EventArgs e)
