@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using MariosPet.Crud;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +15,7 @@ namespace MariosPet.Telas
 {
     public partial class FrmAnimal : Form
     {
+        Animal classeAni = new Animal();
         public FrmAnimal()
         {
             InitializeComponent();
@@ -33,6 +36,25 @@ namespace MariosPet.Telas
             txtRacaPorte.Clear();
             txtSexo.Clear();
             maskedTxtNascimentoAnimal.Clear();
+        }
+
+        public void CopiarParaClasseAnimal()
+        {
+            //Animal
+            classeAni.nome = txtNomeAnimal.Text;
+            classeAni.racaPorte = txtRacaPorte.Text;
+            classeAni.pelagemCor = txtPelagemCor.Text;
+            classeAni.nascimento = DateTime.Parse(maskedTxtNascimentoAnimal.Text);
+            classeAni.sexo = Convert.ToBoolean(txtSexo.Text);
+        }
+
+        private void btmSalvar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseAnimal();
+
+            CrudAnimal CrudAni = new CrudAnimal();
+
+            CrudAni.inserirAnimal(classeAni);
         }
     }
 }
