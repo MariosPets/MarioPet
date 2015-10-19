@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using MariosPet.Crud;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,8 @@ namespace MariosPet.Telas
 {
     public partial class FrmCadastroCliente : Form
     {
+        Endereco classeEnd = new Endereco();
+        Cliente classeCli = new Cliente();
         public FrmCadastroCliente()
         {
             InitializeComponent();
@@ -47,6 +51,40 @@ namespace MariosPet.Telas
             Close();
         }
 
-       
+        public void CopiarParaClasseCliente()
+        {
+            //Endereço
+            classeEnd.rua = txtRuaCliente.Text;
+            classeEnd.numero = Convert.ToInt32(txtNumeroCliente.Text);
+            classeEnd.complemento = txtComplementoCliente.Text;
+            classeEnd.bairro = txtBairroCliente.Text;
+            classeEnd.cep = Convert.ToInt32(mskCepCliente.Text);
+            classeEnd.cidade = txtCidadeCliente.Text;
+            classeEnd.uf = cmbUFCliente.Text;
+
+            //Dados Pessoais
+            classeCli.nome = txtNomeCliente.Text;
+            classeCli.nascimento = DateTime.Parse(mskNascimentoCliente.Text);
+            classeCli.cpf = mstCPF.Text;
+            classeCli.rg = mstRG.Text;
+            classeCli.email = txtEmailCliente.Text;
+            classeCli.telefone1 = Convert.ToInt32(txtTelefoneCliente.Text);
+            classeCli.telefone2 = Convert.ToInt32(txtTelefone2Cliente.Text);
+            classeCli.telefone3 = Convert.ToInt32(txtTelefone3Cliente.Text);
+        }
+
+        private void btmSalvar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseCliente();
+
+            CrudCliente CrudCli = new CrudCliente();
+            CrudEndereco CrudEnd = new CrudEndereco();
+
+            CrudEnd.inserirEndereco(classeEnd);
+
+            classeCli.idEndereco = Convert.ToInt32(CrudEnd.consultaEndereco("select top 1 ID_ENDERECO from ENDERECO order by ID_ENDERECO desc").Rows[0][0].ToString());
+
+            CrudCli.inserirCliente(classeCli);
+        }
     }
 }
