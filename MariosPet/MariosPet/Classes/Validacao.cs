@@ -50,7 +50,7 @@ namespace MariosPet.Classes
                    MessageBox.Show("Insira o nome da rua!");
                    entrou= false;
                }
-               if (endereco.numero <= 0)
+               if (endereco.numero.Length < 1)
                {
                   MessageBox.Show("Insira o número!");
                    entrou= false;
