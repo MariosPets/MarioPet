@@ -18,10 +18,7 @@ namespace MariosPet.Classes
                    entrou= false;
 
                }                                         
-               if (animal.sexo.Length < 3)
-               {
-                   MessageBox.Show("Insira o sexo do animal!");
-                   entrou = false;
+               
             }
            }      
            public bool validaCliente (Cliente cliente)
