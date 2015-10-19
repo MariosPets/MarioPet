@@ -115,7 +115,7 @@
             this.btmEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btmEntrar.FlatAppearance.BorderSize = 0;
             this.btmEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            //this.btmEntrar.Image = global::MariosPet.Properties.Resources.botaoEntrarLaranja;
+            this.btmEntrar.Image = global::MariosPet.Properties.Resources.botaoEntrarLaranja;
             this.btmEntrar.Location = new System.Drawing.Point(566, 312);
             this.btmEntrar.Name = "btmEntrar";
             this.btmEntrar.Size = new System.Drawing.Size(117, 48);
@@ -131,7 +131,7 @@
             this.btmSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btmSair.FlatAppearance.BorderSize = 0;
             this.btmSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            //this.btmSair.Image = global::MariosPet.Properties.Resources.botaoSairVerde;
+            this.btmSair.Image = global::MariosPet.Properties.Resources.botaoSairVerde;
             this.btmSair.Location = new System.Drawing.Point(301, 312);
             this.btmSair.Name = "btmSair";
             this.btmSair.Size = new System.Drawing.Size(123, 48);
@@ -143,7 +143,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            //this.pictureBox2.BackgroundImage = global::MariosPet.Properties.Resources.logoRosa;
+            this.pictureBox2.BackgroundImage = global::MariosPet.Properties.Resources.logoRosa;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(71, 107);
             this.pictureBox2.Name = "pictureBox2";

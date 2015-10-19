@@ -854,7 +854,7 @@
             // agendamentosToolStripMenuItem
             // 
             this.agendamentosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(230)))), ((int)(((byte)(210)))));
-            //this.agendamentosToolStripMenuItem.Image = global::MariosPet.Properties.Resources.pataMarromVerde;
+            this.agendamentosToolStripMenuItem.Image = global::MariosPet.Properties.Resources.pataMarromVerde;
             this.agendamentosToolStripMenuItem.Name = "agendamentosToolStripMenuItem";
             this.agendamentosToolStripMenuItem.Size = new System.Drawing.Size(128, 29);
             this.agendamentosToolStripMenuItem.Text = "Agenda";
