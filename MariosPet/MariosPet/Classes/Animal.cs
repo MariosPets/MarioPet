@@ -12,6 +12,7 @@ namespace MariosPet.Classes
 
         public int id { get; set; }
         public string nome { get; set; }
+        public int cartirinha { get; set; }
         public int idCliente { get; set; }
         public string racaPorte { get; set; }
 
