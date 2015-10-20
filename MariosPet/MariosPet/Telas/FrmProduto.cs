@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,9 @@ namespace MariosPet.Telas
 {
     public partial class FrmProduto : Form
     {
+        Produto classeProd = new Produto();
+        Fornecedor classeForn = new Fornecedor();
+        PessoaJuridica classePessoaJur = new PessoaJuridica();
         public FrmProduto()
         {
             InitializeComponent();
@@ -48,6 +52,27 @@ namespace MariosPet.Telas
             Telas.FrmMenu frmmenu = new FrmMenu();
             frmmenu.Show();
             Close();
+        }
+
+        public void CopiarParaClasseProduto()
+        {
+            //Produto
+            classeProd.descricao = txtNomeProduto.Text;
+            classeProd.setor = cmbSetor.Text;
+            classeProd.vencimento = DateTime.Parse(mstVencimento.Text);
+            classeProd.quantidade = Convert.ToInt32(txtQuantidade.Text);
+            classeProd.unidade = txtUnidade.Text;
+            classeProd.valorCusto = Convert.ToDouble(txtValorCusto.Text);
+            classeProd.valorVenda = Convert.ToDouble(txtValorVenda.Text);
+            classeProd.lucro = Convert.ToDouble(txtMargemLucro.Text);
+            classeProd.minimoEmEstoque = Convert.ToInt32(txtMinEstoque.Text);
+            classeProd.maximoEmEstoque = Convert.ToInt32(txtMaxEstoque.Text);
+            classeProd.tributacao = txtTributacao.Text;
+            classeProd.codigoBarras = txtCodBarras.Text;
+            classeProd.fabricante = txtFabricante.Text;
+
+            //Pessoa Juridica
+            classePessoaJur.razaoSocial = cmbFornecedor.Text;
         }
     }
 }
