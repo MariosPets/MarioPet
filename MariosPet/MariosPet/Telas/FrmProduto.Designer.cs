@@ -160,6 +160,7 @@
             this.txtFabricante.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFabricante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtFabricante.Location = new System.Drawing.Point(220, 409);
+            this.txtFabricante.MaxLength = 50;
             this.txtFabricante.Name = "txtFabricante";
             this.txtFabricante.Size = new System.Drawing.Size(510, 27);
             this.txtFabricante.TabIndex = 12;
@@ -281,6 +282,7 @@
             this.txtUnidade.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUnidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtUnidade.Location = new System.Drawing.Point(220, 156);
+            this.txtUnidade.MaxLength = 15;
             this.txtUnidade.Name = "txtUnidade";
             this.txtUnidade.Size = new System.Drawing.Size(231, 27);
             this.txtUnidade.TabIndex = 4;
@@ -360,6 +362,7 @@
             "Alimento",
             "Outros"});
             this.cmbSetor.Location = new System.Drawing.Point(220, 77);
+            this.cmbSetor.MaxLength = 50;
             this.cmbSetor.Name = "cmbSetor";
             this.cmbSetor.Size = new System.Drawing.Size(170, 26);
             this.cmbSetor.TabIndex = 1;
@@ -380,6 +383,7 @@
             this.txtTributacao.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTributacao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtTributacao.Location = new System.Drawing.Point(220, 323);
+            this.txtTributacao.MaxLength = 15;
             this.txtTributacao.Name = "txtTributacao";
             this.txtTributacao.Size = new System.Drawing.Size(231, 27);
             this.txtTributacao.TabIndex = 10;
@@ -390,6 +394,7 @@
             this.txtNomeProduto.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNomeProduto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtNomeProduto.Location = new System.Drawing.Point(220, 35);
+            this.txtNomeProduto.MaxLength = 50;
             this.txtNomeProduto.Name = "txtNomeProduto";
             this.txtNomeProduto.Size = new System.Drawing.Size(510, 27);
             this.txtNomeProduto.TabIndex = 0;
