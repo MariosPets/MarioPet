@@ -47,7 +47,7 @@ namespace MariosPet.Classes
                 MessageBox.Show("Insira o nome da rua!");
                 entrou = false;
             }
-            if (endereco.numero <= 0) //colocar . Length quando udar numero para string
+            if (endereco.numero.Length < 1) //colocar . Length quando udar numero para string
             {
                 MessageBox.Show("Insira o número!");
                 entrou = false;

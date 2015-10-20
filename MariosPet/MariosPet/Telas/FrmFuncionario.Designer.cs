@@ -123,6 +123,7 @@
             this.cmbUFFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.cmbUFFuncionario.FormattingEnabled = true;
             this.cmbUFFuncionario.Location = new System.Drawing.Point(473, 187);
+            this.cmbUFFuncionario.MaxLength = 2;
             this.cmbUFFuncionario.Name = "cmbUFFuncionario";
             this.cmbUFFuncionario.Size = new System.Drawing.Size(171, 26);
             this.cmbUFFuncionario.TabIndex = 6;
@@ -154,6 +155,7 @@
             this.txtCidadeFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCidadeFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtCidadeFuncionario.Location = new System.Drawing.Point(156, 185);
+            this.txtCidadeFuncionario.MaxLength = 30;
             this.txtCidadeFuncionario.Name = "txtCidadeFuncionario";
             this.txtCidadeFuncionario.Size = new System.Drawing.Size(195, 27);
             this.txtCidadeFuncionario.TabIndex = 5;
@@ -174,6 +176,7 @@
             this.txtBairroFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBairroFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtBairroFuncionario.Location = new System.Drawing.Point(156, 137);
+            this.txtBairroFuncionario.MaxLength = 30;
             this.txtBairroFuncionario.Name = "txtBairroFuncionario";
             this.txtBairroFuncionario.Size = new System.Drawing.Size(195, 27);
             this.txtBairroFuncionario.TabIndex = 3;
@@ -194,6 +197,7 @@
             this.txtNumeroFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumeroFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtNumeroFuncionario.Location = new System.Drawing.Point(156, 90);
+            this.txtNumeroFuncionario.MaxLength = 10;
             this.txtNumeroFuncionario.Name = "txtNumeroFuncionario";
             this.txtNumeroFuncionario.Size = new System.Drawing.Size(81, 27);
             this.txtNumeroFuncionario.TabIndex = 1;
@@ -214,6 +218,7 @@
             this.txtComplementoFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtComplementoFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtComplementoFuncionario.Location = new System.Drawing.Point(474, 86);
+            this.txtComplementoFuncionario.MaxLength = 30;
             this.txtComplementoFuncionario.Name = "txtComplementoFuncionario";
             this.txtComplementoFuncionario.Size = new System.Drawing.Size(170, 27);
             this.txtComplementoFuncionario.TabIndex = 2;
@@ -234,6 +239,7 @@
             this.txtRuaFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRuaFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtRuaFuncionario.Location = new System.Drawing.Point(156, 44);
+            this.txtRuaFuncionario.MaxLength = 50;
             this.txtRuaFuncionario.Name = "txtRuaFuncionario";
             this.txtRuaFuncionario.Size = new System.Drawing.Size(488, 27);
             this.txtRuaFuncionario.TabIndex = 0;
@@ -276,6 +282,7 @@
             this.txtConfirmacaoSenha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConfirmacaoSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtConfirmacaoSenha.Location = new System.Drawing.Point(223, 134);
+            this.txtConfirmacaoSenha.MaxLength = 20;
             this.txtConfirmacaoSenha.Name = "txtConfirmacaoSenha";
             this.txtConfirmacaoSenha.Size = new System.Drawing.Size(170, 27);
             this.txtConfirmacaoSenha.TabIndex = 3;
@@ -296,6 +303,7 @@
             this.txtSenha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtSenha.Location = new System.Drawing.Point(223, 101);
+            this.txtSenha.MaxLength = 20;
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(170, 27);
             this.txtSenha.TabIndex = 2;
@@ -319,7 +327,7 @@
             this.txtLogin.Location = new System.Drawing.Point(222, 68);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(170, 27);
-            this.txtLogin.TabIndex = 1;
+            this.txtLogin.TabIndex = 20;
             this.toolTipFuncionario.SetToolTip(this.txtLogin, "Insira o Login");
             // 
             // label2
@@ -340,7 +348,7 @@
             this.cmbTipoFuncionario.Location = new System.Drawing.Point(222, 36);
             this.cmbTipoFuncionario.Name = "cmbTipoFuncionario";
             this.cmbTipoFuncionario.Size = new System.Drawing.Size(171, 26);
-            this.cmbTipoFuncionario.TabIndex = 0;
+            this.cmbTipoFuncionario.TabIndex = 20;
             this.cmbTipoFuncionario.Text = "---Selecione---";
             this.toolTipFuncionario.SetToolTip(this.cmbTipoFuncionario, "Selecione o Tipo de Funcionário");
             // 
@@ -400,6 +408,7 @@
             this.txtTelefone3Funcionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone3Funcionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtTelefone3Funcionario.Location = new System.Drawing.Point(156, 248);
+            this.txtTelefone3Funcionario.MaxLength = 15;
             this.txtTelefone3Funcionario.Name = "txtTelefone3Funcionario";
             this.txtTelefone3Funcionario.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone3Funcionario.TabIndex = 7;
@@ -410,6 +419,7 @@
             this.txtTelefone2Funcionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone2Funcionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtTelefone2Funcionario.Location = new System.Drawing.Point(473, 206);
+            this.txtTelefone2Funcionario.MaxLength = 15;
             this.txtTelefone2Funcionario.Name = "txtTelefone2Funcionario";
             this.txtTelefone2Funcionario.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone2Funcionario.TabIndex = 6;
@@ -454,6 +464,7 @@
             this.txtTelefoneFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefoneFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtTelefoneFuncionario.Location = new System.Drawing.Point(156, 205);
+            this.txtTelefoneFuncionario.MaxLength = 15;
             this.txtTelefoneFuncionario.Name = "txtTelefoneFuncionario";
             this.txtTelefoneFuncionario.Size = new System.Drawing.Size(170, 27);
             this.txtTelefoneFuncionario.TabIndex = 5;
@@ -464,6 +475,7 @@
             this.txtEmailFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmailFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtEmailFuncionario.Location = new System.Drawing.Point(156, 163);
+            this.txtEmailFuncionario.MaxLength = 50;
             this.txtEmailFuncionario.Name = "txtEmailFuncionario";
             this.txtEmailFuncionario.Size = new System.Drawing.Size(487, 27);
             this.txtEmailFuncionario.TabIndex = 4;
@@ -474,6 +486,7 @@
             this.txtNomeFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNomeFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtNomeFuncionario.Location = new System.Drawing.Point(156, 36);
+            this.txtNomeFuncionario.MaxLength = 80;
             this.txtNomeFuncionario.Name = "txtNomeFuncionario";
             this.txtNomeFuncionario.Size = new System.Drawing.Size(487, 27);
             this.txtNomeFuncionario.TabIndex = 0;
