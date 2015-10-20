@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using MariosPet.Crud;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,9 @@ namespace MariosPet.Telas
 {
     public partial class FrmFornecedor : Form
     {
+        Endereco classeEnd = new Endereco();
+        PessoaJuridica classePessoaJur = new PessoaJuridica();
+        Fornecedor classeForn = new Fornecedor();
         public FrmFornecedor()
         {
             InitializeComponent();
@@ -36,6 +41,46 @@ namespace MariosPet.Telas
             txtTelefone.Clear();
             txtTelefone2.Clear();
 
+        }
+
+        public void CopiarParaClasseFornecedor()
+        {
+            //Fornecedor
+            classeForn.ramoAtividade = txtAtividade.Text;
+            classeForn.nomeContato = textBoxNomeContato.Text;
+
+            //Pessoa Jurídica
+            classePessoaJur.razaoSocial = txtDenominacao.Text;
+            classePessoaJur.cnpj = mstCNPJ.Text;
+            classePessoaJur.telefone1 = Convert.ToInt32(txtTelefone.Text);
+            classePessoaJur.telefone2 = Convert.ToInt32(txtTelefone2.Text);
+            classePessoaJur.email1 = textBoxEmail1.Text;
+            classePessoaJur.email2 = textBoxEmail2.Text;
+
+            //Endereço
+            classeEnd.rua = txtRua.Text;
+            classeEnd.numero = txtNumero.Text;
+            classeEnd.complemento = txtComplemento.Text;
+            classeEnd.bairro = txtBairro.Text;
+            classeEnd.cep = Convert.ToInt32(mstCNPJ.Text);
+            classeEnd.cidade = txtCidade.Text;
+            classeEnd.uf = cmbUF.Text;
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseFornecedor();
+
+            CrudEndereco CrudEnd = new CrudEndereco();
+            CrudFornecedor CrudForn = new CrudFornecedor();
+            CrudPessoaJuridica CrudPessoaJur = new CrudPessoaJuridica();
+
+            CrudEnd.inserirEndereco(classeEnd);
+
+            classePessoaJur.idEndereco = Convert.ToInt32(CrudEnd.consultaEndereco("select top 1 ID_ENDERECO from ENDERECO order by ID_ENDERECO desc").Rows[0][0].ToString());
+
+            CrudForn.inserirFornecedor(classeForn);
+            CrudPessoaJur.inserirPessoaJuridica(classePessoaJur);
         }
     }
 }

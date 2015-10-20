@@ -1,4 +1,5 @@
 ﻿using MariosPet.Classes;
+using MariosPet.Crud;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -73,6 +74,17 @@ namespace MariosPet.Telas
 
             //Pessoa Juridica
             classePessoaJur.razaoSocial = textBoxFornecedor.Text;
+        }
+
+        private void btmSalvar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseProduto();
+
+            CrudProduto CrudProd = new CrudProduto();
+            CrudPessoaJuridica CrudPessoaJur = new CrudPessoaJuridica();
+
+            CrudProd.inserirProduto(classeProd);
+            CrudPessoaJur.inserirPessoaJuridica(classePessoaJur);
         }
     }
 }

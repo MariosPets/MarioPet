@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBoxFornecedor = new System.Windows.Forms.TextBox();
             this.btmLimpar = new System.Windows.Forms.Button();
             this.btmVoltar = new System.Windows.Forms.Button();
             this.btmSalvar = new System.Windows.Forms.Button();
@@ -61,7 +62,6 @@
             this.lblVencimento = new System.Windows.Forms.Label();
             this.lblNomeProduto = new System.Windows.Forms.Label();
             this.toolTipProduto = new System.Windows.Forms.ToolTip(this.components);
-            this.textBoxFornecedor = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -111,6 +111,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   Dados do Produto";
             // 
+            // textBoxFornecedor
+            // 
+            this.textBoxFornecedor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxFornecedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.textBoxFornecedor.Location = new System.Drawing.Point(220, 452);
+            this.textBoxFornecedor.MaxLength = 40;
+            this.textBoxFornecedor.Name = "textBoxFornecedor";
+            this.textBoxFornecedor.Size = new System.Drawing.Size(510, 27);
+            this.textBoxFornecedor.TabIndex = 32;
+            this.toolTipProduto.SetToolTip(this.textBoxFornecedor, "Insira o Nome do Fabricante");
+            // 
             // btmLimpar
             // 
             this.btmLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -154,6 +165,7 @@
             this.btmSalvar.TabIndex = 16;
             this.toolTipProduto.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
+            this.btmSalvar.Click += new System.EventHandler(this.btmSalvar_Click);
             // 
             // txtFabricante
             // 
@@ -172,7 +184,7 @@
             this.lblFabricante.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFabricante.Location = new System.Drawing.Point(6, 413);
             this.lblFabricante.Name = "lblFabricante";
-            this.lblFabricante.Size = new System.Drawing.Size(117, 23);
+            this.lblFabricante.Size = new System.Drawing.Size(118, 23);
             this.lblFabricante.TabIndex = 31;
             this.lblFabricante.Text = "Fabricante:";
             // 
@@ -233,7 +245,7 @@
             this.lblTributacao.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTributacao.Location = new System.Drawing.Point(6, 327);
             this.lblTributacao.Name = "lblTributacao";
-            this.lblTributacao.Size = new System.Drawing.Size(197, 23);
+            this.lblTributacao.Size = new System.Drawing.Size(199, 23);
             this.lblTributacao.TabIndex = 21;
             this.lblTributacao.Text = "Tipo de Tributação:";
             // 
@@ -314,7 +326,7 @@
             this.lblValorVenda.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValorVenda.Location = new System.Drawing.Point(417, 200);
             this.lblValorVenda.Name = "lblValorVenda";
-            this.lblValorVenda.Size = new System.Drawing.Size(163, 23);
+            this.lblValorVenda.Size = new System.Drawing.Size(165, 23);
             this.lblValorVenda.TabIndex = 17;
             this.lblValorVenda.Text = "Valor de Venda:";
             // 
@@ -396,7 +408,7 @@
             this.lblValorCusto.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValorCusto.Location = new System.Drawing.Point(6, 200);
             this.lblValorCusto.Name = "lblValorCusto";
-            this.lblValorCusto.Size = new System.Drawing.Size(159, 23);
+            this.lblValorCusto.Size = new System.Drawing.Size(160, 23);
             this.lblValorCusto.TabIndex = 5;
             this.lblValorCusto.Text = "Valor de Custo:";
             // 
@@ -427,7 +439,7 @@
             this.lblVencimento.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVencimento.Location = new System.Drawing.Point(6, 118);
             this.lblVencimento.Name = "lblVencimento";
-            this.lblVencimento.Size = new System.Drawing.Size(130, 23);
+            this.lblVencimento.Size = new System.Drawing.Size(131, 23);
             this.lblVencimento.TabIndex = 1;
             this.lblVencimento.Text = "Vencimento:";
             // 
@@ -446,17 +458,6 @@
             this.toolTipProduto.AutomaticDelay = 100;
             this.toolTipProduto.IsBalloon = true;
             this.toolTipProduto.StripAmpersands = true;
-            // 
-            // textBoxFornecedor
-            // 
-            this.textBoxFornecedor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFornecedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textBoxFornecedor.Location = new System.Drawing.Point(220, 452);
-            this.textBoxFornecedor.MaxLength = 40;
-            this.textBoxFornecedor.Name = "textBoxFornecedor";
-            this.textBoxFornecedor.Size = new System.Drawing.Size(510, 27);
-            this.textBoxFornecedor.TabIndex = 32;
-            this.toolTipProduto.SetToolTip(this.textBoxFornecedor, "Insira o Nome do Fabricante");
             // 
             // FrmProduto
             // 
