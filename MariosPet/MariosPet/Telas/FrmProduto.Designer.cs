@@ -202,6 +202,7 @@
             this.txtCodBarras.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodBarras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtCodBarras.Location = new System.Drawing.Point(220, 366);
+            this.txtCodBarras.MaxLength = 50;
             this.txtCodBarras.Name = "txtCodBarras";
             this.txtCodBarras.Size = new System.Drawing.Size(231, 27);
             this.txtCodBarras.TabIndex = 11;
