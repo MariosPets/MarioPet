@@ -66,6 +66,7 @@
             this.txtServico.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtServico.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtServico.Location = new System.Drawing.Point(262, 36);
+            this.txtServico.MaxLength = 30;
             this.txtServico.Name = "txtServico";
             this.txtServico.Size = new System.Drawing.Size(449, 27);
             this.txtServico.TabIndex = 0;
