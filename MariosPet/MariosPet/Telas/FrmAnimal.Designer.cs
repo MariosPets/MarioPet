@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.pictureBoxAnimal = new System.Windows.Forms.PictureBox();
             this.groupBoxAnimal = new System.Windows.Forms.GroupBox();
+            this.roundButton1 = new MariosPet.Classes.RoundButton();
             this.radioButtonMacho = new System.Windows.Forms.RadioButton();
             this.radioButtonFemea = new System.Windows.Forms.RadioButton();
             this.btmLimpar = new System.Windows.Forms.Button();
@@ -46,7 +47,7 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblNomeAnimal = new System.Windows.Forms.Label();
             this.toolTipAnimal = new System.Windows.Forms.ToolTip(this.components);
-            this.roundButton1 = new MariosPet.Classes.RoundButton();
+            this.btnPesquisar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimal)).BeginInit();
             this.groupBoxAnimal.SuspendLayout();
             this.SuspendLayout();
@@ -67,6 +68,7 @@
             this.groupBoxAnimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.groupBoxAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeAmareloGrande;
             this.groupBoxAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBoxAnimal.Controls.Add(this.btnPesquisar);
             this.groupBoxAnimal.Controls.Add(this.roundButton1);
             this.groupBoxAnimal.Controls.Add(this.radioButtonMacho);
             this.groupBoxAnimal.Controls.Add(this.radioButtonFemea);
@@ -92,6 +94,17 @@
             this.groupBoxAnimal.TabIndex = 6;
             this.groupBoxAnimal.TabStop = false;
             this.groupBoxAnimal.Text = "   Dados do Animal";
+            // 
+            // roundButton1
+            // 
+            this.roundButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(190)))), ((int)(((byte)(142)))));
+            this.roundButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundButton1.Image = global::MariosPet.Properties.Resources.addPhotoMarrom;
+            this.roundButton1.Location = new System.Drawing.Point(56, 224);
+            this.roundButton1.Name = "roundButton1";
+            this.roundButton1.Size = new System.Drawing.Size(42, 40);
+            this.roundButton1.TabIndex = 21;
+            this.roundButton1.UseVisualStyleBackColor = false;
             // 
             // radioButtonMacho
             // 
@@ -131,6 +144,7 @@
             this.btmLimpar.Name = "btmLimpar";
             this.btmLimpar.Size = new System.Drawing.Size(117, 44);
             this.btmLimpar.TabIndex = 6;
+            this.toolTipAnimal.SetToolTip(this.btmLimpar, "Limpar os Campos");
             this.btmLimpar.UseVisualStyleBackColor = false;
             this.btmLimpar.Click += new System.EventHandler(this.btmLimpar_Click);
             // 
@@ -146,6 +160,7 @@
             this.btmVoltar.Name = "btmVoltar";
             this.btmVoltar.Size = new System.Drawing.Size(116, 44);
             this.btmVoltar.TabIndex = 5;
+            this.toolTipAnimal.SetToolTip(this.btmVoltar, "Voltar ao Menu");
             this.btmVoltar.UseVisualStyleBackColor = false;
             this.btmVoltar.Click += new System.EventHandler(this.btmVoltar_Click);
             // 
@@ -156,11 +171,12 @@
             this.btmSalvar.FlatAppearance.BorderSize = 0;
             this.btmSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btmSalvar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarVerde;
-            this.btmSalvar.Location = new System.Drawing.Point(468, 315);
+            this.btmSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
+            this.btmSalvar.Location = new System.Drawing.Point(616, 315);
             this.btmSalvar.Name = "btmSalvar";
             this.btmSalvar.Size = new System.Drawing.Size(117, 42);
             this.btmSalvar.TabIndex = 7;
+            this.toolTipAnimal.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
             // 
             // lblNascimentoAnimal
@@ -264,16 +280,20 @@
             this.toolTipAnimal.IsBalloon = true;
             this.toolTipAnimal.StripAmpersands = true;
             // 
-            // roundButton1
+            // btnPesquisar
             // 
-            this.roundButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(190)))), ((int)(((byte)(142)))));
-            this.roundButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundButton1.Image = global::MariosPet.Properties.Resources.addPhotoMarrom;
-            this.roundButton1.Location = new System.Drawing.Point(56, 224);
-            this.roundButton1.Name = "roundButton1";
-            this.roundButton1.Size = new System.Drawing.Size(42, 40);
-            this.roundButton1.TabIndex = 21;
-            this.roundButton1.UseVisualStyleBackColor = false;
+            this.btnPesquisar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnPesquisar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
+            this.btnPesquisar.FlatAppearance.BorderSize = 0;
+            this.btnPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisar.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisar.Image = global::MariosPet.Properties.Resources.botaoPesquisarVerde;
+            this.btnPesquisar.Location = new System.Drawing.Point(479, 312);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(117, 42);
+            this.btnPesquisar.TabIndex = 22;
+            this.toolTipAnimal.SetToolTip(this.btnPesquisar, "Pesquisar Cliente");
+            this.btnPesquisar.UseVisualStyleBackColor = false;
             // 
             // FrmAnimal
             // 
@@ -313,6 +333,7 @@
         private System.Windows.Forms.RadioButton radioButtonMacho;
         private System.Windows.Forms.RadioButton radioButtonFemea;
         private Classes.RoundButton roundButton1;
+        private System.Windows.Forms.Button btnPesquisar;
 
 
     }
