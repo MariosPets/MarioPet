@@ -907,7 +907,7 @@
             this.toolStripMenuItem60.Name = "toolStripMenuItem60";
             this.toolStripMenuItem60.Size = new System.Drawing.Size(107, 24);
             this.toolStripMenuItem60.Text = "Agenda";
-            this.toolStripMenuItem60.ToolTipText = "Etiquetas";
+            this.toolStripMenuItem60.ToolTipText = "Agenda";
             // 
             // FrmMenu
             // 
