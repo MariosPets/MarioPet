@@ -30,6 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBoxNomeContato = new System.Windows.Forms.TextBox();
+            this.labelNomeContato = new System.Windows.Forms.Label();
+            this.textBoxEmail2 = new System.Windows.Forms.TextBox();
+            this.labelEmail2 = new System.Windows.Forms.Label();
+            this.textBoxEmail1 = new System.Windows.Forms.TextBox();
+            this.labelEmail1 = new System.Windows.Forms.Label();
             this.txtTelefone2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.mstCNPJ = new System.Windows.Forms.MaskedTextBox();
@@ -59,12 +65,6 @@
             this.txtRua = new System.Windows.Forms.TextBox();
             this.lblRua = new System.Windows.Forms.Label();
             this.toolTipFornecedor = new System.Windows.Forms.ToolTip(this.components);
-            this.labelEmail1 = new System.Windows.Forms.Label();
-            this.textBoxEmail1 = new System.Windows.Forms.TextBox();
-            this.labelEmail2 = new System.Windows.Forms.Label();
-            this.textBoxEmail2 = new System.Windows.Forms.TextBox();
-            this.labelNomeContato = new System.Windows.Forms.Label();
-            this.textBoxNomeContato = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -98,6 +98,69 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   Dados  do Fornecedor";
             // 
+            // textBoxNomeContato
+            // 
+            this.textBoxNomeContato.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNomeContato.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.textBoxNomeContato.Location = new System.Drawing.Point(226, 299);
+            this.textBoxNomeContato.MaxLength = 50;
+            this.textBoxNomeContato.Name = "textBoxNomeContato";
+            this.textBoxNomeContato.Size = new System.Drawing.Size(469, 27);
+            this.textBoxNomeContato.TabIndex = 32;
+            this.toolTipFornecedor.SetToolTip(this.textBoxNomeContato, "Insira o nome para Contato");
+            // 
+            // labelNomeContato
+            // 
+            this.labelNomeContato.AutoSize = true;
+            this.labelNomeContato.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNomeContato.Location = new System.Drawing.Point(6, 298);
+            this.labelNomeContato.Name = "labelNomeContato";
+            this.labelNomeContato.Size = new System.Drawing.Size(204, 23);
+            this.labelNomeContato.TabIndex = 31;
+            this.labelNomeContato.Text = "Nome para Contato:";
+            // 
+            // textBoxEmail2
+            // 
+            this.textBoxEmail2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmail2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.textBoxEmail2.Location = new System.Drawing.Point(226, 249);
+            this.textBoxEmail2.MaxLength = 50;
+            this.textBoxEmail2.Name = "textBoxEmail2";
+            this.textBoxEmail2.Size = new System.Drawing.Size(469, 27);
+            this.textBoxEmail2.TabIndex = 30;
+            this.toolTipFornecedor.SetToolTip(this.textBoxEmail2, "Insira o e-mail para Contato");
+            // 
+            // labelEmail2
+            // 
+            this.labelEmail2.AutoSize = true;
+            this.labelEmail2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEmail2.Location = new System.Drawing.Point(129, 248);
+            this.labelEmail2.Name = "labelEmail2";
+            this.labelEmail2.Size = new System.Drawing.Size(81, 23);
+            this.labelEmail2.TabIndex = 29;
+            this.labelEmail2.Text = "E-mail:";
+            // 
+            // textBoxEmail1
+            // 
+            this.textBoxEmail1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmail1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.textBoxEmail1.Location = new System.Drawing.Point(226, 208);
+            this.textBoxEmail1.MaxLength = 50;
+            this.textBoxEmail1.Name = "textBoxEmail1";
+            this.textBoxEmail1.Size = new System.Drawing.Size(469, 27);
+            this.textBoxEmail1.TabIndex = 28;
+            this.toolTipFornecedor.SetToolTip(this.textBoxEmail1, "Insira o email para Contato");
+            // 
+            // labelEmail1
+            // 
+            this.labelEmail1.AutoSize = true;
+            this.labelEmail1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEmail1.Location = new System.Drawing.Point(129, 208);
+            this.labelEmail1.Name = "labelEmail1";
+            this.labelEmail1.Size = new System.Drawing.Size(81, 23);
+            this.labelEmail1.TabIndex = 27;
+            this.labelEmail1.Text = "E-mail:";
+            // 
             // txtTelefone2
             // 
             this.txtTelefone2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -115,7 +178,7 @@
             this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(412, 167);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 23);
+            this.label1.Size = new System.Drawing.Size(101, 23);
             this.label1.TabIndex = 26;
             this.label1.Text = "Telefone:";
             // 
@@ -169,7 +232,7 @@
             this.lblTelefone.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefone.Location = new System.Drawing.Point(111, 166);
             this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(99, 23);
+            this.lblTelefone.Size = new System.Drawing.Size(101, 23);
             this.lblTelefone.TabIndex = 20;
             this.lblTelefone.Text = "Telefone:";
             // 
@@ -300,6 +363,7 @@
             this.btnSalvar.TabIndex = 9;
             this.toolTipFornecedor.SetToolTip(this.btnSalvar, "Salvar as Informações");
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // lblUF
             // 
@@ -307,7 +371,7 @@
             this.lblUF.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUF.Location = new System.Drawing.Point(412, 190);
             this.lblUF.Name = "lblUF";
-            this.lblUF.Size = new System.Drawing.Size(43, 23);
+            this.lblUF.Size = new System.Drawing.Size(44, 23);
             this.lblUF.TabIndex = 20;
             this.lblUF.Text = "UF:";
             // 
@@ -431,69 +495,6 @@
             this.toolTipFornecedor.AutomaticDelay = 100;
             this.toolTipFornecedor.IsBalloon = true;
             this.toolTipFornecedor.StripAmpersands = true;
-            // 
-            // labelEmail1
-            // 
-            this.labelEmail1.AutoSize = true;
-            this.labelEmail1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEmail1.Location = new System.Drawing.Point(129, 208);
-            this.labelEmail1.Name = "labelEmail1";
-            this.labelEmail1.Size = new System.Drawing.Size(81, 23);
-            this.labelEmail1.TabIndex = 27;
-            this.labelEmail1.Text = "E-mail:";
-            // 
-            // textBoxEmail1
-            // 
-            this.textBoxEmail1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textBoxEmail1.Location = new System.Drawing.Point(226, 208);
-            this.textBoxEmail1.MaxLength = 50;
-            this.textBoxEmail1.Name = "textBoxEmail1";
-            this.textBoxEmail1.Size = new System.Drawing.Size(469, 27);
-            this.textBoxEmail1.TabIndex = 28;
-            this.toolTipFornecedor.SetToolTip(this.textBoxEmail1, "Insira o email para Contato");
-            // 
-            // labelEmail2
-            // 
-            this.labelEmail2.AutoSize = true;
-            this.labelEmail2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEmail2.Location = new System.Drawing.Point(129, 248);
-            this.labelEmail2.Name = "labelEmail2";
-            this.labelEmail2.Size = new System.Drawing.Size(81, 23);
-            this.labelEmail2.TabIndex = 29;
-            this.labelEmail2.Text = "E-mail:";
-            // 
-            // textBoxEmail2
-            // 
-            this.textBoxEmail2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textBoxEmail2.Location = new System.Drawing.Point(226, 249);
-            this.textBoxEmail2.MaxLength = 50;
-            this.textBoxEmail2.Name = "textBoxEmail2";
-            this.textBoxEmail2.Size = new System.Drawing.Size(469, 27);
-            this.textBoxEmail2.TabIndex = 30;
-            this.toolTipFornecedor.SetToolTip(this.textBoxEmail2, "Insira o e-mail para Contato");
-            // 
-            // labelNomeContato
-            // 
-            this.labelNomeContato.AutoSize = true;
-            this.labelNomeContato.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomeContato.Location = new System.Drawing.Point(6, 298);
-            this.labelNomeContato.Name = "labelNomeContato";
-            this.labelNomeContato.Size = new System.Drawing.Size(204, 23);
-            this.labelNomeContato.TabIndex = 31;
-            this.labelNomeContato.Text = "Nome para Contato:";
-            // 
-            // textBoxNomeContato
-            // 
-            this.textBoxNomeContato.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNomeContato.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.textBoxNomeContato.Location = new System.Drawing.Point(226, 299);
-            this.textBoxNomeContato.MaxLength = 50;
-            this.textBoxNomeContato.Name = "textBoxNomeContato";
-            this.textBoxNomeContato.Size = new System.Drawing.Size(469, 27);
-            this.textBoxNomeContato.TabIndex = 32;
-            this.toolTipFornecedor.SetToolTip(this.textBoxNomeContato, "Insira o nome para Contato");
             // 
             // FrmFornecedor
             // 
