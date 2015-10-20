@@ -218,6 +218,7 @@
             this.txtCidadeCliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCidadeCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtCidadeCliente.Location = new System.Drawing.Point(156, 185);
+            this.txtCidadeCliente.MaxLength = 30;
             this.txtCidadeCliente.Name = "txtCidadeCliente";
             this.txtCidadeCliente.Size = new System.Drawing.Size(195, 27);
             this.txtCidadeCliente.TabIndex = 5;
@@ -238,6 +239,7 @@
             this.txtBairroCliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBairroCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtBairroCliente.Location = new System.Drawing.Point(156, 137);
+            this.txtBairroCliente.MaxLength = 30;
             this.txtBairroCliente.Name = "txtBairroCliente";
             this.txtBairroCliente.Size = new System.Drawing.Size(195, 27);
             this.txtBairroCliente.TabIndex = 3;
@@ -258,6 +260,7 @@
             this.txtNumeroCliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumeroCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtNumeroCliente.Location = new System.Drawing.Point(156, 90);
+            this.txtNumeroCliente.MaxLength = 10;
             this.txtNumeroCliente.Name = "txtNumeroCliente";
             this.txtNumeroCliente.Size = new System.Drawing.Size(81, 27);
             this.txtNumeroCliente.TabIndex = 1;
@@ -278,6 +281,7 @@
             this.txtComplementoCliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtComplementoCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtComplementoCliente.Location = new System.Drawing.Point(473, 97);
+            this.txtComplementoCliente.MaxLength = 30;
             this.txtComplementoCliente.Name = "txtComplementoCliente";
             this.txtComplementoCliente.Size = new System.Drawing.Size(170, 27);
             this.txtComplementoCliente.TabIndex = 2;
@@ -298,6 +302,7 @@
             this.txtRuaCliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRuaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtRuaCliente.Location = new System.Drawing.Point(156, 44);
+            this.txtRuaCliente.MaxLength = 50;
             this.txtRuaCliente.Name = "txtRuaCliente";
             this.txtRuaCliente.Size = new System.Drawing.Size(488, 27);
             this.txtRuaCliente.TabIndex = 0;
@@ -379,6 +384,7 @@
             this.txtTelefone3Cliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone3Cliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtTelefone3Cliente.Location = new System.Drawing.Point(156, 252);
+            this.txtTelefone3Cliente.MaxLength = 15;
             this.txtTelefone3Cliente.Name = "txtTelefone3Cliente";
             this.txtTelefone3Cliente.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone3Cliente.TabIndex = 7;
@@ -399,6 +405,7 @@
             this.txtTelefone2Cliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone2Cliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtTelefone2Cliente.Location = new System.Drawing.Point(473, 209);
+            this.txtTelefone2Cliente.MaxLength = 15;
             this.txtTelefone2Cliente.Name = "txtTelefone2Cliente";
             this.txtTelefone2Cliente.Size = new System.Drawing.Size(170, 27);
             this.txtTelefone2Cliente.TabIndex = 6;
@@ -463,6 +470,7 @@
             this.txtTelefoneCliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefoneCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtTelefoneCliente.Location = new System.Drawing.Point(156, 209);
+            this.txtTelefoneCliente.MaxLength = 15;
             this.txtTelefoneCliente.Name = "txtTelefoneCliente";
             this.txtTelefoneCliente.Size = new System.Drawing.Size(170, 27);
             this.txtTelefoneCliente.TabIndex = 5;
@@ -473,6 +481,7 @@
             this.txtEmailCliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmailCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtEmailCliente.Location = new System.Drawing.Point(156, 167);
+            this.txtEmailCliente.MaxLength = 50;
             this.txtEmailCliente.Name = "txtEmailCliente";
             this.txtEmailCliente.Size = new System.Drawing.Size(487, 27);
             this.txtEmailCliente.TabIndex = 4;
@@ -483,6 +492,7 @@
             this.txtNomeCliente.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNomeCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtNomeCliente.Location = new System.Drawing.Point(156, 39);
+            this.txtNomeCliente.MaxLength = 80;
             this.txtNomeCliente.Name = "txtNomeCliente";
             this.txtNomeCliente.Size = new System.Drawing.Size(487, 27);
             this.txtNomeCliente.TabIndex = 0;
