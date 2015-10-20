@@ -56,6 +56,7 @@
             // 
             this.textBoxPesquisa.Location = new System.Drawing.Point(28, 67);
             this.textBoxPesquisa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPesquisa.MaxLength = 80;
             this.textBoxPesquisa.Name = "textBoxPesquisa";
             this.textBoxPesquisa.Size = new System.Drawing.Size(226, 20);
             this.textBoxPesquisa.TabIndex = 0;
