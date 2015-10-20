@@ -30,12 +30,12 @@ namespace MariosPet.Telas
             txtBairro.Clear();
             txtCidade.Clear();
             txtComplemento.Clear();
-            txtNomeF.Clear();
+            txtDenominacao.Clear();
             txtNumero.Clear();
             txtRua.Clear();
             txtTelefone.Clear();
             txtTelefone2.Clear();
-         
+
         }
     }
 }
