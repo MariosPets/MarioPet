@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.buttonCancela = new System.Windows.Forms.Button();
             this.buttonSelecionar = new System.Windows.Forms.Button();
             this.dataGridView = new System.Windows.Forms.DataGridView();
@@ -36,6 +37,7 @@
             this.textBoxPesquisa = new System.Windows.Forms.TextBox();
             this.labelPesquisa = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +50,7 @@
             this.buttonCancela.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonCancela.Name = "buttonCancela";
             this.buttonCancela.Size = new System.Drawing.Size(117, 50);
-            this.buttonCancela.TabIndex = 6;
+            this.buttonCancela.TabIndex = 4;
             this.buttonCancela.UseVisualStyleBackColor = true;
             this.buttonCancela.Click += new System.EventHandler(this.buttonCancela_Click);
             // 
@@ -61,7 +63,7 @@
             this.buttonSelecionar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSelecionar.Name = "buttonSelecionar";
             this.buttonSelecionar.Size = new System.Drawing.Size(92, 27);
-            this.buttonSelecionar.TabIndex = 5;
+            this.buttonSelecionar.TabIndex = 3;
             this.buttonSelecionar.Text = "Selecionar";
             this.buttonSelecionar.UseVisualStyleBackColor = true;
             this.buttonSelecionar.Click += new System.EventHandler(this.buttonSelecionar_Click);
@@ -90,7 +92,7 @@
             this.buttonPesquisa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonPesquisa.Name = "buttonPesquisa";
             this.buttonPesquisa.Size = new System.Drawing.Size(120, 46);
-            this.buttonPesquisa.TabIndex = 3;
+            this.buttonPesquisa.TabIndex = 2;
             this.buttonPesquisa.UseVisualStyleBackColor = true;
             // 
             // comboBoxPesquisa
@@ -107,15 +109,17 @@
             this.comboBoxPesquisa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxPesquisa.Name = "comboBoxPesquisa";
             this.comboBoxPesquisa.Size = new System.Drawing.Size(92, 21);
-            this.comboBoxPesquisa.TabIndex = 2;
+            this.comboBoxPesquisa.TabIndex = 1;
             // 
             // textBoxPesquisa
             // 
             this.textBoxPesquisa.Location = new System.Drawing.Point(18, 49);
             this.textBoxPesquisa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPesquisa.MaxLength = 80;
             this.textBoxPesquisa.Name = "textBoxPesquisa";
             this.textBoxPesquisa.Size = new System.Drawing.Size(209, 20);
             this.textBoxPesquisa.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.textBoxPesquisa, "Digite o nome do cliente que está procurando.");
             // 
             // labelPesquisa
             // 
@@ -176,5 +180,6 @@
         private System.Windows.Forms.TextBox textBoxPesquisa;
         private System.Windows.Forms.Label labelPesquisa;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
