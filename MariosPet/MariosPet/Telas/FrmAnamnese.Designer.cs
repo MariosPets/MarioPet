@@ -327,6 +327,7 @@
             this.radioButtonNao.TabStop = true;
             this.radioButtonNao.Text = "não";
             this.radioButtonNao.UseVisualStyleBackColor = true;
+            this.radioButtonNao.CheckedChanged += new System.EventHandler(this.radioButtonNao_CheckedChanged);
             // 
             // radioButtonSim
             // 
@@ -338,6 +339,7 @@
             this.radioButtonSim.TabIndex = 0;
             this.radioButtonSim.Text = "sim";
             this.radioButtonSim.UseVisualStyleBackColor = true;
+            this.radioButtonSim.CheckedChanged += new System.EventHandler(this.radioButtonSim_CheckedChanged);
             // 
             // lblDoenca
             // 

@@ -70,5 +70,29 @@ namespace MariosPet.Telas
 
             CrudAnam.inserirAnamnese(classeAnam);
         }
+
+        private void radioButtonSim_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonSim.Checked == true)
+            {
+                radioButtonNao.Checked = false;
+            }
+            else
+            {
+                radioButtonNao.Checked = true;
+            }
+        }
+
+        private void radioButtonNao_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonNao.Checked == true)
+            {
+                radioButtonNao.Checked = false;
+            }
+            else
+            {
+                radioButtonNao.Checked = true;
+            }
+        }
     }
 }
