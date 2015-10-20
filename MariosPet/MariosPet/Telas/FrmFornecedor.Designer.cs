@@ -237,6 +237,7 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarLaranja;
             this.btnVoltar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnVoltar.FlatAppearance.BorderSize = 0;
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
