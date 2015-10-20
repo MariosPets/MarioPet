@@ -82,6 +82,7 @@
             this.dataGridView.RowTemplate.Height = 24;
             this.dataGridView.Size = new System.Drawing.Size(768, 213);
             this.dataGridView.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.dataGridView, "Resultados da Pesquisa");
             // 
             // buttonPesquisa
             // 
@@ -94,6 +95,7 @@
             this.buttonPesquisa.Name = "buttonPesquisa";
             this.buttonPesquisa.Size = new System.Drawing.Size(120, 46);
             this.buttonPesquisa.TabIndex = 2;
+            this.toolTip1.SetToolTip(this.buttonPesquisa, "Pesquisar");
             this.buttonPesquisa.UseVisualStyleBackColor = true;
             // 
             // comboBoxPesquisa
@@ -112,6 +114,7 @@
             this.comboBoxPesquisa.Name = "comboBoxPesquisa";
             this.comboBoxPesquisa.Size = new System.Drawing.Size(217, 31);
             this.comboBoxPesquisa.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.comboBoxPesquisa, "Selecione o campo da Pesquisa");
             // 
             // textBoxPesquisa
             // 

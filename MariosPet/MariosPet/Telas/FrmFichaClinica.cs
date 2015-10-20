@@ -54,6 +54,11 @@ namespace MariosPet.Telas
             vacina.ShowDialog();
         }
 
+        private void txtQueixa_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }

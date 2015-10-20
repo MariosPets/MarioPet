@@ -99,7 +99,7 @@
             this.txtObservacao.Name = "txtObservacao";
             this.txtObservacao.Size = new System.Drawing.Size(457, 77);
             this.txtObservacao.TabIndex = 38;
-            this.toolTipFichaClinica.SetToolTip(this.txtObservacao, "Insira a Prescrição");
+            this.toolTipFichaClinica.SetToolTip(this.txtObservacao, "Insira as Observações");
             // 
             // label7
             // 
@@ -118,7 +118,7 @@
             this.txtExames.Name = "txtExames";
             this.txtExames.Size = new System.Drawing.Size(456, 71);
             this.txtExames.TabIndex = 36;
-            this.toolTipFichaClinica.SetToolTip(this.txtExames, "Insira a Prescrição");
+            this.toolTipFichaClinica.SetToolTip(this.txtExames, "Exames Complementares");
             // 
             // label6
             // 
@@ -137,7 +137,7 @@
             this.txtSintomas.Name = "txtSintomas";
             this.txtSintomas.Size = new System.Drawing.Size(457, 71);
             this.txtSintomas.TabIndex = 34;
-            this.toolTipFichaClinica.SetToolTip(this.txtSintomas, "Insira a Prescrição");
+            this.toolTipFichaClinica.SetToolTip(this.txtSintomas, "Descreva os Sintomas acometidos");
             // 
             // label5
             // 
@@ -175,7 +175,7 @@
             this.txtSuspeita.Name = "txtSuspeita";
             this.txtSuspeita.Size = new System.Drawing.Size(458, 71);
             this.txtSuspeita.TabIndex = 2;
-            this.toolTipFichaClinica.SetToolTip(this.txtSuspeita, "Descreva os Sintomas Acometidos");
+            this.toolTipFichaClinica.SetToolTip(this.txtSuspeita, "Insira a Suspeita");
             // 
             // label3
             // 
@@ -194,7 +194,8 @@
             this.txtQueixa.Name = "txtQueixa";
             this.txtQueixa.Size = new System.Drawing.Size(456, 72);
             this.txtQueixa.TabIndex = 1;
-            this.toolTipFichaClinica.SetToolTip(this.txtQueixa, "Descreva os Sintomas");
+            this.toolTipFichaClinica.SetToolTip(this.txtQueixa, "Descreva as Principais Queixas");
+            this.txtQueixa.TextChanged += new System.EventHandler(this.txtQueixa_TextChanged);
             // 
             // label2
             // 
@@ -319,6 +320,7 @@
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(116, 44);
             this.btnNovo.TabIndex = 3;
+            this.toolTipFichaClinica.SetToolTip(this.btnNovo, "Adicionar Novo");
             this.btnNovo.UseVisualStyleBackColor = false;
             // 
             // dtgAnimal
@@ -329,6 +331,7 @@
             this.dtgAnimal.Name = "dtgAnimal";
             this.dtgAnimal.Size = new System.Drawing.Size(726, 93);
             this.dtgAnimal.TabIndex = 2;
+            this.toolTipFichaClinica.SetToolTip(this.dtgAnimal, "Resultado da Pesquisa");
             // 
             // btnConsultar
             // 
@@ -341,6 +344,7 @@
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(116, 44);
             this.btnConsultar.TabIndex = 1;
+            this.toolTipFichaClinica.SetToolTip(this.btnConsultar, "Consultar");
             this.btnConsultar.UseVisualStyleBackColor = false;
             // 
             // txtPesquisaAnimal
@@ -351,6 +355,7 @@
             this.txtPesquisaAnimal.Name = "txtPesquisaAnimal";
             this.txtPesquisaAnimal.Size = new System.Drawing.Size(577, 27);
             this.txtPesquisaAnimal.TabIndex = 0;
+            this.toolTipFichaClinica.SetToolTip(this.txtPesquisaAnimal, "Insira o Nome do Animal");
             // 
             // lblNome
             // 
