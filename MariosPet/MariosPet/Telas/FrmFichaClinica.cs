@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using MariosPet.Crud;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,8 @@ namespace MariosPet.Telas
 {
     public partial class FrmFichaClinica : Form
     {
+        Animal classeAni = new Animal();
+        FichaClinica classeFichaCli = new FichaClinica();
         public FrmFichaClinica()
         {
             InitializeComponent();
@@ -59,6 +63,29 @@ namespace MariosPet.Telas
 
         }
 
+        public void CopiarParaClasseFichaClinica()
+        {
+            //Animal
+            classeAni.nome = txtPesquisaAnimal.Text;
+
+            //Ficha Clinica
+            classeFichaCli.historicoClinico = txtHistoricoClinico.Text;
+            classeFichaCli.queixaPrincipal = txtQueixa.Text;
+            classeFichaCli.suspeita = txtSuspeita.Text;
+            classeFichaCli.prescricao = txtPrescricao.Text;
+            classeFichaCli.sintomas = txtSintomas.Text;
+            classeFichaCli.examesComplementares = txtExames.Text;
+            classeFichaCli.observacao = txtObservacao.Text;
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            CrudFichaClinica CrudFichaCli = new CrudFichaClinica();
+            CrudAnimal CrudAni = new CrudAnimal();
+
+            CrudFichaCli.inserirFichaClinica(classeFichaCli);
+            CrudAni.inserirAnimal(classeAni);
+        }
 
     }
 }

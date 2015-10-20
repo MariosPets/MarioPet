@@ -32,9 +32,13 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtObservacao = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnVermifugoVacina = new System.Windows.Forms.Button();
             this.txtExames = new System.Windows.Forms.TextBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.txtSintomas = new System.Windows.Forms.TextBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.txtPrescricao = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -44,20 +48,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtHistoricoClinico = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnVoltar = new System.Windows.Forms.Button();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnVermifugoVacina = new System.Windows.Forms.Button();
             this.toolTipFichaClinica = new System.Windows.Forms.ToolTip(this.components);
-            this.groupBoxPesquisaAnimal = new System.Windows.Forms.GroupBox();
             this.btnNovo = new System.Windows.Forms.Button();
             this.dtgAnimal = new System.Windows.Forms.DataGridView();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisaAnimal = new System.Windows.Forms.TextBox();
+            this.groupBoxPesquisaAnimal = new System.Windows.Forms.GroupBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
-            this.groupBoxPesquisaAnimal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgAnimal)).BeginInit();
+            this.groupBoxPesquisaAnimal.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -111,6 +111,19 @@
             this.label7.TabIndex = 39;
             this.label7.Text = "Observações:";
             // 
+            // btnVermifugoVacina
+            // 
+            this.btnVermifugoVacina.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnVermifugoVacina.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVermifugoVacina.Location = new System.Drawing.Point(717, 358);
+            this.btnVermifugoVacina.Name = "btnVermifugoVacina";
+            this.btnVermifugoVacina.Size = new System.Drawing.Size(83, 62);
+            this.btnVermifugoVacina.TabIndex = 7;
+            this.btnVermifugoVacina.Text = "Vermífugo/Vacina";
+            this.toolTipFichaClinica.SetToolTip(this.btnVermifugoVacina, "Ir para Vermífugo/Vacina");
+            this.btnVermifugoVacina.UseVisualStyleBackColor = true;
+            this.btnVermifugoVacina.Click += new System.EventHandler(this.btnVermifugoVacina_Click);
+            // 
             // txtExames
             // 
             this.txtExames.Location = new System.Drawing.Point(474, 248);
@@ -119,6 +132,21 @@
             this.txtExames.Size = new System.Drawing.Size(456, 71);
             this.txtExames.TabIndex = 36;
             this.toolTipFichaClinica.SetToolTip(this.txtExames, "Exames Complementares");
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnSalvar.FlatAppearance.BorderSize = 0;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
+            this.btnSalvar.Location = new System.Drawing.Point(806, 370);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(124, 50);
+            this.btnSalvar.TabIndex = 6;
+            this.toolTipFichaClinica.SetToolTip(this.btnSalvar, "Salvar Ficha Clínica");
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // label6
             // 
@@ -130,6 +158,21 @@
             this.label6.TabIndex = 37;
             this.label6.Text = "Exames Complementares:";
             // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnLimpar.FlatAppearance.BorderSize = 0;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Image = global::MariosPet.Properties.Resources.botaoLimparLaranja;
+            this.btnLimpar.Location = new System.Drawing.Point(597, 370);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(114, 50);
+            this.btnLimpar.TabIndex = 5;
+            this.toolTipFichaClinica.SetToolTip(this.btnLimpar, "Limpar Campos");
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
             // txtSintomas
             // 
             this.txtSintomas.Location = new System.Drawing.Point(10, 248);
@@ -138,6 +181,21 @@
             this.txtSintomas.Size = new System.Drawing.Size(457, 71);
             this.txtSintomas.TabIndex = 34;
             this.toolTipFichaClinica.SetToolTip(this.txtSintomas, "Descreva os Sintomas acometidos");
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarVerde;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(476, 370);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(115, 50);
+            this.btnVoltar.TabIndex = 4;
+            this.toolTipFichaClinica.SetToolTip(this.btnVoltar, "Voltar ao Menu");
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // label5
             // 
@@ -227,87 +285,11 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "Histórico Clinico:";
             // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnLimpar.FlatAppearance.BorderSize = 0;
-            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimpar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Image = global::MariosPet.Properties.Resources.botaoLimparLaranja;
-            this.btnLimpar.Location = new System.Drawing.Point(597, 370);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(114, 50);
-            this.btnLimpar.TabIndex = 5;
-            this.toolTipFichaClinica.SetToolTip(this.btnLimpar, "Limpar Campos");
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            // 
-            // btnVoltar
-            // 
-            this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnVoltar.BackgroundImage = global::MariosPet.Properties.Resources.botaoVoltarVerde;
-            this.btnVoltar.FlatAppearance.BorderSize = 0;
-            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVoltar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(476, 370);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(115, 50);
-            this.btnVoltar.TabIndex = 4;
-            this.toolTipFichaClinica.SetToolTip(this.btnVoltar, "Voltar ao Menu");
-            this.btnVoltar.UseVisualStyleBackColor = true;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnSalvar.FlatAppearance.BorderSize = 0;
-            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalvar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
-            this.btnSalvar.Location = new System.Drawing.Point(806, 370);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(124, 50);
-            this.btnSalvar.TabIndex = 6;
-            this.toolTipFichaClinica.SetToolTip(this.btnSalvar, "Salvar Ficha Clínica");
-            this.btnSalvar.UseVisualStyleBackColor = true;
-            // 
-            // btnVermifugoVacina
-            // 
-            this.btnVermifugoVacina.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnVermifugoVacina.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVermifugoVacina.Location = new System.Drawing.Point(717, 358);
-            this.btnVermifugoVacina.Name = "btnVermifugoVacina";
-            this.btnVermifugoVacina.Size = new System.Drawing.Size(83, 62);
-            this.btnVermifugoVacina.TabIndex = 7;
-            this.btnVermifugoVacina.Text = "Vermífugo/Vacina";
-            this.toolTipFichaClinica.SetToolTip(this.btnVermifugoVacina, "Ir para Vermífugo/Vacina");
-            this.btnVermifugoVacina.UseVisualStyleBackColor = true;
-            this.btnVermifugoVacina.Click += new System.EventHandler(this.btnVermifugoVacina_Click);
-            // 
             // toolTipFichaClinica
             // 
             this.toolTipFichaClinica.AutomaticDelay = 100;
             this.toolTipFichaClinica.IsBalloon = true;
             this.toolTipFichaClinica.StripAmpersands = true;
-            // 
-            // groupBoxPesquisaAnimal
-            // 
-            this.groupBoxPesquisaAnimal.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBoxPesquisaAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromVerdeGrande;
-            this.groupBoxPesquisaAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBoxPesquisaAnimal.Controls.Add(this.btnNovo);
-            this.groupBoxPesquisaAnimal.Controls.Add(this.dtgAnimal);
-            this.groupBoxPesquisaAnimal.Controls.Add(this.btnConsultar);
-            this.groupBoxPesquisaAnimal.Controls.Add(this.txtPesquisaAnimal);
-            this.groupBoxPesquisaAnimal.Controls.Add(this.lblNome);
-            this.groupBoxPesquisaAnimal.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
-            this.groupBoxPesquisaAnimal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBoxPesquisaAnimal.Location = new System.Drawing.Point(12, 22);
-            this.groupBoxPesquisaAnimal.Name = "groupBoxPesquisaAnimal";
-            this.groupBoxPesquisaAnimal.Size = new System.Drawing.Size(951, 204);
-            this.groupBoxPesquisaAnimal.TabIndex = 30;
-            this.groupBoxPesquisaAnimal.TabStop = false;
-            this.groupBoxPesquisaAnimal.Text = "   Pesquisa";
             // 
             // btnNovo
             // 
@@ -357,6 +339,25 @@
             this.txtPesquisaAnimal.TabIndex = 0;
             this.toolTipFichaClinica.SetToolTip(this.txtPesquisaAnimal, "Insira o Nome do Animal");
             // 
+            // groupBoxPesquisaAnimal
+            // 
+            this.groupBoxPesquisaAnimal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBoxPesquisaAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromVerdeGrande;
+            this.groupBoxPesquisaAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBoxPesquisaAnimal.Controls.Add(this.btnNovo);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.dtgAnimal);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.btnConsultar);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.txtPesquisaAnimal);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.lblNome);
+            this.groupBoxPesquisaAnimal.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
+            this.groupBoxPesquisaAnimal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.groupBoxPesquisaAnimal.Location = new System.Drawing.Point(12, 22);
+            this.groupBoxPesquisaAnimal.Name = "groupBoxPesquisaAnimal";
+            this.groupBoxPesquisaAnimal.Size = new System.Drawing.Size(951, 204);
+            this.groupBoxPesquisaAnimal.TabIndex = 30;
+            this.groupBoxPesquisaAnimal.TabStop = false;
+            this.groupBoxPesquisaAnimal.Text = "   Pesquisa";
+            // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
@@ -380,9 +381,9 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgAnimal)).EndInit();
             this.groupBoxPesquisaAnimal.ResumeLayout(false);
             this.groupBoxPesquisaAnimal.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgAnimal)).EndInit();
             this.ResumeLayout(false);
 
         }
