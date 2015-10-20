@@ -72,7 +72,7 @@ namespace MariosPet.Telas
             classeProd.fabricante = txtFabricante.Text;
 
             //Pessoa Juridica
-            classePessoaJur.razaoSocial = cmbFornecedor.Text;
+            classePessoaJur.razaoSocial = textBoxFornecedor.Text;
         }
     }
 }
