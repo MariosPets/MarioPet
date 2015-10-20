@@ -163,6 +163,7 @@
             this.txtMedicamento.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMedicamento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtMedicamento.Location = new System.Drawing.Point(250, 36);
+            this.txtMedicamento.MaxLength = 50;
             this.txtMedicamento.Name = "txtMedicamento";
             this.txtMedicamento.Size = new System.Drawing.Size(469, 27);
             this.txtMedicamento.TabIndex = 0;
