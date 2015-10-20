@@ -11,7 +11,6 @@ namespace MariosPet.Classes
         #region Atributos
 
         public int id { get; set; }
-        public string descricao { get; set; }
         public bool vacinado { get; set; }
         public string doencas { get; set; }
         public string tratamentos { get; set; }
