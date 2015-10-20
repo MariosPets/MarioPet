@@ -18,10 +18,15 @@ namespace MariosPet.Telas
 
         private void buttonFuncionario_Click(object sender, EventArgs e)
         {
+            // Busca funcionário
+            Estatica.funcionario = null;
             BuscaFuncionario busca = new BuscaFuncionario();
             busca.ShowDialog();
-            funcionario = Estatica.funcionario;
-            textBoxFuncionario.Text = funcionario.nome;
+            if (Estatica.funcionario != null)
+            {
+                funcionario = Estatica.funcionario;
+                textBoxFuncionario.Text = funcionario.nome;
+            }
         }
 
         private void textBoxFuncionario_TextChanged(object sender, EventArgs e)
