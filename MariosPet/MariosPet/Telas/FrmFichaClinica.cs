@@ -83,6 +83,7 @@ namespace MariosPet.Telas
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
+            CopiarParaClasseFichaClinica();
             CrudFichaClinica CrudFichaCli = new CrudFichaClinica();
             
             CrudFichaCli.inserirFichaClinica(classeFichaCli);
