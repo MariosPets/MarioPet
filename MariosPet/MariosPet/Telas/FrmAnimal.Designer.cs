@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.pictureBoxAnimal = new System.Windows.Forms.PictureBox();
             this.groupBoxAnimal = new System.Windows.Forms.GroupBox();
-            this.radioButtonMasc = new System.Windows.Forms.RadioButton();
-            this.radioButtonFem = new System.Windows.Forms.RadioButton();
+            this.radioButtonMacho = new System.Windows.Forms.RadioButton();
+            this.radioButtonFemea = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.btmLimpar = new System.Windows.Forms.Button();
             this.btmVoltar = new System.Windows.Forms.Button();
@@ -67,8 +67,8 @@
             this.groupBoxAnimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.groupBoxAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeAmareloGrande;
             this.groupBoxAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBoxAnimal.Controls.Add(this.radioButtonMasc);
-            this.groupBoxAnimal.Controls.Add(this.radioButtonFem);
+            this.groupBoxAnimal.Controls.Add(this.radioButtonMacho);
+            this.groupBoxAnimal.Controls.Add(this.radioButtonFemea);
             this.groupBoxAnimal.Controls.Add(this.button1);
             this.groupBoxAnimal.Controls.Add(this.btmLimpar);
             this.groupBoxAnimal.Controls.Add(this.btmVoltar);
@@ -93,29 +93,31 @@
             this.groupBoxAnimal.TabStop = false;
             this.groupBoxAnimal.Text = "   Dados do Animal";
             // 
-            // radioButtonMasc
+            // radioButtonMacho
             // 
-            this.radioButtonMasc.AutoSize = true;
-            this.radioButtonMasc.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonMasc.Location = new System.Drawing.Point(637, 224);
-            this.radioButtonMasc.Name = "radioButtonMasc";
-            this.radioButtonMasc.Size = new System.Drawing.Size(77, 22);
-            this.radioButtonMasc.TabIndex = 20;
-            this.radioButtonMasc.Text = "Macho";
-            this.radioButtonMasc.UseVisualStyleBackColor = true;
+            this.radioButtonMacho.AutoSize = true;
+            this.radioButtonMacho.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonMacho.Location = new System.Drawing.Point(637, 224);
+            this.radioButtonMacho.Name = "radioButtonMacho";
+            this.radioButtonMacho.Size = new System.Drawing.Size(77, 22);
+            this.radioButtonMacho.TabIndex = 20;
+            this.radioButtonMacho.Text = "Macho";
+            this.radioButtonMacho.UseVisualStyleBackColor = true;
+            this.radioButtonMacho.CheckedChanged += new System.EventHandler(this.radioButtonMasc_CheckedChanged);
             // 
-            // radioButtonFem
+            // radioButtonFemea
             // 
-            this.radioButtonFem.AutoSize = true;
-            this.radioButtonFem.Checked = true;
-            this.radioButtonFem.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonFem.Location = new System.Drawing.Point(637, 196);
-            this.radioButtonFem.Name = "radioButtonFem";
-            this.radioButtonFem.Size = new System.Drawing.Size(80, 22);
-            this.radioButtonFem.TabIndex = 19;
-            this.radioButtonFem.TabStop = true;
-            this.radioButtonFem.Text = "Fêmea";
-            this.radioButtonFem.UseVisualStyleBackColor = true;
+            this.radioButtonFemea.AutoSize = true;
+            this.radioButtonFemea.Checked = true;
+            this.radioButtonFemea.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonFemea.Location = new System.Drawing.Point(637, 196);
+            this.radioButtonFemea.Name = "radioButtonFemea";
+            this.radioButtonFemea.Size = new System.Drawing.Size(80, 22);
+            this.radioButtonFemea.TabIndex = 19;
+            this.radioButtonFemea.TabStop = true;
+            this.radioButtonFemea.Text = "Fêmea";
+            this.radioButtonFemea.UseVisualStyleBackColor = true;
+            this.radioButtonFemea.CheckedChanged += new System.EventHandler(this.radioButtonFem_CheckedChanged);
             // 
             // button1
             // 
@@ -312,8 +314,8 @@
         private System.Windows.Forms.Button btmSalvar;
         private System.Windows.Forms.ToolTip toolTipAnimal;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton radioButtonMasc;
-        private System.Windows.Forms.RadioButton radioButtonFem;
+        private System.Windows.Forms.RadioButton radioButtonMacho;
+        private System.Windows.Forms.RadioButton radioButtonFemea;
 
 
     }

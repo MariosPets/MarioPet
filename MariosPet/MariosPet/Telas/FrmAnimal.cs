@@ -45,8 +45,7 @@ namespace MariosPet.Telas
             classeAni.racaPorte = txtRacaPorte.Text;
             classeAni.pelagemCor = txtPelagemCor.Text;
             classeAni.nascimento = DateTime.Parse(maskedTxtNascimentoAnimal.Text);
-            classeAni.sexo = Convert.ToBoolean(radioButtonFem.Text);
-            classeAni.sexo = Convert.ToBoolean(radioButtonMasc.Text);
+            classeAni.sexo = radioButtonFemea.Checked;
         }
 
         private void btmSalvar_Click(object sender, EventArgs e)
@@ -56,6 +55,30 @@ namespace MariosPet.Telas
             CrudAnimal CrudAni = new CrudAnimal();
 
             CrudAni.inserirAnimal(classeAni);
+        }
+
+        private void radioButtonFem_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonFemea.Checked == true)
+            {
+                radioButtonMacho.Checked = false;
+            }
+            else
+            {
+                radioButtonMacho.Checked = true;
+            }
+        }
+
+        private void radioButtonMasc_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonMacho.Checked == true)
+            {
+                radioButtonFemea.Checked = false;
+            }
+            else
+            {
+                radioButtonFemea.Checked = true;
+            }
         }
     }
 }
