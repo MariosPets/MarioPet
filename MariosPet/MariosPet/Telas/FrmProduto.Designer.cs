@@ -34,7 +34,6 @@
             this.btmVoltar = new System.Windows.Forms.Button();
             this.btmSalvar = new System.Windows.Forms.Button();
             this.txtFabricante = new System.Windows.Forms.TextBox();
-            this.cmbFornecedor = new System.Windows.Forms.ComboBox();
             this.lblFabricante = new System.Windows.Forms.Label();
             this.lblFornecedor = new System.Windows.Forms.Label();
             this.txtCodBarras = new System.Windows.Forms.TextBox();
@@ -62,6 +61,7 @@
             this.lblVencimento = new System.Windows.Forms.Label();
             this.lblNomeProduto = new System.Windows.Forms.Label();
             this.toolTipProduto = new System.Windows.Forms.ToolTip(this.components);
+            this.textBoxFornecedor = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,11 +71,11 @@
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.groupBox1.BackgroundImage = global::MariosPet.Properties.Resources.pataVerdeAmareloGrande;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBox1.Controls.Add(this.textBoxFornecedor);
             this.groupBox1.Controls.Add(this.btmLimpar);
             this.groupBox1.Controls.Add(this.btmVoltar);
             this.groupBox1.Controls.Add(this.btmSalvar);
             this.groupBox1.Controls.Add(this.txtFabricante);
-            this.groupBox1.Controls.Add(this.cmbFornecedor);
             this.groupBox1.Controls.Add(this.lblFabricante);
             this.groupBox1.Controls.Add(this.lblFornecedor);
             this.groupBox1.Controls.Add(this.txtCodBarras);
@@ -165,17 +165,6 @@
             this.txtFabricante.Size = new System.Drawing.Size(510, 27);
             this.txtFabricante.TabIndex = 12;
             this.toolTipProduto.SetToolTip(this.txtFabricante, "Insira o Nome do Fabricante");
-            // 
-            // cmbFornecedor
-            // 
-            this.cmbFornecedor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbFornecedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.cmbFornecedor.FormattingEnabled = true;
-            this.cmbFornecedor.Location = new System.Drawing.Point(220, 453);
-            this.cmbFornecedor.Name = "cmbFornecedor";
-            this.cmbFornecedor.Size = new System.Drawing.Size(360, 26);
-            this.cmbFornecedor.TabIndex = 13;
-            this.toolTipProduto.SetToolTip(this.cmbFornecedor, "Selecione o Fornecedor");
             // 
             // lblFabricante
             // 
@@ -458,6 +447,17 @@
             this.toolTipProduto.IsBalloon = true;
             this.toolTipProduto.StripAmpersands = true;
             // 
+            // textBoxFornecedor
+            // 
+            this.textBoxFornecedor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxFornecedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.textBoxFornecedor.Location = new System.Drawing.Point(220, 457);
+            this.textBoxFornecedor.MaxLength = 40;
+            this.textBoxFornecedor.Name = "textBoxFornecedor";
+            this.textBoxFornecedor.Size = new System.Drawing.Size(510, 27);
+            this.textBoxFornecedor.TabIndex = 32;
+            this.toolTipProduto.SetToolTip(this.textBoxFornecedor, "Insira o Nome do Fabricante");
+            // 
             // FrmProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -502,7 +502,6 @@
         private System.Windows.Forms.Label lblMargemLucro;
         private System.Windows.Forms.TextBox txtCodBarras;
         private System.Windows.Forms.Label lblCodBarras;
-        private System.Windows.Forms.ComboBox cmbFornecedor;
         private System.Windows.Forms.Label lblFornecedor;
         private System.Windows.Forms.TextBox txtFabricante;
         private System.Windows.Forms.Label lblFabricante;
@@ -510,5 +509,6 @@
         private System.Windows.Forms.Button btmVoltar;
         private System.Windows.Forms.Button btmSalvar;
         private System.Windows.Forms.ToolTip toolTipProduto;
+        private System.Windows.Forms.TextBox textBoxFornecedor;
     }
 }
