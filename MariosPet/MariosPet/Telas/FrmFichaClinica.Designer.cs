@@ -328,6 +328,7 @@
             this.btnConsultar.TabIndex = 1;
             this.toolTipFichaClinica.SetToolTip(this.btnConsultar, "Consultar");
             this.btnConsultar.UseVisualStyleBackColor = false;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // txtPesquisaAnimal
             // 

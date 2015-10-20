@@ -16,6 +16,9 @@ namespace MariosPet.Telas
     {
         Animal classeAni = new Animal();
         FichaClinica classeFichaCli = new FichaClinica();
+
+        CrudAnimal CrudAni = new CrudAnimal();
+
         public FrmFichaClinica()
         {
             InitializeComponent();
@@ -81,11 +84,16 @@ namespace MariosPet.Telas
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             CrudFichaClinica CrudFichaCli = new CrudFichaClinica();
-            CrudAnimal CrudAni = new CrudAnimal();
-
+            
             CrudFichaCli.inserirFichaClinica(classeFichaCli);
             CrudAni.inserirAnimal(classeAni);
         }
 
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseFichaClinica();
+
+            dtgAnimal.DataSource = CrudAni.consultaAnimal("Select * from ANIMAL where NOME like '%" + txtPesquisaAnimal.Text + "%'");
+        }
     }
 }
