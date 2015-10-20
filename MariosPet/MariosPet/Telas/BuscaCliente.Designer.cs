@@ -60,10 +60,10 @@
             this.buttonSelecionar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonSelecionar.FlatAppearance.BorderSize = 0;
             this.buttonSelecionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSelecionar.Location = new System.Drawing.Point(668, 336);
+            this.buttonSelecionar.Location = new System.Drawing.Point(668, 324);
             this.buttonSelecionar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSelecionar.Name = "buttonSelecionar";
-            this.buttonSelecionar.Size = new System.Drawing.Size(120, 27);
+            this.buttonSelecionar.Size = new System.Drawing.Size(120, 39);
             this.buttonSelecionar.TabIndex = 3;
             this.buttonSelecionar.Text = "Selecionar";
             this.buttonSelecionar.UseVisualStyleBackColor = true;
