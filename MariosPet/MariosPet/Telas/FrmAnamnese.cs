@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MariosPet.Classes;
+using MariosPet.Crud;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,7 @@ namespace MariosPet.Telas
 {
     public partial class FrmAnamnese : Form
     {
+        Anamnese classeAnam = new Anamnese();
         public FrmAnamnese()
         {
             InitializeComponent();
@@ -43,6 +46,29 @@ namespace MariosPet.Telas
             FrmAnimal animal = new FrmAnimal();
             animal.Show();
             Close();
+        }
+
+        public void CopiarParaClasseAnamnese()
+        {
+            //Anamnese
+            classeAnam.vacinado = radioButtonNao.Checked;
+            classeAnam.doencas = richTextBoxDoenca.Text;
+            classeAnam.tratamentos = richTextBoxTratamento.Text;
+            classeAnam.sistemaDigestorio = richTextBoxGenitoUrinario.Text;
+            classeAnam.sistemaCardioRespiratorio = richTextBoxCardioRespiratorio.Text;
+            classeAnam.sistemaGenitoUrinario = richTextBoxDigestorio.Text;
+            classeAnam.sistemaNervosoLocomotor = richTextBoxNervosoLocomotor.Text;
+            classeAnam.pelesAnexos = richTextBoxPelesAnexos.Text;
+            classeAnam.manejo = richTextBoxManejo.Text;
+        }
+
+        private void btmSalvar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseAnamnese();
+
+            CrudAnamnese CrudAnam = new CrudAnamnese();
+
+            CrudAnam.inserirAnamnese(classeAnam);
         }
     }
 }
