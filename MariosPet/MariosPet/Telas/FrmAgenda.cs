@@ -33,5 +33,16 @@ namespace MariosPet.Telas
                 groupBoxAgendamento.Enabled = false;
             }
         }
+
+        private void dateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+            groupBoxAgendamento.Enabled = false;
+            labelData.Visible = false;
+        }
+
+        private void FrmAgenda_Load(object sender, EventArgs e)
+        {
+            labelData.Visible = false;
+        }
     }
 }
