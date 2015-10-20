@@ -20,6 +20,7 @@ namespace MariosPet.Telas
         {
             BuscaFuncionario busca = new BuscaFuncionario();
             busca.ShowDialog();
+            funcionario.id
         }
 
         private void textBoxFuncionario_TextChanged(object sender, EventArgs e)
