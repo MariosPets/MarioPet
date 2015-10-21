@@ -68,9 +68,9 @@ namespace MariosPet.Telas
             classeCli.cpf = mstCPF.Text;
             classeCli.rg = mstRG.Text;
             classeCli.email = txtEmailCliente.Text;
-            classeCli.telefone1 = Convert.ToInt32(txtTelefoneCliente.Text);
-            classeCli.telefone2 = Convert.ToInt32(txtTelefone2Cliente.Text);
-            classeCli.telefone3 = Convert.ToInt32(txtTelefone3Cliente.Text);
+            classeCli.telefone1 = txtTelefoneCliente.Text;
+            classeCli.telefone2 = txtTelefone2Cliente.Text;
+            classeCli.telefone3 = txtTelefone3Cliente.Text;
         }
 
         private void btmSalvar_Click(object sender, EventArgs e)

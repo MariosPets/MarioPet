@@ -17,9 +17,9 @@ namespace MariosPet.Classes
         public DateTime nascimento { get; set; }
         public int idEndereco { get; set; }
         public string email { get; set; }
-        public int telefone1 { get; set; }
-        public int telefone2 { get; set; }
-        public int telefone3 { get; set; }
+        public string telefone1 { get; set; }
+        public string telefone2 { get; set; }
+        public string telefone3 { get; set; }
 
         #endregion
     }

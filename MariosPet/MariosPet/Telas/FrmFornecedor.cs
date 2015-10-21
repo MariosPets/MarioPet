@@ -52,8 +52,8 @@ namespace MariosPet.Telas
             //Pessoa Jurídica
             classePessoaJur.razaoSocial = txtDenominacao.Text;
             classePessoaJur.cnpj = mstCNPJ.Text;
-            classePessoaJur.telefone1 = Convert.ToInt32(txtTelefone.Text);
-            classePessoaJur.telefone2 = Convert.ToInt32(txtTelefone2.Text);
+            classePessoaJur.telefone1 = txtTelefone.Text;
+            classePessoaJur.telefone2 = txtTelefone2.Text;
             classePessoaJur.email1 = textBoxEmail1.Text;
             classePessoaJur.email2 = textBoxEmail2.Text;
 

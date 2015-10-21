@@ -143,7 +143,7 @@ namespace MariosPet.Classes
                 MessageBox.Show("Insira o CPF!");
                 entrou = false;
             }
-            if (pessoa.telefone1 <= 6)
+            if (pessoa.telefone1.Length <= 6)
             {
                 MessageBox.Show("Insira pelo menos um telefone para contato!");
                 entrou = false;
@@ -164,7 +164,7 @@ namespace MariosPet.Classes
                 MessageBox.Show("Insira o CNPJ!");
                 entrou = false;
             }
-            if (pessoaJuridica.telefone1 <= 6)
+            if (pessoaJuridica.telefone1.Length <= 6)
             {
                 MessageBox.Show("Insira pelo menos um telefone para contato!");
                 entrou = false;

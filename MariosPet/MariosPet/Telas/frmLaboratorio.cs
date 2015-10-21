@@ -58,8 +58,8 @@ namespace MariosPet.Telas
             //Dados do Laboratório
             classeLab.razaoSocial = txtNomeLaboratorio.Text;
             classeLab.cnpj = mstCNPJ.Text;
-            classeLab.telefone1 = Convert.ToInt32(txtTelefone1.Text);
-            classeLab.telefone2 = Convert.ToInt32(txtTelefone2.Text);
+            classeLab.telefone1 = txtTelefone1.Text;
+            classeLab.telefone2 = txtTelefone2.Text;
             classeLab.email1 = txtEmail1.Text;
             classeLab.email2 = txtEmail2.Text;
         }
