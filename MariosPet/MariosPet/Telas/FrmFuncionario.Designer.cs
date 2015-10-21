@@ -112,6 +112,7 @@
             this.mstCepFuncionario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mstCepFuncionario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.mstCepFuncionario.Location = new System.Drawing.Point(473, 133);
+            this.mstCepFuncionario.Mask = "##,###-###";
             this.mstCepFuncionario.Name = "mstCepFuncionario";
             this.mstCepFuncionario.Size = new System.Drawing.Size(171, 27);
             this.mstCepFuncionario.TabIndex = 4;
