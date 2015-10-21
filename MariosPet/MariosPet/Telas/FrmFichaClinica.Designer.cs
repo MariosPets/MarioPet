@@ -96,6 +96,7 @@
             // txtObservacao
             // 
             this.txtObservacao.Location = new System.Drawing.Point(10, 343);
+            this.txtObservacao.MaxLength = 300;
             this.txtObservacao.Multiline = true;
             this.txtObservacao.Name = "txtObservacao";
             this.txtObservacao.Size = new System.Drawing.Size(457, 77);
@@ -115,6 +116,7 @@
             // txtExames
             // 
             this.txtExames.Location = new System.Drawing.Point(474, 248);
+            this.txtExames.MaxLength = 200;
             this.txtExames.Multiline = true;
             this.txtExames.Name = "txtExames";
             this.txtExames.Size = new System.Drawing.Size(456, 71);
@@ -164,6 +166,7 @@
             // txtSintomas
             // 
             this.txtSintomas.Location = new System.Drawing.Point(10, 248);
+            this.txtSintomas.MaxLength = 500;
             this.txtSintomas.Multiline = true;
             this.txtSintomas.Name = "txtSintomas";
             this.txtSintomas.Size = new System.Drawing.Size(457, 71);
@@ -198,6 +201,7 @@
             // txtPrescricao
             // 
             this.txtPrescricao.Location = new System.Drawing.Point(476, 153);
+            this.txtPrescricao.MaxLength = 300;
             this.txtPrescricao.Multiline = true;
             this.txtPrescricao.Name = "txtPrescricao";
             this.txtPrescricao.Size = new System.Drawing.Size(454, 71);
@@ -217,6 +221,7 @@
             // txtSuspeita
             // 
             this.txtSuspeita.Location = new System.Drawing.Point(9, 153);
+            this.txtSuspeita.MaxLength = 200;
             this.txtSuspeita.Multiline = true;
             this.txtSuspeita.Name = "txtSuspeita";
             this.txtSuspeita.Size = new System.Drawing.Size(458, 71);
@@ -236,6 +241,7 @@
             // txtQueixa
             // 
             this.txtQueixa.Location = new System.Drawing.Point(474, 57);
+            this.txtQueixa.MaxLength = 200;
             this.txtQueixa.Multiline = true;
             this.txtQueixa.Name = "txtQueixa";
             this.txtQueixa.Size = new System.Drawing.Size(456, 72);
@@ -256,6 +262,7 @@
             // txtHistoricoClinico
             // 
             this.txtHistoricoClinico.Location = new System.Drawing.Point(9, 57);
+            this.txtHistoricoClinico.MaxLength = 1000;
             this.txtHistoricoClinico.Multiline = true;
             this.txtHistoricoClinico.Name = "txtHistoricoClinico";
             this.txtHistoricoClinico.Size = new System.Drawing.Size(458, 72);
@@ -323,6 +330,7 @@
             this.txtPesquisaAnimal.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPesquisaAnimal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtPesquisaAnimal.Location = new System.Drawing.Point(159, 50);
+            this.txtPesquisaAnimal.MaxLength = 80;
             this.txtPesquisaAnimal.Name = "txtPesquisaAnimal";
             this.txtPesquisaAnimal.Size = new System.Drawing.Size(577, 27);
             this.txtPesquisaAnimal.TabIndex = 0;
