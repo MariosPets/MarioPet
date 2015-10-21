@@ -121,6 +121,7 @@
             this.mstCep.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mstCep.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.mstCep.Location = new System.Drawing.Point(473, 138);
+            this.mstCep.Mask = "##,###-###";
             this.mstCep.Name = "mstCep";
             this.mstCep.Size = new System.Drawing.Size(171, 27);
             this.mstCep.TabIndex = 23;
