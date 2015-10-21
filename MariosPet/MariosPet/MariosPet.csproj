@@ -54,6 +54,7 @@
     <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\ConexaoPadrao.cs" />
     <Compile Include="Classes\Endereco.cs" />
+    <Compile Include="Classes\Estatica.cs" />
     <Compile Include="Classes\Exame.cs" />
     <Compile Include="Classes\FichaClinica.cs" />
     <Compile Include="Classes\Fornecedor.cs" />
@@ -497,7 +498,9 @@
   <ItemGroup>
     <None Include="Resources\Imagens\logoRosa.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Imagens\carteirinhaFrente.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Botoes\Icones\addPhotoAmarelo.png" />
   </ItemGroup>
@@ -557,6 +560,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Botoes\Icones\vaccineVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagens\carteirinhaVerso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagens\receituario1038X574.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Icones\botaoSelecionarLaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Icones\vermifugoAmarelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Icones\vermifugoLaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Icones\vermifugoMarrom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botoes\Icones\vermifugoVerde.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

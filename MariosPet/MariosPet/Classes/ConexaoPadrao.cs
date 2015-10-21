@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Odbc;
-using System.Linq;
+﻿using System.Data.Odbc;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MariosPet.Classes
 {
@@ -11,15 +7,14 @@ namespace MariosPet.Classes
     {
         public static OdbcConnection createConnection()
         {
-            /*
-            string driver = @"SQL Server";
-            string server = @".\MSERVERSQL";
-            string dataBase = @"MARIO_PETS";
-             */
+            // Mudar para o nome do seu servidor
+            // string server = @"./";
+            // string server = @".\MSERVERSQL";
+            //string server = @".\.";
+            string server = @".\SQLSERVER";
 
-            string driver = @"SQL Server";
-            string server = @"./"; // Mudar
-            string dataBase = @"MARIO_PETS";
+            string driver = @"SQL Server";            
+            string dataBase = @"MARIOS_PET";
 
             StringBuilder stringConnection = new StringBuilder();
 

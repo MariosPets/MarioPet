@@ -16,10 +16,9 @@ namespace MariosPet.Crud
             using (OdbcConnection conexao = ConexaoPadrao.createConnection())
             {
 
-                string sql = "insert into ENDERECO (ID_ENDERECO, RUA, NUMERO, COMPLEMENTO, BAIRRO, CIDADE, UF, CEP) values(?,?,?,?,?,?,?,?)";
+                string sql = "insert into ENDERECO (RUA, NUMERO, COMPLEMENTO, BAIRRO, CIDADE, UF, CEP) values(?,?,?,?,?,?,?)";
                 OdbcCommand command = new OdbcCommand(sql, conexao);
 
-                command.Parameters.AddWithValue("@ID_ENDERECO", endereco.id);
                 command.Parameters.AddWithValue("@RUA", endereco.rua);
                 command.Parameters.AddWithValue("@NUMERO", endereco.numero);
                 command.Parameters.AddWithValue("@COMPLEMENTO", endereco.complemento);

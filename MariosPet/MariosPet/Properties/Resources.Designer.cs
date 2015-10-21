@@ -453,6 +453,16 @@ namespace MariosPet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap botaoSelecionarLaranja {
+            get {
+                object obj = ResourceManager.GetObject("botaoSelecionarLaranja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap botaoVoltarLaranja {
             get {
                 object obj = ResourceManager.GetObject("botaoVoltarLaranja", resourceCulture);
@@ -466,6 +476,26 @@ namespace MariosPet.Properties {
         internal static System.Drawing.Bitmap botaoVoltarVerde {
             get {
                 object obj = ResourceManager.GetObject("botaoVoltarVerde", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carteirinhaFrente {
+            get {
+                object obj = ResourceManager.GetObject("carteirinhaFrente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carteirinhaVerso {
+            get {
+                object obj = ResourceManager.GetObject("carteirinhaVerso", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -743,6 +773,16 @@ namespace MariosPet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap receituario1038X574 {
+            get {
+                object obj = ResourceManager.GetObject("receituario1038X574", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap searchAmarelo {
             get {
                 object obj = ResourceManager.GetObject("searchAmarelo", resourceCulture);
@@ -816,6 +856,46 @@ namespace MariosPet.Properties {
         internal static System.Drawing.Bitmap vaccineVerde {
             get {
                 object obj = ResourceManager.GetObject("vaccineVerde", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vermifugoAmarelo {
+            get {
+                object obj = ResourceManager.GetObject("vermifugoAmarelo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vermifugoLaranja {
+            get {
+                object obj = ResourceManager.GetObject("vermifugoLaranja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vermifugoMarrom {
+            get {
+                object obj = ResourceManager.GetObject("vermifugoMarrom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vermifugoVerde {
+            get {
+                object obj = ResourceManager.GetObject("vermifugoVerde", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
