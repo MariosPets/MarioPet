@@ -17,7 +17,7 @@ namespace MariosPet.Classes
         public string bairro { get; set; }
         public string cidade { get; set; }
         public string uf { get; set; }
-        public int cep { get; set; }
+        public string cep { get; set; }
 
         #endregion
     }

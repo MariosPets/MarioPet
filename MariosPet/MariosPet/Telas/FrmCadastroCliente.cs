@@ -58,7 +58,7 @@ namespace MariosPet.Telas
             classeEnd.numero = txtNumeroCliente.Text;
             classeEnd.complemento = txtComplementoCliente.Text;
             classeEnd.bairro = txtBairroCliente.Text;
-            classeEnd.cep = Convert.ToInt32(mskCepCliente.Text);
+            classeEnd.cep = mskCepCliente.Text;
             classeEnd.cidade = txtCidadeCliente.Text;
             classeEnd.uf = cmbUFCliente.Text;
 

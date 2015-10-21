@@ -54,7 +54,6 @@
     <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\ConexaoPadrao.cs" />
     <Compile Include="Classes\Endereco.cs" />
-    <Compile Include="Classes\Estatica.cs" />
     <Compile Include="Classes\Exame.cs" />
     <Compile Include="Classes\FichaClinica.cs" />
     <Compile Include="Classes\Fornecedor.cs" />
