@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxBuscaVacina = new System.Windows.Forms.GroupBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
@@ -37,31 +37,31 @@
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisaVacina = new System.Windows.Forms.TextBox();
             this.lblNomeVacina = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxBuscaVacina.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVacina)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // groupBoxBuscaVacina
             // 
-            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox1.BackgroundImage = global::MariosPet.Properties.Resources.pataAmareloMarromGrande;
-            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Controls.Add(this.btnSalvar);
-            this.groupBox1.Controls.Add(this.btnLimpar);
-            this.groupBox1.Controls.Add(this.btnVoltar);
-            this.groupBox1.Controls.Add(this.btnNovo);
-            this.groupBox1.Controls.Add(this.dtgVacina);
-            this.groupBox1.Controls.Add(this.btnConsultar);
-            this.groupBox1.Controls.Add(this.txtPesquisaVacina);
-            this.groupBox1.Controls.Add(this.lblNomeVacina);
-            this.groupBox1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBox1.Location = new System.Drawing.Point(50, 36);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(717, 263);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "   Busca Vacina";
+            this.groupBoxBuscaVacina.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBoxBuscaVacina.BackgroundImage = global::MariosPet.Properties.Resources.pataAmareloMarromGrande;
+            this.groupBoxBuscaVacina.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBoxBuscaVacina.Controls.Add(this.btnSalvar);
+            this.groupBoxBuscaVacina.Controls.Add(this.btnLimpar);
+            this.groupBoxBuscaVacina.Controls.Add(this.btnVoltar);
+            this.groupBoxBuscaVacina.Controls.Add(this.btnNovo);
+            this.groupBoxBuscaVacina.Controls.Add(this.dtgVacina);
+            this.groupBoxBuscaVacina.Controls.Add(this.btnConsultar);
+            this.groupBoxBuscaVacina.Controls.Add(this.txtPesquisaVacina);
+            this.groupBoxBuscaVacina.Controls.Add(this.lblNomeVacina);
+            this.groupBoxBuscaVacina.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
+            this.groupBoxBuscaVacina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
+            this.groupBoxBuscaVacina.Location = new System.Drawing.Point(50, 36);
+            this.groupBoxBuscaVacina.Name = "groupBoxBuscaVacina";
+            this.groupBoxBuscaVacina.Size = new System.Drawing.Size(717, 263);
+            this.groupBoxBuscaVacina.TabIndex = 5;
+            this.groupBoxBuscaVacina.TabStop = false;
+            this.groupBoxBuscaVacina.Text = "   Busca Vacina";
             // 
             // btnSalvar
             // 
@@ -138,6 +138,7 @@
             this.txtPesquisaVacina.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPesquisaVacina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.txtPesquisaVacina.Location = new System.Drawing.Point(159, 50);
+            this.txtPesquisaVacina.MaxLength = 50;
             this.txtPesquisaVacina.Name = "txtPesquisaVacina";
             this.txtPesquisaVacina.Size = new System.Drawing.Size(390, 27);
             this.txtPesquisaVacina.TabIndex = 0;
@@ -158,11 +159,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(824, 334);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBoxBuscaVacina);
             this.Name = "FrmBuscaVacina";
             this.Text = "FrmBuscaVacina";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxBuscaVacina.ResumeLayout(false);
+            this.groupBoxBuscaVacina.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVacina)).EndInit();
             this.ResumeLayout(false);
 
@@ -170,7 +171,7 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxBuscaVacina;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnVoltar;
