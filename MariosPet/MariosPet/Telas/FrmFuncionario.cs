@@ -69,9 +69,9 @@ namespace MariosPet.Telas
             classePes.cpf = mstCPFFuncionario.Text;
             classePes.rg = mstRGFuncionario.Text;
             classePes.email = txtEmailFuncionario.Text;
-            classePes.telefone1 = Convert.ToInt32(txtTelefoneFuncionario.Text);
-            classePes.telefone2 = Convert.ToInt32(txtTelefone2Funcionario.Text);
-            classePes.telefone3 = Convert.ToInt32(txtTelefone3Funcionario.Text);
+            classePes.telefone1 = txtTelefoneFuncionario.Text;
+            classePes.telefone2 = txtTelefone2Funcionario.Text;
+            classePes.telefone3 = txtTelefone3Funcionario.Text;
 
             //Endereço
             classeEnd.rua = txtRuaFuncionario.Text;
