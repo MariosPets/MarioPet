@@ -33,12 +33,12 @@
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnNovo = new System.Windows.Forms.Button();
-            this.dtgVacina = new System.Windows.Forms.DataGridView();
+            this.dtgBuscaVacina = new System.Windows.Forms.DataGridView();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisaVacina = new System.Windows.Forms.TextBox();
             this.lblNomeVacina = new System.Windows.Forms.Label();
             this.groupBoxBuscaVacina.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgVacina)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBuscaVacina)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxBuscaVacina
@@ -50,7 +50,7 @@
             this.groupBoxBuscaVacina.Controls.Add(this.btnLimpar);
             this.groupBoxBuscaVacina.Controls.Add(this.btnVoltar);
             this.groupBoxBuscaVacina.Controls.Add(this.btnNovo);
-            this.groupBoxBuscaVacina.Controls.Add(this.dtgVacina);
+            this.groupBoxBuscaVacina.Controls.Add(this.dtgBuscaVacina);
             this.groupBoxBuscaVacina.Controls.Add(this.btnConsultar);
             this.groupBoxBuscaVacina.Controls.Add(this.txtPesquisaVacina);
             this.groupBoxBuscaVacina.Controls.Add(this.lblNomeVacina);
@@ -111,14 +111,14 @@
             this.btnNovo.TabIndex = 3;
             this.btnNovo.UseVisualStyleBackColor = true;
             // 
-            // dtgVacina
+            // dtgBuscaVacina
             // 
-            this.dtgVacina.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.dtgVacina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgVacina.Location = new System.Drawing.Point(10, 91);
-            this.dtgVacina.Name = "dtgVacina";
-            this.dtgVacina.Size = new System.Drawing.Size(674, 97);
-            this.dtgVacina.TabIndex = 2;
+            this.dtgBuscaVacina.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.dtgBuscaVacina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgBuscaVacina.Location = new System.Drawing.Point(10, 91);
+            this.dtgBuscaVacina.Name = "dtgBuscaVacina";
+            this.dtgBuscaVacina.Size = new System.Drawing.Size(674, 97);
+            this.dtgBuscaVacina.TabIndex = 2;
             // 
             // btnConsultar
             // 
@@ -161,10 +161,10 @@
             this.ClientSize = new System.Drawing.Size(824, 334);
             this.Controls.Add(this.groupBoxBuscaVacina);
             this.Name = "FrmBuscaVacina";
-            this.Text = "FrmBuscaVacina";
+            this.Text = "Busca Vacina";
             this.groupBoxBuscaVacina.ResumeLayout(false);
             this.groupBoxBuscaVacina.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgVacina)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBuscaVacina)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -176,7 +176,7 @@
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button btnNovo;
-        private System.Windows.Forms.DataGridView dtgVacina;
+        private System.Windows.Forms.DataGridView dtgBuscaVacina;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.TextBox txtPesquisaVacina;
         private System.Windows.Forms.Label lblNomeVacina;
