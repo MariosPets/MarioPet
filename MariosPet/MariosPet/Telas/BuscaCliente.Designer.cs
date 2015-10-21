@@ -170,7 +170,7 @@
             this.Controls.Add(this.groupBoxCliente);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "BuscaCliente";
-            this.Text = "Cliente";
+            this.Text = "Busca Cliente";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.groupBoxCliente.ResumeLayout(false);
