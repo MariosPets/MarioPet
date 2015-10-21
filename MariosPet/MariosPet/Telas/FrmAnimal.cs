@@ -16,6 +16,8 @@ namespace MariosPet.Telas
     public partial class FrmAnimal : Form
     {
         Animal classeAni = new Animal();
+
+        CrudCliente CrudCli = new CrudCliente();
         public FrmAnimal()
         {
             InitializeComponent();
@@ -79,6 +81,15 @@ namespace MariosPet.Telas
             {
                 radioButtonFemea.Checked = true;
             }
+        }
+
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseAnimal();
+
+            //Acho q tá errado
+            //dtgAnimal.DataSource = CrudCli.consultaCliente("Select * from PESSOA where NOME like '%" + txtNomeAnimal.Text + "%'");
+
         }
     }
 }
