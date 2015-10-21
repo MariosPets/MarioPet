@@ -234,12 +234,6 @@
     <Compile Include="Telas\FrmServico.Designer.cs">
       <DependentUpon>FrmServico.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telas\FrmTeste.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Telas\FrmTeste.Designer.cs">
-      <DependentUpon>FrmTeste.cs</DependentUpon>
-    </Compile>
     <Compile Include="Telas\frmVacina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -251,6 +245,12 @@
     </Compile>
     <Compile Include="Telas\FrmVermifugo.Designer.cs">
       <DependentUpon>FrmVermifugo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Teste.Designer.cs">
+      <DependentUpon>Teste.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Telas\BuscaCliente.resx">
       <DependentUpon>BuscaCliente.cs</DependentUpon>
@@ -270,8 +270,17 @@
     <EmbeddedResource Include="Telas\FrmBuscaVacina.resx">
       <DependentUpon>FrmBuscaVacina.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmBuscaVermifugo.resx">
+      <DependentUpon>FrmBuscaVermifugo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmCadastroCliente.resx">
       <DependentUpon>FrmCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmCateirinha.resx">
+      <DependentUpon>FrmCateirinha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmExame.resx">
+      <DependentUpon>FrmExame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmFichaClinica.resx">
       <DependentUpon>FrmFichaClinica.cs</DependentUpon>
@@ -302,11 +311,17 @@
     <EmbeddedResource Include="Telas\FrmProduto.resx">
       <DependentUpon>FrmProduto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmReceituario.resx">
+      <DependentUpon>FrmReceituario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\FrmRemedio.resx">
       <DependentUpon>FrmRemedio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\frmVacina.resx">
       <DependentUpon>frmVacina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\FrmVermifugo.resx">
+      <DependentUpon>FrmVermifugo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
