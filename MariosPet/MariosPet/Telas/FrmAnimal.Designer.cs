@@ -94,7 +94,7 @@
             this.groupBoxAnimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBoxAnimal.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxAnimal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBoxAnimal.Location = new System.Drawing.Point(33, 250);
+            this.groupBoxAnimal.Location = new System.Drawing.Point(33, 246);
             this.groupBoxAnimal.Name = "groupBoxAnimal";
             this.groupBoxAnimal.Size = new System.Drawing.Size(801, 376);
             this.groupBoxAnimal.TabIndex = 6;
@@ -298,7 +298,7 @@
             this.groupBoxPesquisaAnimal.Controls.Add(this.lblNome);
             this.groupBoxPesquisaAnimal.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold);
             this.groupBoxPesquisaAnimal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.groupBoxPesquisaAnimal.Location = new System.Drawing.Point(33, 28);
+            this.groupBoxPesquisaAnimal.Location = new System.Drawing.Point(33, 24);
             this.groupBoxPesquisaAnimal.Name = "groupBoxPesquisaAnimal";
             this.groupBoxPesquisaAnimal.Size = new System.Drawing.Size(801, 204);
             this.groupBoxPesquisaAnimal.TabIndex = 31;
@@ -367,11 +367,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(201)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(885, 741);
+            this.ClientSize = new System.Drawing.Size(885, 733);
             this.Controls.Add(this.groupBoxPesquisaAnimal);
             this.Controls.Add(this.groupBoxAnimal);
             this.Name = "FrmAnimal";
-            this.Text = "FrmAnimal";
+            this.Text = "Cadastro do Animal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimal)).EndInit();
             this.groupBoxAnimal.ResumeLayout(false);
