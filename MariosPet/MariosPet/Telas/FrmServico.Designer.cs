@@ -163,7 +163,7 @@
             this.ClientSize = new System.Drawing.Size(1114, 733);
             this.Controls.Add(this.groupBoxServico);
             this.Name = "FrmServico";
-            this.Text = "frmServico";
+            this.Text = "Cadastrar Serviço";
             this.groupBoxServico.ResumeLayout(false);
             this.groupBoxServico.PerformLayout();
             this.ResumeLayout(false);

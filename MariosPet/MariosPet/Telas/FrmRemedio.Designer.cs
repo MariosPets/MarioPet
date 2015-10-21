@@ -214,7 +214,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmRemedio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmRemedio";
+            this.Text = "Cadastrar Remedio";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

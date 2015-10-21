@@ -462,7 +462,7 @@
             this.fichaClínicaToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.fichaClínicaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fichaClínicaToolStripMenuItem.Image")));
             this.fichaClínicaToolStripMenuItem.Name = "fichaClínicaToolStripMenuItem";
-            this.fichaClínicaToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.fichaClínicaToolStripMenuItem.Size = new System.Drawing.Size(282, 26);
             this.fichaClínicaToolStripMenuItem.Text = "Ficha Clínica";
             this.fichaClínicaToolStripMenuItem.ToolTipText = "Ficha Clínica do Animal";
             this.fichaClínicaToolStripMenuItem.Click += new System.EventHandler(this.fichaClínicaToolStripMenuItem_Click);
@@ -474,7 +474,7 @@
             this.anamneseToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.anamneseToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("anamneseToolStripMenuItem.Image")));
             this.anamneseToolStripMenuItem.Name = "anamneseToolStripMenuItem";
-            this.anamneseToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.anamneseToolStripMenuItem.Size = new System.Drawing.Size(282, 26);
             this.anamneseToolStripMenuItem.Text = "Anamnese";
             this.anamneseToolStripMenuItem.ToolTipText = "Anamnese";
             // 
@@ -485,7 +485,7 @@
             this.toolStripMenuItem2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(267, 26);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(282, 26);
             this.toolStripMenuItem2.Text = "Receituário";
             this.toolStripMenuItem2.ToolTipText = "Vacinação";
             // 
@@ -496,7 +496,7 @@
             this.laboratóriosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.laboratóriosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("laboratóriosToolStripMenuItem.Image")));
             this.laboratóriosToolStripMenuItem.Name = "laboratóriosToolStripMenuItem";
-            this.laboratóriosToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.laboratóriosToolStripMenuItem.Size = new System.Drawing.Size(282, 26);
             this.laboratóriosToolStripMenuItem.Text = "Cadastrar Laboratórios";
             this.laboratóriosToolStripMenuItem.ToolTipText = "Laboratórios";
             this.laboratóriosToolStripMenuItem.Click += new System.EventHandler(this.laboratóriosToolStripMenuItem_Click);
@@ -508,8 +508,8 @@
             this.medicamentosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.medicamentosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("medicamentosToolStripMenuItem.Image")));
             this.medicamentosToolStripMenuItem.Name = "medicamentosToolStripMenuItem";
-            this.medicamentosToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
-            this.medicamentosToolStripMenuItem.Text = "Medicamentos";
+            this.medicamentosToolStripMenuItem.Size = new System.Drawing.Size(282, 26);
+            this.medicamentosToolStripMenuItem.Text = "Cadastrar Medicamentos";
             this.medicamentosToolStripMenuItem.ToolTipText = "Medicamentos";
             // 
             // prontuárioToolStripMenuItem
@@ -519,7 +519,7 @@
             this.prontuárioToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.prontuárioToolStripMenuItem.Image = global::MariosPet.Properties.Resources.pataVerdeMarromGrande;
             this.prontuárioToolStripMenuItem.Name = "prontuárioToolStripMenuItem";
-            this.prontuárioToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.prontuárioToolStripMenuItem.Size = new System.Drawing.Size(282, 26);
             this.prontuárioToolStripMenuItem.Text = "Prontuário";
             // 
             // carteirinhaToolStripMenuItem
@@ -529,7 +529,7 @@
             this.carteirinhaToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.carteirinhaToolStripMenuItem.Image = global::MariosPet.Properties.Resources.pataVerdeMarromGrande;
             this.carteirinhaToolStripMenuItem.Name = "carteirinhaToolStripMenuItem";
-            this.carteirinhaToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.carteirinhaToolStripMenuItem.Size = new System.Drawing.Size(282, 26);
             this.carteirinhaToolStripMenuItem.Text = "Carteirinha";
             // 
             // produtosEServiçosToolStripMenuItem
@@ -754,7 +754,7 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMenu";
-            this.Text = "FrmMenu";
+            this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

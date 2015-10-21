@@ -184,7 +184,7 @@
             this.lblFabricante.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFabricante.Location = new System.Drawing.Point(6, 413);
             this.lblFabricante.Name = "lblFabricante";
-            this.lblFabricante.Size = new System.Drawing.Size(118, 23);
+            this.lblFabricante.Size = new System.Drawing.Size(117, 23);
             this.lblFabricante.TabIndex = 31;
             this.lblFabricante.Text = "Fabricante:";
             // 
@@ -245,7 +245,7 @@
             this.lblTributacao.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTributacao.Location = new System.Drawing.Point(6, 327);
             this.lblTributacao.Name = "lblTributacao";
-            this.lblTributacao.Size = new System.Drawing.Size(199, 23);
+            this.lblTributacao.Size = new System.Drawing.Size(197, 23);
             this.lblTributacao.TabIndex = 21;
             this.lblTributacao.Text = "Tipo de Tributação:";
             // 
@@ -326,7 +326,7 @@
             this.lblValorVenda.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValorVenda.Location = new System.Drawing.Point(417, 200);
             this.lblValorVenda.Name = "lblValorVenda";
-            this.lblValorVenda.Size = new System.Drawing.Size(165, 23);
+            this.lblValorVenda.Size = new System.Drawing.Size(163, 23);
             this.lblValorVenda.TabIndex = 17;
             this.lblValorVenda.Text = "Valor de Venda:";
             // 
@@ -408,7 +408,7 @@
             this.lblValorCusto.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValorCusto.Location = new System.Drawing.Point(6, 200);
             this.lblValorCusto.Name = "lblValorCusto";
-            this.lblValorCusto.Size = new System.Drawing.Size(160, 23);
+            this.lblValorCusto.Size = new System.Drawing.Size(159, 23);
             this.lblValorCusto.TabIndex = 5;
             this.lblValorCusto.Text = "Valor de Custo:";
             // 
@@ -439,7 +439,7 @@
             this.lblVencimento.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVencimento.Location = new System.Drawing.Point(6, 118);
             this.lblVencimento.Name = "lblVencimento";
-            this.lblVencimento.Size = new System.Drawing.Size(131, 23);
+            this.lblVencimento.Size = new System.Drawing.Size(130, 23);
             this.lblVencimento.TabIndex = 1;
             this.lblVencimento.Text = "Vencimento:";
             // 
@@ -468,7 +468,7 @@
             this.ClientSize = new System.Drawing.Size(921, 573);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmProduto";
-            this.Text = "FrmProduto";
+            this.Text = "Cadastrar Produto";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

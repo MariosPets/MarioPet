@@ -214,7 +214,7 @@
             this.ClientSize = new System.Drawing.Size(851, 635);
             this.Controls.Add(this.groupBoxPesquisas);
             this.Name = "FrmPesquisas";
-            this.Text = "FrmPesquisas";
+            this.Text = "Pesquisas e Consultas";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPesquisas)).EndInit();
             this.groupBoxPesquisas.ResumeLayout(false);
