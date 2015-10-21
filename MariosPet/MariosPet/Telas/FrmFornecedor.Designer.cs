@@ -505,7 +505,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmFornecedor";
-            this.Text = "Fornecedor";
+            this.Text = "Cadastrar Fornecedor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
