@@ -460,7 +460,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmLaboratorio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmLaboratório";
+            this.Text = "Cadastrar Laboratório";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
