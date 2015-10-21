@@ -15,6 +15,8 @@ namespace MariosPet.Telas
     public partial class FrmAnamnese : Form
     {
         Anamnese classeAnam = new Anamnese();
+
+        CrudAnimal CrudAni = new CrudAnimal();
         public FrmAnamnese()
         {
             InitializeComponent();
@@ -93,6 +95,13 @@ namespace MariosPet.Telas
             {
                 radioButtonNao.Checked = true;
             }
+        }
+
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            CopiarParaClasseAnamnese();
+
+            dtgAnimal.DataSource = CrudAni.consultaAnimal("Select * from ANIMAL where NOME like '%" + txtPesquisaAnimal.Text + "%'");
         }
     }
 }
