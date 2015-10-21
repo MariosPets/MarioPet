@@ -47,7 +47,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.button1);
             this.Name = "FrmCateirinha";
-            this.Text = "FrmCateirinha";
+            this.Text = "Carteirinha";
             this.ResumeLayout(false);
 
         }
