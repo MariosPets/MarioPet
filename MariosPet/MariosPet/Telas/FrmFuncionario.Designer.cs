@@ -624,7 +624,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmFuncionario";
-            this.Text = "FrmFuncionario";
+            this.Text = "Cadastrar Funcionário";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
