@@ -49,14 +49,14 @@
             this.toolTipAnimal = new System.Windows.Forms.ToolTip(this.components);
             this.groupBoxPesquisaAnimal = new System.Windows.Forms.GroupBox();
             this.btnNovo = new System.Windows.Forms.Button();
-            this.dtgAnimal = new System.Windows.Forms.DataGridView();
+            this.dtgCliente = new System.Windows.Forms.DataGridView();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtPesquisaCliente = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimal)).BeginInit();
             this.groupBoxAnimal.SuspendLayout();
             this.groupBoxPesquisaAnimal.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgAnimal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgCliente)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBoxAnimal
@@ -292,7 +292,7 @@
             this.groupBoxPesquisaAnimal.BackgroundImage = global::MariosPet.Properties.Resources.pataMarromVerdeGrande;
             this.groupBoxPesquisaAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxPesquisaAnimal.Controls.Add(this.btnNovo);
-            this.groupBoxPesquisaAnimal.Controls.Add(this.dtgAnimal);
+            this.groupBoxPesquisaAnimal.Controls.Add(this.dtgCliente);
             this.groupBoxPesquisaAnimal.Controls.Add(this.btnConsultar);
             this.groupBoxPesquisaAnimal.Controls.Add(this.txtPesquisaCliente);
             this.groupBoxPesquisaAnimal.Controls.Add(this.lblNome);
@@ -318,14 +318,14 @@
             this.btnNovo.TabIndex = 3;
             this.btnNovo.UseVisualStyleBackColor = false;
             // 
-            // dtgAnimal
+            // dtgCliente
             // 
-            this.dtgAnimal.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
-            this.dtgAnimal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgAnimal.Location = new System.Drawing.Point(10, 93);
-            this.dtgAnimal.Name = "dtgAnimal";
-            this.dtgAnimal.Size = new System.Drawing.Size(634, 93);
-            this.dtgAnimal.TabIndex = 2;
+            this.dtgCliente.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(235)))), ((int)(((byte)(156)))));
+            this.dtgCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgCliente.Location = new System.Drawing.Point(10, 93);
+            this.dtgCliente.Name = "dtgCliente";
+            this.dtgCliente.Size = new System.Drawing.Size(634, 93);
+            this.dtgCliente.TabIndex = 2;
             // 
             // btnConsultar
             // 
@@ -378,7 +378,7 @@
             this.groupBoxAnimal.PerformLayout();
             this.groupBoxPesquisaAnimal.ResumeLayout(false);
             this.groupBoxPesquisaAnimal.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgAnimal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgCliente)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -405,7 +405,7 @@
         private Classes.RoundButton roundButton1;
         private System.Windows.Forms.GroupBox groupBoxPesquisaAnimal;
         private System.Windows.Forms.Button btnNovo;
-        private System.Windows.Forms.DataGridView dtgAnimal;
+        private System.Windows.Forms.DataGridView dtgCliente;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.TextBox txtPesquisaCliente;
         private System.Windows.Forms.Label lblNome;

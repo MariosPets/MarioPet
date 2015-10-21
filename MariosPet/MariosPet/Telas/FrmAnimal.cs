@@ -87,6 +87,7 @@ namespace MariosPet.Telas
         {
             CopiarParaClasseAnimal();
 
+
             //Acho q tá errado
             //dtgAnimal.DataSource = CrudCli.consultaCliente("Select * from PESSOA where NOME like '%" + txtNomeAnimal.Text + "%'");
 
