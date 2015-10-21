@@ -145,7 +145,7 @@
             this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.Image = global::MariosPet.Properties.Resources.botaoSalvarLaranja;
-            this.btnSalvar.Location = new System.Drawing.Point(842, 338);
+            this.btnSalvar.Location = new System.Drawing.Point(844, 343);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(124, 50);
             this.btnSalvar.TabIndex = 6;
@@ -170,7 +170,7 @@
             this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpar.Image = global::MariosPet.Properties.Resources.botaoLimparLaranja;
-            this.btnLimpar.Location = new System.Drawing.Point(731, 340);
+            this.btnLimpar.Location = new System.Drawing.Point(731, 343);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(114, 50);
             this.btnLimpar.TabIndex = 5;
@@ -195,7 +195,7 @@
             this.btnVoltar.FlatAppearance.BorderSize = 0;
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(610, 343);
+            this.btnVoltar.Location = new System.Drawing.Point(610, 346);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(115, 38);
             this.btnVoltar.TabIndex = 4;
