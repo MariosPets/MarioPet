@@ -11,9 +11,15 @@ namespace MariosPet.Classes
     {
         public static OdbcConnection createConnection()
         {
+            /*
             string driver = @"SQL Server";
             string server = @".\MSERVERSQL";
-            string dataBase = @"SystemManagingHouseholdTasks";
+            string dataBase = @"MARIO_PETS";
+             */
+
+            string driver = @"SQL Server";
+            string server = @"./"; // Mudar
+            string dataBase = @"MARIO_PETS";
 
             StringBuilder stringConnection = new StringBuilder();
 
@@ -23,6 +29,7 @@ namespace MariosPet.Classes
             stringConnection.Append(server);
             stringConnection.Append(";database=");
             stringConnection.Append(dataBase);
+
 
             return new OdbcConnection(stringConnection.ToString());
         }

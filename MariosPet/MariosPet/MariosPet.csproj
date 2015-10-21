@@ -54,7 +54,6 @@
     <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\ConexaoPadrao.cs" />
     <Compile Include="Classes\Endereco.cs" />
-    <Compile Include="Classes\Estatica.cs" />
     <Compile Include="Classes\Exame.cs" />
     <Compile Include="Classes\FichaClinica.cs" />
     <Compile Include="Classes\Fornecedor.cs" />
@@ -112,18 +111,6 @@
     <Compile Include="Telas\BuscaFuncionario.Designer.cs">
       <DependentUpon>BuscaFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telas\BuscaVacina.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Telas\BuscaVacina.Designer.cs">
-      <DependentUpon>BuscaVacina.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Telas\BuscaVermifugo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Telas\BuscaVermifugo.Designer.cs">
-      <DependentUpon>BuscaVermifugo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Telas\FrmAgenda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,11 +129,29 @@
     <Compile Include="Telas\FrmAnimal.Designer.cs">
       <DependentUpon>FrmAnimal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\FrmBuscaVacina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmBuscaVacina.Designer.cs">
+      <DependentUpon>FrmBuscaVacina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\FrmBuscaVermifugo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmBuscaVermifugo.Designer.cs">
+      <DependentUpon>FrmBuscaVermifugo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\FrmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Telas\FrmCadastroCliente.Designer.cs">
       <DependentUpon>FrmCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\FrmCateirinha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmCateirinha.Designer.cs">
+      <DependentUpon>FrmCateirinha.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\FrmExame.cs">
       <SubType>Form</SubType>
@@ -209,6 +214,12 @@
     </Compile>
     <Compile Include="Telas\FrmProduto.Designer.cs">
       <DependentUpon>FrmProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\FrmReceituario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\FrmReceituario.Designer.cs">
+      <DependentUpon>FrmReceituario.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\FrmRemedio.cs">
       <SubType>Form</SubType>

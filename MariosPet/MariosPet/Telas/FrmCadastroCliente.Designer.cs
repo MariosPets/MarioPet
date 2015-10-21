@@ -113,6 +113,7 @@
             this.btmSalvar.TabIndex = 4;
             this.toolTipCliente.SetToolTip(this.btmSalvar, "Salvar as Informações");
             this.btmSalvar.UseVisualStyleBackColor = false;
+            this.btmSalvar.Click += new System.EventHandler(this.btmSalvar_Click_1);
             // 
             // cmbUFCliente
             // 
