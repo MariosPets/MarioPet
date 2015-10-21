@@ -89,7 +89,7 @@ namespace MariosPet.Telas
 
 
             //Acho q tá errado
-            //dtgAnimal.DataSource = CrudCli.consultaCliente("Select * from PESSOA where NOME like '%" + txtNomeAnimal.Text + "%'");
+            dtgCliente.DataSource = CrudCli.consultaCliente("Select * from CLIENTE inner join PESSOA on PESSOA.ID_PESSOA = CLIENTE.ID_PESSOA where NOME like '%" + txtNomeAnimal.Text + "%'");
 
         }
     }
