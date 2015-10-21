@@ -168,7 +168,7 @@
             this.ClientSize = new System.Drawing.Size(800, 329);
             this.Controls.Add(this.groupBoxBuscaVermifugo);
             this.Name = "FrmBuscaVermifugo";
-            this.Text = "FrmBuscaVermifugo";
+            this.Text = "Busca Vermifugo";
             this.groupBoxBuscaVermifugo.ResumeLayout(false);
             this.groupBoxBuscaVermifugo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVermifugo)).EndInit();
