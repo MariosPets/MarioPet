@@ -88,7 +88,7 @@ namespace MariosPet.Telas
             CopiarParaClasseAnimal();
 
 
-            //Acho q tá errado
+            //Acho q tá certo
             dtgCliente.DataSource = CrudCli.consultaCliente("Select * from CLIENTE inner join PESSOA on PESSOA.ID_PESSOA = CLIENTE.ID_PESSOA where NOME like '%" + txtNomeAnimal.Text + "%'");
 
         }
